@@ -1,0 +1,821 @@
+Node	MeanAbsOutCoh	MeanAbsInCoh	NodeLevel	DiagCohval	Locus_tag	NCBI_gene_ID	Uniprot_ID	Synonyms	Product_function	NDA_component	Uniprot_ID_clean	GO_terms	Is_TF_GO	Is_SignalingReceptor_GO	Is_HistKinase_GO	Is_SignallingTransducer_GO
+Rv0238	1.0		Input		Rv0238	886691.0	O53661	RVBD_0238	transcriptional regulator	M14	O53661	['GO:0003700', 'GO:0000976']	True	False	False	False
+etfB		1.0	Output		etfB	887670.0	P9WNG7	fixA,RVBD_3029c	electron transfer flavoprotein subunit beta	M14	P9WNG7	['GO:0009055']	False	False	False	False
+Rv3030		0.9392211191177433	Output		Rv3030	888604.0	P9WJZ1	RVBD_3030	S-adenosylmethionine-dependent methyltransferase	M14	P9WJZ1	['GO:0008168', 'GO:0008757']	False	False	False	False
+fabG		1.0	Output		fabG	887697.0	O53547	RVBD_3502c	short-chain type dehydrogenase/reductase	M14	O53547	['GO:0003857', 'GO:0004300']	False	False	False	False
+fadA2		1.0	Output		fadA2	886682.0	O86361	RVBD_0243	acetyl-CoA acetyltransferase FadA	M14	O86361	['GO:0016747']	False	False	False	False
+fadE24		1.0	Output		fadE24	887971.0	P95187	RVBD_3139	acyl-CoA dehydrogenase FadE24	M14	P95187	['GO:0003995', 'GO:0050660']	False	False	False	False
+Rv3830c	1.0	1.0	Middle	1.0	Rv3830c	886158.0	P96248	RVBD_3830c	TetR family transcriptional regulator	Global regulator	P96248	['GO:0003677', 'GO:0003700']	True	False	False	False
+Rv0302	1.0	1.0	Middle	1.0	Rv0302	886584.0	O07229	RVBD_0302	transcriptional regulator	Global regulator	O07229	['GO:0003700', 'GO:0000976']	True	False	False	False
+embA		1.0	Output		embA	886123.0	P9WNL9	RVBD_3794	arabinosyltransferase A	Basal machinery	P9WNL9	['GO:0052636']	False	False	False	False
+Rv0807		1.0	Output		Rv0807	885272.0	I6Y8U3	RVBD_0807	hypothetical protein	Basal machinery	I6Y8U3	[]	False	False	False	False
+Rv0093c		1.0	Output		Rv0093c	886945.0	P9WM69	RVBD_0093c	membrane protein	Basal machinery	P9WM69	[]	False	False	False	False
+gmdA		1.0	Output		gmdA	886529.0	P71790	RVBD_1511,gmd	GDP-D-mannose dehydratase GmdA	Basal machinery	P71790	['GO:0008446', 'GO:0070401']	False	False	False	False
+ceoB		1.0	Output		ceoB	887250.0	I6XF25	RVBD_2691	TRK system potassium uptake protein CeoB	Basal machinery	I6XF25	['GO:0005267']	False	False	False	False
+kstR	1.0	1.0	Middle	1.0	kstR	887204.0	P96856	RVBD_3574	HTH-type transcriptional regulator KstR	Global regulator	P96856	['GO:0003677', 'GO:0003700', 'GO:0042803', 'GO:0000976']	True	False	False	False
+hsaE		1.0	Output		hsaE	888406.0	I6XHH5	RVBD_3536c	hydratase	Basal machinery	I6XHH5	['GO:0008684']	False	False	False	False
+Rv1204c		0.7364179255276743	Output		Rv1204c	887552.0	O05305	RVBD_1204c	hypothetical protein	Basal machinery	O05305	[]	False	False	False	False
+Rv3631		1.0	Output		Rv3631	885314.0	O06376	RVBD_3631	transferase	Basal machinery	O06376	['GO:0016740']	False	False	False	False
+hsaA		1.0	Output		hsaA	887241.0	P9WJA1	RVBD_3570c	flavin-dependent monooxygenase oxygenase subunit HsaA	M17	P9WJA1	['GO:0036383', 'GO:0003995', 'GO:0050660', 'GO:0016712']	False	False	False	False
+Rv1894c		1.0	Output		Rv1894c	885081.0	O07738	RVBD_1894c	hypothetical protein	Basal machinery	O07738	['GO:0018580', 'GO:0016491']	False	False	False	False
+trmI		1.0	Output		trmI	887374.0	P9WFZ1	RVBD_2118c	tRNA (adenine(58)-N(1))-methyltransferase	Basal machinery	P9WFZ1	['GO:0160107']	False	False	False	False
+pimE		1.0	Output		pimE	885899.0	P9WN01	RVBD_1159	polyprenol-phosphate-mannose-dependent alpha-(1-2)-phosphatidylinositol pentamannoside mannosyltransferase	M1.7	P9WN01	['GO:0004377', 'GO:0043750']	False	False	False	False
+echA19		1.0	Output		echA19	888301.0	O53561	RVBD_3516	enoyl-CoA hydratase EchA19	Basal machinery	O53561	['GO:0016829']	False	False	False	False
+fadD19		1.0	Output		fadD19	888275.0	P9WQ51	RVBD_3515c	long-chain-fatty-acid--CoA ligase FadD19	Basal machinery	P9WQ51	['GO:0005524', 'GO:0102391', 'GO:0004467']	False	False	False	False
+hemB		1.0	Output		hemB	887312.0	P9WMP5	RVBD_0512	delta-aminolevulinic acid dehydratase	Basal machinery	P9WMP5	['GO:0004655', 'GO:0008270']	False	False	False	False
+Rv3528c		1.0	Output		Rv3528c	888297.0	I6YGE4	RVBD_3528c	hypothetical protein	Basal machinery	I6YGE4	[]	False	False	False	False
+Rv0687		1.0	Output		Rv0687	888279.0	P9WGS7	RVBD_0687	NAD-dependent oxidoreductase	Basal machinery	P9WGS7	['GO:0016491']	False	False	False	False
+kshA		1.0	Output		kshA	888268.0	P71875	RVBD_3526	3-ketosteroid-9-alpha-hydroxylase oxygenase subunit	Basal machinery	P71875	['GO:0051537', 'GO:0036200', 'GO:0005506', 'GO:0047086']	False	False	False	False
+kstD		1.0	Output		kstD	888422.0	P71864	RVBD_3537	3-oxosteroid 1-dehydrogenase	Basal machinery	P71864	['GO:0047571']	False	False	False	False
+Rv0940c		1.0	Output		Rv0940c	885412.0	P9WKP1	RVBD_0940c	oxidoreductase	Basal machinery	P9WKP1	['GO:0016705']	False	False	False	False
+pks6		0.9104140670245819	Output		pks6	886407.0	O86335	RVBD_0405	membrane bound polyketide synthase	Intermodular	O86335	['GO:0004315', 'GO:0004312', 'GO:0031177']	False	False	False	False
+Rv2556c		1.0	Output		Rv2556c	887451.0	P9WFP9	RVBD_2556c	hypothetical protein	Basal machinery	P9WFP9	[]	False	False	False	False
+fadD8		1.0	Output		fadD8	887526.0	O06417	RVBD_0551c	fatty-acid--CoA ligase FadD8	Basal machinery	O06417	['GO:0005524', 'GO:0004467', 'GO:0031956']	False	False	False	False
+Rv1913		1.0	Output		Rv1913	885640.0	O07720	RVBD_1913	hypothetical protein	Basal machinery	O07720	[]	False	False	False	False
+Rv1628c		1.0	Output		Rv1628c	885289.0	O06145	RVBD_1628c	hypothetical protein	Basal machinery	O06145	[]	False	False	False	False
+sugB		1.0	Output		sugB	887121.0	P9WG01	RVBD_1237	sugar ABC transporter permease SugB	Basal machinery	P9WG01	[]	False	False	False	False
+log		0.7627761329749069	Output		log	886075.0	O05306	RVBD_1205,LH57_06605	hypothetical protein	Basal machinery	O05306	['GO:0102682', 'GO:0016799']	False	False	False	False
+fadB5		1.0	Output		fadB5	885245.0	O07721	RVBD_1912c	oxidoreductase FadB	Basal machinery	O07721	['GO:0016491', 'GO:0008270']	False	False	False	False
+Rv3531c		1.0	Output		Rv3531c	888348.0	I6XHH2	RVBD_3531c	hypothetical protein	M17	I6XHH2	[]	False	False	False	False
+Rv0953c		1.0	Output		Rv0953c	885419.0	P9WKN5	RVBD_0953c	oxidoreductase	Basal machinery	P9WKN5	['GO:0016705']	False	False	False	False
+Rv2799		1.0	Output		Rv2799	887759.0	I6XFB7	RVBD_2799	membrane protein	Basal machinery	I6XFB7	[]	False	False	False	False
+Rv0257		1.0	Output		Rv0257	3205110.0	L7N694	RVBD_0257	hypothetical protein	Basal machinery	L7N694	[]	False	False	False	False
+narI		1.0	Output		narI	888935.0	O06562	RVBD_1164	nitrate reductase subunit gamma	Basal machinery	O06562	['GO:0009055', 'GO:0020037', 'GO:0046872', 'GO:0008940']	False	False	False	False
+purD		1.0	Output		purD	888873.0	P9WHM9	RVBD_0772	phosphoribosylamine--glycine ligase	Basal machinery	P9WHM9	['GO:0005524', 'GO:0046872', 'GO:0004637']	False	False	False	False
+narG		1.0	Output		narG	885573.0	P9WJQ3	RVBD_1161	nitrate reductase subunit alpha	Basal machinery	P9WJQ3	['GO:0051539', 'GO:0046872', 'GO:0043546', 'GO:0160182', 'GO:0008940']	False	False	False	False
+parD1		1.0	Output		parD1	885957.0	P9WIJ7	RVBD_1960c	antitoxin ParD1	Basal machinery	P9WIJ7	['GO:0097351']	False	False	False	False
+Rv3521		1.0	Output		Rv3521	887209.0	O53566	RVBD_3521	hypothetical protein	M1.7	O53566	[]	False	False	False	False
+Rv3371		1.0	Output		Rv3371	888053.0	P9WKA9	RVBD_3371	diacyglycerol O-acyltransferase	Basal machinery	P9WKA9	['GO:0004144', 'GO:0008374']	False	False	False	False
+fadA5		1.0	Output		fadA5	887360.0	I6XHI4	RVBD_3546	acetyl-CoA acetyltransferase FadA	M17	I6XHI4	['GO:0003988', 'GO:0042802']	False	False	False	False
+vapB42	1.0	1.0	Middle	1.0	vapB42	887705.0	P9WJ19	RVBD_2760c	antitoxin VapB42	Basal machinery	P9WJ19	[]	False	False	False	False
+vapB40	1.0	1.0	Middle	1.0	vapB40	887682.0	P9WFC3	RVBD_2595,vapB-mt25	antitoxin VapB40	Basal machinery	P9WFC3	['GO:0003677']	False	False	False	False
+whiB5	1.0		Input		whiB5	887071.0	P71592	RVBD_0022c	transcriptional regulator WhiB5	Global regulator	P71592	['GO:0051539', 'GO:0035731', 'GO:0003677', 'GO:0046872']	False	False	False	False
+rtcB		1.0	Output		rtcB	887431.0	P9WGW5	RVBD_2631	RNA-splicing ligase RtcB	Basal machinery	P9WGW5	['GO:0005525', 'GO:0046872', 'GO:0170057']	False	False	False	False
+Rv0030		1.0	Output		Rv0030	887051.0	P9WM95	RVBD_0030	hypothetical protein	Basal machinery	P9WM95	[]	False	False	False	False
+Rv2409c		1.0	Output		Rv2409c	885674.0	P71734	RVBD_2409c	hypothetical protein	Basal machinery	P71734	[]	False	False	False	False
+Rv2078		1.0	Output		Rv2078	888071.0	P9WLK9	RVBD_2078	hypothetical protein	Basal machinery	P9WLK9	[]	False	False	False	False
+glyA2		1.0	Output		glyA2	886983.0	P9WGI7	RVBD_0070c	serine hydroxymethyltransferase	Basal machinery	P9WGI7	['GO:0004372', 'GO:0042803', 'GO:0030170']	False	False	False	False
+cas6		1.0	Output		cas6	888945.0	P9WPJ1	RVBD_2824c	CRISPR-associated endoribonuclease Cas6	Basal machinery	P9WPJ1	['GO:0004519', 'GO:0003723']	False	False	False	False
+Rv0309		1.0	Output		Rv0309	886574.0	O07236	RVBD_0309	hypothetical protein	Basal machinery	O07236	['GO:0016740']	False	False	False	False
+ctpD		1.0	Output		ctpD	886578.0	P9WPT3	RVBD_1469	cobalt/nickel-exporting P-type ATPase	Basal machinery	P9WPT3	['GO:0005524', 'GO:0016887', 'GO:0019829', 'GO:0046872']	False	False	False	False
+Rv0029		1.0	Output		Rv0029	887053.0	P71599	RVBD_0029	hypothetical protein	Basal machinery	P71599	[]	False	False	False	False
+cut3		1.0	Output		cut3	887611.0	P9WP39	RVBD_3451	cutinase	Basal machinery	P9WP39	['GO:0106435', 'GO:0016298']	False	False	False	False
+Rv3468c		1.0	Output		Rv3468c	888007.0	Q6MWX3	RVBD_3468c	dTDP-glucose 4,6-dehydratase	Basal machinery	Q6MWX3	[]	False	False	False	False
+Rv2077A		1.0	Output		Rv2077A	3205060.0	L7N6B8	RVBD_2077A	hypothetical protein	Basal machinery	L7N6B8	[]	False	False	False	False
+eccB4		1.0	Output		eccB4	887619.0	P9WNR1	RVBD_3450c	ESX-4 secretion system protein EccB4	Basal machinery	P9WNR1	['GO:0005524', 'GO:0016787']	False	False	False	False
+Rv3492c		1.0	Output		Rv3492c	888381.0	I6YGA5	RVBD_3492c	Mce associated protein	M1.33	I6YGA5	[]	False	False	False	False
+Rv2798c		1.0	Output		Rv2798c	888431.0	P71653	RVBD_2798c	hypothetical protein	Basal machinery	P71653	[]	False	False	False	False
+whiB4	1.0	0.8095123527857677	Middle		whiB4	885320.0	P9WF39	RVBD_3681c	transcriptional regulator WhiB4	Global regulator	P9WF39	['GO:0051539', 'GO:0035731', 'GO:0003677', 'GO:0046872', 'GO:0047134']	False	False	False	False
+phoP	1.0	0.9019934908728859	Middle	1.0	phoP	888772.0	P71814	RVBD_0757	two component system response transcriptional positive regulator PhoP	Global regulator	P71814	['GO:0046872', 'GO:0000156', 'GO:0000976']	False	False	False	True
+whiB6	1.0	1.0	Middle		whiB6	886190.0	P9WF37	RVBD_3862c	transcriptional regulator WhiB6	M1.36	P9WF37	['GO:0051539', 'GO:0035731', 'GO:0003677', 'GO:0046872']	False	False	False	False
+Rv3779		0.8775115663991938	Output		Rv3779	886107.0	P72045	RVBD_3779	transmembrane protein	M1.36	P72045	['GO:0016758']	False	False	False	False
+Rv3778c		1.0	Output		Rv3778c	886116.0	P9WQ67	RVBD_3778c	aminotransferase	M1.36	P9WQ67	[]	False	False	False	False
+espB		1.0	Output		espB	886214.0	P9WJD9	mtb48,RVBD_3881c	ESX-1 secretion-associated protein EspB	M1.36	P9WJD9	['GO:0042802']	False	False	False	False
+PE35		1.0	Output		PE35	886191.0	P9WIG7	RVBD_3872	PE family protein PE35	M1.36	P9WIG7	[]	False	False	False	False
+whiB3	1.0		Input		whiB3	887598.0	P9WF41	RVBD_3416	redox-responsive transcriptional regulator WhiB3	M1.38	P9WF41	['GO:0051539', 'GO:0035731', 'GO:0003677', 'GO:0051536', 'GO:0046872', 'GO:0047134', 'GO:0015035']	False	False	False	False
+yrbE1A		0.9742083845414589	Output		yrbE1A	886816.0	O07412	RVBD_0167	membrane protein	Intermodular	O07412	['GO:0005548']	False	False	False	False
+Rv0950c		1.0	Output		Rv0950c	885438.0	P71560	RVBD_0950c	hypothetical protein	M1.38	P71560	['GO:0004222']	False	False	False	False
+whiB2	1.0	1.0	Middle		whiB2	888687.0	O53353	RVBD_3260c	transcriptional regulator WhiB2	M1.39	O53353	['GO:0051539', 'GO:0035731', 'GO:0003677', 'GO:0046872', 'GO:0047134']	False	False	False	False
+Rv2331		0.9147989825595959	Output		Rv2331	888099.0	P9WLB3	RVBD_2331	hypothetical protein	M1.39	P9WLB3	[]	False	False	False	False
+Rv3587c		1.0	Output		Rv3587c	888057.0	O53572	RVBD_3587c	membrane protein	M1.39	O53572	[]	False	False	False	False
+sepF		1.0	Output		sepF	887394.0	P9WGJ5	RVBD_2147c	cell division protein SepF	M1.39	P9WGJ5	[]	False	False	False	False
+Rv0681	1.0		Input		Rv0681	888239.0	O53789	RVBD_0681	transcriptional regulator	M17	O53789	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv3167c	1.0		Input		Rv3167c	888763.0	O53317	RVBD_3167c	TetR family transcriptional regulator	M1.20	O53317	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv1895		1.0	Output		Rv1895	885148.0	O07737	RVBD_1895	zinc-binding alcohol dehydrogenase	M1.20	O07737	['GO:0004022', 'GO:0008270']	False	False	False	False
+Rv0330c	1.0	1.0	Middle	1.0	Rv0330c	886540.0	O07254	RVBD_0330c	hypothetical protein	M1.19	O07254	['GO:0003700', 'GO:0000976']	True	False	False	False
+whiA	1.0		Input		whiA	886674.0	P9WF45	RVBD_1423	transcriptional regulator WhiA	Global regulator	P9WF45	['GO:0003677']	False	False	False	False
+plcB		1.0	Output		plcB	885999.0	P9WIB3	mpcB,RVBD_2350c	membrane-associated phospholipase B	Basal machinery	P9WIB3	['GO:0034480', 'GO:0004629', 'GO:0004767']	False	False	False	False
+Rv1456c		1.0	Output		Rv1456c	886591.0	O53148	RVBD_1456c	antibiotic ABC transporter permease	M1.1	O53148	[]	False	False	False	False
+uvrD2		1.0	Output		uvrD2	888902.0	P9WMP9	RVBD_3198c	ATP-dependent DNA helicase UvrD	Basal machinery	P9WMP9	['GO:0043138', 'GO:0005524', 'GO:0016887', 'GO:0008094', 'GO:0003677', 'GO:0003678', 'GO:0000287']	False	False	False	False
+Rv3604c		1.0	Output		Rv3604c	885232.0	O06278	RVBD_3604c	transmembrane protein	Basal machinery	O06278	[]	False	False	False	False
+fadE2		0.9721794010817103	Output		fadE2	886836.0	P96831	RVBD_0154c	acyl-CoA dehydrogenase FadE2	Basal machinery	P96831	['GO:0003995', 'GO:0050660']	False	False	False	False
+ispE		1.0	Output		ispE	886034.0	P9WKG7	RVBD_1011	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase	Basal machinery	P9WKG7	['GO:0050515', 'GO:0005524']	False	False	False	False
+mtb12		0.913997971779237	Output		mtb12	885515.0	P9WIN7	cfp2,RVBD_2376c	low molecular weight antigen MTB12	Basal machinery	P9WIN7	[]	False	False	False	False
+Rv1320c		1.0	Output		Rv1320c	886906.0	P9WQ29	RVBD_1320c	adenylate cyclase	Basal machinery	P9WQ29	['GO:0004016']	False	False	False	False
+Rv1990c	1.0	1.0	Middle	1.0	Rv1990c	885422.0	P9WLP7	RVBD_1990c	transcriptional regulator	Global regulator	P9WLP7	[]	False	False	False	False
+Rv1255c	1.0	1.0	Middle		Rv1255c	887068.0	P9WMD5	RVBD_1255c	HTH-type transcriptional regulator	Global regulator	P9WMD5	['GO:0003700', 'GO:0000976']	True	False	False	False
+nirB		0.919834097258494	Output		nirB	886665.0	O53674	RVBD_0252	nitrite reductase large subunit NirB	M27	O53674	['GO:0051537', 'GO:0051539', 'GO:0050660', 'GO:0020037', 'GO:0046872', 'GO:0050661', 'GO:0098809', 'GO:0016491', 'GO:0050311']	False	False	False	False
+dosT		1.0	Output		dosT	888471.0	P9WGK1	RVBD_2027c	two component sensor histidine kinase DosT	Basal machinery	P9WGK1	['GO:0005524', 'GO:0005509', 'GO:0070025', 'GO:0020037', 'GO:0000287', 'GO:0070026', 'GO:0019825', 'GO:0019826', 'GO:0000155', 'GO:0046983', 'GO:0004673', 'GO:0004672']	False	False	False	False
+rpiB		1.0	Output		rpiB	887225.0	P9WKD7	RVBD_2465c	ribose-5-phosphate isomerase B	Basal machinery	P9WKD7	['GO:0004751']	False	False	False	False
+fadD14		1.0	Output		fadD14	887133.0	O53406	RVBD_1058	fatty-acid--CoA ligase FadD14	Basal machinery	O53406	['GO:0016405']	False	False	False	False
+secA1		1.0	Output		secA1	888860.0	P9WGP5	RVBD_3240c	protein translocase subunit SecA	Basal machinery	P9WGP5	['GO:0005524', 'GO:0016887', 'GO:0008564']	False	False	False	False
+Rv2469c		1.0	Output		Rv2469c	888591.0	O53196	RVBD_2469c	hypothetical protein	Basal machinery	O53196	[]	False	False	False	False
+sapM		1.0	Output		sapM	887988.0	O53361	RVBD_3310	acid phosphatase	Basal machinery	O53361	['GO:0003993', 'GO:0016791', 'GO:0004438', 'GO:0050189', 'GO:0050192', 'GO:0004805']	False	False	False	False
+Rv2731		1.0	Output		Rv2731	888300.0	I6XF60	RVBD_2731	alanine/arginine-rich protein	Basal machinery	I6XF60	[]	False	False	False	False
+Rv3717		1.0	Output		Rv3717	885602.0	I6Y4D2	RVBD_3717	hypothetical protein	Basal machinery	I6Y4D2	['GO:0046872', 'GO:0008745']	False	False	False	False
+glbO		1.0	Output		glbO	887743.0	P9WN23	RVBD_2470	hemoglobin GlbO	Basal machinery	P9WN23	['GO:0020037', 'GO:0046872', 'GO:0019825', 'GO:0005344']	False	False	False	False
+trmB		0.5819767068693432	Output		trmB	886740.0	P9WFY9	RVBD_0208c	tRNA (guanine-N(7)-)-methyltransferase	Basal machinery	P9WFY9	['GO:0008176']	False	False	False	False
+nei1		1.0	Output		nei1	888500.0	P9WNB9	nei2,RVBD_2464c	DNA glycosylase	Basal machinery	P9WNB9	['GO:0140078', 'GO:0003684', 'GO:0003906', 'GO:0003690', 'GO:0008534', 'GO:0000703', 'GO:0003697', 'GO:0004844', 'GO:0008270']	False	False	False	False
+Rv2337c		1.0	Output		Rv2337c	885123.0	P95233	RVBD_2337c	hypothetical protein	Basal machinery	P95233	['GO:0016491']	False	False	False	False
+Rv1868		1.0	Output		Rv1868	885757.0	P95147	RVBD_1868	hypothetical protein	Basal machinery	P95147	[]	False	False	False	False
+vapB37		1.0	Output		vapB37	888014.0	P9WJ27	RVBD_2104c	antitoxin VapB37	Basal machinery	P9WJ27	[]	False	False	False	False
+Rv1977		1.0	Output		Rv1977	885931.0	O53978	RVBD_1977	hypothetical protein	Basal machinery	O53978	['GO:0046872', 'GO:0004222']	False	False	False	False
+Rv2991		1.0	Output		Rv2991	887792.0	O53240	RVBD_2991	hypothetical protein	M5	O53240	['GO:0070967', 'GO:0016627']	False	False	False	False
+glgC		1.0	Output		glgC	887933.0	P9WN43	RVBD_1213	glucose-1-phosphate adenylyltransferase	Basal machinery	P9WN43	['GO:0005524', 'GO:0008878']	False	False	False	False
+Rv0386		1.0	Output		Rv0386	886030.0	O53720	RVBD_0386	transcriptional regulator	Basal machinery	O53720	['GO:0004016', 'GO:0043531', 'GO:0003677', 'GO:0004383', 'GO:0030145']	False	False	False	False
+Rv3179		1.0	Output		Rv3179	887947.0	O53329	RVBD_3179	hypothetical protein	Basal machinery	O53329	[]	False	False	False	False
+ilvG		1.0	Output		ilvG	885738.0	P9WG39	RVBD_1820	acetolactate synthase large subunit IlvG	Basal machinery	P9WG39	['GO:0003984', 'GO:0050660', 'GO:0000287', 'GO:0030976']	False	False	False	False
+caeA		1.0	Output		caeA	887857.0	P9WHR3	RVBD_2224c	carboxylesterase A	Basal machinery	P9WHR3	['GO:0106435']	False	False	False	False
+Rv0474	1.0	1.0	Middle	1.0	Rv0474	886276.0	P9WMH9	RVBD_0474	HTH-type transcriptional regulator	M1.13	P9WMH9	['GO:0003677', 'GO:0003700']	True	False	False	False
+Rv0324	0.8921251442609653	1.0	Middle	1.0	Rv0324	886548.0	O08446	RVBD_0324	transcriptional regulator	Global regulator	O08446	['GO:0003677', 'GO:0003700', 'GO:0004792']	True	False	False	False
+Rv2434c		1.0	Output		Rv2434c	885885.0	P71915	RVBD_2434c	transmembrane protein	Basal machinery	P71915	[]	False	False	False	False
+Rv2323c		1.0	Output		Rv2323c	885480.0	P71889	RVBD_2323c	hypothetical protein	M2	P71889	['GO:0016403']	False	False	False	False
+Rv3636		1.0	Output		Rv3636	885274.0	O06371	RVBD_3636		Basal machinery	O06371	[]	False	False	False	False
+Rv0034		1.0	Output		Rv0034	887046.0	P9WM93	RVBD_0034	hypothetical protein	Basal machinery	P9WM93	[]	False	False	False	False
+Rv1889c		1.0	Output		Rv1889c		O07743	RVBD_1889c		Basal machinery	O07743	['GO:0008168']	False	False	False	False
+Rv2957		1.0	Output		Rv2957	887258.0	P9WMX7	RVBD_2957	PGL/p-HBAD biosynthesis glycosyltransferase	Basal machinery	P9WMX7	['GO:0016757', 'GO:0016758']	False	False	False	False
+ctaE		1.0	Output		ctaE	887425.0	P9WP67	RVBD_2193	cytochrome C oxidase subunit III	Basal machinery	P9WP67	['GO:0004129']	False	False	False	False
+Rv3221c		1.0	Output		Rv3221c	888096.0	P9WPQ1	RVBD_3221c,TB7.3	hypothetical protein	Basal machinery	P9WPQ1	[]	False	False	False	False
+pcp		0.8416360074501835	Output		pcp	886555.0	P9WIJ5	RVBD_0319	pyrrolidone-carboxylate peptidase	Basal machinery	P9WIJ5	['GO:0016920']	False	False	False	False
+lsr2	1.0	1.0	Middle	1.0	lsr2	885580.0	P9WIP7	RVBD_3597c	iron-regulated H-NS-like protein	Global regulator	P9WIP7	['GO:0016746', 'GO:0003677']	False	False	False	False
+Rv2387		0.8595615974398708	Output		Rv2387	885302.0	P71757	RVBD_2387	hypothetical protein	Basal machinery	P71757	[]	False	False	False	False
+Rv0268c		1.0	Output		Rv0268c	886647.0	P95225	RVBD_0268c	hypothetical protein	Basal machinery	P95225	['GO:0003700', 'GO:0043565']	True	False	False	False
+mctB		1.0	Output		mctB	885047.0	P9WJ83	RVBD_1698	copper transporter MctB	Basal machinery	P9WJ83	['GO:0015288']	False	False	False	False
+cyp136		1.0	Output		cyp136	888883.0	P9WPM7	RVBD_3059	cytochrome P450 Cyp136	Basal machinery	P9WPM7	['GO:0020037', 'GO:0005506', 'GO:0004497', 'GO:0016491', 'GO:0016705']	False	False	False	False
+nrdF1		1.0	Output		nrdF1	885923.0	P9WH73	RVBD_1981c	ribonucleoside-diphosphate reductase subunit beta NrdF1	M1.28	P9WH73	['GO:0046872', 'GO:0004748']	False	False	False	False
+Rv1936		0.7213178045795622	Output		Rv1936	885882.0	P95278	RVBD_1936	monooxygenase	Basal machinery	P95278	['GO:0004497', 'GO:0016705']	False	False	False	False
+Rv1587c		1.0	Output		Rv1587c	886303.0	O06603	RVBD_1587c	hypothetical protein	M1.3	O06603	[]	False	False	False	False
+chp2		0.989511392296794	Output		chp2	886063.0	O50440	RVBD_1184c	hypothetical protein	Basal machinery	O50440	['GO:0016746']	False	False	False	False
+Rv1533		1.0	Output		Rv1533	886424.0	O06179	RVBD_1533	monooxygenase	Basal machinery	O06179	['GO:0018580']	False	False	False	False
+Rv0331		1.0	Output		Rv0331	886534.0	O07255	RVBD_0331	dehydrogenase/reductase	M1.19	O07255	['GO:0016491']	False	False	False	False
+Rv0430		0.8595615974398708	Output		Rv0430	886364.0	P96276	RVBD_0430	hypothetical protein	Basal machinery	P96276	[]	False	False	False	False
+Rv2452c		0.7909883534346717	Output		Rv2452c	885858.0	O53179	RVBD_2452c	hypothetical protein	Intermodular	O53179	[]	False	False	False	False
+Rv1435c		0.7213178045795622	Output		Rv1435c	886653.0	O06823	RVBD_1435c	hypothetical protein	Basal machinery	O06823	[]	False	False	False	False
+Rv0854		1.0	Output		Rv0854	885127.0	I6X9Y7	RVBD_0854	hypothetical protein	Basal machinery	I6X9Y7	[]	False	False	False	False
+echA3		1.0	Output		echA3	888015.0	I6Y8B5	RVBD_0632c	enoyl-CoA hydratase EchA3	Basal machinery	I6Y8B5	[]	False	False	False	False
+PE_PGRS7		0.7213178045795622	Output		PE_PGRS7	887725.0	Q6MX28	RVBD_0578c	PE-PGRS family protein PE_PGRS7	Basal machinery	Q6MX28	[]	False	False	False	False
+Rv2516c		0.7213178045795622	Output		Rv2516c	887186.0	I6YDM0	RVBD_2516c	hypothetical protein	Basal machinery	I6YDM0	[]	False	False	False	False
+Rv1986		0.7607346584861739	Output		Rv1986	885635.0	P9WK31	RVBD_1986	amino-acid transporter	Basal machinery	P9WK31	['GO:0015171']	False	False	False	False
+Rv2132		1.0	Output		Rv2132	887827.0	O06243	RVBD_2132	hypothetical protein	M1.1	O06243	[]	False	False	False	False
+Rv3510c		1.0	Output		Rv3510c	888298.0	I6Y3Q7	RVBD_3510c	hypothetical protein	Basal machinery	I6Y3Q7	['GO:0016831', 'GO:0016787']	False	False	False	False
+fdxD		1.0	Output		fdxD	888311.0	I6X7H4	RVBD_3503c	ferredoxin FdxD	Basal machinery	I6X7H4	['GO:0051538', 'GO:0009055', 'GO:0005506']	False	False	False	False
+Rv2729c		1.0	Output		Rv2729c	888333.0	O33234	RVBD_2729c	integral membrane protein	Basal machinery	O33234	[]	False	False	False	False
+glnA2		1.0	Output		glnA2	888238.0	P9WN37	RVBD_2222c	glutamine synthetase	Basal machinery	P9WN37	['GO:0005524', 'GO:0050001', 'GO:0004356', 'GO:0046872']	False	False	False	False
+fadD4		1.0	Output		fadD4	886737.0	P96396	RVBD_0214	fatty-acid--CoA ligase FadD4	M1.1	P96396	['GO:0016405']	False	False	False	False
+Rv3406		1.0	Output		Rv3406	887955.0	P9WKZ1	RVBD_3406	dioxygenase	M1.6	P9WKZ1	['GO:0016706', 'GO:0046872']	False	False	False	False
+moaD1		0.6410694627838153	Output		moaD1	888897.0	L7N6B4	moaD,RVBD_3112	molybdenum cofactor biosynthesis protein MoaD	Basal machinery	L7N6B4	['GO:0000166']	False	False	False	False
+cysQ		1.0	Output		cysQ	888142.0	P9WKJ1	RVBD_2131c	3'-phosphoadenosine 5'-phosphate phosphatase	Basal machinery	P9WKJ1	['GO:0008441', 'GO:0050897', 'GO:0042132', 'GO:0008934', 'GO:0000287', 'GO:0030145']	False	False	False	False
+Rv3902c		1.0	Output		Rv3902c	886236.0	O05443	RVBD_3902c	hypothetical protein	Basal machinery	O05443	[]	False	False	False	False
+Rv1532c		1.0	Output		Rv1532c	886422.0	O06178	RVBD_1532c	hypothetical protein	Basal machinery	O06178	['GO:0061522', 'GO:0047617']	False	False	False	False
+Rv1995		1.0	Output		Rv1995	888917.0	P9WLP3	RVBD_1995	hypothetical protein	Basal machinery	P9WLP3	[]	False	False	False	False
+Rv1985c	0.9994077607339	0.8645814460293725	Middle	1.0	Rv1985c	885818.0	P9WMF5	RVBD_1985c	HTH-type transcriptional regulator	Global regulator	P9WMF5	['GO:0003677', 'GO:0003688', 'GO:0003700']	True	False	False	False
+recF		1.0	Output		recF	887089.0	P9WHI9	RVBD_0003	DNA replication/repair protein RecF	Basal machinery	P9WHI9	['GO:0005524', 'GO:0003697']	False	False	False	False
+mazF1		1.0	Output		mazF1	3205039.0	Q6MX40	mazF-mt2,RVBD_0456A	toxin MazF1	Intermodular	Q6MX40	['GO:0003677', 'GO:0004521']	False	False	False	False
+Rv0458		1.0	Output		Rv0458	886306.0	P9WNY1	RVBD_0458	aldehyde dehydrogenase	Basal machinery	P9WNY1	['GO:0004029']	False	False	False	False
+Rv1356c		1.0	Output		Rv1356c	886850.0	P9WM09	RVBD_1356c	hypothetical protein	Basal machinery	P9WM09	[]	False	False	False	False
+Rv3058c		1.0	Output		Rv3058c	888878.0	P95100	RVBD_3058c	TetR family transcriptional regulator	M11	P95100	['GO:0003700', 'GO:0000976']	True	False	False	False
+rpsT		1.0	Output		rpsT	885676.0	P9WH41	RVBD_2412	30S ribosomal protein S20	Basal machinery	P9WH41	['GO:0070181', 'GO:0003735']	False	False	False	False
+pabB		1.0	Output		pabB	888205.0	O05591	RVBD_1005c	para-aminobenzoate synthase component I	Basal machinery	O05591	['GO:0046820']	False	False	False	False
+Rv1754c		1.0	Output		Rv1754c	885467.0	O06790	RVBD_1754c	hypothetical protein	Basal machinery	O06790	[]	False	False	False	False
+vapB32		1.0	Output		vapB32	885450.0	P9WJ33	RVBD_1113	antitoxin VapB32	Basal machinery	P9WJ33	[]	False	False	False	False
+trcR	0.9979688755240621	0.8119694010361443	Middle	1.0	trcR	887957.0	L7N689	RVBD_1033c	two component transcriptional regulator TrcR	Global regulator	L7N689	['GO:0000156', 'GO:0000976']	False	False	False	True
+Rv3172c		1.0	Output		Rv3172c	888848.0	O53322	RVBD_3172c	hypothetical protein	Basal machinery	O53322	[]	False	False	False	False
+cmtR	0.8621386439362756	1.0	Middle	1.0	cmtR	888889.0	P9WMI9	RVBD_1994c	HTH-type transcriptional regulator CmtR	Global regulator	P9WMI9	['GO:0046870', 'GO:0097063', 'GO:0003677', 'GO:0003700', 'GO:0032791']	True	False	False	False
+esxQ		1.0	Output		esxQ	888508.0	P9WNJ1	RVBD_3017c	ESAT-6 like protein EsxQ	Basal machinery	P9WNJ1	[]	False	False	False	False
+Rv2517c		0.7213178045795622	Output		Rv2517c	887673.0	O53222	RVBD_2517c	hypothetical protein	Basal machinery	O53222	[]	False	False	False	False
+Rv3269		1.0	Output		Rv3269	888709.0	P96874	RVBD_3269	hypothetical protein	M24	P96874	[]	False	False	False	False
+Rv1975		0.7213178045795622	Output		Rv1975	885934.0	O53976	RVBD_1975	hypothetical protein	Basal machinery	O53976	[]	False	False	False	False
+dnaB		1.0	Output		dnaB	887009.0	P9WMR3	RVBD_0058	replicative DNA helicase	Basal machinery	P9WMR3	['GO:0005524', 'GO:0016887', 'GO:0003677', 'GO:0003678', 'GO:0004519']	False	False	False	False
+Rv1830		1.0	Output		Rv1830	885740.0	P9WME5	RVBD_1830	HTH-type transcriptional regulator	Basal machinery	P9WME5	['GO:0003677', 'GO:0003700']	True	False	False	False
+ybeY		1.0	Output		ybeY	885989.0	P9WGX9	RVBD_2367c	endoribonuclease	Basal machinery	P9WGX9	['GO:0004222', 'GO:0004521', 'GO:0008270']	False	False	False	False
+vapB14		0.970911181358134	Output		vapB14	885971.0	P95262	RVBD_1952	antitoxin VapB14	Basal machinery	P95262	[]	False	False	False	False
+tgs2		1.0	Output		tgs2	885335.0	P9WKC7	RVBD_3734c	diacyglycerol O-acyltransferase	Basal machinery	P9WKC7	['GO:0004144', 'GO:0047196', 'GO:0008374']	False	False	False	False
+Rv1910c		1.0	Output		Rv1910c	885897.0	P9WFN5	RVBD_1910c	hypothetical protein	Basal machinery	P9WFN5	[]	False	False	False	False
+whiB1		0.7213178045795622	Output		whiB1	887980.0	P9WF43	RVBD_3219	transcriptional regulator WhiB1	Global regulator	P9WF43	['GO:0051539', 'GO:0035731', 'GO:0003677', 'GO:0046872', 'GO:0047134', 'GO:0015035']	False	False	False	False
+lat		1.0	Output		lat	887904.0	P9WQ77	RVBD_3290c	L-lysine-epsilon aminotransferase	Intermodular	P9WQ77	['GO:0045484', 'GO:0030170']	False	False	False	False
+wag31		1.0	Output		wag31	888224.0	P9WMU1	RVBD_2145c,ag84	cell wall synthesis protein Wag31	Intermodular	P9WMU1	[]	False	False	False	False
+PE17		0.7909883534346716	Output		PE17	885486.0	L7N681	RVBD_1646	PE family protein PE17	Basal machinery	L7N681	[]	False	False	False	False
+Rv0097		0.9978146558613471	Output		Rv0097	886942.0	P9WG83	RVBD_0097	oxidoreductase	M1.1	P9WG83	['GO:0051213', 'GO:0046872']	False	False	False	False
+Rv0135c	1.0	1.0	Middle	1.0	Rv0135c	886869.0	P96812	RVBD_0135c	transcriptional regulator	Global regulator	P96812	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv2204c		1.0	Output		Rv2204c	888428.0	P9WMN5	RVBD_2204c	hypothetical protein	M1.1	P9WMN5	['GO:0051537', 'GO:0051539', 'GO:0005506']	False	False	False	False
+Rv2884		1.0	Output		Rv2884	887443.0	I6X5M3	RVBD_2884	transcriptional regulator	Intermodular	I6X5M3	['GO:0000156', 'GO:0000976']	False	False	False	True
+mmpL9		1.0	Output		mmpL9	888966.0	P9WJU3	RVBD_2339	transmembrane transport protein MmpL9	Basal machinery	P9WJU3	[]	False	False	False	False
+cyp138		1.0	Output		cyp138	886868.0	P9WPM3	RVBD_0136	cytochrome P450 Cyp138	M1.29	P9WPM3	['GO:0020037', 'GO:0005506', 'GO:0004497', 'GO:0016491', 'GO:0016705']	False	False	False	False
+Rv0520		1.0	Output		Rv0520		O33365	RVBD_0520		M3	O33365	['GO:0008757']	False	False	False	False
+Rv3400		1.0	Output		Rv3400	887918.0	P9WKZ7	RVBD_3400	hydrolase	Basal machinery	P9WKZ7	['GO:0016853', 'GO:0046872']	False	False	False	False
+Rv1919c		1.0	Output		Rv1919c	885876.0	O53961	RVBD_1919c	hypothetical protein	Basal machinery	O53961	[]	False	False	False	False
+Rv1815		1.0	Output		Rv1815					Basal machinery		[]	False	False	False	False
+Rv0749A		1.0	Output		Rv0749A	3205052.0	I6X9Q1	RVBD_0749A	hypothetical protein	Basal machinery	I6X9Q1	[]	False	False	False	False
+Rv3312A		0.913997971779237	Output		Rv3312A					Basal machinery		[]	False	False	False	False
+Rv0273c	1.0	1.0	Middle	1.0	Rv0273c	886633.0	O86342	RVBD_0273c	transcriptional regulator	Global regulator	O86342	['GO:0003677', 'GO:0003700']	True	False	False	False
+Rv0274		1.0	Output		Rv0274	886631.0	O53680	RVBD_0274	hypothetical protein	Basal machinery	O53680	['GO:0051213', 'GO:0008198']	False	False	False	False
+proX		1.0	Output		proX	886270.0	O69725	RVBD_3759c	glycine betaine/carnitine/choline/L-proline ABC transporter substrate-binding lipoprotein ProX	M1.23	O69725	['GO:0022857']	False	False	False	False
+Rv1674c	0.9275089958116076	1.0	Middle	1.0	Rv1674c	885696.0	O53921	RVBD_1674c	transcriptional regulator	M2	O53921	['GO:0003700', 'GO:0004792']	True	False	False	False
+Rv1359	1.0	1.0	Middle	1.0	Rv1359	886841.0	P9WM05	RVBD_1359	transcriptional regulator	M26	P9WM05	[]	False	False	False	False
+Rv3488	1.0	0.9565156262422667	Middle	1.0	Rv3488	888417.0	I6X7F9	RVBD_3488	hypothetical protein	Global regulator	I6X7F9	['GO:0003677', 'GO:0046872']	False	False	False	False
+dnaG		0.9666152812980524	Output		dnaG	885996.0	P9WNW1	RVBD_2343c	DNA primase	Basal machinery	P9WNW1	['GO:0003677', 'GO:0003899', 'GO:0008270']	False	False	False	False
+cofC		0.9666152812980524	Output		cofC	888161.0	P9WP83	RVBD_2983	2-phospho-L-lactate guanylyltransferase	Basal machinery	P9WP83	['GO:0005525', 'GO:0043814']	False	False	False	False
+Rv1776c	1.0		Input		Rv1776c	885821.0	O33179	RVBD_1776c	transcriptional regulator	Global regulator	O33179	['GO:0003677']	False	False	False	False
+fgd1		1.0	Output		fgd1	886418.0	P9WNE1	RVBD_0407,fgd	F420-dependent glucose-6-phosphate dehydrogenase	Basal machinery	P9WNE1	['GO:0070967', 'GO:0052749', 'GO:0016614', 'GO:0016705']	False	False	False	False
+ethR	1.0	1.0	Middle	1.0	ethR	886189.0	P9WMC1	etaR,RVBD_3855	HTH-type transcriptional repressor EthR	Global regulator	P9WMC1	['GO:0003700', 'GO:0000976']	True	False	False	False
+ethA		1.0	Output		ethA	886175.0	P9WNF9	RVBD_3854c,etaA	monooxygenase EthA	Basal machinery	P9WNF9	['GO:0071949', 'GO:0050660', 'GO:0004499', 'GO:0070402', 'GO:0016709', 'GO:0033776']	False	False	False	False
+Rv0653c	1.0	1.0	Middle	1.0	Rv0653c	888087.0	P96941	RVBD_0653c	transcriptional regulator	Global regulator	P96941	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv0654		1.0	Output		Rv0654	888089.0	P9WPR5	RVBD_0654	carotenoid cleavage oxygenase	Basal machinery	P9WPR5	['GO:0010436', 'GO:0046872']	False	False	False	False
+sigA	1.0	1.0	Middle	1.0	sigA	887477.0	P9WGI1	mysA,RVBD_2703,rpoV,rpoD	RNA polymerase sigma factor SigA	M1.1	P9WGI1	['GO:0003677', 'GO:0016987']	True	False	False	False
+sigH	1.0	1.0	Middle	1.0	sigH	888094.0	P9WGH9	rpoE,RVBD_3223c	ECF RNA polymerase sigma factor SigH	Global regulator	P9WGH9	['GO:0003677', 'GO:0016987']	True	False	False	False
+sigE	1.0	1.0	Middle	1.0	sigE	888751.0	P9WGG7	RVBD_1221	ECF RNA polymerase sigma factor SigE	M1.1	P9WGG7	['GO:0003677', 'GO:0016987']	True	False	False	False
+sigD	1.0	1.0	Middle	1.0	sigD	887594.0	P9WGG9	RVBD_3414c	ECF RNA polymerase sigma factor SigD	M1.1	P9WGG9	['GO:0003677', 'GO:0016987']	True	False	False	False
+sigG	1.0	1.0	Middle	1.0	sigG	886786.0	P9WGG5	RVBD_0182c	ECF RNA polymerase sigma factor SigG	M1.1	P9WGG5	['GO:0003677', 'GO:0016987']	True	False	False	False
+sigB	1.0	1.0	Middle	1.0	sigB	888580.0	P9WGI5	mysB,RVBD_2710	RNA polymerase sigma factor SigB	M1.1	P9WGI5	['GO:0003677', 'GO:0043175', 'GO:0016987']	True	False	False	False
+sigK	1.0	1.0	Middle	1.0	sigK	886334.0	P9WGH7	RVBD_0445c	ECF RNA polymerase sigma factor SigK	M1.1	P9WGH7	['GO:0003677', 'GO:0016987']	True	False	False	False
+sigL	1.0	1.0	Middle	1.0	sigL	888609.0	P9WGH5	RVBD_0735	ECF RNA polymerase sigma factor SigL	M1.1	P9WGH5	['GO:0003677', 'GO:0016987']	True	False	False	False
+sigF	1.0	1.0	Middle	1.0	sigF	888727.0	P9WGI3	RVBD_3286c	RNA polymerase sigma factor SigF	M1.1	P9WGI3	['GO:0003677', 'GO:0043175', 'GO:0016987']	True	False	False	False
+Rv0213c		1.0	Output		Rv0213c	886746.0	P96395	RVBD_0213c	methyltransferase	M1.1	P96395	['GO:0051539', 'GO:0031419', 'GO:0046872', 'GO:0008168']	False	False	False	False
+sigI	1.0	1.0	Middle	1.0	sigI	886079.0	P9WGH3	RVBD_1189	ECF RNA polymerase sigma factor SigI	Global regulator	P9WGH3	['GO:0003677', 'GO:0016987']	True	False	False	False
+sigC	1.0	1.0	Middle	1.0	sigC	888723.0	P9WGH1	RVBD_2069	ECF RNA polymerase sigma factor SigC	M1.1	P9WGH1	['GO:0003677', 'GO:0016987']	True	False	False	False
+Rv0759c		1.0	Output		Rv0759c	888776.0	P9WML3	RVBD_0759c	hypothetical protein	M1.1	P9WML3	['GO:0016787']	False	False	False	False
+Rv0941c		1.0	Output		Rv0941c	885914.0	P71568	RVBD_0941c	hypothetical protein	M1.1	P71568	['GO:0016989']	True	False	False	False
+rsbW		1.0	Output		rsbW	887977.0	P9WGX7	usfX,RVBD_3287c	anti-sigma factor RsbW	M1.1	P9WGX7	['GO:0005524', 'GO:0016787', 'GO:0000166', 'GO:0016989']	True	False	False	False
+rpsF		1.0	Output		rpsF	887020.0	P9WH31	RVBD_0053	30S ribosomal protein S6	Basal machinery	P9WH31	['GO:0070181', 'GO:0003735']	False	False	False	False
+pepN		1.0	Output		pepN	887403.0	L7N655	RVBD_2467	aminopeptidase PepN	M1.1	L7N655	['GO:0016285', 'GO:0070006', 'GO:0008270']	False	False	False	False
+trxB1		1.0	Output		trxB1	886554.0	L7N664	RVBD_1471	thioredoxin	M1.1	L7N664	['GO:0015035']	False	False	False	False
+papA4		1.0	Output		papA4	886028.0	O53902	RVBD_1528c	polyketide synthase associated protein PapA	M1.1	O53902	[]	False	False	False	False
+trxB		1.0	Output		trxB	886232.0	P9WHH1	RVBD_3913,trxB2	thioredoxin reductase	Basal machinery	P9WHH1	['GO:0050660', 'GO:0070402', 'GO:0015035', 'GO:0004791']	False	False	False	False
+Rv1875		1.0	Output		Rv1875	885793.0	O07754	RVBD_1875	hypothetical protein	M1.1	O07754	['GO:0070967', 'GO:0016627']	False	False	False	False
+sigJ	1.0	1.0	Middle	1.0	sigJ	887964.0	L0TCG5	RVBD_3328c	ECF RNA polymerase sigma factor SigJ	M1.1	L0TCG5	['GO:0003677', 'GO:0016987']	True	False	False	False
+Rv2466c		1.0	Output		Rv2466c	888214.0	O53193	RVBD_2466c	hypothetical protein	M1.1	O53193	['GO:0016491']	False	False	False	False
+moeZ		1.0	Output		moeZ	888871.0	P9WMN7	RVBD_3206c,moeB1	adenylyltransferase/sulfurtransferase	M1.29	P9WMN7	['GO:0005524', 'GO:0016779', 'GO:0008146', 'GO:0004792', 'GO:0016782', 'GO:0008641']	False	False	False	False
+Rv2707		1.0	Output		Rv2707	887750.0	I6YE67	RVBD_2707	transmembrane alanine/leucine-rich protein	Basal machinery	I6YE67	[]	False	False	False	False
+PPE56		1.0	Output		PPE56	888113.0	Q6MWX8	RVBD_3350c	PPE family protein PPE56	M1.11	Q6MWX8	[]	False	False	False	False
+sigM	1.0	1.0	Middle	1.0	sigM	886246.0	O53590	RVBD_3911	ECF RNA polymerase sigma factor SigM	M1.1	O53590	['GO:0003677', 'GO:0016987']	True	False	False	False
+Rv2515c		1.0	Output		Rv2515c	887812.0	I6XEH5	RVBD_2515c	hypothetical protein	M1.1	I6XEH5	['GO:0003677']	False	False	False	False
+Rv3906c		1.0	Output		Rv3906c	886221.0	O05439	RVBD_3906c	hypothetical protein	M1.1	O05439	['GO:0005509']	False	False	False	False
+Rv2506	1.0	0.9565156262422667	Middle	1.0	Rv2506	888516.0	O06169	RVBD_2506	TetR family transcriptional regulator	M1.16	O06169	['GO:0003700', 'GO:0042802', 'GO:0000976']	True	False	False	False
+scoA		0.9721794010817103	Output		scoA	888503.0	P9WPW5	RVBD_2504c	succinyl-CoA:3-ketoacid-CoA transferase subunit A	M1.16	P9WPW5	['GO:0008260']	False	False	False	False
+fadD35		0.6775592642420777	Output		fadD35	887774.0	I6Y0X0	RVBD_2505c	fatty-acid--CoA ligase FadD35	M1.16	I6Y0X0	['GO:0031956']	False	False	False	False
+Rv2912c	1.0		Input		Rv2912c	888017.0	P9WMC7	RVBD_2912c	TetR family HTH-type transcriptional regulator	M18	P9WMC7	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv2913c		1.0	Output		Rv2913c	887809.0	P9WJH9	RVBD_2913c	D-amino acid aminohydrolase	M18	P9WJH9	['GO:0016812']	False	False	False	False
+Rv2989	1.0		Input		Rv2989	887723.0	O53238	RVBD_2989	transcriptional regulator	Global regulator	O53238	['GO:0003677', 'GO:0003700']	True	False	False	False
+lpdA		1.0	Output		lpdA	887659.0	P9WHH7	RVBD_3303c,lpdA-2	NAD(P)H quinone reductase LpdA	Basal machinery	P9WHH7	['GO:0050660', 'GO:0003955', 'GO:0050136', 'GO:0070401', 'GO:0008753', 'GO:0016655']	False	False	False	False
+devR	1.0		Input		devR	888842.0	P9WMF9	dosR,RVBD_3133c	two component transcriptional regulator DevR	Global regulator	P9WMF9	['GO:0003677', 'GO:0003700']	True	False	False	False
+prpD		1.0	Output		prpD	885843.0	O06582	RVBD_1130	methylcitrate dehydratase PrpD	Basal machinery	O06582	['GO:0047547', 'GO:0003994']	False	False	False	False
+ppe49		1.0	Output		ppe49	888892.0	P9WHY5	PPE49,RVBD_3125c	PPE family protein PPE49	Basal machinery	P9WHY5	[]	False	False	False	False
+prpR		1.0	Output		prpR	885963.0	O06581	RVBD_1129c	transcriptional regulator	Basal machinery	O06581	['GO:0003677', 'GO:0003700']	True	False	False	False
+Rv0569		1.0	Output		Rv0569	887678.0	P9WM83	RVBD_0569	hypothetical protein	Basal machinery	P9WM83	[]	False	False	False	False
+hrp1		1.0	Output		hrp1	888576.0	P9WJA3	RVBD_2626c	hypoxic response protein	Basal machinery	P9WJA3	['GO:0046872']	False	False	False	False
+Rv2623		1.0	Output		Rv2623	887442.0	P9WFD7	TB31.7,RVBD_2623	universal stress protein	Basal machinery	P9WFD7	['GO:0005524']	False	False	False	False
+Rv2628		1.0	Output		Rv2628	888566.0	P9WL65	RVBD_2628	hypothetical protein	Basal machinery	P9WL65	[]	False	False	False	False
+Rv2629		1.0	Output		Rv2629	888588.0	P9WL63	RVBD_2629	hypothetical protein	Basal machinery	P9WL63	[]	False	False	False	False
+Rv1036c		1.0	Output		Rv1036c		P96365	RVBD_1036c		Basal machinery	P96365	[]	False	False	False	False
+cut2		1.0	Output		cut2	885371.0	P9WP41	RVBD_2301	cutinase	Basal machinery	P9WP41	['GO:0106435', 'GO:0016298']	False	False	False	False
+Rv1734c		1.0	Output		Rv1734c	885212.0	P9WLS7	RVBD_1734c	hypothetical protein	Basal machinery	P9WLS7	['GO:0016746']	False	False	False	False
+nadD		1.0	Output		nadD	885457.0	P9WJJ5	RVBD_2421c	nicotinate-nucleotide adenylyltransferase	Basal machinery	P9WJJ5	['GO:0005524', 'GO:0000309', 'GO:0004515']	False	False	False	False
+Rv0572c		1.0	Output		Rv0572c	887696.0	P9WM81	RVBD_0572c	hypothetical protein	Basal machinery	P9WM81	[]	False	False	False	False
+crgA		1.0	Output		crgA	887074.0	P9WP57	RVBD_0011c	cell division protein CrgA	Basal machinery	P9WP57	[]	False	False	False	False
+fdxA		1.0	Output		fdxA	888887.0	P9WNE7	RVBD_2007c	ferredoxin	Basal machinery	P9WNE7	['GO:0051538', 'GO:0051539', 'GO:0009055', 'GO:0046872']	False	False	False	False
+Rv3127		1.0	Output		Rv3127	888850.0	P9WL07	RVBD_3127	hypothetical protein	Basal machinery	P9WL07	['GO:0016491']	False	False	False	False
+nrdZ		1.0	Output		nrdZ	887666.0	P9WH77	RVBD_0570	vitamin B12-dependent ribonucleoside-diphosphate reductase	Basal machinery	P9WH77	['GO:0005524', 'GO:0031419', 'GO:0004748']	False	False	False	False
+Rv0571c		1.0	Output		Rv0571c	887710.0	P9WHK1	RVBD_0571c	hypothetical protein	Basal machinery	P9WHK1	['GO:0016787', 'GO:0016740']	False	False	False	False
+Rv3131		1.0	Output		Rv3131	888838.0	P9WIZ7	RVBD_3131	NAD(P)H nitroreductase	M1.18	P9WIZ7	['GO:0016491']	False	False	False	False
+Rv2336		0.9392211191177433	Output		Rv2336	888958.0	P95232	RVBD_2336	hypothetical protein	Basal machinery	P95232	[]	False	False	False	False
+Rv1996		1.0	Output		Rv1996	888863.0	P9WLP1	RVBD_1996	universal stress protein	Basal machinery	P9WLP1	['GO:0005524']	False	False	False	False
+hspX		1.0	Output		hspX	887579.0	P9WMK1	acr,RVBD_2031c	alpha-crystallin	M1.8	P9WMK1	['GO:0044183', 'GO:0051082']	False	False	False	False
+Rv2006		1.0	Output		Rv2006	888943.0	P9WN15	otsB1,RVBD_2006	trehalose-6-phosphate phosphatase OtsB	Basal machinery	P9WN15	['GO:0030246', 'GO:0016757', 'GO:0004553', 'GO:0016791']	False	False	False	False
+Rv3134c		1.0	Output		Rv3134c	887558.0	P9WFD3	RVBD_3134c	universal stress protein	Basal machinery	P9WFD3	['GO:0005524']	False	False	False	False
+acg		1.0	Output		acg	887582.0	P9WIZ9	RVBD_2032	NAD(P)H nitroreductase acg	M1.8	P9WIZ9	['GO:0016491']	False	False	False	False
+Rv2307A		1.0	Output		Rv2307A	3205073.0	L7N678	RVBD_2307A	glycine-rich protein	Basal machinery	L7N678	[]	False	False	False	False
+Rv2709		1.0	Output		Rv2709	887282.0	I6YA25	RVBD_2709	transmembrane protein	Basal machinery	I6YA25	[]	False	False	False	False
+ctpF		1.0	Output		ctpF	888867.0	P9WPS9	RVBD_1997	cation transporter ATPase F	Basal machinery	P9WPS9	['GO:0005524', 'GO:0016887', 'GO:0046872', 'GO:0005388']	False	False	False	False
+ldtA		1.0	Output		ldtA	886900.0	O53638	RVBD_0116c	L,D-transpeptidase LdtA	Basal machinery	O53638	['GO:0016746', 'GO:0071972']	False	False	False	False
+Rv0079		1.0	Output		Rv0079	886995.0	P9WMA9	RVBD_0079	hypothetical protein	Basal machinery	P9WMA9	['GO:0043024']	False	False	False	False
+Rv3126c		1.0	Output		Rv3126c	888806.0	P9WL09	RVBD_3126c	hypothetical protein	Basal machinery	P9WL09	[]	False	False	False	False
+tgs1		1.0	Output		tgs1	888841.0	P9WKC9	RVBD_3130c	diacyglycerol O-acyltransferase	M1.18	P9WKC9	['GO:0004144', 'GO:0047196', 'GO:0008374']	False	False	False	False
+Rv1738		1.0	Output		Rv1738	885215.0	P9WLS3	RVBD_1738	hypothetical protein	Basal machinery	P9WLS3	[]	False	False	False	False
+Rv2005c		1.0	Output		Rv2005c	888831.0	P9WLN1	RVBD_2005c	universal stress protein	Basal machinery	P9WLN1	['GO:0005524']	False	False	False	False
+Rv3066	1.0		Input		Rv3066	888847.0	I6X658	RVBD_3066	DeoR family transcriptional regulator	M1.7	I6X658	['GO:0003700', 'GO:0000976']	True	False	False	False
+mmr		1.0	Output		mmr	887550.0	P9WGF1	RVBD_3065	multidrug resistance protein Mmr	Intermodular	P9WGF1	['GO:0015562', 'GO:0022857']	False	False	False	False
+Rv2282c	1.0	1.0	Middle	1.0	Rv2282c	887253.0	P9WMF3	RVBD_2282c	LysR family HTH-type transcriptional regulator	Basal machinery	P9WMF3	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv1167c	1.0		Input		Rv1167c	888758.0	O50423	RVBD_1167c	transcriptional regulator	M1.14	O50423	['GO:0003700', 'GO:0000976']	True	False	False	False
+espE		1.0	Output		espE	886185.0	P9WJD3	RVBD_3864	ESX-1 secretion-associated protein EspE	Intermodular	P9WJD3	[]	False	False	False	False
+argR	1.0		Input		argR	885091.0	P9WPY9	RVBD_1657,ahrC	arginine repressor	M15	P9WPY9	['GO:0034618', 'GO:0000987', 'GO:0003677', 'GO:0003700']	True	False	False	False
+argC		1.0	Output		argC	885278.0	P9WPZ9	RVBD_1652	N-acetyl-gamma-glutamyl-phoshate reductase	M15	P9WPZ9	['GO:0003942', 'GO:0051287', 'GO:0070401']	False	False	False	False
+Rv1287	1.0		Input		Rv1287	886998.0	P9WME3	RVBD_1287	HTH-type transcriptional regulator	M4	P9WME3	['GO:0003677', 'GO:0003700']	True	False	False	False
+cysD		1.0	Output		cysD	886979.0	P9WIK1	RVBD_1285	sulfate adenylyltransferase subunit 2	M4	P9WIK1	['GO:0005524', 'GO:0004781']	False	False	False	False
+Rv0576	0.9973804594121848	0.8954941767173358	Middle	1.0	Rv0576	887717.0	O53773	RVBD_0576	transcriptional regulator	Global regulator	O53773	['GO:0003700']	True	False	False	False
+aldA		0.9644106970118643	Output		aldA	888832.0	I6X9R9	RVBD_0768	aldehyde dehydrogenase AldA	Basal machinery	I6X9R9	['GO:0016620']	False	False	False	False
+Rv0516c		0.9240263988971791	Output		Rv0516c	887324.0	O33361	RVBD_0516c	anti-anti-sigma factor	Basal machinery	O33361	[]	False	False	False	False
+Rv2034	0.9949635747815583	0.8954941767173358	Middle	1.0	Rv2034	887859.0	O53478	RVBD_2034	ArsR family HTH-type transcriptional repressor	Global regulator	O53478	['GO:0003677', 'GO:0003700']	True	False	False	False
+mutT3		0.9682412650760038	Output		mutT3	886405.0	P9WIX9	RVBD_0413	8-oxo-dGTP diphosphatase	Basal machinery	P9WIX9	['GO:0035539', 'GO:0046872']	False	False	False	False
+Rv3661		0.9392211191177433	Output		Rv3661	885316.0	P9WGJ1	RVBD_3661	hypothetical protein	M3	P9WGJ1	['GO:0016787', 'GO:0046872']	False	False	False	False
+fadD5		0.9240263988971791	Output		fadD5	886822.0	O07411	RVBD_0166	fatty-acid--CoA ligase FadD5	Basal machinery	O07411	['GO:0016878', 'GO:0016405']	False	False	False	False
+Rv3660c		0.9240263988971791	Output		Rv3660c	885319.0	P9WKX7	RVBD_3660c	hypothetical protein	M3	P9WKX7	['GO:0005524', 'GO:0016887']	False	False	False	False
+Rv1519		0.9604647132873066	Output		Rv1519	886453.0	P9WLV7	RVBD_1519	hypothetical protein	Basal machinery	P9WLV7	[]	False	False	False	False
+Rv0023	0.8297270970795553		Input		Rv0023	887062.0	P9WMI3	RVBD_0023	transcriptional regulator	Global regulator	P9WMI3	['GO:0003677']	False	False	False	False
+mce4A		1.0	Output		mce4A	888344.0	I6YC99	RVBD_3499c	Mce family protein Mce4A	Basal machinery	I6YC99	['GO:0120014']	False	False	False	False
+drrA		1.0	Output		drrA	888168.0	P9WQL9	RVBD_2936	daunorubicin ABC transporter ATP-binding protein DrrA	Basal machinery	P9WQL9	['GO:0005524', 'GO:0016887']	False	False	False	False
+hddA		1.0	Output		hddA	886902.0	O53637	RVBD_0115	D-alpha-D-heptose-7-phosphate kinase HddA	Basal machinery	O53637	['GO:0005524', 'GO:0004335', 'GO:0046872']	False	False	False	False
+PPE7		1.0	Output		PPE7	886498.0	L0T545		PPE family protein PPE7	Basal machinery	L0T545	[]	False	False	False	False
+mce3R		1.0	Output		mce3R	885950.0	P95251	RVBD_1963c	transcriptional repressor Mce3R	Intermodular	P95251	['GO:0003677', 'GO:0003700', 'GO:0000976']	True	False	False	False
+Rv2474c		1.0	Output		Rv2474c	888606.0	I6X4D6	RVBD_2474c	hypothetical protein	Basal machinery	I6X4D6	[]	False	False	False	False
+ctpJ		1.0	Output		ctpJ	885106.0	P9WPT7	RVBD_3743c,nmtA	cation transporter ATPase J	M16	P9WPT7	['GO:0005524', 'GO:0016887', 'GO:0019829', 'GO:0046872']	False	False	False	False
+Rv1339		1.0	Output		Rv1339	886972.0	P9WGC1	RVBD_1339	hypothetical protein	Basal machinery	P9WGC1	['GO:0042781']	False	False	False	False
+mftR	1.0	1.0	Middle	1.0	mftR	888296.0	P9WMB7	RVBD_0691c	mycofactocin biosynthesis transcriptional regulator MftR	Global regulator	P9WMB7	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv2254c		1.0	Output		Rv2254c	887182.0	O53528	RVBD_2254c	integral membrane protein	Basal machinery	O53528	[]	False	False	False	False
+Rv1534		1.0	Output		Rv1534	886420.0	O08377	RVBD_1534	transcriptional regulator	Basal machinery	O08377	['GO:0003700', 'GO:0000976']	True	False	False	False
+nuoF		1.0	Output		nuoF	888854.0	P9WIV7	RVBD_3150	NADH-quinone oxidoreductase subunit F	Basal machinery	P9WIV7	['GO:0051539', 'GO:0010181', 'GO:0046872', 'GO:0051287', 'GO:0008137', 'GO:0048038']	False	False	False	False
+nuoG		1.0	Output		nuoG	887540.0	P9WIV9	RVBD_3151	NADH-quinone oxidoreductase subunit G	Basal machinery	P9WIV9	['GO:0051537', 'GO:0051539', 'GO:0046872', 'GO:0043546', 'GO:0008137', 'GO:0048038']	False	False	False	False
+lipP		1.0	Output		lipP	888572.0	O53190	RVBD_2463	esterase/lipase LipP	Basal machinery	O53190	[]	False	False	False	False
+fadE5		1.0	Output		fadE5	886698.0	O53666	RVBD_0244c	acyl-CoA dehydrogenase FadE5	Basal machinery	O53666	['GO:0004466', 'GO:0070991', 'GO:0016937']	False	False	False	False
+Rv0412c		1.0	Output		Rv0412c	886415.0	P96258	RVBD_0412c	membrane protein	Basal machinery	P96258	[]	False	False	False	False
+Rv0057		1.0	Output		Rv0057	887008.0	P9WM77	RVBD_0057	hypothetical protein	Basal machinery	P9WM77	[]	False	False	False	False
+espI		1.0	Output		espI	886206.0	P9WJC5	RVBD_3876	ESX-1 secretion-associated protein EspI	Basal machinery	P9WJC5	['GO:0005524', 'GO:0016887']	False	False	False	False
+Rv1230c		1.0	Output		Rv1230c	887134.0	O86313	RVBD_1230c	membrane protein	Basal machinery	O86313	['GO:0003677', 'GO:0003700', 'GO:0008933']	True	False	False	False
+lipL		1.0	Output		lipL	886575.0	P71778	RVBD_1497	esterase LipL	Basal machinery	P71778	['GO:0008126', 'GO:0008800', 'GO:0004806']	False	False	False	False
+mce1F		1.0	Output		mce1F	886820.0	L0T2W6	RVBD_0174	Mce family protein Mce1F	Basal machinery	L0T2W6	['GO:0120014']	False	False	False	False
+Rv2990c		1.0	Output		Rv2990c	887176.0	I6YEW1	RVBD_2990c	hypothetical protein	M5	I6YEW1	[]	False	False	False	False
+Rv2723		1.0	Output		Rv2723	887768.0	P9WG93	RVBD_2723	integral membrane protein	Basal machinery	P9WG93	[]	False	False	False	False
+Rv2722		1.0	Output		Rv2722	888399.0	O33227	RVBD_2722	hypothetical protein	Basal machinery	O33227	[]	False	False	False	False
+rpoC		1.0	Output		rpoC	888177.0	P9WGY7	RVBD_0668	DNA-directed RNA polymerase subunit beta'	Basal machinery	P9WGY7	['GO:0003677', 'GO:0003899', 'GO:0000287', 'GO:0008270']	False	False	False	False
+Rv1056		1.0	Output		Rv1056	887147.0	O53404	RVBD_1056	hypothetical protein	Basal machinery	O53404	[]	False	False	False	False
+Rv1954c		1.0	Output		Rv1954c	885967.0	P9WLQ3	RVBD_1954c	hypothetical protein	M1.2	P9WLQ3	[]	False	False	False	False
+fadD30		1.0	Output		fadD30	886409.0	P9WQ57	RVBD_0404	long-chain-fatty-acid--AMP ligase FadD30	Basal machinery	P9WQ57	['GO:0070566', 'GO:0005524', 'GO:0016874']	False	False	False	False
+Rv2000		1.0	Output		Rv2000	888864.0	P9WLN7	RVBD_2000	hypothetical protein	Basal machinery	P9WLN7	['GO:0050660', 'GO:0004497']	False	False	False	False
+nmtR	1.0	1.0	Middle	1.0	nmtR	885418.0	O69711	RVBD_3744	HTH-type transcriptional regulator NmtR	M16	O69711	['GO:0003677', 'GO:0003700', 'GO:0046872']	True	False	False	False
+Rv2640c		1.0	Output		Rv2640c	888594.0	I6Y1A7	RVBD_2640c	ArsR family transcriptional regulator	M1.26	I6Y1A7	['GO:0003700']	True	False	False	False
+lprK		1.0	Output		lprK	886804.0	O07417	RVBD_0173	Mce family lipoprotein LprK	Basal machinery	O07417	['GO:0120014']	False	False	False	False
+vapB6		1.0	Output		vapB6	888077.0	P9WJ57	RVBD_0657c	antitoxin VapB6	Basal machinery	P9WJ57	[]	False	False	False	False
+fba		1.0	Output		fba	886474.0	P9WQA3	RVBD_0363c	fructose-bisphosphate aldolase	Basal machinery	P9WQA3	['GO:0004332', 'GO:0008270', 'GO:0035375']	False	False	False	False
+fadD22		1.0	Output		fadD22	887295.0	P9WQ61	RVBD_2948c	p-hydroxybenzoyl--AMP ligase	Basal machinery	P9WQ61	['GO:0016878', 'GO:0016874', 'GO:0031177']	False	False	False	False
+yrbE4B		1.0	Output		yrbE4B	888336.0	I6Y3P5	RVBD_3500c	integral membrane protein	Basal machinery	I6Y3P5	['GO:0005548']	False	False	False	False
+Rv1503c		1.0	Output		Rv1503c					Intermodular		[]	False	False	False	False
+Rv1638A		1.0	Output		Rv1638A	3205103.0	L7N673	RVBD_1638A	hypothetical protein	Basal machinery	L7N673	[]	False	False	False	False
+Rv0245		1.0	Output		Rv0245	886680.0	O53667	RVBD_0245	oxidoreductase	Basal machinery	O53667	['GO:0010181', 'GO:0042602']	False	False	False	False
+Rv0961		1.0	Output		Rv0961	885173.0	P9WKM9	RVBD_0961	integral membrane protein	Basal machinery	P9WKM9	[]	False	False	False	False
+Rv0424c		1.0	Output		Rv0424c	886374.0	P96270	RVBD_0424c	hypothetical protein	Basal machinery	P96270	[]	False	False	False	False
+pca		1.0	Output		pca	887299.0	I6YEU0	RVBD_2967c	pyruvate carboxylase	Basal machinery	I6YEU0	['GO:0005524', 'GO:0004075', 'GO:0046872', 'GO:0004736']	False	False	False	False
+PPE35		1.0	Output		PPE35	885506.0	Q79FI8	RVBD_1918c	PPE family protein PPE35	Basal machinery	Q79FI8	[]	False	False	False	False
+lipX		1.0	Output		lipX	885930.0	Q79FR5	RVBD_1169c	lipase LipX	M1.14	Q79FR5	['GO:0008126', 'GO:0004806']	False	False	False	False
+fadE19		1.0	Output		fadE19	888541.0	I6Y0W5	RVBD_2500c	acyl-CoA dehydrogenase FadE19	Basal machinery	I6Y0W5	['GO:0003995', 'GO:0050660']	False	False	False	False
+secE2		1.0	Output		secE2	886449.0	Q6MX43	RVBD_0379	protein translocase subunit SecE	Basal machinery	Q6MX43	['GO:0046872']	False	False	False	False
+dnaN		1.0	Output		dnaN	887092.0	P9WNU1	RVBD_0002	DNA polymerase III subunit beta	Basal machinery	P9WNU1	['GO:0008408', 'GO:0003677', 'GO:0003887', 'GO:0042802']	False	False	False	False
+glgB		1.0	Output		glgB	886893.0	P9WN45	RVBD_1326c	1,4-alpha-glucan branching protein	Basal machinery	P9WN45	['GO:0003844', 'GO:0043169', 'GO:0004553']	False	False	False	False
+lppW		0.8673863589243946	Output		lppW	887421.0	P9WK67	RVBD_2905	alanine-rich lipoprotein LppW	M1.39	P9WK67	['GO:0008800']	False	False	False	False
+Rv3440c		1.0	Output		Rv3440c	887592.0	O06257	RVBD_3440c	hypothetical protein	Basal machinery	O06257	[]	False	False	False	False
+Rv3216		1.0	Output		Rv3216					Basal machinery		[]	False	False	False	False
+Rv2779c	1.0	0.9786631903049823	Middle	1.0	Rv2779c	888479.0	O33321	RVBD_2779c	Lrp/AsnC family transcriptional regulator	M1.3	O33321	['GO:0043565']	False	False	False	False
+PE22		0.7953368677416431	Output		PE22	887811.0	L7N6B5	RVBD_2107	PE family protein PE22	Intermodular	L7N6B5	[]	False	False	False	False
+gyrA		1.0	Output		gyrA	887105.0	P9WG47	RVBD_0006	DNA gyrase subunit A	Basal machinery	P9WG47	['GO:0005524', 'GO:0016887', 'GO:0003677', 'GO:0034335', 'GO:0003918', 'GO:0000287']	False	False	False	False
+eccA1		1.0	Output		eccA1	886199.0	P9WPH9	RVBD_3868	ESX-1 secretion system protein EccA1	Basal machinery	P9WPH9	['GO:0005524', 'GO:0016887']	False	False	False	False
+alkB		1.0	Output		alkB	888690.0	O05895	RVBD_3252c	transmembrane alkane 1-monooxygenase AlkB	Basal machinery	O05895	['GO:0080133']	False	False	False	False
+Rv1805c		1.0	Output		Rv1805c	885470.0	O53954	RVBD_1805c	hypothetical protein	Basal machinery	O53954	[]	False	False	False	False
+Rv1052		1.0	Output		Rv1052	888441.0	O53400	RVBD_1052	hypothetical protein	Basal machinery	O53400	[]	False	False	False	False
+Rv2887	1.0	1.0	Middle	1.0	Rv2887	888563.0	P9WME9	RVBD_2887	HTH-type transcriptional regulator	Global regulator	P9WME9	['GO:0003677', 'GO:0003700']	True	False	False	False
+moxR3	1.0	1.0	Middle	1.0	moxR3	887658.0	O53314	RVBD_3164c	methanol dehydrogenase transcriptional regulator MoxR	Basal machinery	O53314	['GO:0005524', 'GO:0016887']	False	False	False	False
+purU		1.0	Output		purU	887338.0	P9WHM3	RVBD_2964	formyltetrahydrofolate deformylase	Basal machinery	P9WHM3	['GO:0008864']	False	False	False	False
+moeW		1.0	Output		moeW	886018.0	P95234	RVBD_2338c	molybdopterin biosynthesis protein MoeW	M1.20	P95234	['GO:0061503', 'GO:0008641']	False	False	False	False
+PE_PGRS35		1.0	Output		PE_PGRS35	885921.0	P9WIF1	RVBD_1983	PE-PGRS family protein PE_PGRS35	Basal machinery	P9WIF1	['GO:0004190']	False	False	False	False
+Rv1565c		0.5819767068693432	Output		Rv1565c	886351.0	O06625	RVBD_1565c	hypothetical protein	Basal machinery	O06625	['GO:0016747']	False	False	False	False
+Rv0494	1.0	1.0	Middle	1.0	Rv0494	887166.0	P9WMG7	RVBD_0494	HTH-type transcriptional regulator	Global regulator	P9WMG7	['GO:0003677', 'GO:0003700']	True	False	False	False
+Rv2514c		1.0	Output		Rv2514c	887878.0	I6Y0Y0	RVBD_2514c	hypothetical protein	Basal machinery	I6Y0Y0	[]	False	False	False	False
+Rv1632c		1.0	Output		Rv1632c	885649.0	O06149	RVBD_1632c	hypothetical protein	Basal machinery	O06149	[]	False	False	False	False
+icl		1.0	Output		icl	886291.0	P9WKK7	icl1,RVBD_0467	isocitrate lyase	Basal machinery	P9WKK7	['GO:0004451', 'GO:0046872', 'GO:0046421', 'GO:0035375']	False	False	False	False
+Rv3094c		1.0	Output		Rv3094c	888661.0	O05773	RVBD_3094c	hypothetical protein	M8	O05773	['GO:0003995', 'GO:0050660']	False	False	False	False
+Rv0493c		1.0	Output		Rv0493c	887200.0	P9WKU7	RVBD_0493c	hypothetical protein	Basal machinery	P9WKU7	[]	False	False	False	False
+Rv3786c		1.0	Output		Rv3786c	886108.0	P9WKW9	RVBD_3786c	hypothetical protein	Basal machinery	P9WKW9	['GO:0004222']	False	False	False	False
+espR	1.0		Input		espR	886184.0	P9WJB7	RVBD_3849	ESX-1 transcriptional regulator EspR	Global regulator	P9WJB7	['GO:0003677', 'GO:0042802']	False	False	False	False
+Rv0397		1.0	Output		Rv0397	886421.0	P95205	RVBD_0397	hypothetical protein	Basal machinery	P95205	[]	False	False	False	False
+Rv1364c		1.0	Output		Rv1364c	886802.0	P9WLZ7	RVBD_1364c	sigma factor regulatory protein	Basal machinery	P9WLZ7	['GO:0004035', 'GO:0005524', 'GO:0042802', 'GO:0000287', 'GO:0030145', 'GO:0016791', 'GO:0004674', 'GO:0004722']	False	False	False	False
+PE_PGRS62		1.0	Output		PE_PGRS62	886143.0	L7N680	RVBD_3812	PE-PGRS family protein PE_PGRS62	Basal machinery	L7N680	[]	False	False	False	False
+celA2a		1.0	Output		celA2a		Q79FS6	RVBD_1089A		M1.13	Q79FS6	[]	False	False	False	False
+Rv1762c		1.0	Output		Rv1762c	885373.0	O06797	RVBD_1762c	hypothetical protein	Basal machinery	O06797	[]	False	False	False	False
+acpA		1.0	Output		acpA	887052.0	I6WX95	RVBD_0033	acyl carrier protein AcpA	Basal machinery	I6WX95	['GO:0000035', 'GO:0000036']	False	False	False	False
+rfbE		1.0	Output		rfbE	886113.0	P72047	RVBD_3781	O-antigen/lipopolysaccharide ABC transporter ATP-binding protein RfbE	Basal machinery	P72047	['GO:0140359', 'GO:0005524', 'GO:0016887']	False	False	False	False
+Rv1816	1.0	0.9637630218685556	Middle	1.0	Rv1816	885340.0	P9WMC9	RVBD_1816	HTH-type transcriptional regulator	Global regulator	P9WMC9	['GO:0003700', 'GO:0000976']	True	False	False	False
+ripB		1.0	Output		ripB	886535.0	P9WHU5	RVBD_1478	peptidoglycan endopeptidase RipB	Basal machinery	P9WHU5	['GO:0008234', 'GO:0008745']	False	False	False	False
+Rv2560		1.0	Output		Rv2560	887363.0	P9WLA1	RVBD_2560	proline/glycine-rich transmembrane protein	Basal machinery	P9WLA1	[]	False	False	False	False
+Rv2307D		1.0	Output		Rv2307D					Basal machinery		[]	False	False	False	False
+mce1D		1.0	Output		mce1D	886807.0	O07416	RVBD_0172	Mce family protein Mce1D	Basal machinery	O07416	['GO:0120014']	False	False	False	False
+pnp		1.0	Output		pnp	888467.0	P9WI57	RVBD_2783c,gpsI	bifunctional guanosine pentaphosphate synthetase/polyribonucleotide nucleotidyltransferase	Basal machinery	P9WI57	['GO:0000175', 'GO:0000287', 'GO:0004654', 'GO:0003723']	False	False	False	False
+Rv1490		1.0	Output		Rv1490	886511.0	P9WLX1	RVBD_1490	membrane protein	Basal machinery	P9WLX1	[]	False	False	False	False
+esxS		1.0	Output		esxS	888946.0	Q6MX18	RVBD_3020c	ESAT-6 like protein EsxS	Basal machinery	Q6MX18	[]	False	False	False	False
+fadE10		1.0	Output		fadE10	885636.0	P9WQF7	RVBD_0873	acyl-CoA dehydrogenase FadE10	Basal machinery	P9WQF7	['GO:0003995', 'GO:0050660']	False	False	False	False
+Rv1824		1.0	Output		Rv1824	885719.0	P9WLR7	RVBD_1824	hypothetical protein	Basal machinery	P9WLR7	[]	False	False	False	False
+Rv2237		1.0	Output		Rv2237	887840.0	P9WLH1	RVBD_2237	hypothetical protein	Basal machinery	P9WLH1	['GO:0016491']	False	False	False	False
+Rv2143		1.0	Output		Rv2143	887406.0	O06232	RVBD_2143	hypothetical protein	Basal machinery	O06232	[]	False	False	False	False
+recR		1.0	Output		recR	885307.0	P9WHI3	RVBD_3715c	recombination protein RecR	Basal machinery	P9WHI3	['GO:0003677', 'GO:0008270']	False	False	False	False
+PPE52		1.0	Output		PPE52	887930.0	I6X6H8	RVBD_3144c	PPE family protein PPE52	Basal machinery	I6X6H8	[]	False	False	False	False
+Rv1116		1.0	Output		Rv1116	885969.0	O06568	RVBD_1116	hypothetical protein	Intermodular	O06568	[]	False	False	False	False
+pks11		1.0	Output		pks11	885525.0	P9WPF3	RVBD_1665	chalcone synthase	Basal machinery	P9WPF3	['GO:0016747']	False	False	False	False
+Rv0320		1.0	Output		Rv0320	886553.0	O07246	RVBD_0320	hypothetical protein	Intermodular	O07246	[]	False	False	False	False
+Rv1404	1.0	1.0	Middle	1.0	Rv1404	886712.0	P71672	RVBD_1404	transcriptional regulator	Global regulator	P71672	['GO:0003700']	True	False	False	False
+PE_PGRS26		1.0	Output		PE_PGRS26	886626.0	Q79FP3	RVBD_1441c	PE-PGRS family protein PE_PGRS26	Basal machinery	Q79FP3	[]	False	False	False	False
+PE_PGRS9		1.0	Output		PE_PGRS9	888664.0	Q79FW8		PE-PGRS family protein PE_PGRS9	Basal machinery	Q79FW8	[]	False	False	False	False
+Rv1730c		1.0	Output		Rv1730c	885202.0	P71988	RVBD_1730c	penicillin-binding protein	Basal machinery	P71988	['GO:0016787']	False	False	False	False
+gabD2		1.0	Output		gabD2	885204.0	P9WNX7	RVBD_1731	succinate-semialdehyde dehydrogenase	Basal machinery	P9WNX7	['GO:0036243', 'GO:0009013']	False	False	False	False
+Rv1375		1.0	Output		Rv1375	886778.0	P9WF27	RVBD_1375	hypothetical protein	Basal machinery	P9WF27	[]	False	False	False	False
+Rv2956		1.0	Output		Rv2956	887486.0	I6Y242	RVBD_2956	hypothetical protein	Basal machinery	I6Y242	['GO:0008171']	False	False	False	False
+vapC20		1.0	Output		vapC20	887193.0	P95004	RVBD_2549c	ribonuclease VapC20	M1.27	P95004	['GO:0000287', 'GO:0004521']	False	False	False	False
+vapB20		1.0	Output		vapB20	887353.0	P9WJ45	RVBD_2550c	antitoxin VapB20	M1.27	P9WJ45	['GO:0003677', 'GO:0097351']	False	False	False	False
+PE15		0.9005908608294612	Output		PE15	886757.0	P9WIH1	RVBD_1386	PE family protein PE15	M5	P9WIH1	[]	False	False	False	False
+Rv1186c	1.0	1.0	Middle	1.0	Rv1186c	886057.0	O50442	RVBD_1186c	hypothetical protein	M24	O50442	['GO:0003700']	True	False	False	False
+rocA		1.0	Output		rocA	886058.0	O50443	RVBD_1187	pyrroline-5-carboxylate dehydrogenase RocA	M24	O50443	['GO:0003842', 'GO:0046872', 'GO:0000166', 'GO:0004657']	False	False	False	False
+Rv0818	1.0		Input		Rv0818	885144.0	O53830	RVBD_0818	transcriptional regulator	Global regulator	O53830	['GO:0000156', 'GO:0000976']	False	False	False	True
+Rv3386		1.0	Output		Rv3386	888044.0	O50413	RVBD_3386	transposase	Basal machinery	O50413	[]	False	False	False	False
+PE19		1.0	Output		PE19	885445.0	Q79FK4	RVBD_1791	PE family protein PE19	Basal machinery	Q79FK4	[]	False	False	False	False
+Rv0501		1.0	Output		Rv0501	887228.0	P9WKT3	RVBD_0501,galE2	UDP-glucose 4-epimerase GalE	Basal machinery	P9WKT3	[]	False	False	False	False
+vapB46		1.0	Output		vapB46	887429.0	P9WF13	RVBD_3385c	antitoxin VapB46	Basal machinery	P9WF13	['GO:0097351']	False	False	False	False
+glbN		1.0	Output		glbN	886402.0	P9WN25	RVBD_1542c	hemoglobin GlbN	Basal machinery	P9WN25	['GO:0020037', 'GO:0046872', 'GO:0008941', 'GO:0019825', 'GO:0005344', 'GO:0008379']	False	False	False	False
+vapC46		1.0	Output		vapC46	887432.0	O50411	RVBD_3384c	ribonuclease VapC46	Basal machinery	O50411	['GO:0000287', 'GO:0004540']	False	False	False	False
+Rv1322A		1.0	Output		Rv1322A	3205097.0	L7N6B1	RVBD_1322A	hypothetical protein	Basal machinery	L7N6B1	['GO:0004493']	False	False	False	False
+desA3		1.0	Output		desA3	888821.0	P9WNZ3	RVBD_3229c	stearoyl-CoA 9-desaturase	M28	P9WNZ3	['GO:0016213', 'GO:0046872', 'GO:0016717']	False	False	False	False
+blaI	1.0		Input		blaI	885747.0	P9WMJ5	RVBD_1846c	transcriptional repressor BlaI	M1.1	P9WMJ5	['GO:0003677']	False	False	False	False
+ctaB		1.0	Output		ctaB	886666.0	P9WFR7	RVBD_1451	protoheme IX farnesyltransferase	M1.1	P9WFR7	['GO:0008495']	False	False	False	False
+hemL		1.0	Output		hemL	887349.0	P9WMN9	RVBD_0524	glutamate-1-semialdehyde 2,1-aminomutase	M1.1	P9WMN9	['GO:0042286', 'GO:0030170', 'GO:0008483']	False	False	False	False
+Rv0441c		1.0	Output		Rv0441c	886344.0	P9WKW3	RVBD_0441c	hypothetical protein	Basal machinery	P9WKW3	[]	False	False	False	False
+mftB		1.0	Output		mftB	888285.0	P95038	RVBD_0692	mycofactocin system protein MftB	Basal machinery	P95038	[]	False	False	False	False
+metG		1.0	Output		metG	886050.0	P9WFU5	metS,RVBD_1007c	methionine--tRNA ligase	Basal machinery	P9WFU5	['GO:0005524', 'GO:0004825']	False	False	False	False
+arcA		1.0	Output		arcA	888313.0	P9WQ05	RVBD_1001	arginine deiminase	Basal machinery	P9WQ05	['GO:0016990']	False	False	False	False
+Rv3249c	0.9559975480915099		Input		Rv3249c	888741.0	O05892	RVBD_3249c	TetR family transcriptional regulator	Global regulator	O05892	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv0634c		1.0	Output		Rv0634c	888016.0	I6Y4A5	RVBD_0634c	glyoxalase II	Basal machinery	I6Y4A5	['GO:0016787', 'GO:0046872']	False	False	False	False
+ppe36		1.0	Output		ppe36	887814.0	P9WI01	p27,PPE36,RVBD_2108	PPE family protein PPE36	Basal machinery	P9WI01	[]	False	False	False	False
+lppZ		1.0	Output		lppZ	887308.0	I6Y293	RVBD_3006	lipoprotein LppZ	Basal machinery	I6Y293	[]	False	False	False	False
+fdxB		1.0	Output		fdxB	887221.0	P71846	RVBD_3554	electron transfer protein FdxB	Basal machinery	P71846	['GO:0051537', 'GO:0046872', 'GO:0016491']	False	False	False	False
+choD		1.0	Output		choD	887502.0	P9WMV9	RVBD_3409c	cholesterol oxidase	Basal machinery	P9WMV9	['GO:0016995', 'GO:0050660', 'GO:0004769']	False	False	False	False
+bioF2		0.8122946959307185	Output		bioF2	887050.0	P9WQ85	RVBD_0032	8-amino-7-oxononanoate synthase	M1.1	P9WQ85	['GO:0008710', 'GO:0030170']	False	False	False	False
+Rv2574		1.0	Output		Rv2574	887232.0	P9WL87	RVBD_2574	hypothetical protein	Basal machinery	P9WL87	[]	False	False	False	False
+Rv1065		0.9721794010817103	Output		Rv1065	887125.0	O53413	RVBD_1065	hypothetical protein	Basal machinery	O53413	['GO:0008198', 'GO:0016702']	False	False	False	False
+Rv0963c		1.0	Output		Rv0963c	885184.0	P9WKM7	RVBD_0963c	hypothetical protein	Basal machinery	P9WKM7	[]	False	False	False	False
+Rv1987		1.0	Output		Rv1987	885815.0	P9WLQ1	RVBD_1987	chitinase	Basal machinery	P9WLQ1	['GO:0030248', 'GO:0004553']	False	False	False	False
+Rv3142c		0.8327906827477373	Output		Rv3142c	887521.0	P95184	RVBD_3142c	hypothetical protein	M1.7	P95184	[]	False	False	False	False
+Rv0078	1.0	1.0	Middle	1.0	Rv0078	886990.0	O53623	RVBD_0078	transcriptional regulator	M20	O53623	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv0077c		1.0	Output		Rv0077c	886969.0	O53622	RVBD_0077c	oxidoreductase	M20	O53622	[]	False	False	False	False
+Rv0318c		1.0	Output		Rv0318c	886576.0	Q6MX47	RVBD_0318c	integral membrane protein	Basal machinery	Q6MX47	['GO:0005385']	False	False	False	False
+recO		1.0	Output		recO	888954.0	P9WHI5	RVBD_2362c	DNA repair protein RecO	Basal machinery	P9WHI5	[]	False	False	False	False
+amiA2		1.0	Output		amiA2	888955.0	P9WQ99	RVBD_2363	amidase	Basal machinery	P9WQ99	['GO:0004040']	False	False	False	False
+Rv2011c	1.0	1.0	Middle	1.0	Rv2011c	888922.0	P9WLM5	RVBD_2011c	hypothetical protein	Global regulator	P9WLM5	['GO:0003700']	True	False	False	False
+Rv2525c		0.8784999410137859	Output		Rv2525c	888612.0	I6XEI5	RVBD_2525c	hypothetical protein	Basal machinery	I6XEI5	['GO:0003796']	False	False	False	False
+Rv3437		1.0	Output		Rv3437	887567.0	I6YG51	RVBD_3437	transmembrane protein	Basal machinery	I6YG51	[]	False	False	False	False
+Rv3099c		1.0	Output		Rv3099c	888674.0	O05777	RVBD_3099c	hypothetical protein	Basal machinery	O05777	['GO:0046872']	False	False	False	False
+glmS		1.0	Output		glmS	887568.0	P9WN49	RVBD_3436c	glucosamine--fructose-6-phosphate aminotransferase	Basal machinery	P9WN49	['GO:0097367', 'GO:0004360']	False	False	False	False
+Rv0774c		1.0	Output		Rv0774c	888895.0	I6Y8R4	RVBD_0774c	hypothetical protein	Basal machinery	I6Y8R4	['GO:0016747', 'GO:0004144', 'GO:0050348']	False	False	False	False
+rpfC		1.0	Output		rpfC	885759.0	O07747	RVBD_1884c	resuscitation-promoting factor RpfC	Basal machinery	O07747	['GO:0016787']	False	False	False	False
+pgsA3		1.0	Output		pgsA3	888375.0	P9WPG3	pgsA-2,RVBD_2746c	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	Basal machinery	P9WPG3	['GO:0008444']	False	False	False	False
+mprA		1.0	Output		mprA	885038.0	P9WGM9	RVBD_0981	two-component response regulator MrpA	M10	P9WGM9	['GO:0003677', 'GO:0000156', 'GO:0000976']	False	False	False	True
+lppE		1.0	Output		lppE	885762.0	O07750	RVBD_1881c	lipoprotein LppE	Basal machinery	O07750	[]	False	False	False	False
+Rv0472c	1.0	1.0	Middle		Rv0472c	886308.0	P9WMD9	RVBD_0472c	HTH-type transcriptional regulator	M1.18	P9WMD9	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv3035		1.0	Output		Rv3035	887842.0	I6XFZ8	RVBD_3035	hypothetical protein	Basal machinery	I6XFZ8	[]	False	False	False	False
+argA		1.0	Output		argA	888407.0	O33289	RVBD_2747	L-glutamate alpha-N-acetyltranferase	Basal machinery	O33289	['GO:0004042', 'GO:0008080', 'GO:0042803']	False	False	False	False
+Rv2012		1.0	Output		Rv2012	888927.0	P9WLM3	RVBD_2012	hypothetical protein	Basal machinery	P9WLM3	[]	False	False	False	False
+Rv0473		1.0	Output		Rv0473	886279.0	I6Y3V3	RVBD_0473	transmembrane protein	Basal machinery	I6Y3V3	[]	False	False	False	False
+PE34		1.0	Output		PE34	885764.0	Q79FA1	RVBD_3746c	PE family protein PE34	M1.2	Q79FA1	[]	False	False	False	False
+nat		1.0	Output		nat	888005.0	P9WJI5	RVBD_3566c	arylamine N-acetyltransferase	Basal machinery	P9WJI5	['GO:0004060']	False	False	False	False
+Rv3076		1.0	Output		Rv3076	888026.0	I6X666	RVBD_3076	hypothetical protein	Basal machinery	I6X666	[]	False	False	False	False
+Rv3075c		1.0	Output		Rv3075c	887178.0	I6YF40	RVBD_3075c	hypothetical protein	Basal machinery	I6YF40	['GO:0003824', 'GO:0000287']	False	False	False	False
+Rv1194c		1.0	Output		Rv1194c	886040.0	O05296	RVBD_1194c	hypothetical protein	Basal machinery	O05296	['GO:0003700']	True	False	False	False
+Rv0158		1.0	Output		Rv0158	886828.0	O53641	RVBD_0158	transcriptional regulator	M1.32	O53641	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv1556	1.0	1.0	Middle	1.0	Rv1556	886367.0	P9WMD1	RVBD_1556	HTH-type transcriptional regulator	M1.29	P9WMD1	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv3050c	1.0		Input		Rv3050c	888866.0	I6XG13	RVBD_3050c	AsnC family transcriptional regulator	M1.40	I6XG13	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv0885		1.0	Output		Rv0885	885285.0	P9WKQ5	RVBD_0885	hypothetical protein	M1.40	P9WKQ5	['GO:0016491']	False	False	False	False
+Rv3736	1.0	1.0	Middle	1.0	Rv3736	885389.0	O69703	RVBD_3736	AraC/XylS family transcriptional regulator	Global regulator	O69703	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv3856c		1.0	Output		Rv3856c	886193.0	P96221	RVBD_3856c	hypothetical protein	Basal machinery	P96221	['GO:0042578', 'GO:0008270']	False	False	False	False
+Rv1869c		1.0	Output		Rv1869c	885796.0	P95146	RVBD_1869c	reductase	Basal machinery	P95146	['GO:0016651']	False	False	False	False
+Rv1395	1.0	1.0	Middle	1.0	Rv1395	886251.0	P9WMJ1	RVBD_1395	HTH-type transcriptional regulator	M1.9	P9WMJ1	['GO:0003677', 'GO:0003700', 'GO:0000976']	True	False	False	False
+fdxC		1.0	Output		fdxC	885869.0	O50433	RVBD_1177	ferredoxin FdxC	Intermodular	O50433	['GO:0051538', 'GO:0051539', 'GO:0009055', 'GO:0046872']	False	False	False	False
+desA2		1.0	Output		desA2	885339.0	P9WNZ5	RVBD_1094	acyl-ACP desaturase DesA	M1.18	P9WNZ5	['GO:0046872', 'GO:0045300']	False	False	False	False
+desA1		1.0	Output		desA1	885444.0	P9WNZ7	RVBD_0824c,des	acyl-ACP desaturase DesA	M1.18	P9WNZ7	['GO:0046872', 'GO:0045300']	False	False	False	False
+vapB30	1.0	1.0	Middle	1.0	vapB30	887970.0	P9WJ35	RVBD_0623	antitoxin VapB30	Basal machinery	P9WJ35	[]	False	False	False	False
+lrpA	1.0		Input		lrpA	888728.0	I6YBQ3	RVBD_3291c	transcriptional regulator LrpA	M1.3	I6YBQ3	['GO:0043565']	False	False	False	False
+Rv3095	1.0	1.0	Middle	1.0	Rv3095	888679.0	P9WMG3	RVBD_3095	HTH-type transcriptional regulator	M8	P9WMG3	['GO:0003677', 'GO:0003700']	True	False	False	False
+echA14		0.9030390499042823	Output		echA14	887894.0	P9WNN5	RVBD_2486	enoyl-CoA hydratase EchA14	Basal machinery	P9WNN5	['GO:0004300']	False	False	False	False
+Rv2827c	1.0	1.0	Middle	1.0	Rv2827c	887707.0	P71625	RVBD_2827c	hypothetical protein	M7	P71625	[]	False	False	False	False
+Rv3405c	1.0	1.0	Middle	1.0	Rv3405c	887940.0	P9WMC3	RVBD_3405c	HTH-type transcriptional regulator	M1.6	P9WMC3	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv0275c	1.0	1.0	Middle	1.0	Rv0275c	886629.0	L7N6A2	RVBD_0275c	transcriptional regulator	M3	L7N6A2	['GO:0003677', 'GO:0003700']	True	False	False	False
+Rv0276		1.0	Output		Rv0276	886627.0	O53682	RVBD_0276	hypothetical protein	M3	O53682	['GO:0016491']	False	False	False	False
+zur	1.0		Input		zur	886009.0	P9WN85	fur-2,furB,RVBD_2359	zinc uptake regulation protein	M5	P9WN85	['GO:0003700', 'GO:0001217', 'GO:0042803', 'GO:0000976', 'GO:0008270']	True	False	False	False
+ppe3		1.0	Output		ppe3	886619.0	P9WI45	PPE3,RVBD_0280	PPE family protein PPE3	M5	P9WI45	[]	False	False	False	False
+Rv2059		1.0	Output		Rv2059	888402.0	O07257	RVBD_2059	hypothetical protein	M5	O07257	['GO:0046872']	False	False	False	False
+Rv0339c	1.0	1.0	Middle	1.0	Rv0339c	886516.0	O33269	RVBD_0339c	transcriptional regulator	M1.11	O33269	['GO:0003677']	False	False	False	False
+panB		1.0	Output		panB	887440.0	P9WIL7	RVBD_2225	3-methyl-2-oxobutanoate hydroxymethyltransferase	M1.11	P9WIL7	['GO:0003864', 'GO:0000287']	False	False	False	False
+iniB		1.0	Output		iniB	886518.0	P9WJ97	RVBD_0341	isoniazid inducible protein IniB	M1.11	P9WJ97	[]	False	False	False	False
+ctpB		1.0	Output		ctpB	886928.0	P9WPT9	RVBD_0103c	cation-transporter P-type ATPase B	M1.1	P9WPT9	['GO:0005524', 'GO:0016887', 'GO:0005507', 'GO:0043682']	False	False	False	False
+ppe1		1.0	Output		ppe1	886938.0	P9WI49	PPE1,RVBD_0096	PPE family protein PPE1	M1.1	P9WI49	[]	False	False	False	False
+Rv2250c	1.0	1.0	Middle	1.0	Rv2250c	888018.0	P9WMC5	RVBD_2250c	HTH-type transcriptional regulator	Global regulator	P9WMC5	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv0138		1.0	Output		Rv0138	886863.0	P96815	RVBD_0138	hypothetical protein	Basal machinery	P96815	[]	False	False	False	False
+dacB1		1.0	Output		dacB1	887607.0	O53380	RVBD_3330	penicillin-binding protein DacB	Basal machinery	O53380	['GO:0009002']	False	False	False	False
+leuA		1.0	Output		leuA	885092.0	P9WQB3	RVBD_3710	2-isopropylmalate synthase	Basal machinery	P9WQB3	['GO:0003852', 'GO:0003985', 'GO:0000287', 'GO:0030145', 'GO:0030955', 'GO:0008270']	False	False	False	False
+Rv0196		1.0	Output		Rv0196	886760.0	P9WME1	RVBD_0196	HTH-type transcriptional regulator	Basal machinery	P9WME1	['GO:0003677']	False	False	False	False
+Rv0877		1.0	Output		Rv0877	885601.0	P9WKR3	RVBD_0877	hypothetical protein	Basal machinery	P9WKR3	[]	False	False	False	False
+vapC11		1.0	Output		vapC11	886361.0	P9WFA5	RVBD_1561	ribonuclease VapC11	Basal machinery	P9WFA5	['GO:0000287', 'GO:0004540']	False	False	False	False
+Rv0205		1.0	Output		Rv0205	886766.0	P9WFM5	RVBD_0205	transmembrane protein	Basal machinery	P9WFM5	[]	False	False	False	False
+Rv2390c		0.9082645032311861	Output		Rv2390c	885866.0	P71754	RVBD_2390c	hypothetical protein	Basal machinery	P71754	[]	False	False	False	False
+Rv2749		1.0	Output		Rv2749	888390.0	O33291	RVBD_2749	hypothetical protein	Basal machinery	O33291	['GO:0003824']	False	False	False	False
+recA		1.0	Output		recA	888371.0	P9WHJ3	RVBD_2737c	recombinase A	Basal machinery	P9WHJ3	['GO:0005524', 'GO:0016887', 'GO:0008094', 'GO:0140664', 'GO:0003684', 'GO:0004520', 'GO:0000150', 'GO:0000287', 'GO:0030145', 'GO:0003697']	False	False	False	False
+Rv1747		1.0	Output		Rv1747	885311.0	O65934	RVBD_1747	ABC transporter ATP-binding protein/permease	Basal machinery	O65934	['GO:0140359', 'GO:0005524', 'GO:0016887', 'GO:0042626']	False	False	False	False
+Rv0367c		1.0	Output		Rv0367c	886468.0	O53702	RVBD_0367c	hypothetical protein	Basal machinery	O53702	[]	False	False	False	False
+Rv3023c		1.0	Output									[]	False	False	False	False
+msrA		1.0	Output		msrA	886865.0	P9WJM5	RVBD_0137c	peptide methionine sulfoxide reductase MsrA	Basal machinery	P9WJM5	['GO:0036456', 'GO:0033744', 'GO:0008113']	False	False	False	False
+Rv3267		1.0	Output		Rv3267	888713.0	P96872	RVBD_3267	hypothetical protein	Basal machinery	P96872	[]	False	False	False	False
+dnaQ		1.0	Output		dnaQ	885088.0	O69678	RVBD_3711c	DNA polymerase III subunit epsilon	Basal machinery	O69678	['GO:0008408', 'GO:0003676']	False	False	False	False
+aac		1.0	Output		aac	886648.0	P9WQG9	RVBD_0262c	aminoglycoside 2'-N-acetyltransferase	Basal machinery	P9WQG9	['GO:0047921', 'GO:0034069']	False	False	False	False
+PE36		1.0	Output		PE36	886213.0	L7N660	RVBD_3893c	PE family protein PE36	Basal machinery	L7N660	[]	False	False	False	False
+Rv2250A		1.0	Output		Rv2250A					Basal machinery		[]	False	False	False	False
+Rv0537c		0.9493509325981194	Output		Rv0537c	887465.0	O06403	RVBD_0537c	integral membrane protein	Basal machinery	O06403	[]	False	False	False	False
+pepQ		1.0	Output		pepQ	888409.0	I6YDN6	RVBD_2535c	cytoplasmic peptidase PepQ	Basal machinery	I6YDN6	['GO:0070006', 'GO:0046914']	False	False	False	False
+Rv2666		1.0	Output		Rv2666		P71963	RVBD_2666		Basal machinery	P71963	['GO:0003677', 'GO:0004803']	False	False	False	False
+mmpL13a		1.0	Output		mmpL13a	885798.0	O06545	RVBD_1145	transmembrane transport protein	Basal machinery	O06545	[]	False	False	False	False
+Rv1719	1.0		Input		Rv1719	885170.0	P71977	RVBD_1719	transcriptional regulator	Global regulator	P71977	['GO:0003677', 'GO:0003700']	True	False	False	False
+Rv3067		1.0	Output		Rv3067	888822.0	I6YB21	RVBD_3067,LH57_16745	hypothetical protein	Basal machinery	I6YB21	[]	False	False	False	False
+Rv3725		1.0	Output		Rv3725	885887.0	O69692	RVBD_3725	oxidoreductase	Basal machinery	O69692	['GO:0050577']	False	False	False	False
+def		1.0	Output		def	886366.0	P9WIJ3	RVBD_0429c	polypeptide deformylase	Basal machinery	P9WIJ3	['GO:0046872', 'GO:0042586']	False	False	False	False
+Rv0195	1.0		Input		Rv0195	886762.0	O53646	RVBD_0195	two component transcriptional regulator	M1.25	O53646	['GO:0003677', 'GO:0003700']	True	False	False	False
+Rv2700		1.0	Output		Rv2700	887405.0	I6Y1I5	RVBD_2700	alanine-rich protein	Intermodular	I6Y1I5	[]	False	False	False	False
+Rv0191		1.0	Output		Rv0191	886770.0	P9WJX7	RVBD_0191	MFS-type transporter	M1.25	P9WJX7	['GO:0022857']	False	False	False	False
+Rv0194		1.0	Output		Rv0194	886790.0	O53645	RVBD_0194	multidrug ABC transporter ATPase/permease	M1.25	O53645	['GO:0140359', 'GO:0005524', 'GO:0016887', 'GO:0034040', 'GO:0015562']	False	False	False	False
+Rv0076c		1.0	Output		Rv0076c	886992.0	O53621	RVBD_0076c	membrane protein	M1.25	O53621	[]	False	False	False	False
+mmpR5	0.9895334856705937	1.0	Middle	1.0	mmpR5	888235.0	I6Y8F7	RVBD_0678	hypothetical protein	Global regulator	I6Y8F7	['GO:0003677']	False	False	False	False
+Rv0161		1.0	Output		Rv0161	886835.0	O07406	RVBD_0161	oxidoreductase	Basal machinery	O07406	['GO:0003824', 'GO:0071949']	False	False	False	False
+ndhA		1.0	Output		ndhA	886430.0	P95200	RVBD_0392c	NADH dehydrogenase NdhA	Basal machinery	P95200	['GO:0003955', 'GO:0050136', 'GO:0016491']	False	False	False	False
+purT		1.0	Output		purT	886032.0	P95197	RVBD_0389	phosphoribosylglycinamide formyltransferase PurT	Basal machinery	P95197	['GO:0005524', 'GO:0000287', 'GO:0004644']	False	False	False	False
+Rv1945		1.0	Output		Rv1945	885980.0	P9WLQ5	RVBD_1945	hypothetical protein	Basal machinery	P9WLQ5	['GO:0004519', 'GO:0003676', 'GO:0008270']	False	False	False	False
+Rv0044c		1.0	Output		Rv0044c	887030.0	P71701	RVBD_0044c	oxidoreductase	Basal machinery	P71701	['GO:0008726']	False	False	False	False
+Rv0485		1.0	Output		Rv0485	887170.0	P9WKV1	RVBD_0485	transcriptional regulator	M1.17	P9WKV1	['GO:0003677']	False	False	False	False
+PPE9		1.0	Output		PPE9		L0T6B3			Basal machinery	L0T6B3	[]	False	False	False	False
+Rv0849		1.0	Output		Rv0849	885111.0	P9WJX5	RVBD_0849	MFS-type transporter	Basal machinery	P9WJX5	['GO:0022857']	False	False	False	False
+hmp		1.0	Output		hmp	887315.0	P9WJ93	RVBD_3571,kshB	3-ketosteroid-9-alpha-hydroxylase reductase subunit	M17	P9WJ93	['GO:0051537', 'GO:0036200', 'GO:0071949', 'GO:0050660', 'GO:0047086', 'GO:0046872', 'GO:0016491']	False	False	False	False
+Rv3706c		0.8606897334804138	Output		Rv3706c	885222.0	I6X849	RVBD_3706c	proline-rich protein	M1.11	I6X849	[]	False	False	False	False
+Rv1760		1.0	Output		Rv1760	885556.0	P9WKB9	RVBD_1760	diacylglycerol acyltransferase	Basal machinery	P9WKB9	['GO:0004144', 'GO:0008374']	False	False	False	False
+Rv0183		1.0	Output		Rv0183	886785.0	O07427	RVBD_0183	lysophospholipase	Basal machinery	O07427	['GO:0016298', 'GO:0047372']	False	False	False	False
+mmpS5		1.0	Output		mmpS5	888233.0	P9WJS7	RVBD_0677c	membrane protein MmpS5	Basal machinery	P9WJS7	[]	False	False	False	False
+mmpS2		1.0	Output		mmpS2	887279.0	P9WJT3	RVBD_0506	membrane protein MmpS2	Basal machinery	P9WJT3	[]	False	False	False	False
+Rv1128c		1.0	Output		Rv1128c	885849.0	P9WM57	RVBD_1128c	hypothetical protein	Basal machinery	P9WM57	[]	False	False	False	False
+Rv0078A		0.8633124336405091	Output		Rv0078A	3205053.0	L7N686	RVBD_0078A	hypothetical protein	Basal machinery	L7N686	[]	False	False	False	False
+fas		0.8633124336405091	Output		fas	887704.0	P95029	RVBD_2524c	fatty acid synthase	Basal machinery	P95029	['GO:0004318', 'GO:0004312', 'GO:0016787', 'GO:0042802']	False	False	False	False
+Rv2952		0.8633124336405091	Output		Rv2952	887311.0	P9WIN3	RVBD_2952	phthiotriol/phenolphthiotriol dimycocerosates methyltransferase	Basal machinery	P9WIN3	['GO:0008168', 'GO:0008171', 'GO:0008757']	False	False	False	False
+glmU		0.8633124336405091	Output		glmU	886069.0	P9WMN3	RVBD_1018c	bifunctional UDP-N-acetylglucosamine pyrophosphorylase/glucosamine-1-phosphate N-acetyltransferase	Basal machinery	P9WMN3	['GO:0019134', 'GO:0000287', 'GO:0003977', 'GO:0070569']	False	False	False	False
+Rv0996		0.8633124336405091	Output		Rv0996	885393.0	O05579	RVBD_0996	transmembrane protein	Basal machinery	O05579	[]	False	False	False	False
+Rv1158c		0.7888315329220582	Output		Rv1158c	888930.0	O06556	RVBD_1158c	hypothetical protein	M1.7	O06556	[]	False	False	False	False
+mec		0.8633124336405091	Output		mec	886875.0	P9WHS1	RVBD_1334,mec+	CysO-cysteine peptidase	Basal machinery	P9WHS1	['GO:0008235', 'GO:0008270']	False	False	False	False
+Rv3237c		0.8633124336405091	Output		Rv3237c	888803.0	O05882	RVBD_3237c	hypothetical protein	Basal machinery	O05882	['GO:0008324']	False	False	False	False
+fadD2		0.8633124336405091	Output		fadD2	886637.0	P95227	RVBD_0270	fatty-acid--CoA ligase FadD2	Basal machinery	P95227	['GO:0016878', 'GO:0016405']	False	False	False	False
+cyp135B1		0.8784999410137859	Output		cyp135B1	887654.0	P9WPM9	RVBD_0568	cytochrome P450 Cyp135B1	Basal machinery	P9WPM9	['GO:0020037', 'GO:0005506', 'GO:0004497', 'GO:0016491', 'GO:0016705']	False	False	False	False
+Rv1812c		0.8054959460707382	Output		Rv1812c	885487.0	P9WJJ1	RVBD_1812c	dehydrogenase	Basal machinery	P9WJJ1	['GO:0016491']	False	False	False	False
+vapB17		0.8894534081974987	Output		vapB17	888254.0	P9WJ49	RVBD_2526	antitoxin VapB17	Basal machinery	P9WJ49	[]	False	False	False	False
+Rv3762c		0.8633124336405091	Output		Rv3762c	886096.0	O69728	RVBD_3762c	hydrolase	Basal machinery	O69728	['GO:0018741', 'GO:0046872', 'GO:0046983']	False	False	False	False
+Rv1728c		0.8633124336405091	Output		Rv1728c	885193.0	P71986	RVBD_1728c	hypothetical protein	Basal machinery	P71986	[]	False	False	False	False
+pks16		0.875635084222186	Output		pks16	886035.0	O05598	RVBD_1013	polyketide synthase	Basal machinery	O05598	['GO:0070566', 'GO:0016874']	False	False	False	False
+Rv0426c		0.8633124336405091	Output		Rv0426c	886387.0	P96272	RVBD_0426c	transmembrane protein	Basal machinery	P96272	[]	False	False	False	False
+mtcA2		0.8633124336405091	Output		mtcA2	887836.0	P9WPJ9	cynT,RVBD_3588c,canB	carbonic anhydrase	Basal machinery	P9WPJ9	['GO:0004089', 'GO:0008270']	False	False	False	False
+Rv0269c		0.8633124336405091	Output		Rv0269c	886640.0	P95226	RVBD_0269c	hypothetical protein	Basal machinery	P95226	['GO:0003910', 'GO:0003887']	False	False	False	False
+pntAa		0.8633124336405091	Output		pntAa	886832.0	P96832	RVBD_0155	NAD(P) transhydrogenase subunit alpha PntAa	Basal machinery	P96832	['GO:0050661']	False	False	False	False
+topA		0.8633124336405091	Output		topA	885608.0	P9WG49	RVBD_3646c	DNA topoisomerase I	Intermodular	P9WG49	['GO:0003677', 'GO:0003917', 'GO:0000287', 'GO:0008428']	False	False	False	False
+vapB15	1.0		Input		vapB15	888925.0	P9WLM7	RVBD_2009	antitoxin VapB15	M1.33	P9WLM7	['GO:0046872']	False	False	False	False
+vapC15		1.0	Output		vapC15	888933.0	P9WF97	RVBD_2010	ribonuclease VapC15	M1.33	P9WF97	['GO:0000287', 'GO:0004540']	False	False	False	False
+higA3	1.0		Input		higA3	888059.0	O53333	RVBD_3183	transcriptional regulator	M6	O53333	['GO:0003677']	False	False	False	False
+higB3		1.0	Output		higB3	888795.0	O53332	RVBD_3182	hypothetical protein	M6	O53332	[]	False	False	False	False
+higA1	1.0		Input		higA1	885964.0	P9WJA7	RVBD_1956,higA	antitoxin HigA	Global regulator	P9WJA7	['GO:0003677', 'GO:0097351']	False	False	False	False
+Rv2219A		1.0	Output		Rv2219A	3205099.0	Q79FG7	RVBD_2219A	membrane protein	Basal machinery	Q79FG7	[]	False	False	False	False
+Rv1219c	1.0	1.0	Middle	1.0	Rv1219c	888582.0	O86312	RVBD_1219c	transcriptional regulator	Global regulator	O86312	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv1249c		1.0	Output		Rv1249c	887077.0	O50464	RVBD_1249c	membrane protein	Basal machinery	O50464	[]	False	False	False	False
+ffh		1.0	Output		ffh	888242.0	P9WGD7	RVBD_2916c	signal recognition particle protein	Basal machinery	P9WGD7	['GO:0008312', 'GO:0016887', 'GO:0005525', 'GO:0003924']	False	False	False	False
+Rv3714c		1.0	Output		Rv3714c	885456.0	O69681	RVBD_3714c	hypothetical protein	Basal machinery	O69681	[]	False	False	False	False
+Rv1250		1.0	Output		Rv1250	887073.0	P9WG87	RVBD_1250	MFS drug transporter	Basal machinery	P9WG87	['GO:0022857']	False	False	False	False
+clpB		1.0	Output		clpB	886440.0	P9WPD1	RVBD_0384c	chaperone protein ClpB	M27	P9WPD1	['GO:0005524', 'GO:0016887']	False	False	False	False
+Rv1922		0.9240263988971791	Output		Rv1922	885918.0	P95291	RVBD_1922	lipoprotein	Basal machinery	P95291	[]	False	False	False	False
+uvrD1		0.9240263988971791	Output		uvrD1	885442.0	P9WMQ1	ivrd,pcrA,RVBD_0949	ATP-dependent DNA helicase UvrD	Basal machinery	P9WMQ1	['GO:0043138', 'GO:0005524', 'GO:0016887', 'GO:0008094', 'GO:0032564', 'GO:0003677', 'GO:0000287']	False	False	False	False
+Rv3529c		0.9240263988971791	Output		Rv3529c	888324.0	I6YCC4	RVBD_3529c	hypothetical protein	Basal machinery	I6YCC4	[]	False	False	False	False
+Rv2622		0.9240263988971791	Output		Rv2622	887825.0	I6XES4	RVBD_2622	methyltransferase	M1.2	I6XES4	['GO:0008168', 'GO:0008757']	False	False	False	False
+Rv1000c		0.9240263988971791	Output		Rv1000c	886266.0	L7N6A4	RVBD_1000c	hypothetical protein	Basal machinery	L7N6A4	['GO:0051213']	False	False	False	False
+Rv0538		0.9240263988971791	Output		Rv0538	887473.0	O06404	RVBD_0538	membrane protein	Basal machinery	O06404	[]	False	False	False	False
+Rv2432c		0.9240263988971791	Output		Rv2432c	885075.0	P71917	RVBD_2432c	hypothetical protein	M10	P71917	[]	False	False	False	False
+Rv2650c		0.9240263988971791	Output		Rv2650c	887478.0	P71947	RVBD_2650c	prophage protein	Basal machinery	P71947	[]	False	False	False	False
+vapC12		0.9240263988971791	Output		vapC12	885180.0	P9WFA3	RVBD_1720c	ribonuclease VapC12	Basal machinery	P9WFA3	['GO:0000287', 'GO:0004540']	False	False	False	False
+pheA		0.9240263988971791	Output		pheA	886170.0	P9WIC3	RVBD_3838c	prephenate dehydratase	Basal machinery	P9WIC3	['GO:0016597', 'GO:0004664', 'GO:0042803']	False	False	False	False
+Rv2621c		0.9240263988971791	Output		Rv2621c	888565.0	I6Y187	RVBD_2621c	transcriptional regulator	M1.2	I6Y187	['GO:0000987', 'GO:0098531']	True	False	False	False
+crtB		0.9240263988971791	Output		crtB	887911.0	P9WHP3	RVBD_3397c,phyA	phytoene synthase	Basal machinery	P9WHP3	['GO:0046905', 'GO:0004311', 'GO:0046872', 'GO:0051996']	False	False	False	False
+Rv1192		0.8227470883586677	Output		Rv1192	886007.0	O05294	RVBD_1192	hypothetical protein	Basal machinery	O05294	[]	False	False	False	False
+Rv1251c		0.9240263988971791	Output		Rv1251c	887080.0	O50466	RVBD_1251c	hypothetical protein	Basal machinery	O50466	['GO:0043139', 'GO:0005524', 'GO:0004527']	False	False	False	False
+Rv0356c		0.9240263988971791	Output		Rv0356c	886490.0	O06307	RVBD_0356c	hypothetical protein	Basal machinery	O06307	['GO:0016787']	False	False	False	False
+Rv0481c		0.9240263988971791	Output		Rv0481c	887161.0	P9WKV5	RVBD_0481c	hypothetical protein	Basal machinery	P9WKV5	[]	False	False	False	False
+rnpA		0.9240263988971791	Output		rnpA	886248.0	P9WGZ3	RVBD_3923c	ribonuclease P protein component	Basal machinery	P9WGZ3	['GO:0042781', 'GO:0004526', 'GO:0000049']	False	False	False	False
+rpmH		0.9240263988971791	Output		rpmH	886258.0	P9WH93	RVBD_3924c	50S ribosomal protein L34	Basal machinery	P9WH93	['GO:0003735']	False	False	False	False
+cya		0.9240263988971791	Output		cya	888538.0	P9WQ35	RVBD_1625c	adenylyl cyclase	Basal machinery	P9WQ35	['GO:0004016', 'GO:0005524', 'GO:0004383', 'GO:0000287', 'GO:0030145', 'GO:0001653']	False	True	False	True
+parB		0.9240263988971791	Output		parB	886244.0	P9WIJ9	RVBD_3917c	chromosome partitioning protein ParB	Basal machinery	P9WIJ9	['GO:0003677']	False	False	False	False
+moaA1		0.9240263988971791	Output		moaA1	888836.0	P9WJS3	moaA,RVBD_3109	cyclic pyranopterin monophosphate synthase 1	Basal machinery	P9WJS3	['GO:0051539', 'GO:0061799', 'GO:0061798', 'GO:0005525', 'GO:0046872', 'GO:1904047']	False	False	False	False
+mmpL11		0.9240263988971791	Output		mmpL11	886750.0	P9WJT9	RVBD_0202c	transmembrane transport protein MmpL11	Basal machinery	P9WJT9	[]	False	False	False	False
+Rv0067c	1.0	1.0	Middle	1.0	Rv0067c	886991.0	O53612	RVBD_0067c	transcriptional regulator	M1.21	O53612	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv0068		1.0	Output		Rv0068	886989.0	O53613	RVBD_0068	oxidoreductase	M1.21	O53613	['GO:0016491']	False	False	False	False
+kstR2	1.0		Input		kstR2	887467.0	P9WMB9	RVBD_3557c	HTH-type transcriptional regulator KstR2	M1.27	P9WMB9	['GO:0003677', 'GO:0003700', 'GO:0000976']	True	False	False	False
+echA20		1.0	Output		echA20	888232.0	I6Y3U6	RVBD_3550	enoyl-CoA hydratase EchA20	M1.27	I6Y3U6	['GO:0016829']	False	False	False	False
+fadD3		1.0	Output		fadD3	887244.0	P96843	RVBD_3561	fatty-acid--CoA ligase FadD3	M1.27	P96843	['GO:0005524', 'GO:0016405']	False	False	False	False
+Rv0793		1.0	Output		Rv0793	885497.0	O86332	RVBD_0793	monooxygenase	M1.27	O86332	['GO:0003824', 'GO:0004497']	False	False	False	False
+fadE30		1.0	Output		fadE30	887838.0	I6Y3V5	RVBD_3560c	acyl-CoA dehydrogenase FadE30	M1.27	I6Y3V5	['GO:0050660', 'GO:0016627']	False	False	False	False
+Rv3549c		1.0	Output		Rv3549c	887849.0	I6YCE1	RVBD_3549c	short-chain type dehydrogenase/reductase	M1.27	I6YCE1	['GO:0016491']	False	False	False	False
+Rv0674	1.0		Input		Rv0674	888203.0	I6WZ26	RVBD_0674	hypothetical protein	M25	I6WZ26	[]	False	False	False	False
+fadE8		1.0	Output		fadE8	888198.0	I6X9J0	RVBD_0672	acyl-CoA dehydrogenase FadE8	M25	I6X9J0	['GO:0003995']	False	False	False	False
+Rv0767c	1.0		Input		Rv0767c	888833.0	P9WMD7	RVBD_0767c	HTH-type transcriptional regulator	Global regulator	P9WMD7	['GO:0003700', 'GO:0000976']	True	False	False	False
+rbpA		1.0	Output		rbpA	888598.0	P9WHJ5	RVBD_2050	RNA polymerase-binding protein RbpA	Basal machinery	P9WHJ5	['GO:0001000', 'GO:0001108', 'GO:0003676']	False	False	False	False
+Rv1086		1.0	Output		Rv1086	887097.0	P9WFF5	RVBD_1086	(2Z,6E)-farnesyl diphosphate synthase	Basal machinery	P9WFF5	['GO:0000287', 'GO:0030145', 'GO:0004659', 'GO:0033850']	False	False	False	False
+Rv2638		1.0	Output		Rv2638	888156.0	I6X4W0	RVBD_2638	hypothetical protein	Basal machinery	I6X4W0	['GO:0043856']	True	False	False	False
+Rv0042c		1.0	Output		Rv0042c	887034.0	P71699	RVBD_0042c	transcriptional regulator	M19	P71699	['GO:0003700']	True	False	False	False
+lipW		1.0	Output		lipW	886726.0	P96399	RVBD_0217c	esterase LipW	Basal machinery	P96399	['GO:0034338']	False	False	False	False
+pks12		1.0	Output		pks12	888350.0	I6XD69	RVBD_2048c	polyketide synthase	Basal machinery	I6XD69	['GO:0004315', 'GO:0004312', 'GO:0042802', 'GO:0016491', 'GO:0031177']	False	False	False	False
+grcC2		1.0	Output		grcC2	885355.0	O05572	RVBD_0989c	polyprenyl-diphosphate synthase GrcC	Basal machinery	O05572	['GO:0004161', 'GO:0046872', 'GO:0004659']	False	False	False	False
+Rv2049c		1.0	Output		Rv2049c	888593.0	O53491	RVBD_2049c	hypothetical protein	Basal machinery	O53491	[]	False	False	False	False
+Rv1097c		1.0	Output		Rv1097c	885962.0	O53445	RVBD_1097c	membrane glycine/proline-rich protein	Basal machinery	O53445	[]	False	False	False	False
+Rv3197		0.913997971779237	Output		Rv3197	887858.0	O53343	RVBD_3197	ABC transporter ATP-binding protein	Basal machinery	O53343	['GO:0005524']	False	False	False	False
+Rv0776c		1.0	Output		Rv0776c	888918.0	I6Y4S9	RVBD_0776c	hypothetical protein	Basal machinery	I6Y4S9	[]	False	False	False	False
+Rv1085c		1.0	Output		Rv1085c	887107.0	P9WFN7	RVBD_1085c	hemolysin-like protein	Basal machinery	P9WFN7	['GO:0140911']	False	False	False	False
+prrA		1.0	Output		prrA	885209.0	P9WGM1	RVBD_0903c	two component transcriptional regulator PrrA	Basal machinery	P9WGM1	['GO:0005509', 'GO:0000287', 'GO:0000156', 'GO:0000976']	False	False	False	True
+kmtR	1.0	1.0	Middle	1.0	kmtR	885375.0	O53838	RVBD_0827c	HTH-type transcriptional regulator KmtR	M3	O53838	['GO:0003677', 'GO:0003700']	True	False	False	False
+sirR	1.0		Input		sirR	888253.0	I6Y1Q2	RVBD_2788	transcriptional repressor SirR	M1.28	I6Y1Q2	['GO:0003700', 'GO:0046983', 'GO:0043565', 'GO:0046914']	True	False	False	False
+Rv3848		1.0	Output		Rv3848	886159.0	P96229	RVBD_3848	transmembrane protein	M1.28	P96229	['GO:0046873']	False	False	False	False
+cdh		0.9082645032311861	Output		cdh	887342.0	P9WPG9	RVBD_2289	CDP-diacylglycerol pyrophosphatase	Basal machinery	P9WPG9	['GO:0008715']	False	False	False	False
+Rv2633c		0.9092720012328102	Output		Rv2633c	888597.0	P9WL59	RVBD_2633c	hypothetical protein	Basal machinery	P9WL59	[]	False	False	False	False
+vapB50		0.9082645032311861	Output		vapB50	885807.0	O69717	RVBD_3750c	excisionase	Basal machinery	O69717	['GO:0003677']	False	False	False	False
+mazE3		0.9082645032311861	Output		mazE3	885941.0	O53451	mazE-mt6,RVBD_1103c	antitoxin MazE3	Basal machinery	O53451	['GO:0097351']	False	False	False	False
+pks2		0.913997971779237	Output		pks2	886148.0	P9WQE9	msl-2,RVBD_3825c	phthioceranic/hydroxyphthioceranic acid synthase	Basal machinery	P9WQE9	['GO:0004315', 'GO:0004312', 'GO:0016491', 'GO:0031177']	False	False	False	False
+pks3		0.9082645032311861	Output		pks3	886055.0	L0T5X5		polyketide beta-ketoacyl synthase	M1.35	L0T5X5	[]	False	False	False	False
+metH		0.9082645032311861	Output		metH	888711.0	O33259	RVBD_2124c	methionine synthase	Basal machinery	O33259	['GO:0031419', 'GO:0008705', 'GO:0008270']	False	False	False	False
+fadD9		0.8929583651105861	Output		fadD9	888574.0	Q50631	RVBD_2590	fatty-acid--CoA ligase FadD9	Basal machinery	Q50631	['GO:0005524', 'GO:0004467', 'GO:0050661', 'GO:0016620', 'GO:0031177']	False	False	False	False
+Rv3768		0.9082645032311861	Output		Rv3768	886102.0	P72035	RVBD_3768	hypothetical protein	Basal machinery	P72035	[]	False	False	False	False
+uppP		0.9082645032311861	Output		uppP	887612.0	P9WFF9	bacA,upk,RVBD_2136c	undecaprenyl-diphosphatase	Intermodular	P9WFF9	['GO:0050380']	False	False	False	False
+mazF3		0.9082645032311861	Output		mazF3	886001.0	P9WIH9	RVBD_1102c,mazF-mt6	mRNA interferase MazF3	Basal machinery	P9WIH9	['GO:0003677', 'GO:0004521']	False	False	False	False
+Rv1517		0.9082645032311861	Output		Rv1517	886467.0	P71796	RVBD_1517	hypothetical protein	Basal machinery	P71796	[]	False	False	False	False
+apt		0.9082645032311861	Output		apt	888579.0	P9WQ07	RVBD_2584c	adenine phosphoribosyltransferase	Basal machinery	P9WQ07	['GO:0003999']	False	False	False	False
+ppiB		0.9082645032311861	Output		ppiB	887691.0	P9WHW1	ppi,RVBD_2582	peptidyl-prolyl cis-trans isomerase B	M23	P9WHW1	['GO:0003755']	False	False	False	False
+yrbE4A		0.9082645032311861	Output		yrbE4A	888320.0	O53546	RVBD_3501c	integral membrane protein	Basal machinery	O53546	['GO:0005548']	False	False	False	False
+wecA		0.8858222561179585	Output		wecA	886947.0	P9WMW5	RVBD_1302,rfe	decaprenyl-phosphate N-acetylglucosaminephosphotransferase	Basal machinery	P9WMW5	['GO:0016757', 'GO:0000287', 'GO:0030145', 'GO:0016780']	False	False	False	False
+Rv3767c		0.9082645032311861	Output		Rv3767c	886101.0	P9WFH5	RVBD_3767c	S-adenosylmethionine-dependent methyltransferase	Basal machinery	P9WFH5	['GO:0008168']	False	False	False	False
+Rv0789c		0.9082645032311861	Output		Rv0789c	885153.0	I6Y4U0	RVBD_0789c	hypothetical protein	Basal machinery	I6Y4U0	[]	False	False	False	False
+fabD		0.9082645032311861	Output		fabD	888769.0	P9WNG5	RVBD_2243	malonyl CoA-acyl carrier protein transacylase	Basal machinery	P9WNG5	['GO:0004314']	False	False	False	False
+sir		0.9082645032311861	Output		sir	885472.0	P9WJ03	sirA,nirA,RVBD_2391	sulfite reductase	Basal machinery	P9WJ03	['GO:0051539', 'GO:0020037', 'GO:0046872', 'GO:0050311', 'GO:0016002']	False	False	False	False
+Rv2331A		0.9082645032311861	Output		Rv2331A	3205048.0	Q79FF7	RVBD_2331A	hypothetical protein	M1.39	Q79FF7	[]	False	False	False	False
+Rv2288		0.9082645032311861	Output		Rv2288	887702.0	P9WLE5	RVBD_2288	hypothetical protein	Basal machinery	P9WLE5	[]	False	False	False	False
+PE_PGRS39		0.9082645032311861	Output		PE_PGRS39	888961.0	L7N659	RVBD_2340c	PE-PGRS family protein PE_PGRS39	Basal machinery	L7N659	[]	False	False	False	False
+phoU2		0.9082645032311861	Output		phoU2	885270.0	P9WI95	RVBD_0821c,phoY2	phosphate-transport system transcriptional regulator PhoY2	Basal machinery	P9WI95	['GO:0042803']	False	False	False	False
+Rv0880	1.0		Input		Rv0880	885205.0	P9WMF1	RVBD_0880	HTH-type transcriptional regulator	Global regulator	P9WMF1	['GO:0003677', 'GO:0003700']	True	False	False	False
+Rv0726c		1.0	Output		Rv0726c	888552.0	P9WFI7	RVBD_0726c	S-adenosylmethionine-dependent methyltransferase	Basal machinery	P9WFI7	['GO:0008168']	False	False	False	False
+Rv2172c		1.0	Output		Rv2172c	888147.0	O53506	RVBD_2172c	hypothetical protein	Basal machinery	O53506	[]	False	False	False	False
+groEL1	1.0	1.0	Middle	1.0	groEL1	887877.0	P9WPE9	groL1,RVBD_3417c,groEL-1	chaperonin GroEL	Basal machinery	P9WPE9	['GO:0005524', 'GO:0140662', 'GO:0016853', 'GO:0046872', 'GO:0003697', 'GO:0051082']	False	False	False	False
+Rv0081	0.9130584781718761		Input		Rv0081	887012.0	P9WMI7	RVBD_0081	HTH-type transcriptional regulator	Global regulator	P9WMI7	['GO:0003677', 'GO:0003700']	True	False	False	False
+dnaJ1		1.0	Output		dnaJ1	886495.0	P9WNV9	RVBD_0352	chaperone protein DnaJ	Basal machinery	P9WNV9	['GO:0005524', 'GO:0031072', 'GO:0051082', 'GO:0008270']	False	False	False	False
+Rv0730		1.0	Output		Rv0730	888558.0	I6XW38	RVBD_0730	GCN5-like N-acetyltransferase	Basal machinery	I6XW38	['GO:0016747', 'GO:0005524', 'GO:0003677', 'GO:0034335']	False	False	False	False
+yrbE3A		1.0	Output		yrbE3A	885948.0	O53965	RVBD_1964	integral membrane protein	Basal machinery	O53965	['GO:0005548']	False	False	False	False
+erg3		1.0	Output		erg3	885880.0	P9WNZ9	RVBD_1814	membrane-bound C-5 sterol desaturase	Basal machinery	P9WNZ9	['GO:0005506', 'GO:0016491']	False	False	False	False
+Rv1075c		1.0	Output		Rv1075c	887110.0	O53423	RVBD_1075c	hypothetical protein	Basal machinery	O53423	['GO:0008126', 'GO:0004622']	False	False	False	False
+Rv1687c		1.0	Output		Rv1687c	885678.0	O33189	RVBD_1687c	ABC transporter ATP-binding protein	Basal machinery	O33189	['GO:0005524', 'GO:0016887']	False	False	False	False
+vapB49		1.0	Output		vapB49	888787.0	P9WF15	RVBD_3181c	antitoxin VapB45	Basal machinery	P9WF15	['GO:0097351']	False	False	False	False
+Rv2307c		1.0	Output		Rv2307c	885277.0	P9WLC7	RVBD_2307c	hypothetical protein	Basal machinery	P9WLC7	[]	False	False	False	False
+Rv3675		1.0	Output		Rv3675	885155.0	I6YCQ7	RVBD_3675	membrane protein	Basal machinery	I6YCQ7	[]	False	False	False	False
+Rv3613c		1.0	Output		Rv3613c	885124.0	O06270	RVBD_3613c	hypothetical protein	Basal machinery	O06270	[]	False	False	False	False
+Rv3096		1.0	Output		Rv3096	888678.0	I6YB54	RVBD_3096	hypothetical protein	Basal machinery	I6YB54	[]	False	False	False	False
+mgtC		1.0	Output		mgtC	885439.0	I6YBN6	RVBD_1811	Mg2+ transport P-type ATPase MgtC	Basal machinery	I6YBN6	[]	False	False	False	False
+Rv0082		1.0	Output		Rv0082	886968.0	I6XUD2	RVBD_0082	oxidoreductase	Basal machinery	I6XUD2	['GO:0051539']	False	False	False	False
+smtB		1.0	Output		smtB	888965.0	P9WMI5	RVBD_2358	HTH-type transcriptional regulator SmtB	Basal machinery	P9WMI5	['GO:0003677', 'GO:0003700', 'GO:0046872']	True	False	False	False
+moaR1		1.0	Output		moaR1	888825.0	O05797	RVBD_3124	transcriptional regulator MoaR	M1.1	O05797	['GO:0003677']	False	False	False	False
+Rv1672c		1.0	Output		Rv1672c	885700.0	O53919	RVBD_1672c	integral membrane transport protein	Basal machinery	O53919	['GO:0022857']	False	False	False	False
+cmaA2		1.0	Output		cmaA2	887264.0	P9WPB5	RVBD_0503c,cma2,CMAS-2	cyclopropane mycolic acid synthase	Basal machinery	P9WPB5	['GO:0008825']	False	False	False	False
+Rv0323c		1.0	Output		Rv0323c					Basal machinery		[]	False	False	False	False
+ruvC		1.0	Output		ruvC	887418.0	P9WGV9	RVBD_2594c	crossover junction endodeoxyribonuclease RuvC	Basal machinery	P9WGV9	['GO:0008821', 'GO:0003677', 'GO:0000287']	False	False	False	False
+gmhA		1.0	Output		gmhA	886905.0	P9WGG1	lpcA,RVBD_0113	phosphoheptose isomerase	Intermodular	P9WGG1	['GO:0097367', 'GO:0008968', 'GO:0008270']	False	False	False	False
+PE_PGRS10		1.0	Output		PE_PGRS10	888662.0	P9WIG1		PE-PGRS family protein PE_PGRS10	Basal machinery	P9WIG1	[]	False	False	False	False
+Rv2712c		1.0	Output		Rv2712c	888586.0	I6YE70	RVBD_2712c	hypothetical protein	Basal machinery	I6YE70	[]	False	False	False	False
+Rv1048c		1.0	Output		Rv1048c	885295.0	P96353	RVBD_1048c	hypothetical protein	Basal machinery	P96353	[]	False	False	False	False
+grpE		1.0	Output		grpE	886497.0	P9WMT5	RVBD_0351	protein GrpE	Basal machinery	P9WMT5	['GO:0000774', 'GO:0042803', 'GO:0051087', 'GO:0051082']	False	False	False	False
+ftsZ		1.0	Output		ftsZ	888369.0	P9WN95	RVBD_2150c	cell division protein FtsZ	M19	P9WN95	['GO:0005525', 'GO:0003924', 'GO:0000287']	False	False	False	False
+Rv0744c		1.0	Output		Rv0744c	888648.0	O53807	RVBD_0744c	transcriptional regulator	Basal machinery	O53807	['GO:0003677']	False	False	False	False
+Rv3831		1.0	Output		Rv3831	886161.0	P96247	RVBD_3831	hypothetical protein	Basal machinery	P96247	[]	False	False	False	False
+rsdA		1.0	Output		rsdA	887925.0	P9WJ71	RVBD_3413c	anti-sigma-D factor RsdA	Basal machinery	P9WJ71	[]	False	False	False	False
+Rv3844		1.0	Output									[]	False	False	False	False
+lprJ		1.0	Output		lprJ	885670.0	O33192	RVBD_1690	lipoprotein LprJ	Basal machinery	O33192	[]	False	False	False	False
+Rv3728		1.0	Output		Rv3728	885271.0	O69695	RVBD_3728	membrane protein	M1.16	O69695	['GO:0004622', 'GO:0022857']	False	False	False	False
+lprD		1.0	Output		lprD	886852.0	P9WK51	RVBD_1343c	lipoprotein LprD	Basal machinery	P9WK51	[]	False	False	False	False
+alkA		1.0	Output		alkA	886916.0	P9WJW3	ada,RVBD_1317c	bifunctional regulatory protein/DNA repair enzyme AlkA	Basal machinery	P9WJW3	['GO:0032131', 'GO:0008725', 'GO:0043916', 'GO:0003700', 'GO:0008168', 'GO:0043565', 'GO:0008270']	True	False	False	False
+Rv3005c		1.0	Output		Rv3005c	887305.0	I6YAV3	RVBD_3005c	hypothetical protein	Basal machinery	I6YAV3	[]	False	False	False	False
+fmt		1.0	Output		fmt	886706.0	P9WND3	RVBD_1406	methionyl-tRNA formyltransferase	Basal machinery	P9WND3	['GO:0004479']	False	False	False	False
+Rv1190		1.0	Output		Rv1190	886049.0	O86348	RVBD_1190	hypothetical protein	Basal machinery	O86348	['GO:0016787']	False	False	False	False
+vapC49		1.0	Output		vapC49	887946.0	P9WF51	RVBD_3180c	ribonuclease VapC45	Basal machinery	P9WF51	['GO:0000287', 'GO:0004540']	False	False	False	False
+vapB28		1.0	Output		vapB28	887895.0	P9WJ39	RVBD_0608	antitoxin VapB28	Basal machinery	P9WJ39	[]	False	False	False	False
+Rv0579		1.0	Output		Rv0579	887738.0	O53776	RVBD_0579	hypothetical protein	Basal machinery	O53776	[]	False	False	False	False
+Rv3811		1.0	Output		Rv3811	886137.0	Q79F96	RVBD_3811	hypothetical protein	M1.22	Q79F96	['GO:0008745', 'GO:0008270']	False	False	False	False
+Rv2302		1.0	Output		Rv2302	885154.0	P9WLD5	RVBD_2302	hypothetical protein	Basal machinery	P9WLD5	[]	False	False	False	False
+PE_PGRS57		1.0	Output		PE_PGRS57	888294.0	Q6MWW6		PE-PGRS family protein PE_PGRS57	Basal machinery	Q6MWW6	[]	False	False	False	False
+Rv3527		1.0	Output		Rv3527	888295.0	I6XHG6	RVBD_3527	hypothetical protein	Basal machinery	I6XHG6	[]	False	False	False	False
+Rv0293c		1.0	Output		Rv0293c	886594.0	O53697	RVBD_0293c	hypothetical protein	Basal machinery	O53697	['GO:0052689']	False	False	False	False
+sthA		1.0	Output		sthA	887355.0	P9WHH5	RVBD_2713	pyridine nucleotide transhydrogenase	Basal machinery	P9WHH5	['GO:0004148', 'GO:0050660', 'GO:0003957']	False	False	False	False
+cyp130		1.0	Output		cyp130	887059.0	P9WPN5	RVBD_1256c	cytochrome P450 Cyp130	Basal machinery	P9WPN5	['GO:0036199', 'GO:0020037', 'GO:0005506', 'GO:0008395']	False	False	False	False
+Rv3055		1.0	Output		Rv3055	888882.0	P95103	RVBD_3055	TetR family transcriptional regulator	Basal machinery	P95103	['GO:0003700', 'GO:0000976']	True	False	False	False
+fadE23		1.0	Output		fadE23	887417.0	P95186	RVBD_3140	acyl-CoA dehydrogenase FadE23	M1.33	P95186	['GO:0003995']	False	False	False	False
+fadE20		1.0	Output		fadE20	887866.0	O33229	RVBD_2724c	acyl-CoA dehydrogenase FadE20	Basal machinery	O33229	['GO:0003995', 'GO:0050660']	False	False	False	False
+Rv2148c		1.0	Output		Rv2148c	888127.0	P9WFQ7	RVBD_2148c	hypothetical protein	M1.39	P9WFQ7	['GO:0030170']	False	False	False	False
+rubB		1.0	Output		rubB	888744.0	I6YFL7	RVBD_3250c	rubredoxin RubB	Basal machinery	I6YFL7	['GO:0009055', 'GO:0005506']	False	False	False	False
+Rv1688		1.0	Output		Rv1688	885679.0	P9WJP7	RVBD_1688,mpg	3-methyladenine DNA glycosylase	Basal machinery	P9WJP7	['GO:0003905', 'GO:0003677']	False	False	False	False
+Rv1265		1.0	Output		Rv1265	887058.0	P9WM49	RVBD_1265	hypothetical protein	Basal machinery	P9WM49	[]	False	False	False	False
+PE_PGRS38		1.0	Output		PE_PGRS38	887300.0	L7N6A1	RVBD_2162c	PE-PGRS family protein PE_PGRS38	M3	L7N6A1	[]	False	False	False	False
+Rv2809		1.0	Output		Rv2809	888909.0	I6YEF3	RVBD_2809	hypothetical protein	Basal machinery	I6YEF3	[]	False	False	False	False
+Rv1920		1.0	Output		Rv1920	885416.0	O53962	RVBD_1920	membrane protein	Basal machinery	O53962	['GO:0016746']	False	False	False	False
+sufC		1.0	Output		sufC	886571.0	O53154	RVBD_1463	ABC transporter ATP-binding protein	Basal machinery	O53154	['GO:0005524', 'GO:0016887']	False	False	False	False
+mftE		1.0	Output		mftE	888314.0	P9WP59	RVBD_0695	mycofactocin system creatinine amidohydrolase family protein MftE	Basal machinery	P9WP59	['GO:0016811', 'GO:0046872', 'GO:0008233']	False	False	False	False
+Rv1424c		1.0	Output		Rv1424c	886685.0	P9WLX7	RVBD_1424c	membrane protein	Basal machinery	P9WLX7	[]	False	False	False	False
+nuoB		1.0	Output		nuoB	888791.0	P9WJH1	RVBD_3146	NADH-quinone oxidoreductase subunit B	Basal machinery	P9WJH1	['GO:0051539', 'GO:0005506', 'GO:0008137', 'GO:0050136', 'GO:0048038']	False	False	False	False
+Rv2100		1.0	Output		Rv2100	888454.0	P9WLJ3	RVBD_2100	hypothetical protein	Basal machinery	P9WLJ3	[]	False	False	False	False
+cyp125		1.0	Output		cyp125	887782.0	P9WPP1	RVBD_3545c	steroid C26-monooxygenase	M17	P9WPP1	['GO:0036199', 'GO:0020037', 'GO:0005506', 'GO:0008395']	False	False	False	False
+Rv1425		1.0	Output		Rv1425	886668.0	P9WKC1	RVBD_1425	diacyglycerol O-acyltransferase	Basal machinery	P9WKC1	['GO:0004144', 'GO:0008374']	False	False	False	False
+ddn		1.0	Output		ddn	887496.0	P9WP15	RVBD_3547	deazaflavin-dependent nitroreductase	Basal machinery	P9WP15	['GO:0070967', 'GO:0016491']	False	False	False	False
+Rv0188		1.0	Output		Rv0188	886776.0	O07432	RVBD_0188	transmembrane protein	M2	O07432	[]	False	False	False	False
+csoR	1.0	1.0	Middle	1.0	csoR	885312.0	P9WP49	RVBD_0967,croR	copper-sensing transcriptional repressor CsoR	Global regulator	P9WP49	['GO:0005507', 'GO:0097077', 'GO:0003677', 'GO:0001217', 'GO:0000976']	True	False	False	False
+qcrB		1.0	Output		qcrB	887400.0	P9WP37	RVBD_2196	ubiquinol-cytochrome C reductase cytochrome subunit B	Basal machinery	P9WP37	['GO:0046872', 'GO:0008121']	False	False	False	False
+Rv0837c		1.0	Output		Rv0837c	885109.0	I6Y4Y1	RVBD_0837c	hypothetical protein	Basal machinery	I6Y4Y1	[]	False	False	False	False
+Rv0047c	1.0	1.0	Middle	1.0	Rv0047c	887031.0	P71704	RVBD_0047c	hypothetical protein	Global regulator	P71704	[]	False	False	False	False
+nrp		1.0	Output		nrp	886951.0	Q10896	RVBD_0101	peptide synthetase Nrp	Basal machinery	Q10896	['GO:0005524', 'GO:0016874', 'GO:0031177', 'GO:0016740']	False	False	False	False
+rpmD		1.0	Output		rpmD	888505.0	P9WHA3	RVBD_0722	50S ribosomal protein L30	M1.1	P9WHA3	['GO:0003735']	False	False	False	False
+ino1		1.0	Output		ino1	887028.0	P9WKI1	RVBD_0046c	inositol-3-phosphate synthase	Basal machinery	P9WKI1	['GO:0004512', 'GO:0008270']	False	False	False	False
+Rv3655c		1.0	Output		Rv3655c					Basal machinery		[]	False	False	False	False
+Rv3833	1.0	1.0	Middle	1.0	Rv3833	886162.0	P96245	RVBD_3833	AraC family transcriptional regulator	M9	P96245	['GO:0003700', 'GO:0043565']	True	False	False	False
+Rv2324	1.0		Input		Rv2324	885060.0	P71888	RVBD_2324	AsnC family transcriptional regulator	Global regulator	P71888	['GO:0043565']	False	False	False	False
+Rv2803		1.0	Output		Rv2803	888416.0	I6XFC2	RVBD_2803	hypothetical protein	Basal machinery	I6XFC2	['GO:0003677']	False	False	False	False
+gcvP		1.0	Output		gcvP	885716.0	P9WN53	gcvB,RVBD_1832	glycine dehydrogenase	Basal machinery	P9WN53	['GO:0016594', 'GO:0004375', 'GO:0030170']	False	False	False	False
+Rv2646		1.0	Output		Rv2646	887706.0	I6XEU5	RVBD_2646	integrase	Basal machinery	I6XEU5	['GO:0003677', 'GO:0009009']	False	False	False	False
+Rv2645		1.0	Output		Rv2645	887799.0	P9WL51	RVBD_2645	hypothetical protein	Basal machinery	P9WL51	[]	False	False	False	False
+lpqR		1.0	Output		lpqR	885417.0	O53850	RVBD_0838	lipoprotein LpqR	Basal machinery	O53850	['GO:0160237', 'GO:0008237', 'GO:0008270']	False	False	False	False
+Rv2311		1.0	Output		Rv2311	885168.0	P9WLC1	RVBD_2311	hypothetical protein	Basal machinery	P9WLC1	[]	False	False	False	False
+Rv2312		1.0	Output		Rv2312	885152.0	P9WLB9	RVBD_2312	hypothetical protein	Basal machinery	P9WLB9	[]	False	False	False	False
+Rv1773c	1.0	1.0	Middle	1.0	Rv1773c	885342.0	O06806	RVBD_1773c	transcriptional regulator	M1.5	O06806	['GO:0003677', 'GO:0003700']	True	False	False	False
+Rv1774		1.0	Output		Rv1774	885367.0	O33177	RVBD_1774	oxidoreductase	M1.5	O33177	['GO:0071949', 'GO:0016491']	False	False	False	False
+Rv3160c	1.0		Input		Rv3160c	888797.0	O53310	RVBD_3160c	TetR family transcriptional regulator	M1.22	O53310	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv3161c		1.0	Output		Rv3161c	888800.0	O53311	RVBD_3161c	dioxygenase	Intermodular	O53311	['GO:0051537', 'GO:0051213', 'GO:0005506', 'GO:0004497', 'GO:0016705']	False	False	False	False
+Rv2017	1.0		Input		Rv2017	888435.0	O53463	RVBD_2017	transcriptional regulator	M13	O53463	['GO:0003677']	False	False	False	False
+Rv2016		1.0	Output		Rv2016	888630.0	O53462	RVBD_2016	hypothetical protein	M13	O53462	[]	False	False	False	False
+Rv3173c	1.0	1.0	Middle	1.0	Rv3173c	888844.0	O53323	RVBD_3173c	TetR/Acr family transcriptional regulator	M1.31	O53323	['GO:0003700', 'GO:0000976']	True	False	False	False
+tcrA	1.0	1.0	Middle	1.0	tcrA	887870.0	O07776	RVBD_0602c	two component DNA binding transcriptional regulator TcrA	Global regulator	O07776	['GO:0000156', 'GO:0000976']	False	False	False	True
+Rv2280		1.0	Output		Rv2280	887601.0	P9WIT1	RVBD_2280		Basal machinery	P9WIT1	['GO:0071949', 'GO:0016491']	False	False	False	False
+nadE		1.0	Output		nadE	885808.0	P9WJJ3	RVBD_2438c	glutamine-dependent NAD(+) synthetase	Basal machinery	P9WJJ3	['GO:0005524', 'GO:0004359', 'GO:0042802', 'GO:0003952', 'GO:0008795']	False	False	False	False
+Rv0603		1.0	Output		Rv0603	887863.0	O07775	RVBD_0603	exported protein	Basal machinery	O07775	[]	False	False	False	False
+tcrX	1.0	1.0	Middle	1.0	tcrX	886100.0	O69730	RVBD_3765c	two component transcriptional regulator TcrX	Global regulator	O69730	['GO:0000156', 'GO:0000976']	False	False	False	True
+Rv0095c		1.0	Output		Rv0095c	886940.0	Q10891	RVBD_0095c	hypothetical protein	M1.38	Q10891	[]	False	False	False	False
+esxR		1.0	Output		esxR	888926.0	P9WNI9	RVBD_3019c	ESAT-6 like protein EsxR	Basal machinery	P9WNI9	[]	False	False	False	False
+Rv0455c		1.0	Output		Rv0455c	886314.0	O53740	RVBD_0455c	hypothetical protein	Basal machinery	O53740	[]	False	False	False	False
+Rv2300c		1.0	Output		Rv2300c	887880.0	P9WLD7	RVBD_2300c	metallo-hydrolase	Basal machinery	P9WLD7	['GO:0016787', 'GO:0046872']	False	False	False	False
+ramB	1.0	1.0	Middle	1.0	ramB	886320.0	P9WMI1	RVBD_0465c	HTH-type transcriptional regulator	Global regulator	P9WMI1	['GO:0003677', 'GO:0003700']	True	False	False	False
+pstS3		1.0	Output		pstS3	885366.0	P9WGT7	phoS2,RVBD_0928	phosphate ABC transporter substrate-binding lipoprotein PstS	Basal machinery	P9WGT7	['GO:0042301']	False	False	False	False
+Rv0466		1.0	Output		Rv0466	886294.0	O53751	RVBD_0466	hypothetical protein	Basal machinery	O53751	['GO:0047617']	False	False	False	False
+pstC2		1.0	Output		pstC2	885585.0	P9WG05	RVBD_0929	phosphate ABC transporter permease PstC	Basal machinery	P9WG05	['GO:0005315']	False	False	False	False
+Rv0464c		1.0	Output		Rv0464c	886296.0	O53749	RVBD_0464c	hypothetical protein	Basal machinery	O53749	['GO:0051920']	False	False	False	False
+Rv1049	1.0	1.0	Middle	1.0	Rv1049	886091.0	I6Y5H3	RVBD_1049	transcriptional repressor	Global regulator	I6Y5H3	['GO:0003700']	True	False	False	False
+Rv0688		1.0	Output		Rv0688	888280.0	P95034	RVBD_0688	ferredoxin reductase	Basal machinery	P95034	['GO:0009055', 'GO:0008860', 'GO:0050660', 'GO:0051287', 'GO:0016651']	False	False	False	False
+vapC3		1.0	Output		vapC3	887534.0	P9WFB7	RVBD_0549c	ribonuclease VapC3	Basal machinery	P9WFB7	['GO:0000287', 'GO:0004540']	False	False	False	False
+vapB3		1.0	Output		vapB3	887515.0	P9WJ59	RVBD_0550c	antitoxin VapB3	Basal machinery	P9WJ59	[]	False	False	False	False
+Rv0175		1.0	Output		Rv0175	886801.0	O07419	RVBD_0175	Mce associated membrane protein	Basal machinery	O07419	[]	False	False	False	False
+lexA		1.0	Output		lexA	888169.0	P9WHR7	RVBD_2720	repressor LexA	Basal machinery	P9WHR7	['GO:0003677', 'GO:0001217', 'GO:0043565', 'GO:0004252']	True	False	False	False
+Rv1050		1.0	Output		Rv1050	887146.0	O53398	RVBD_1050	oxidoreductase	Basal machinery	O53398	['GO:0016491']	False	False	False	False
+Rv1277		1.0	Output		Rv1277	887001.0	Q50699	RVBD_1277	hypothetical protein	Basal machinery	Q50699	['GO:0003677', 'GO:0004529']	False	False	False	False
+Rv1780		1.0	Output		Rv1780	885851.0	O53931	RVBD_1780	hypothetical protein	Basal machinery	O53931	[]	False	False	False	False
+Rv1176c	1.0	1.0	Middle	1.0	Rv1176c	886080.0	O50432	RVBD_1176c	hypothetical protein	M1.30	O50432	['GO:0003677']	False	False	False	False
+virS	1.0	1.0	Middle	1.0	virS	888657.0	P9WMJ3	RVBD_3082c	HTH-type transcriptional regulator VirS	M21	P9WMJ3	['GO:0003700', 'GO:0000976']	True	False	False	False
+Rv1460	1.0	1.0	Middle	1.0	Rv1460	886573.0	O53151	RVBD_1460	transcriptional regulator	M1.2	O53151	['GO:0000987', 'GO:0098531']	True	False	False	False
+Rv1353c	1.0		Input		Rv1353c	886827.0	P9WMD3	RVBD_1353c	HTH-type transcriptional regulator	Global regulator	P9WMD3	['GO:0003700', 'GO:0000976']	True	False	False	False
+dhaA		1.0	Output		dhaA	888599.0	P9WMR9	RVBD_2579	haloalkane dehalogenase	Basal machinery	P9WMR9	['GO:0018786', 'GO:0016787']	False	False	False	False
+Rv1567c		1.0	Output		Rv1567c	886349.0	O06623	RVBD_1567c	membrane protein	Basal machinery	O06623	[]	False	False	False	False
+xseB		1.0	Output		xseB	886005.0	P9WF29	RVBD_1107c	exodeoxyribonuclease VII small subunit	Basal machinery	P9WF29	['GO:0008855']	False	False	False	False
+Rv2567		1.0	Output		Rv2567	888578.0	P9WL97	RVBD_2567	alanine/leucine-rich protein	Basal machinery	P9WL97	[]	False	False	False	False
+Rv1401		1.0	Output		Rv1401	886733.0	P9WG51	RVBD_1401	membrane protein	Basal machinery	P9WG51	['GO:0016787']	False	False	False	False
+ephD		1.0	Output		ephD	887472.0	P9WGS3	RVBD_2214c	oxidoreductase EphD	Basal machinery	P9WGS3	['GO:0016491']	False	False	False	False
+otsA		1.0	Output		otsA	888404.0	P9WN11	RVBD_3490	trehalose-phosphate synthase	Basal machinery	P9WN11	['GO:0047260', 'GO:0003825', 'GO:0030145']	False	False	False	False
+Rv3753c		1.0	Output		Rv3753c	885505.0	O69720	RVBD_3753c	hypothetical protein	Basal machinery	O69720	[]	False	False	False	False
+modA		1.0	Output		modA	885655.0	P9WGU3	RVBD_1857	molybdate ABC transporter substrate-binding lipoprotein ModA	Basal machinery	P9WGU3	['GO:0046872', 'GO:0030973']	False	False	False	False
+hemA		1.0	Output		hemA	887292.0	P9WMP7	RVBD_0509	glutamyl-tRNA reductase	Basal machinery	P9WMP7	['GO:0008883', 'GO:0050661']	False	False	False	False
+folP2		1.0	Output		folP2	887447.0	P9WNC9	RVBD_1207	dihydropteroate synthase	Basal machinery	P9WNC9	[]	False	False	False	False
+ppe23		1.0	Output		ppe23	885070.0	P9WI17	PPE23,RVBD_1706c	PPE family protein PPE23	Basal machinery	P9WI17	[]	False	False	False	False
+nlhH		1.0	Output		nlhH	886731.0	P9WK87	lipH,RVBD_1399c	carboxylesterase NlhH	Basal machinery	P9WK87	['GO:0008126', 'GO:0106435', 'GO:0034338']	False	False	False	False
+rplM		1.0	Output		rplM	887584.0	P9WHE1	RVBD_3443c	50S ribosomal protein L13	Basal machinery	P9WHE1	['GO:0003729', 'GO:0003735']	False	False	False	False
+Rv1856c		1.0	Output		Rv1856c	885708.0	P9WGQ1	RVBD_1856c	oxidoreductase	Basal machinery	P9WGQ1	['GO:0016616']	False	False	False	False
+Rv2576c		1.0	Output		Rv2576c	887251.0	P9WL83	RVBD_2576c	membrane protein	Basal machinery	P9WL83	[]	False	False	False	False
+Rv3162c		1.0	Output		Rv3162c	888756.0	O53312	RVBD_3162c	integral membrane protein	Basal machinery	O53312	[]	False	False	False	False
+fadE29		1.0	Output		fadE29	888131.0	P71858	RVBD_3543c	acyl-CoA dehydrogenase FadE29	Basal machinery	P71858	['GO:0071949', 'GO:0016627']	False	False	False	False
+menB		1.0	Output		menB	887529.0	P9WNP5	RVBD_0548c	1,4-dihydroxy-2-naphthoyl-CoA synthase	Basal machinery	P9WNP5	['GO:0008935']	False	False	False	False
+pks4		1.0	Output		pks4	886081.0	L0T647		polyketide beta-ketoacyl synthase	Basal machinery	L0T647	[]	False	False	False	False
+Rv0998		1.0	Output		Rv0998	885385.0	O05581	RVBD_0998	acetyltransferase	Basal machinery	O05581	['GO:0016407', 'GO:0016746', 'GO:0030552', 'GO:0003700', 'GO:0046872']	True	False	False	False
+Rv1637c		1.0	Output		Rv1637c	885132.0	O06154	RVBD_1637c	hypothetical protein	Basal machinery	O06154	['GO:0004416']	False	False	False	False
+uvrA		1.0	Output		uvrA	885685.0	P9WQK7	RVBD_1638	excinuclease ABC subunit UvrA	Basal machinery	P9WQK7	['GO:0005524', 'GO:0016887', 'GO:0003677', 'GO:0009381', 'GO:0008270']	False	False	False	False
+Rv2232		1.0	Output		Rv2232	887597.0	P9WPI9	ptkA,RVBD_2232	protein tyrosine kinase transcriptional regulator PtkA	Basal machinery	P9WPI9	['GO:0005524', 'GO:0004713']	False	False	False	False
+Rv0272c		1.0	Output		Rv0272c	886635.0	P95229	RVBD_0272c	hypothetical protein	Basal machinery	P95229	['GO:0016298']	False	False	False	False
+Rv3603c		1.0	Output		Rv3603c	885583.0	O06279	RVBD_3603c	alanine/leucine-rich protein	Basal machinery	O06279	[]	False	False	False	False
+cysK1		1.0	Output		cysK1	886016.0	P9WP55	cysK,RVBD_2334	O-acetylserine sulfhydrylase	Basal machinery	P9WP55	['GO:0004124', 'GO:0080146', 'GO:0030170']	False	False	False	False
+vapC47		1.0	Output		vapC47	887900.0	P9WF49	RVBD_3408	ribonuclease VapC47	Basal machinery	P9WF49	['GO:0000287', 'GO:0004540']	False	False	False	False
+ponA2		1.0	Output		ponA2	885751.0	I6YGX2	RVBD_3682	bifunctional penicillin-insensitive transglycosylase/penicillin-sensitive transpeptidase	Basal machinery	I6YGX2	['GO:0004180', 'GO:0008658', 'GO:0008955']	False	False	False	False
+fecB		1.0	Output		fecB	888745.0	O53291	RVBD_3044	FeIII-dicitrate-binding periplasmic lipoprotein	Basal machinery	O53291	[]	False	False	False	False
+trcS		1.0	Output		trcS	887790.0	P96368	RVBD_1032c	two component sensor histidine kinase TrcS	Basal machinery	P96368	['GO:0005524', 'GO:0005509', 'GO:0030145', 'GO:0000155', 'GO:0004672']	False	False	False	False
+gpgS		1.0	Output		gpgS	886085.0	P9WMW9	RVBD_1208	glucosyl-3-phosphoglycerate synthase	Basal machinery	P9WMW9	['GO:0016758', 'GO:0000287', 'GO:0042803']	False	False	False	False
+Rv1691		1.0	Output		Rv1691	885665.0	O33193	RVBD_1691	hypothetical protein	Basal machinery	O33193	[]	False	False	False	False
+ctpI		1.0	Output		ctpI	886915.0	P9WPS5	RVBD_0107c	cation-transporter ATPase I	Basal machinery	P9WPS5	['GO:0005524', 'GO:0016887', 'GO:0046872', 'GO:0005388']	False	False	False	False
+Rv1360		1.0	Output		Rv1360	886813.0	P9WM03	RVBD_1360	oxidoreductase	Basal machinery	P9WM03	['GO:0016705']	False	False	False	False
+efpA		1.0	Output		efpA	888575.0	P9WJY5	RVBD_2846c	MFS-type transporter EfpA	Basal machinery	P9WJY5	['GO:0022857']	False	False	False	False
+papA3		1.0	Output		papA3	886072.0	P9WIK5	RVBD_1182	acyltransferase PapA	Basal machinery	P9WIK5	['GO:0016409']	False	False	False	False
+Rv0431		1.0	Output		Rv0431	886362.0	P96277	RVBD_0431	tuberculin-like peptide	Basal machinery	P96277	[]	False	False	False	False
+cobN		1.0	Output		cobN	888252.0	O53498	RVBD_2062c	cobalamin biosynthesis protein CobN	Basal machinery	O53498	['GO:0051116']	False	False	False	False
+Rv3816c		1.0	Output		Rv3816c	886152.0	O07807	RVBD_3816c	acyltransferase	Basal machinery	O07807	['GO:0003841']	False	False	False	False
+Rv0810c		1.0	Output		Rv0810c	885410.0	I6XWB9	RVBD_0810c	hypothetical protein	Basal machinery	I6XWB9	[]	False	False	False	False
+metB		1.0	Output		metB	887103.0	P9WGB7	RVBD_1079	cystathionine gamma-synthase	Basal machinery	P9WGB7	['GO:0004123', 'GO:0003962', 'GO:0030170']	False	False	False	False
+blaC		1.0	Output		blaC	888742.0	P9WKD3	blaA,RVBD_2068c	beta-lactamase	Basal machinery	P9WKD3	['GO:0008800']	False	False	False	False
+mmpL10		1.0	Output		mmpL10	886068.0	P9WJU1	RVBD_1183	transmembrane transport protein MmpL10	Basal machinery	P9WJU1	[]	False	False	False	False
+fbiC		1.0	Output		fbiC	886061.0	P9WP77	RVBD_1173	FO synthase	Basal machinery	P9WP77	['GO:0051539', 'GO:0141093', 'GO:0044689', 'GO:0046872']	False	False	False	False
+purB		1.0	Output		purB	888929.0	I6XWA1	RVBD_0777	adenylosuccinate lyase PurB	Basal machinery	I6XWA1	['GO:0070626', 'GO:0004018']	False	False	False	False
+Rv2778c		1.0	Output		Rv2778c	887751.0	I6Y1P2	RVBD_2778c	hypothetical protein	Basal machinery	I6Y1P2	[]	False	False	False	False
+ansA		1.0	Output		ansA	886410.0	P9WPX5	RVBD_1538c	L-aparaginase	Basal machinery	P9WPX5	['GO:0004067']	False	False	False	False
+Rv1414		1.0	Output		Rv1414	886696.0	P9WLY3	RVBD_1414	hypothetical protein	Basal machinery	P9WLY3	[]	False	False	False	False
+Rv1191		1.0	Output		Rv1191	886041.0	O05293	RVBD_1191	hypothetical protein	Basal machinery	O05293	[]	False	False	False	False
+Rv2507		1.0	Output		Rv2507	888244.0	O06170	RVBD_2507	proline-rich membrane protein	Basal machinery	O06170	[]	False	False	False	False
+pknF		1.0	Output		pknF	885275.0	P9WI75	RVBD_1746	serine/threonine-protein kinase PknF	Basal machinery	P9WI75	['GO:0005524', 'GO:0004672', 'GO:0106310', 'GO:0004674']	False	False	False	False
+nuoE		1.0	Output		nuoE	887903.0	P9WIV5	RVBD_3149	NADH-quinone oxidoreductase subunit E	Basal machinery	P9WIV5	['GO:0051537', 'GO:0046872', 'GO:0016491', 'GO:0048038']	False	False	False	False
+gltA2		1.0	Output		gltA2	885208.0	P9WPD5	RVBD_0896,gltA	citrate synthase 1	Basal machinery	P9WPD5	['GO:0004108']	False	False	False	False
+Rv0225		1.0	Output		Rv0225	886713.0	P96407	RVBD_0225	hypothetical protein	Basal machinery	P96407	['GO:0016757']	False	False	False	False
