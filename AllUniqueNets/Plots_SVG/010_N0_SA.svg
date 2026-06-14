@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 300" width="350" height="300">
+
+  <defs>
+    <marker id="arrow_act" viewBox="0 0 12 12" refX="8" refY="6" 
+            markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 2 2 L 9 6 L 2 10 z" fill="#5C82B6" stroke="#5C82B6" stroke-width="2" stroke-linejoin="round" />
+    </marker>
+    
+    <marker id="arrow_zero" viewBox="0 0 12 12" refX="8" refY="6" 
+            markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 2 2 L 9 6 L 2 10 z" fill="#999999" stroke="#999999" stroke-width="2" stroke-linejoin="round" />
+    </marker>
+
+    <marker id="bar_inh" viewBox="0 0 12 24" refX="5" refY="12" 
+            markerWidth="4.5" markerHeight="6.5" orient="auto">
+      <line x1="5" y1="5" x2="5" y2="19" stroke="#D05A5A" stroke-width="4" stroke-linecap="round" />
+    </marker>
+  </defs>
+
+  <path d="M 127.0 160.0 L 223.0 160.0" fill="none" stroke="#D05A5A" stroke-width="3.5" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#bar_inh)" />
+  <path d="M 223.0 140.0 L 127.0 140.0" fill="none" stroke="#999999" stroke-width="3.5" stroke-dasharray="1, 6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_zero)" />
+  <path d="M 76.24459071561924 166.63371665418035 A 24 24 0 1 1 76.24459071561924 133.36628334581965" fill="none" stroke="#5C82B6" stroke-width="3.5" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_act)" />
+  <path d="M 273.7554092843808 133.36628334581965 A 24 24 0 1 1 273.7554092843808 166.63371665418035" fill="none" stroke="#5C82B6" stroke-width="3.5" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_act)" />
+  <circle cx="100" cy="150" r="22" fill="white" stroke="#363942" stroke-width="3.5" />
+  <circle cx="250" cy="150" r="22" fill="white" stroke="#363942" stroke-width="3.5" />
+
+</svg>

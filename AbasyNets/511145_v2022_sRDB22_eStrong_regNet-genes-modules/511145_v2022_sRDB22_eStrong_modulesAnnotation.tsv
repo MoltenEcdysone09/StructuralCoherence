@@ -1,0 +1,348 @@
+Module_ID	GO_ID	GO_desc	q-value
+M1	GO:0006265	DNA topological change	0.0206936307381
+M1	GO:0006268	DNA unwinding involved in DNA replication	0.0257247839879
+M1	GO:0007059	chromosome segregation	0.0456006532839
+M1	GO:0009409	response to cold	0.0416603445172
+M1	GO:0031564	transcription antitermination	0.0396738431647
+M1	GO:0060567	negative regulation of DNA-templated transcription, termination	0.0206936307381
+M10	GO:0000737	DNA catabolic process, endonucleolytic	0.0236343045798
+M11	GO:0006310	DNA recombination	0.0108693953128
+M11	GO:0007049	cell cycle	0.000209981287619
+M11	GO:0015074	DNA integration	0.00229459179807
+M11	GO:0032196	transposition	0.0408889729174
+M11	GO:0051301	cell division	0.000444290052884
+M11	GO:0051302	regulation of cell division	0.0302264295269
+M11	GO:0075713	establishment of integrated proviral latency	0.0302264295269
+M12	GO:0032259	methylation	0.0408889729174
+M13	GO:0009440	cyanate catabolic process	0.000000197785078888
+M15	GO:0006352	DNA-templated transcription, initiation	0.0408889729174
+M15	GO:0006810	transport	0.0103903274439
+M15	GO:0046942	carboxylic acid transport	0.0000997565479466
+M17	GO:0006878	cellular copper ion homeostasis	0.00000000728651633765
+M17	GO:0010043	response to zinc ion	0.0396738431647
+M17	GO:0010272	response to silver ion	0.00000000728651633765
+M17	GO:0010273	detoxification of copper ion	0.000000025714848616
+M17	GO:0010628	positive regulation of gene expression	0.000944574935354
+M17	GO:0015679	plasma membrane copper ion transport	0.000206736240052
+M17	GO:0046688	response to copper ion	0.00000000000277568959776
+M17	GO:0060003	copper ion export	0.00000121143360819
+M18	GO:0019323	pentose catabolic process	0.0396738431647
+M18	GO:0019324	L-lyxose metabolic process	0.00000914737449262
+M18	GO:0019572	L-arabinose catabolic process	0.0396738431647
+M18	GO:0034219	carbohydrate transmembrane transport	0.000101685558686
+M2	GO:0035873	lactate transmembrane transport	0.0206936307381
+M2	GO:0042355	L-fucose catabolic process	0.0456006532839
+M2	GO:0097339	glycolate transmembrane transport	0.0282706073896
+M20	GO:0000160	phosphorelay signal transduction system	0.00776996388513
+M21	GO:0017148	negative regulation of translation	0.0416603445172
+M21	GO:0043488	regulation of mRNA stability	0.0257247839879
+M22	GO:0006824	cobalt ion transport	0.0348375993848
+M22	GO:0010045	response to nickel cation	0.0000997565479466
+M22	GO:0032025	response to cobalt ion	0.0000395013887242
+M22	GO:0035444	nickel cation transmembrane transport	0.0348375993848
+M23	GO:0019299	rhamnose metabolic process	0.00015192841817
+M23	GO:0019301	rhamnose catabolic process	0.00000566017715106
+M23	GO:0045893	positive regulation of transcription, DNA-templated	0.0416603445172
+M24	GO:0006814	sodium ion transport	0.0408889729174
+M25	GO:0046688	response to copper ion	0.000324113958763
+M27	GO:0006355	regulation of transcription, DNA-templated	0.0257247839879
+M27	GO:0017148	negative regulation of translation	0.0416603445172
+M27	GO:0034198	cellular response to amino acid starvation	0.0157534468289
+M28	GO:0005975	carbohydrate metabolic process	0.000344027639173
+M28	GO:0009401	phosphoenolpyruvate-dependent sugar phosphotransferase system	0.000032697576471
+M28	GO:2001059	D-tagatose 6-phosphate catabolic process	0.00213167628592
+M29	GO:0034220	ion transmembrane transport	0.018720891621
+M3	GO:0006970	response to osmotic stress	0.0000395013887242
+M3	GO:0019285	glycine betaine biosynthetic process from choline	0.000000000316094874936
+M30	GO:0009437	carnitine metabolic process	9.53064087776e-17
+M30	GO:0042413	carnitine catabolic process	0.000459804524832
+M30	GO:0055114	oxidation-reduction process	0.00440923979699
+M31	GO:0006351	transcription, DNA-templated	0.0155917274106
+M31	GO:0006415	translational termination	0.0408889729174
+M31	GO:0044010	single-species biofilm formation	0.00205116025834
+M31	GO:0060567	negative regulation of DNA-templated transcription, termination	0.0282706073896
+M31	GO:2000143	negative regulation of DNA-templated transcription, initiation	0.0282706073896
+M33	GO:0015700	arsenite transport	0.0206936307381
+M33	GO:0046685	response to arsenic-containing substance	0.000000197785078888
+M35	GO:0006144	purine nucleobase metabolic process	0.000994849790091
+M35	GO:0009436	glyoxylate catabolic process	0.0000120044587547
+M35	GO:0009442	allantoin assimilation pathway	0.000382271503783
+M35	GO:0031388	organic acid phosphorylation	0.048504452238
+M35	GO:0046296	glycolate catabolic process	0.0000484439500627
+M35	GO:0046487	glyoxylate metabolic process	0.048504452238
+M36	GO:0009102	biotin biosynthetic process	0.0000000000006514912439
+M37.1	GO:0006189	'de novo' IMP biosynthetic process	0.0132046477873
+M37.1	GO:0006208	pyrimidine nucleobase catabolic process	0.00170670575462
+M37.1	GO:0006212	uracil catabolic process	0.0000218265882985
+M37.1	GO:0006351	transcription, DNA-templated	0.00503405417278
+M37.1	GO:0006355	regulation of transcription, DNA-templated	0.0450408270004
+M37.1	GO:0006569	tryptophan catabolic process	0.0184622481888
+M37.1	GO:0006935	chemotaxis	0.000124085636834
+M37.1	GO:0007155	cell adhesion	0.0000859601616093
+M37.1	GO:0007165	signal transduction	0.0449237235884
+M37.1	GO:0009098	leucine biosynthetic process	0.0147457524036
+M37.1	GO:0015628	protein secretion by the type II secretion system	0.0000231352075899
+M37.1	GO:0015888	thiamine transport	0.0184622481888
+M37.1	GO:0015914	phospholipid transport	0.00065709223503
+M37.1	GO:0019740	nitrogen utilization	0.000572033988301
+M37.1	GO:0022610	biological adhesion	0.0184622481888
+M37.1	GO:0033554	cellular response to stress	0.0184622481888
+M37.1	GO:0044010	single-species biofilm formation	0.0157534468289
+M37.1	GO:0045226	extracellular polysaccharide biosynthetic process	0.00065709223503
+M37.1	GO:0051454	intracellular pH elevation	0.00065709223503
+M37.1	GO:0051607	defense response to virus	0.00203967347549
+M37.1	GO:0071468	cellular response to acidic pH	0.00371338394722
+M37.1	GO:0071973	bacterial-type flagellum-dependent cell motility	0.0243585110824
+M37.10	GO:0006177	GMP biosynthetic process	0.000807327652757
+M37.10	GO:0006260	DNA replication	0.00661325765207
+M37.10	GO:0009089	lysine biosynthetic process via diaminopimelate	0.000904972207767
+M37.10	GO:0009432	SOS response	0.0126561120445
+M37.10	GO:0019877	diaminopimelate biosynthetic process	0.00377781269371
+M37.11	GO:0009061	anaerobic respiration	0.000214082376034
+M37.11	GO:0015707	nitrite transport	0.048504452238
+M37.11	GO:0022904	respiratory electron transport chain	0.00283057298758
+M37.11	GO:0042128	nitrate assimilation	0.000961897266994
+M37.11	GO:0045333	cellular respiration	0.0000484439500627
+M37.11	GO:0055114	oxidation-reduction process	0.0416824618273
+M37.12	GO:0009401	phosphoenolpyruvate-dependent sugar phosphotransferase system	0.0000527590548639
+M37.13	GO:0019464	glycine decarboxylation via glycine cleavage system	0.000000643686782066
+M37.13	GO:0032259	methylation	0.0348375993848
+M37.14	GO:0006730	one-carbon metabolic process	0.0011746113369
+M37.14	GO:0008616	queuosine biosynthetic process	0.0416603445172
+M37.14	GO:0009086	methionine biosynthetic process	0.00000000486435989191
+M37.14	GO:0035999	tetrahydrofolate interconversion	0.0416603445172
+M37.14	GO:0046654	tetrahydrofolate biosynthetic process	0.0011746113369
+M37.15	GO:0006534	cysteine metabolic process	0.0416603445172
+M37.15	GO:0016226	iron-sulfur cluster assembly	0.00000442628846492
+M37.16	GO:0019629	propionate catabolic process, 2-methylcitrate cycle	0.0000000822219563523
+M37.16	GO:0019679	propionate metabolic process, methylcitrate cycle	0.000324113958763
+M37.17	GO:0006090	pyruvate metabolic process	0.00519419202866
+M37.17	GO:0006096	glycolytic process	0.00750896157894
+M37.17	GO:0007049	cell cycle	0.0000000199139771209
+M37.17	GO:0008360	regulation of cell shape	0.00000000000277568959776
+M37.17	GO:0009252	peptidoglycan biosynthetic process	0.0000000000006514912439
+M37.17	GO:0043093	FtsZ-dependent cytokinesis	0.0108326502367
+M37.17	GO:0051301	cell division	0.00000000486435989191
+M37.17	GO:0071555	cell wall organization	0.000000000060045318601
+M37.18	GO:0006012	galactose metabolic process	0.0302264295269
+M37.18	GO:0008643	carbohydrate transport	0.00573877782623
+M37.18	GO:0015757	galactose transport	0.0408889729174
+M37.19	GO:0009073	aromatic amino acid family biosynthetic process	0.0133915303286
+M37.19	GO:0009423	chorismate biosynthetic process	0.00807345333506
+M37.2	GO:0006355	regulation of transcription, DNA-templated	0.0174204719297
+M37.2	GO:0009267	cellular response to starvation	0.0408889729174
+M37.2	GO:0022611	dormancy process	0.048504452238
+M37.2	GO:0030308	negative regulation of cell growth	0.048504452238
+M37.2	GO:0043488	regulation of mRNA stability	0.048504452238
+M37.20	GO:0005975	carbohydrate metabolic process	0.0457149815721
+M37.20	GO:0030980	alpha-glucan catabolic process	0.00000265990379122
+M37.20	GO:0042956	maltodextrin transport	0.00229459179807
+M37.20	GO:0051692	cellular oligosaccharide catabolic process	0.000324113958763
+M37.23	GO:0010273	detoxification of copper ion	0.0302264295269
+M37.23	GO:0034220	ion transmembrane transport	0.0302264295269
+M37.24	GO:0005975	carbohydrate metabolic process	0.0133915303286
+M37.24	GO:0019262	N-acetylneuraminate catabolic process	0.00000135623295164
+M37.25	GO:0000746	conjugation	0.0127732809202
+M37.25	GO:0006417	regulation of translation	0.0206936307381
+M37.26	GO:0006855	drug transmembrane transport	0.000057250031901
+M37.26	GO:0046618	drug export	0.000944574935354
+M37.27	GO:0006633	fatty acid biosynthetic process	0.0416603445172
+M37.27	GO:0045717	negative regulation of fatty acid biosynthetic process	0.00925244066655
+M37.28	GO:0006276	plasmid maintenance	0.0236343045798
+M37.28	GO:0031564	transcription antitermination	0.0236343045798
+M37.28	GO:0042150	plasmid recombination	0.0127732809202
+M37.28	GO:0043171	peptide catabolic process	0.00925244066655
+M37.29	GO:0034355	NAD salvage	0.0157534468289
+M37.29	GO:0034605	cellular response to heat	0.0302264295269
+M37.29	GO:0034628	'de novo' NAD biosynthetic process from aspartate	0.0206936307381
+M37.29	GO:0036460	cellular response to cell envelope stress	0.0206936307381
+M37.3	GO:0006097	glyoxylate cycle	0.0000399600606238
+M37.3	GO:0006099	tricarboxylic acid cycle	0.0236163731887
+M37.3	GO:0006631	fatty acid metabolic process	0.018406006724
+M37.3	GO:0006633	fatty acid biosynthetic process	0.000000025714848616
+M37.3	GO:0006635	fatty acid beta-oxidation	0.0003284690229
+M37.3	GO:0008610	lipid biosynthetic process	0.0133915303286
+M37.3	GO:0009102	biotin biosynthetic process	0.0335173448571
+M37.3	GO:0019380	3-phenylpropionate catabolic process	0.00000417049038096
+M37.3	GO:0030497	fatty acid elongation	0.00198749125656
+M37.3	GO:0042759	long-chain fatty acid biosynthetic process	0.00198749125656
+M37.3	GO:2001295	malonyl-CoA biosynthetic process	0.0000484439500627
+M37.31	GO:0006004	fucose metabolic process	0.0348375993848
+M37.31	GO:0019571	D-arabinose catabolic process	0.000000721091433447
+M37.31	GO:0042355	L-fucose catabolic process	0.0000000315540449272
+M37.31	GO:0051143	propanediol metabolic process	0.0348375993848
+M37.32	GO:0010124	phenylacetate catabolic process	0.00000940217128745
+M37.34	GO:0006857	oligopeptide transport	0.048504452238
+M37.34	GO:0009061	anaerobic respiration	0.00486397684375
+M37.34	GO:0015031	protein transport	0.000000670574946608
+M37.34	GO:0071249	cellular response to nitrate	0.048504452238
+M37.34	GO:0071250	cellular response to nitrite	0.048504452238
+M37.35	GO:0019303	D-ribose catabolic process	0.000105337036598
+M37.35	GO:0046101	hypoxanthine biosynthetic process	0.0302264295269
+M37.36	GO:0015949	nucleobase-containing small molecule interconversion	0.00184716270297
+M37.38	GO:0000050	urea cycle	0.0003284690229
+M37.38	GO:0006526	arginine biosynthetic process	0.000000000000157942891472
+M37.38	GO:0006865	amino acid transport	0.00000265990379122
+M37.38	GO:0044238	primary metabolic process	0.00925244066655
+M37.38	GO:1902765	L-arginine import into cell	0.00198749125656
+M37.39	GO:0009636	response to toxic substance	0.0348375993848
+M37.39	GO:0046677	response to antibiotic	0.000162843048285
+M37.4	GO:0000103	sulfate assimilation	0.0000000822595320589
+M37.4	GO:0006535	cysteine biosynthetic process from serine	0.0140603658956
+M37.4	GO:0006790	sulfur compound metabolic process	0.0000000369465826972
+M37.4	GO:0006865	amino acid transport	0.0257247839879
+M37.4	GO:0009399	nitrogen fixation	0.0000997565479466
+M37.4	GO:0009970	cellular response to sulfate starvation	0.00833158656757
+M37.4	GO:0010438	cellular response to sulfur starvation	0.00325251200723
+M37.4	GO:0015734	taurine transport	0.00325251200723
+M37.4	GO:0015847	putrescine transport	0.0000112677204867
+M37.4	GO:0019344	cysteine biosynthetic process	0.000324113958763
+M37.4	GO:0042918	alkanesulfonate transport	0.0000997565479466
+M37.4	GO:0046306	alkanesulfonate catabolic process	0.00325251200723
+M37.4	GO:0070814	hydrogen sulfide biosynthetic process	0.00000037479996083
+M37.40	GO:0006814	sodium ion transport	0.0302264295269
+M37.40	GO:0098655	cation transmembrane transport	0.0257247839879
+M37.42	GO:0006083	acetate metabolic process	0.00925244066655
+M37.42	GO:0019413	acetate biosynthetic process	0.00925244066655
+M37.42	GO:0042710	biofilm formation	0.0157534468289
+M37.44	GO:0000162	tryptophan biosynthetic process	0.000000000118993845026
+M37.44	GO:0009073	aromatic amino acid family biosynthetic process	0.000101685558686
+M37.45	GO:0042493	response to drug	0.0408889729174
+M37.47	GO:0006119	oxidative phosphorylation	0.0011746113369
+M37.47	GO:0006865	amino acid transport	0.0188324695945
+M37.47	GO:0009086	methionine biosynthetic process	0.00556178582229
+M37.47	GO:0019646	aerobic electron transport chain	0.00556178582229
+M37.48	GO:2000144	positive regulation of DNA-templated transcription, initiation	0.0157534468289
+M37.49	GO:0030091	protein repair	0.0257247839879
+M37.5	GO:0015752	D-ribose transport	0.0000159029894511
+M37.5	GO:0015753	D-xylose transport	0.000000250768600782
+M37.5	GO:0019568	arabinose catabolic process	0.0000159029894511
+M37.5	GO:0019569	L-arabinose catabolic process to xylulose 5-phosphate	0.0000159029894511
+M37.5	GO:0042843	D-xylose catabolic process	0.000994849790091
+M37.5	GO:0042882	L-arabinose transport	0.00259043313261
+M37.5	GO:0046835	carbohydrate phosphorylation	0.0367662257538
+M37.50	GO:0006571	tyrosine biosynthetic process	0.00925244066655
+M37.50	GO:0009094	L-phenylalanine biosynthetic process	0.0127732809202
+M37.50	GO:0046417	chorismate metabolic process	0.00925244066655
+M37.52	GO:0006542	glutamine biosynthetic process	0.0348375993848
+M37.52	GO:0009447	putrescine catabolic process	0.0000000000006514912439
+M37.53	GO:0000018	regulation of DNA recombination	0.00925244066655
+M37.53	GO:0006298	mismatch repair	0.018720891621
+M37.55	GO:0009266	response to temperature stimulus	0.0206936307381
+M37.57	GO:2000143	negative regulation of DNA-templated transcription, initiation	0.0127732809202
+M37.58	GO:0008643	carbohydrate transport	0.0408889729174
+M37.59	GO:0045454	cell redox homeostasis	0.0408889729174
+M37.6	GO:0006464	cellular protein modification process	0.0457149815721
+M37.6	GO:0006783	heme biosynthetic process	0.00547331659
+M37.6	GO:0042773	ATP synthesis coupled electron transport	0.0295242545361
+M37.6	GO:0045454	cell redox homeostasis	0.000539326988971
+M37.6	GO:0051604	protein maturation	0.000000332997453341
+M37.6	GO:2000142	regulation of DNA-templated transcription, initiation	0.00547331659
+M37.62	GO:0009242	colanic acid biosynthetic process	0.0408889729174
+M37.64	GO:0000746	conjugation	0.0127732809202
+M37.64	GO:0034220	ion transmembrane transport	0.018720891621
+M37.64	GO:0046718	viral entry into host cell	0.018720891621
+M37.65	GO:0000413	protein peptidyl-prolyl isomerization	0.0416603445172
+M37.65	GO:0009166	nucleotide catabolic process	0.0257247839879
+M37.65	GO:0044206	UMP salvage	0.0257247839879
+M37.66	GO:0009089	lysine biosynthetic process via diaminopimelate	0.0331811665283
+M37.66	GO:0010628	positive regulation of gene expression	0.0157534468289
+M37.7	GO:0006084	acetyl-CoA metabolic process	0.00109636507479
+M37.7	GO:0006099	tricarboxylic acid cycle	0.011409733411
+M37.7	GO:0006113	fermentation	0.00000000556805281342
+M37.7	GO:0009061	anaerobic respiration	0.000125792482184
+M37.7	GO:0009605	response to external stimulus	0.00109636507479
+M37.7	GO:0044780	bacterial-type flagellum assembly	0.00287563441381
+M37.7	GO:0051191	prosthetic group biosynthetic process	0.00109636507479
+M37.7	GO:0071973	bacterial-type flagellum-dependent cell motility	0.0177163234867
+M37.8	GO:0005975	carbohydrate metabolic process	0.000110514536249
+M37.8	GO:0006048	UDP-N-acetylglucosamine biosynthetic process	0.0000159029894511
+M37.8	GO:0009401	phosphoenolpyruvate-dependent sugar phosphotransferase system	0.00353148100562
+M37.8	GO:0034219	carbohydrate transmembrane transport	0.0257247839879
+M37.8	GO:0052777	diacetylchitobiose catabolic process	0.000994849790091
+M37.8	GO:1902815	N,N'-diacetylchitobiose import	0.0000159029894511
+M37.9	GO:0006559	L-phenylalanine catabolic process	0.000627197622491
+M37.9	GO:0045893	positive regulation of transcription, DNA-templated	0.022386006626
+M38	GO:0009063	cellular amino acid catabolic process	0.0396738431647
+M39	GO:0015768	maltose transport	0.0408889729174
+M39	GO:0043433	negative regulation of sequence-specific DNA binding transcription factor activity	0.0206936307381
+M4	GO:0000302	response to reactive oxygen species	0.0206936307381
+M4	GO:0051143	propanediol metabolic process	0.0206936307381
+M42	GO:0009435	NAD biosynthetic process	0.0302264295269
+M42	GO:0034628	'de novo' NAD biosynthetic process from aspartate	0.0206936307381
+M43	GO:0046348	amino sugar catabolic process	0.0257247839879
+M44	GO:0042840	D-glucuronate catabolic process	0.000382271503783
+M45	GO:0006812	cation transport	0.0348375993848
+M45	GO:0046177	D-gluconate catabolic process	0.00000566017715106
+M46	GO:0031388	organic acid phosphorylation	0.0456006532839
+M46	GO:0042838	D-glucarate catabolic process	0.0000000199139771209
+M46	GO:0046392	galactarate catabolic process	0.0000000199139771209
+M46	GO:0046487	glyoxylate metabolic process	0.0456006532839
+M46	GO:0055085	transmembrane transport	0.0416603445172
+M47	GO:1900190	regulation of single-species biofilm formation	0.0157534468289
+M48	GO:0006573	valine metabolic process	0.0348375993848
+M48	GO:1901361	organic cyclic compound catabolic process	0.000000197785078888
+M49	GO:0034194	D-galactonate catabolic process	0.000000422102302505
+M5	GO:0009082	branched-chain amino acid biosynthetic process	0.0206936307381
+M50	GO:0008643	carbohydrate transport	0.00573877782623
+M50	GO:0019316	D-allose catabolic process	0.000105337036598
+M50	GO:0044262	cellular carbohydrate metabolic process	0.048504452238
+M52	GO:0006266	DNA ligation	0.0206936307381
+M52	GO:0006396	RNA processing	0.000382271503783
+M52	GO:0042245	RNA repair	0.0282706073896
+M53	GO:0015031	protein transport	0.0478607925579
+M53	GO:0042930	enterobactin transport	0.00925244066655
+M55	GO:0010045	response to nickel cation	0.0408889729174
+M55	GO:0035444	nickel cation transmembrane transport	0.000496565585044
+M56	GO:0006817	phosphate ion transport	0.0396738431647
+M56	GO:0016036	cellular response to phosphate starvation	0.0396738431647
+M57	GO:0009401	phosphoenolpyruvate-dependent sugar phosphotransferase system	0.00193908653337
+M57	GO:0015796	galactitol transport	0.000000721091433447
+M57	GO:0019402	galactitol metabolic process	0.00000260903516961
+M57	GO:0019404	galactitol catabolic process	0.000000721091433447
+M57	GO:2001059	D-tagatose 6-phosphate catabolic process	0.00070019707051
+M59	GO:0006355	regulation of transcription, DNA-templated	0.027206946433
+M59	GO:0009271	phage shock	0.000000721091433447
+M6	GO:0006824	cobalt ion transport	0.0257247839879
+M6	GO:0006829	zinc ion transport	0.0206936307381
+M6	GO:0035444	nickel cation transmembrane transport	0.0257247839879
+M6	GO:0046686	response to cadmium ion	0.0157534468289
+M6	GO:0070574	cadmium ion transmembrane transport	0.0157534468289
+M6	GO:0071577	zinc ion transmembrane transport	0.0157534468289
+M60	GO:0005975	carbohydrate metabolic process	0.00794998646015
+M60	GO:0009254	peptidoglycan turnover	0.0456006532839
+M60	GO:0043470	regulation of carbohydrate catabolic process	0.0206936307381
+M60	GO:0046348	amino sugar catabolic process	0.0206936307381
+M60	GO:0097173	N-acetylmuramic acid catabolic process	0.0000395013887242
+M61	GO:0046459	short-chain fatty acid metabolic process	0.000105337036598
+M63	GO:0009401	phosphoenolpyruvate-dependent sugar phosphotransferase system	0.00467139799939
+M63	GO:0015882	L-ascorbic acid transport	0.000261012126083
+M63	GO:0019852	L-ascorbic acid metabolic process	0.000261012126083
+M63	GO:0019854	L-ascorbic acid catabolic process	0.0000000126437949974
+M63	GO:0034219	carbohydrate transmembrane transport	0.00807345333506
+M64	GO:0022611	dormancy process	0.0157534468289
+M65	GO:0006071	glycerol metabolic process	0.00000000728651633765
+M65	GO:0006072	glycerol-3-phosphate metabolic process	0.00000370847022915
+M65	GO:0015793	glycerol transport	0.000382271503783
+M65	GO:0019563	glycerol catabolic process	0.00000000728651633765
+M65	GO:0046168	glycerol-3-phosphate catabolic process	0.048504452238
+M66	GO:0019380	3-phenylpropionate catabolic process	0.0000000000122682666398
+M66	GO:0019439	aromatic compound catabolic process	0.00000417049038096
+M66	GO:0019622	3-(3-hydroxy)phenylpropionate catabolic process	0.00000121143360819
+M66	GO:0046271	phenylpropanoid catabolic process	0.000206736240052
+M67	GO:0006281	DNA repair	0.0103719104981
+M67	GO:0006307	DNA dealkylation involved in DNA repair	0.000000643686782066
+M67	GO:0042245	RNA repair	0.0348375993848
+M67	GO:0080111	DNA demethylation	0.0000710137325379
+M68	GO:0019563	glycerol catabolic process	0.00000614066977041
+M7	GO:0044010	single-species biofilm formation	0.000807327652757
+M7	GO:0045947	negative regulation of translational initiation	0.0257247839879
+M70	GO:1901530	response to hypochlorite	0.000000197785078888
+M71	GO:0001121	transcription from bacterial-type RNA polymerase promoter	0.0302264295269
+M71	GO:0006813	potassium ion transport	0.000000422102302505
+M71	GO:0071805	potassium ion transmembrane transport	0.00000000145889942278
+M72	GO:0006829	zinc ion transport	0.0000997565479466
+M8	GO:0006566	threonine metabolic process	0.0416603445172
+M8	GO:0006567	threonine catabolic process	0.00000614066977041
+M8	GO:0070689	L-threonine catabolic process to propionate	0.00000000000111687472153
+M9	GO:0030258	lipid modification	0.00925244066655

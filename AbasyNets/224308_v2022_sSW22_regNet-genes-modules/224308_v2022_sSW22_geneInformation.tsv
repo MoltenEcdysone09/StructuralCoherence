@@ -1,0 +1,2576 @@
+Gene_name	Locus_tag	NCBI_gene_ID	Uniprot_ID	Synonyms	Product_function	NDA_component
+BSU05343	BSU05343			ydzS/1		M121
+BSU05344	BSU05344			ydzS/2,ydzS		M121
+BSU05890	BSU05890			ydhU/1,ydhU		Basal machinery
+BSU05899	BSU05899			ydhU/2		Basal machinery
+BSU07735	BSU07735			yflB		Basal machinery
+BSU11381	BSU11381			appA,appA/1		Basal machinery
+BSU11382	BSU11382			appA/2		Basal machinery
+BSU12671	BSU12671			xkdN		M65
+BSU16845	BSU16845			ymfF		M45
+BSU19810	BSU19810			ypqP,yodU		Basal machinery
+BSU21670	BSU21670			ypqP		Basal machinery
+BSU23329	BSU23329			ypuC/1		Basal machinery
+BSU23330	BSU23330			ypuC,ypuC/2		Basal machinery
+BSU25760	BSU25760			spoIVCB		Global regulator
+BSU26055						M13
+BSU26390	BSU26390			spoIIIC		Basal machinery
+BSU26559	BSU26559			yrzN		Basal machinery
+BSU33221	BSU33221			yvrHb,yvrH		M25.2
+BSU35239	BSU35239			swrAA/2		M25.19
+BSU35609	BSU35609			tuaA,tuaA/1		Basal machinery
+BSU35699	BSU35699			yvzE		Basal machinery
+BSU_29679						Basal machinery
+BSU_CDS_3119273	BSU_CDS_3119273			ytrG		M37
+BSU_misc_RNA_11	BSU_misc_RNA_11					M15
+BSU_misc_RNA_16	BSU_misc_RNA_16					M10
+BSU_misc_RNA_2	BSU_misc_RNA_2			scr		Basal machinery
+BSU_misc_RNA_55	BSU_misc_RNA_55			ssrA		Basal machinery
+BSU_misc_RNA_67						M111
+BSU_misc_RNA_69						Basal machinery
+BSU_misc_RNA_72						Basal machinery
+BSU_misc_RNA_79						Basal machinery
+BSU_misc_RNA_81						M13
+BSU_misc_RNA_82						Basal machinery
+BSU_misc_RNA_92						M13
+BSU_rRNA_19	BSU_rRNA_19			rrnB-16S		Basal machinery
+BSU_rRNA_20	BSU_rRNA_20			rrnB-23S		Basal machinery
+BSU_rRNA_21	BSU_rRNA_21			rrnB-5S		Basal machinery
+G8J2-20	G8J2-20			cmpA		Basal machinery
+abf2	BSU28510		P94552	xsa,asd		M16
+abfA	BSU28720	937509	P94531		alpha-L-arabinofuranosidase	M16
+abh	BSU14480	938738	P39758	ylxT,yzaA	transition state regulator Abh	M25.1
+abn2	BSU39330		P42293	J3A,yxiA,abnB		Basal machinery
+abnA	BSU28810	937430	P94522		arabinan-endo 1,5-alpha-L-arabinase	M16
+abrB	BSU00370	937009	P08874	cpsX	transition state regulatory protein AbrB	Global regulator
+accA	BSU29200	936367	O34847		acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha	Basal machinery
+accC2	BSU18240		O34544	accC,yngH		Basal machinery
+accD	BSU29210	936186	C0SP93	yttI	acetyl-coenzyme A carboxylase carboxyl transferase subunit beta	Basal machinery
+acdA	BSU37170	938457	P45867	acd	acyl-CoA dehydrogenase	M89
+ackA	BSU29470	937347	P37877		acetate kinase	Basal machinery
+acoA	BSU08060	936152	O31404	yfjK	acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha	Intermodular
+acoB	BSU08070	939697	O34591	yfjJ	acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit beta	Intermodular
+acoC	BSU08080	936147	O31550	yfjI	dihydrolipoyllysine-residue acetyltransferase component of acetoin cleaving system	Intermodular
+acoL	BSU08090	939702	O34324	yfjH	dihydrolipoyl dehydrogenase	Intermodular
+acoR	BSU08100	936148	O31551	yfjG,yzcB	acetoin dehydrogenase operon transcriptional activator AcoR	M25.14
+acpA	BSU15920		P80643	acpP		M25.6
+acpK	BSU17130	937952	Q7PC63		polyketide biosynthesis acyl-carrier-protein AcpK	Basal machinery
+acsA	BSU29680	937324	P39062		acetyl-coenzyme A synthetase	Basal machinery
+acuA	BSU29690	937633	P39065		acetoin utilization protein AcuA	Basal machinery
+acuB	BSU29700	937318	P39066		acetoin utilization protein AcuB	Basal machinery
+acuC	BSU29710	936834	P39067		acetoin utilization protein AcuC	Basal machinery
+adaA	BSU01810	938648	P19219		bifunctional transcriptional activator/DNA repair enzyme AdaA	M32
+adaB	BSU01820	938673	P19220		methylated-dna--protein-cysteine methyltransferase	M32
+addA	BSU10630	939793	P23478		ATP-dependent helicase/nuclease subunit A	Basal machinery
+addB	BSU10620	936341	P23477		ATP-dependent helicase/deoxyribonuclease subunit B	Basal machinery
+adeR	BSU31920		P71073	yukF		M102
+adhA	BSU27010	938739	C0SPA5		formaldehyde dehydrogenase AdhA	M114
+adhB	BSU26970	937604	O06012		zinc-type alcohol dehydrogenase	Basal machinery
+adhR	BSU27000		O06008	yraB		M114
+adk	BSU01370	938508	P16304		adenylate kinase	Basal machinery
+ahpC	BSU40090	938147	P80239		alkyl hydroperoxide reductase subunit C	M25.16
+ahpF	BSU40100	937717	P42974	ndh	NADH dehydrogenase	M25.16
+albA	BSU37370	937059	P71011	ywiA	antilisterial bacteriocin subtilosin biosynthesis protein AlbA	M25.7
+albB	BSU37380	937057	P71010	ywhR	antilisterial bacteriocin subtilosin biosynthesis protein AlbB	M25.7
+albC	BSU37390	937068	P71009	ywhQ	ABC transporter ATP-binding protein	M25.7
+albD	BSU37400	937053	P71008	ywhP	antilisterial bacteriocin subtilosin biosynthesis protein AlbD	M25.7
+albE	BSU37410	938514	P71007	ywhO	antilisterial bacteriocin subtilosin biosynthesis protein AlbE	M25.7
+albF	BSU37420	938515	P71006	ywhN	zinc protease AlbF	M25.7
+albG	BSU37430	937060	P71005	ywhM	antilisterial bacteriocin subtilosin biosynthesis protein AlbG	M25.7
+ald	BSU31930	936557	Q08352	spoVN	alanine dehydrogenase	M102
+aldY	BSU38830	937414	P94358	yxkE	aldehyde dehydrogenase AldY	Basal machinery
+alkA	BSU01800	938586	P37878		DNA-3-methyladenine glycosylase	M32
+allB	BSU32410		O32137	yunH,pucH		M21
+alr2	BSU17640		P94494	yncD,alrB		Basal machinery
+alsD	BSU36000	936857	Q5U803		alpha-acetolactate decarboxylase	M111
+alsR	BSU36020	936860	Q04778		HTH-type transcriptional regulator AlsR	M111
+alsS	BSU36010	936852	Q04789		acetolactate synthase	M111
+alsT	BSU18120	938191	Q45068		amino acid carrier protein AlsT	M21
+amhX	BSU03010	938351	P54983		amidohydrolase AmhX	Basal machinery
+amyC	BSU30290	935927	O34518		ABC transporter permease	M105
+amyD	BSU30280	937258	O34706		ABC transporter permease	M105
+amyE	BSU03040	938356	P00691	amyA	alpha-amylase	Basal machinery
+amyX	BSU29930	937292	C0SPA0		pullulanase	Basal machinery
+ansA	BSU23580	938722	P26900		L-asparaginase 1	M49
+ansB	BSU23570		P26899	aspA		M49
+ansR	BSU23590	938717	Q07683		XRE family transcriptional regulator	M49
+ansZ	BSU02690	938392	O34482	yccC	asparaginase	Basal machinery
+antE	BSU25220	2914189	Q7WY63		protein AntE	Basal machinery
+appB	BSU11390	936400	P42062		oligopeptide transport system permease protein AppB	Basal machinery
+appC	BSU11400	936394	P42063		oligopeptide transport system permease protein AppC	Basal machinery
+appD	BSU11360	936391	P42064		oligopeptide transport ATP-binding protein AppD	Basal machinery
+appF	BSU11370	936390	P42065		oligopeptide transport ATP-binding protein AppF	Basal machinery
+aprE	BSU10300	939313	P04189	aprA,apr,sprE	subtilisin E	Basal machinery
+aprX	BSU17260	940056	O31788		serine protease AprX	Basal machinery
+araA	BSU28800	936764	P94523		L-arabinose isomerase	M16
+araB	BSU28790	936019	P94524		ribulokinase	M16
+araD	BSU28780	937894	P94525		L-ribulose-5-phosphate 4-epimerase	M16
+araE	BSU33960	938567	P96710	yvbR	arabinose-proton symporter	M16
+araL	BSU28770	937431	P94526	yseA	arabinose operon protein AraL	M16
+araN	BSU28750	937433	P94528	yseC	arabinose-binding protein	M16
+araP	BSU28740	937432	P94529	yseD	L-arabinose transport system permease protein AraP	M16
+araQ	BSU28730	937434	P94530	yseE	L-arabinose transport system permease protein AraQ	M16
+araR	BSU33970	938635	P96711	araC,yvbS	transcriptional repressor	M16
+arfM	BSU37290	937058	P46910		transcription regulator ArfM	M25.5
+argB	BSU11210	936381	P68729		acetylglutamate kinase	M25.15
+argC	BSU11190	936389	P23715		N-acetyl-gamma-glutamyl-phosphate reductase	M25.15
+argD	BSU11220	939357	P36839		acetylornithine aminotransferase	M25.15
+argF	BSU11250	936386	P18186		ornithine carbamoyltransferase	M25.15
+argG	BSU29450	937348	O34347		argininosuccinate synthase	M25.15
+argH	BSU29440	937966	O34858		argininosuccinate lyase	M25.15
+argJ	BSU11200	939800	P36843		arginine biosynthesis bifunctional protein ArgJ	M25.15
+argR	BSU24250		P17893	ahrC		M25.15
+aroA	BSU29750	937853	P39912		5-enolpyruvylshikimate-3-phosphate synthetase AroA	M80
+arsB	BSU25790	937800	P45946	yqcL	arsenite resistance protein ArsB	M44
+arsC	BSU25780	937801	P45947	yqcM	arsenate reductase ArsC	M44
+arsR	BSU25810	937789	P45949	yqcJ	arsenical resistance operon repressor	M44
+artM	BSU23960		P54537	artR,yqiZ		Basal machinery
+artP	BSU23980	938682	P54535	yqiX	arginine-binding extracellular protein ArtP	Basal machinery
+artQ	BSU23970	938678	P54536	yqiY	arginine transport system permease protein ArtQ	Basal machinery
+asd	BSU16750	939654	Q04797		aspartate-semialdehyde dehydrogenase	Basal machinery
+aseR	BSU05330	938089	P96677	ydeT	ArsR family transcriptional regulator	M121
+asnH	BSU39920	937677	P42113	yxaN	asparagine synthetase 2	Basal machinery
+asnO	BSU10790	939783	O05272	yucB,yisO	asparagine synthetase 3	Basal machinery
+azlB	BSU26720	937625	O07920	yrdG	transcriptional regulator AzlB	M69
+azlC	BSU26710	936606	O07942	yrdH	branched-chain amino acid transport protein AzlC	M69
+azlD	BSU26700	937624	O07923	yrdI	branched-chain amino acid transport protein AzlD	M69
+azoR1	BSU19230		O35022	yocJ		M43
+azoR2	BSU33540		O32224	yvaB		M56
+azr	BSU09340		O07529	yhdA		M87
+bacA	BSU37740	937216	P39638	ywfB	bacilysin biosynthesis protein BacA	Basal machinery
+bacB	BSU37730	937084	P39639	ywfC	bacilysin biosynthesis protein BacB	Basal machinery
+bacC	BSU37720	937065	P39640	ywfD	bacilysin biosynthesis oxidoreductase	Basal machinery
+bacD	BSU37710	937214	P39641		alanine-anticapsin ligase BacD	Basal machinery
+bacE	BSU37700	937161	P39642	ywfF	bacilysin exporter BacE	Basal machinery
+bceA	BSU30380	937246	O34697	barC,ytsC	bacitracin export ATP-binding protein BceA	M61
+bceB	BSU30370	938178	O34741	ytsD,barD	bacitracin export permease protein BceB	M61
+bceR	BSU30400	936307	O34951	ytsA,barA	sensory transduction protein BceR	M61
+bcrC	BSU36530	936946	P94571	ywoA	undecaprenyl-diphosphatase BcrC	Intermodular
+bdbA	BSU21460	939129	P68569	yolI	disulfide bond formation protein A	Intermodular
+bdbB	BSU21440	939128	P68571	yolK	disulfide bond formation protein B	Intermodular
+bdbC	BSU33470	936042	O32217	yvgU	disulfide bond formation protein C	Basal machinery
+bdbD	BSU33480	936031	O32218	yvgV	disulfide bond formation protein D	Basal machinery
+bdhA	BSU06240	939490	O34788	ydjL	(r,r)-butanediol dehydrogenase	Basal machinery
+besA	BSU32010	936592	O32102	yuiI	ferri-bacillibactin esterase BesA	Basal machinery
+bfmBAA	BSU24050		P37940	bfmB1a,bkdAA		Intermodular
+bfmBAB	BSU24040		P37941	bfmB1b,bkdAB		Intermodular
+bfmBB	BSU24030		P37942	bfmB2,bkdB,bfmB		Intermodular
+bfmBC	BSU24060		P54533	lpdV,yqiV		Intermodular
+bglH	BSU39260	937512	P40740		aryl-phospho-beta-d-glucosidase BglH	M57
+bglP	BSU39270	937518	P40739		PTS system beta-glucoside-specific EIIBCA component	M57
+bglS	BSU39070	937470	P04957	bgl,licS	beta-glucanase	M57
+bioB	BSU30200	938180	P53557		biotin synthase	M98
+bioD	BSU30210	937264	P53558		ATP-dependent dethiobiotin synthetase BioD	M98
+bioF	BSU30220	937268	P53556		8-amino-7-oxononanoate synthase	M98
+bioI	BSU30190	935928	P53554	CYP107H	biotin biosynthesis cytochrome P450	M98
+bioK	BSU30230		P53555	bioA		M98
+bioW	BSU30240	938017	P53559		6-carboxyhexanoate--CoA ligase	M98
+bioY	BSU10370	939321	O07620	yhfU	biotin transporter BioY	M98
+bioYB	BSU32030	936511	O32104	yuiG	biotin transporter BioYB	M98
+birA	BSU22440	939028	A3F320		bifunctional protein BirA	M98
+blt	BSU26590	937646	P39843	bmr2,bmt	multidrug resistance protein 2	M45
+bltD	BSU26600	937632	P39909	bmr2D,bmtD	spermine/spermidine acetyltransferase	M45
+bltR	BSU26580	937644	P39842	bmtR,bmr2R	multidrug-efflux transporter 2 regulator	M45
+bmr	BSU24010	938680	P33449	bmr1	multidrug resistance protein	M45
+bmrA	BSU34820	936559	O06967	yvcC	multidrug resistance ABC transporter ATP-binding/permease protein BmrA	Basal machinery
+bmrR	BSU24020	938676	P39075	bmr1R	MerR family transcriptional regulator	M45
+bmrU	BSU24000	938679	P39074		lipid kinase BmrU	Basal machinery
+bofA	BSU00230	937025	P24282		sigma-K factor-processing regulator BofA	Basal machinery
+bofC	BSU27750	937526	O05391		general stress protein BofC	Basal machinery
+bpr	BSU15300	939695	P16397	bpf	bacillopeptidase F	Basal machinery
+braB	BSU29600	937334	O34545		branched-chain amino acid transport system carrier protein BraB	Basal machinery
+brnQ	BSU26690	936930	P94499	yrdJ	branched-chain amino acid transport system carrier protein BrnQ	M69
+bscR	BSU27170	938491	O08335	fatR,yrhI	TetR family transcriptional regulator	M108
+bsdA	BSU03620		P94403	yclA		M52
+bsdB	BSU03630		P94404	yclB		M52
+bsdC	BSU03640		P94405	yclC,ubiD		M52
+bsdD	BSU03651	8302940	C0H3U9		phenolic acid decarboxylase subunit D	M52
+bshA	BSU22460		P42982	jojH,ypjH		Basal machinery
+bshB1	BSU22470		P42981	ypjG,jojG		Basal machinery
+bshB2	BSU19460		O31857	yojG		Basal machinery
+bsn	BSU32540	936687	O32150	yurI	extracellular ribonuclease	Basal machinery
+bsrG	BSU21546		L8EAY0			Basal machinery
+btr	BSU01640		P40408	ybbB,yzbC		M119
+buk	BSU24070	938675	P54532	yqiU	butyrate kinase	Intermodular
+cadA	BSU33490		O32219	copB,yvgW		M81
+capA	BSU35880		P96738	pgsA,ywtB		Basal machinery
+capB	BSU35900		P96736	ywsC,pgsB		Basal machinery
+capC	BSU35890		P96737	ywtA,pgsC		Basal machinery
+carA	BSU11230	936387	P36838	cpaA	carbamoyl-phosphate synthase arginine-specific small chain	M25.15
+carB	BSU11240	939353	P18185	cpaB	carbamoyl-phosphate synthase arginine-specific large chain	M25.15
+catD	BSU08230	939204	P54720	yfiD	oxidoreductase	M43
+catE	BSU08240	936164	P54721	yfiE	catechol-2,3-dioxygenase	M43
+cca	BSU22450	939025	P42977	papS,ypjI	CCA-adding enzyme	Basal machinery
+cccA	BSU25190	937902	P24469		cytochrome c-550	Basal machinery
+ccdA	BSU17930	937140	P45706		cytochrome c-type biogenesis protein CcdA	Basal machinery
+ccdB	BSU17940		P45709	yneI,yoxH		Basal machinery
+ccdC	BSU17950		P45710	yneJ,yoxI		Basal machinery
+ccpA	BSU29740	935942	P25144	graR,alsA,amyR	catabolite control protein A	Global regulator
+ccpB	BSU40870	937876	P37517	yyaG	catabolite control protein B	Basal machinery
+ccpN	BSU25250	937886	O34994	yqzB	transcriptional repressor CcpN	M72
+cdd	BSU25300	937885	P19079		cytidine deaminase	Basal machinery
+cgeA	BSU19780	940066	P42089	cgeAA	spore maturation protein CgeA	M39
+cgeB	BSU19790	940061	P42090	cgeAB	spore maturation protein CgeB	M39
+cgeC	BSU19770	940074	P42091	cgeBA	spore maturation protein CgeC	Basal machinery
+cgeD	BSU19760	940063	P42092	cgeBB	spore maturation protein CgeD	Basal machinery
+cgeE	BSU19750	940064	P42093	cgeBC	N-acetyltransferase CgeE	Basal machinery
+cggR	BSU33950	938570	O32253	yvbQ	central glycolytic genes regulator	M42
+chaA	BSU07920		O34840	yfkE		Basal machinery
+cheA	BSU16430	939600	P29072	cheN	chemotaxis protein CheA	M113
+cheB	BSU16420	940124	Q05522	cheL	chemotaxis response regulator protein-glutamate methylesterase	M113
+cheC	BSU16450	939621	P40403	ylxJ	Chey-P phosphatase CheC	M113
+cheD	BSU16460	939959	P40404	ylxK	chemoreceptor glutamine deamidase CheD	M113
+cheV	BSU14010	939239	P37599		chemotaxis protein CheV	Basal machinery
+cheW	BSU16440	939957	P39802		chemotaxis protein CheW	M113
+cheY	BSU16330	940120	P24072	cheB	chemotaxis protein CheY	M113
+cidA	BSU38320		P39591	ywbH		M109
+cimH	BSU38770	937407	P94363	yxkJ	citrate/malate transporter	Basal machinery
+cisA	BSU25770		P17867	spoIVCA		Basal machinery
+citA	BSU09440	936270	P39119		citrate synthase	M94
+citB	BSU18000	938140	P09339		aconitate hydratase	M84
+citM	BSU07610	938801	P55069	yflO	Mg(2+)/citrate complex secondary transporter	M34
+citN	BSU39060		P42308	citH,yxiQ		Basal machinery
+citR	BSU09430	939267	P39127		LysR family transcriptional regulator	M94
+citT	BSU07590	938806	O34534	yflQ	transcriptional regulatory protein CitT	M34
+citZ	BSU29140	937381	P39120	citA2	citrate synthase 2	M84
+clpC	BSU00860	938481	P37571	mecB	negative regulator of genetic competence ClpC/MecB	M107
+clpE	BSU13700	939289	O31673		ATP-dependent Clp protease ATP-binding subunit ClpE	M107
+clpP	BSU34540	938625	P80244	yvdN	ATP-dependent Clp protease proteolytic subunit	M107
+clpQ	BSU16150	938111	P39070	codW,hslV	ATP-dependent protease subunit ClpQ	Basal machinery
+clpX	BSU28220	937482	P50866		ATP-dependent Clp protease ATP-binding subunit ClpX	M107
+clpY	BSU16160		P39778	codX,hslU		Basal machinery
+coaE	BSU29060	937388	O34932	ytaG	dephospho-CoA kinase	Basal machinery
+coaX	BSU00700	936960	P37564	coaA,yacB	type III pantothenate kinase	Basal machinery
+codY	BSU16170	936491	P39779		GTP-sensing transcriptional pleiotropic repressor CodY	Global regulator
+comA	BSU31680	937179	P14204	comA1,comAA	transcriptional regulatory protein ComA	M25.6
+comB	BSU10940		O06738	yitC		Basal machinery
+comC	BSU28070	936586	P15378		type 4 prepilin-like proteins leader peptide-processing enzyme	Basal machinery
+comEA	BSU25590	937827	P39694	comE1	ComE operon protein 1	Basal machinery
+comEB	BSU25580	937832	P32393	comE2	ComE operon protein 2	Basal machinery
+comEC	BSU25570	937839	P39695	comE3	ComE operon protein 3	Basal machinery
+comFA	BSU35470	938537	P39145	comF1	ComF operon protein 1	Basal machinery
+comFB	BSU35460	936749	P39146	comF2	ComF operon protein 2	Basal machinery
+comFC	BSU35450	936747	P39147	comF3	ComF operon protein 3	Basal machinery
+comGA	BSU24730	938516	P25953	comG1	ComG operon protein 1	Basal machinery
+comGB	BSU24720	938527	P25954	comG2	ComG operon protein 2	Basal machinery
+comGC	BSU24710	938526	P25955	comG3	ComG operon protein 3	Basal machinery
+comGD	BSU24700	938531	P25956	comG4	ComG operon protein 4	Basal machinery
+comGE	BSU24690	938518	P25957	comG5	ComG operon protein 5	Basal machinery
+comGF	BSU24680	938530	P25958	comG6	ComG operon protein 6	Basal machinery
+comGG	BSU24670	938538	P25959	comG7	ComG operon protein 7	Basal machinery
+comK	BSU10420	936338	P40396		competence transcription factor	Global regulator
+comN	BSU27660	937536	O32049	yrzD	post-transcriptional regulator	Basal machinery
+comP	BSU31690	938866	Q99027		sensor histidine kinase	Basal machinery
+comQ	BSU31710	937180	P33690		competence regulatory protein ComQ	Basal machinery
+comS	BSU03500	938310	P80355		competence protein S	Intermodular
+comX	BSU31700	938875	P45453		competence pheromone	Basal machinery
+comZ	BSU11310	939358	O32437		ComG operon repressor	Basal machinery
+copA	BSU33500	937985	O32220	yvgX	copper-exporting P-type ATPase A	M11
+copZ	BSU33510	937974	O32221	yvgY	copper chaperone CopZ	M11
+corA	BSU24740		P40948	yqhC,yqxL		Basal machinery
+cotA	BSU06300	936023	P07788	pig	spore coat protein A	Basal machinery
+cotB	BSU36050	936870	P07789		spore coat protein B	M39
+cotC	BSU17700	939543	P07790		spore coat protein C	Basal machinery
+cotD	BSU22200	939051	P07791		spore coat protein D	Basal machinery
+cotE	BSU17030	939508	P14016		spore coat protein E	Basal machinery
+cotF	BSU40530	936671	P23261		spore coat protein F	Basal machinery
+cotG	BSU36070	936865	P39801		spore coat protein G	M39
+cotH	BSU36060	936858	Q45535	ywrH	inner spore coat protein H	M39
+cotI	BSU30920	936682	O34656	ytaA	spore coat protein I	Basal machinery
+cotJA	BSU06890	938758	Q45536		spore coat associated protein CotJA	Basal machinery
+cotJB	BSU06900	936071	Q45537		spore coat protein CotJB	Basal machinery
+cotJC	BSU06910	938762	Q45538		spore coat peptide assembly protein CotJC	Basal machinery
+cotM	BSU17970	938815	Q45058	yneL	spore coat protein M	Basal machinery
+cotO	BSU11730	939810	O31622	yjbX	spore coat protein O	Basal machinery
+cotP	BSU05550	938073	P96698	ydfT	spore coat protein P	Basal machinery
+cotR	BSU34530	936427	O06996	yvdO	sporulation hydrolase CotR	Basal machinery
+cotS	BSU30900	936628	P46914		spore coat protein S	Basal machinery
+cotSA	BSU30910	936379	P46915	ytbA,ytxN	spore coat protein SA	Basal machinery
+cotT	BSU12090	939403	P11863		spore coat protein	Basal machinery
+cotV	BSU11780	939385	Q08309		spore coat protein V	Basal machinery
+cotW	BSU11770	939374	Q08310		spore coat protein W	Basal machinery
+cotX	BSU11760	936417	Q08313		spore coat protein X	M39
+cotY	BSU11750	939383	Q08311		spore coat protein Y	M39
+cotZ	BSU11740	936418	Q08312		spore coat protein Z	M39
+coxA	BSU27830	937516	P94446	yrbB	sporulation cortex protein CoxA	Basal machinery
+crh	BSU34740	938474	O06976	yvcM	HPr-like protein Crh	Basal machinery
+csbA	BSU35180	936675	P37953		general stress protein CsbA	Basal machinery
+csbB	BSU08600	939717	Q45539	yfhN	glycosyltransferase CsbB	Basal machinery
+csbC	BSU39810	937639	P46333	yxcC	metabolite transport protein CsbC	Basal machinery
+csbD	BSU36670	936969	P70964	ywmG	stress response protein CsbD	Basal machinery
+csbX	BSU27760	937527	O05390		alpha-ketoglutarate permease	Basal machinery
+cse15	BSU14250		O31700	yknT		Basal machinery
+cse60	BSU30080		P94496	yteV		Basal machinery
+csfB	BSU00240	937016	P37534	yaaM	sporulation protein CsfB	Basal machinery
+csgA	BSU02070	938448	P54379		sigma-G-dependent sporulation-specific SASP protein	Basal machinery
+csk22	BSU19110		P94497	yobW		Basal machinery
+csn	BSU26890	936802	O07921		chitosanase	Basal machinery
+csoR	BSU33520	936038	O32222	yvgZ	copper-sensing transcriptional repressor CsoR	M11
+cspB	BSU09100	936224	P32081	cspA	cold shock protein CspB	Basal machinery
+cspR	BSU08930	939735	O31590	ygaR	tRNA (cytidine(34)-2'-O)-methyltransferase	Basal machinery
+csrA	BSU35370	936731	P33911	yviG	carbon storage regulator homolog	Basal machinery
+cssR	BSU33010	938594	O32192		transcriptional regulatory protein CssR	M75
+cssS	BSU33020	935936	O32193	yvqB	sensor histidine kinase	M75
+cstA	BSU28710	937970	P94532		carbon starvation protein A homolog	Basal machinery
+ctaA	BSU14870	937030	P12946		heme A synthase	Basal machinery
+ctaB1	BSU12080		O31652	ctaO		Basal machinery
+ctaB2	BSU14880		P24009	ctaB		M25.1
+ctaC	BSU14890	936789	P24011		cytochrome c oxidase subunit 2	M25.1
+ctaD	BSU14900	936898	P24010		cytochrome c oxidase subunit 1	M25.1
+ctaE	BSU14910	935993	P24012		cytochrome c oxidase subunit 3	M25.1
+ctaF	BSU14920	936259	P24013		cytochrome c oxidase subunit 4B	M25.1
+ctaG	BSU14930	939909	O34329		cytochrome c oxidase assembly factor CtaG	M25.1
+ctc	BSU00520	936984	P14194		general stress protein CTC	Basal machinery
+ctpB	BSU35240	936678	O35002	yvjB	carboxy-terminal processing protease CtpB	Basal machinery
+ctsR	BSU00830	936883	P37568	yacG	transcriptional regulator CtsR	M107
+cwlC	BSU17410	940088	Q06320		sporulation-specific N-acetylmuramoyl-L-alanine amidase	Basal machinery
+cwlD	BSU01530	938917	P50864		germination-specific N-acetylmuramoyl-L-alanine amidase	Basal machinery
+cwlH	BSU25710	937808	P54450	yqeE	N-acetylmuramoyl-L-alanine amidase CwlH	Basal machinery
+cwlJ	BSU02600	938399	P42249	ycbQ	cell wall hydrolase CwlJ	Basal machinery
+cwlO	BSU34800	936533	P40767	yzkA,yvcE	peptidoglycan DL-endopeptidase CwlO	M25.3
+cwlS	BSU19410	939459	O31852	yojL	D-gamma-glutamyl-meso-diaminopimelic acid endopeptidase CwlS	M25.1
+cycB	BSU34160	936329	O07009	yvfK	cyclodextrin-binding protein	M124
+cydA	BSU38760	937406	P94364	yxkK	cytochrome d ubiquinol oxidase subunit 1	M111
+cydB	BSU38750	937412	P94365	yxkL	cytochrome d ubiquinol oxidase subunit 2	M111
+cydC	BSU38740	936498	P94366	yxkM	ATP-binding/permease protein CydC	M111
+cydD	BSU38730	936330	P94367	yxkN	ATP-binding/permease protein CydD	M111
+cymR	BSU27520	936456	O34527	yrzC	Rrf2 family transcriptional regulator	Global regulator
+cypC	BSU02100	938449	O31440	CYP152A1	fatty-acid peroxygenase	Basal machinery
+cypE	BSU27160		O08336	yrhJ,cypB,CYP102A3		M108
+cypX	BSU35060	936624	O34926	cypB,cyp134	cytochrome P450 CypX	M17
+cysC	BSU15600	937102	O34577	ylnC	adenylyl-sulfate kinase	Basal machinery
+cysE	BSU00930	936831	Q06750	cysA	serine acetyltransferase	Basal machinery
+cysH	BSU15570	938645	P94498		phosphoadenosine phosphosulfate reductase	Basal machinery
+cysI	BSU33430		O32213	yvgQ		M4
+cysJ	BSU33440	936022	O32214	yvgR	sulfite reductase [NADPH] flavoprotein alpha-component	M4
+cysK	BSU00730	936636	P37887		cysteine synthase	Basal machinery
+cysL	BSU37650	936502	P39647	ywfK	HTH-type transcriptional regulator CysL	M4
+cysP	BSU15580	935990	O34734	ylnA	sulfate permease CysP	Basal machinery
+cysS	BSU00940	936859	Q06752	spnA	cysteine--tRNA ligase	Basal machinery
+czcD	BSU26650	937630	O07084	yrdO	cadmium, cobalt and zinc/H	M81
+czcO	BSU26640		O07085	trkA,yrdP		M81
+czrA	BSU19120	939658	O31844	yozA	ArsR family transcriptional regulator	M81
+dacB	BSU23190	938953	P35150		D-alanyl-D-alanine carboxypeptidase DacB	Basal machinery
+dacC	BSU18350	939990	P39844	pbp	D-alanyl-D-alanine carboxypeptidase DacC	Basal machinery
+dacF	BSU23480	938732	P38422		D-alanyl-D-alanine carboxypeptidase DacF	Basal machinery
+dapA	BSU16770	939657	Q04796		4-hydroxy-tetrahydrodipicolinate synthase	Basal machinery
+dapB	BSU22490	939024	P42976		4-hydroxy-tetrahydrodipicolinate reductase	Basal machinery
+dapG	BSU16760	936710	Q04795	lssD	aspartokinase 1	Basal machinery
+dctA	BSU04470		P96603	dctP,ydbH		Basal machinery
+dctB	BSU04440	938226	P96600	ydbE	C4-dicarboxylate-binding protein DctB	Basal machinery
+ddl	BSU04560	938224	P96612	ddlA	D-alanine--D-alanine ligase	M25.1
+defA	BSU15720		P94462	def,yloK		Basal machinery
+degA	BSU10840	936363	P37947		LacI family transcriptional regulator	M76
+degQ	BSU31720	936547	Q99039	amyB,sacQ	degradation enzyme regulation protein DegQ	M25.6
+degR	BSU21940	939076	P68731	prtR	regulatory protein DegR	Basal machinery
+degS	BSU35500	936752	P13799	sacU	signal transduction histidine-protein kinase/phosphatase DegS	Basal machinery
+degU	BSU35490	936751	P13800	iep	transcriptional regulatory protein DegU	Global regulator
+deoC	BSU39420	938608	P39121	dra	deoxyribose-phosphate aldolase	M62
+deoR	BSU39430	937543	P39140	yxxC	deoxyribonucleoside regulator	M62
+des	BSU19180	939668	O34653	desA,yocE	fatty acid desaturase	M110
+desR	BSU19200	939664	O34723	yocG	transcriptional regulatory protein DesR	M110
+dfrA	BSU21810	939091	P11045		dihydrofolate reductase	M72
+dhbA	BSU32000	936579	P39071	entA	2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase	Intermodular
+dhbB	BSU31970	936582	P45743		isochorismatase	Intermodular
+dhbC	BSU31990	937162	P45744		isochorismate synthase DhbC	Intermodular
+dhbE	BSU31980	936509	P40871	entE	2,3-dihydroxybenzoate-AMP ligase	Intermodular
+dhbF	BSU31960	936569	P45745		dimodular nonribosomal peptide synthase	Intermodular
+dinB	BSU05630	938057	Q02886		protein DinB	Basal machinery
+dinB2	BSU23710		P54560	yqjW,polY2		Basal machinery
+disA	BSU00880		P37573	comY,yacK		M107
+divIB	BSU15240	939701	P16655	dds	cell division protein DivIB	Basal machinery
+divIC	BSU00620	936786	P37471	divA	cell division protein DivIC	Basal machinery
+divIVA	BSU15420	939972	P71021	ylmJ	septum site-determining protein DivIVA	Basal machinery
+dltA	BSU38500	937358	P39581	dae	D-alanine--poly(phosphoribitol) ligase subunit 1	Intermodular
+dltB	BSU38510	937360	P39580		protein DltB	Intermodular
+dltC	BSU38520	937361	P39579		D-alanine--poly(phosphoribitol) ligase subunit 2	Intermodular
+dltD	BSU38530	937362	P39578		poly D-alanine transfer protein DltD	Intermodular
+dltE	BSU38540	937369	P39577		oxidoreductase	Intermodular
+dnaA	BSU00010	939978	P05648	dnaH	chromosomal replication initiator protein DnaA	M25.4
+dnaE	BSU29230	936593	O34623		DNA polymerase III subunit alpha	Basal machinery
+dnaG	BSU25210	937899	P05096	dnaE	DNA primase	Basal machinery
+dnaJ	BSU25460	937848	P17631		chaperone protein DnaJ	M101
+dnaK	BSU25470	937849	P17820		chaperone protein DnaK	M101
+dnaN	BSU00020	939970	P05649	dnaG	DNA polymerase III subunit beta	Basal machinery
+dpaA	BSU16730		Q04809	spoVFA		Basal machinery
+dpaB	BSU16740		Q04810	spoVFB		Basal machinery
+dppA	BSU12920	936727	P26902	dciAA	D-aminopeptidase	Basal machinery
+dppB	BSU12930	939881	P26903	dciAB	dipeptide transport system permease protein DppB	Basal machinery
+dppC	BSU12940	938038	P26904	dciAC	dipeptide transport system permease protein DppC	Basal machinery
+dppD	BSU12950	938628	P26905	dciAD	dipeptide transport ATP-binding protein DppD	Basal machinery
+dppE	BSU12960	938099	P26906	dciAE	dipeptide ABC transporter substrate-binding protein	Basal machinery
+dps	BSU30650	937211	P80879	ytkB	general stress protein 20U	Basal machinery
+drm	BSU23500	938728	P46353	yqkN	phosphopentomutase	Basal machinery
+dus1	BSU00810		P37567	yacF,dusB		Basal machinery
+efeM	BSU38270	937322	P39596	ywbM	iron uptake system component EfeM	Basal machinery
+efeN	BSU38260	937310	P39597	efeB,ywbN	deferrochelatase/peroxidase EfeN	Basal machinery
+efeU	BSU38280	938520	P39595	ywbL	ferrous iron permease EfeU	Basal machinery
+eglS	BSU18130	938607	P10475	gld,bglC	endoglucanase	Basal machinery
+egsA	BSU28760		P94527	yseB,araM		M16
+engB	BSU28190	938009	P38424	ysxC	GTP-binding protein EngB	M107
+eno	BSU33900	938641	P37869		enolase	M42
+epr	BSU38400	937332	P16396		minor extracellular protease epr	Basal machinery
+epsC	BSU34350	938571	P71052	yveM	polysaccharide biosynthesis protein EpsC	M25.11
+epsD	BSU34340	938611	P71053	yveN	glycosyltransferase EpsD	M25.11
+epsE	BSU34330	938633	P71054	yveO	glycosyltransferase EpsE	M25.11
+epsF	BSU34320	938631	P71055	yveP	glycosyltransferase EpsF	M25.11
+epsG	BSU34310	937071	P71056	yveQ	transmembrane protein EpsG	M25.11
+epsH	BSU34300	938630	P71057	yveR	glycosyltransferase EpsH	M25.11
+epsI	BSU34290	937256	P71058	yveS	pyruvyl transferase EpsI	M25.11
+epsJ	BSU34280	937131	P71059	yveT	glycosyltransferase EpsJ	M25.11
+epsK	BSU34265	8302980	P71060	yvfA/yvfB	membrane protein EpsK	M25.11
+epsL	BSU34250	936365	P71062	yvfC	sugar transferase EpsL	M25.11
+epsM	BSU34240	936372	P71063	yvfD	acetyltransferase EpsM	M25.11
+epsN	BSU34230	936364	Q795J3	yvfE	pyridoxal phosphate-dependent aminotransferase EpsN	M25.11
+epsO	BSU34220	936339	P71065	yvfF	pyruvyl transferase EpsO	M25.11
+era	BSU25290	937871	P42182	bex,yqfH	GTPase Era	Basal machinery
+est	BSU33620		O32232	yvaK		Basal machinery
+estA	BSU02700	938389	P37957	lipA,lip	lipase EstA	Basal machinery
+etfA	BSU28520	936520	P94551		electron transfer flavoprotein subunit alpha	M89
+etfB	BSU28530	937962	P94550		electron transfer flavoprotein subunit beta	M89
+exoA	BSU40880	939070	P37454	exoAA	5'-3' exonuclease	Basal machinery
+expZ	BSU05610		P39115	vmlR		Basal machinery
+exuR	BSU12370	939834	Q9JMQ1	yjmH	LacI family transcriptional regulator	M3
+exuT	BSU12360	939405	O34456	yjmG	hexuronate transporter	M3
+ezrA	BSU29610	937337	O34894	ytwP	septation ring formation regulator EzrA	Basal machinery
+fabD	BSU15900	938488	P71019	ylpE	malonyl CoA-acyl carrier protein transacylase	M25.6
+fabF	BSU11340	939803	O34340	yjaY	3-oxoacyl-[acyl-carrier-protein] synthase 2	M25.6
+fabG	BSU15910	940090	P51831	ylpF	oxidoreductase	M25.6
+fabHA	BSU11330	936392	O34746	fabH1,fabH,yjaX	3-oxoacyl-[acyl-carrier-protein] synthase 3 protein 1	M25.6
+fabHB	BSU10170	939306	O07600	fabH2,yhfB	3-oxoacyl-[acyl-carrier-protein] synthase 3 protein 2	M25.6
+fabI	BSU11720	939379	P54616	yjbW	enoyl-ACP reductase	Intermodular
+fabL	BSU08650	939223	P71079	ygaA,yfhR	enoyl-[acyl-carrier-protein] reductase [NADPH] FabL	M67
+fadA	BSU32830		O32177	yusK		M89
+fadB	BSU28540		P94549	ysiB		M89
+fadE	BSU32820	936717	O32176	yusJ	acyl-CoA dehydrogenase	M89
+fadF	BSU37180	938461	P45866	ywjF	hypothetical protein	M89
+fadG	BSU14071	8303034	O34320	ykuG	hypothetical protein	M89
+fadH	BSU14060		O34717	ykuF		M89
+fadM	BSU32850	937064	O32179	yusM	proline dehydrogenase 1	M89
+fadN	BSU32840	937125	O32178	yusL	enoyl-CoA hydratase	M89
+fadR	BSU28550	938105	P94548	ysiA	fatty acid metabolism regulator protein	M89
+fapR	BSU15880		O34835	ylpC		M25.6
+fbp	BSU40190	937744	Q45597	yydE	fructose-1,6-bisphosphatase	Basal machinery
+fbpA	BSU04536		L8ECQ9			Basal machinery
+fbpC	BSU22036		L8ECR0			Basal machinery
+feuA	BSU01630	938891	P40409		iron-uptake system-binding protein	M119
+feuB	BSU01620	938884	P40410		iron-uptake system permease protein FeuB	M119
+feuC	BSU01610	938893	P40411		iron-uptake system permease protein FeuC	M119
+ffh	BSU15980	937104	P37105		signal recognition particle protein	Basal machinery
+fhuB	BSU33310	937085	P49936		iron(3+)-hydroxamate import system permease protein FhuB	Basal machinery
+fhuC	BSU33290	935994	P49938		iron(3+)-hydroxamate import ATP-binding protein FhuC	Basal machinery
+fhuD	BSU33320	935996	P37580		iron(3+)-hydroxamate-binding protein FhuD	Basal machinery
+fhuG	BSU33300	938619	P49937		iron(3+)-hydroxamate import system permease protein FhuG	Basal machinery
+flgB	BSU16180	938149	P24500		flagellar basal body rod protein FlgB	M113
+flgC	BSU16190	938646	P24501		flagellar basal-body rod protein FlgC	M113
+flgG	BSU16290	936497	P23446	flgE	flagellar basal-body rod protein FlgG	M113
+flgK	BSU35410	936736	P39810		flagellar hook-associated protein 1	Basal machinery
+flgL	BSU35400	936738	P96501	yviD	flagellar hook-associated protein 3	Basal machinery
+flgM	BSU35430	936739	P39809		negative regulator of flagellin synthesis	Basal machinery
+flhA	BSU16390	940029	P35620		flagellar biosynthesis protein FlhA	M113
+flhB	BSU16380	940128	P35538		flagellar biosynthetic protein FlhB	M113
+flhF	BSU16400	940021	Q01960		flagellar biosynthesis protein FlhF	M113
+flhO	BSU36400	936927	P39752	yvyA	flagellar hook-basal body complex protein FlhO	Basal machinery
+flhP	BSU36390	936913	P39753	yvyB	flagellar hook-basal body complex protein FlhP	Basal machinery
+fliD	BSU35340	936728	P39738	mrgB	flagellar hook-associated protein 2	Basal machinery
+fliE	BSU16200	939470	P24502		flagellar hook-basal body complex protein FliE	M113
+fliF	BSU16210	936677	P23447		flagellar M-ring protein	M113
+fliG	BSU16220	937577	P23448		flagellar motor switch protein FliG	M113
+fliH	BSU16230	938124	P23449		flagellar assembly protein FliH	M113
+fliI	BSU16240	940136	P23445		flagellum-specific ATP synthase	M113
+fliJ	BSU16250	940137	P20487	cheF	flagellar FliJ protein	M113
+fliK	BSU16270	937494	P23451		flagellar hook-length control protein	M113
+fliL	BSU16300	937103	P23452		flagellar protein FliL	M113
+fliM	BSU16310	939518	P23453		flagellar motor switch protein FliM	M113
+fliP	BSU16350	940095	P35528	cheC	flagellar biosynthetic protein FliP	M113
+fliQ	BSU16360	939623	P35535		flagellar biosynthetic protein FliQ	M113
+fliR	BSU16370	940130	P35537		flagellar biosynthetic protein FliR	M113
+fliS	BSU35330	936720	P39739		flagellar protein FliS	Basal machinery
+fliT	BSU35320	936718	P39740		flagellar protein FliT	Basal machinery
+fliW	BSU35380		P96503	yviF		Basal machinery
+fliY	BSU16320	936421	P24073	cheD	flagellar motor switch phosphatase FliY	M113
+fliZ	BSU16340	936796	P35536	cheA	flagellar biosynthetic protein FliZ	M113
+fmt	BSU15730	936571	P94463	yloL	methionyl-tRNA formyltransferase	Basal machinery
+fnr	BSU37310	937050	P46908		anaerobic regulatory protein	M25.5
+folB	BSU00780	937976	P28823	yacE,folA	dihydroneopterin aldolase	Basal machinery
+folC	BSU28080	936327	Q05865		folylpolyglutamate synthase	Basal machinery
+folD	BSU24310	938602	P54382	yqiA	bifunctional protein FolD	M26
+folE	BSU22780	938994	P19465	mtrA	GTP cyclohydrolase 1	Basal machinery
+folE2	BSU03340		P94398	yciA		M19
+folK	BSU00790	936940	P29252		2-amino-4-hydroxy-6- hydroxymethyldihydropteridine pyrophosphokinase	Basal machinery
+fosB	BSU17840		O31817	yndN		Basal machinery
+frlB	BSU32610	936701	O32157	yurP	fructosamine deglycase FrlB	M71
+frlD	BSU32570	936704	O32153	yurL	fructosamine kinase FrlD	M71
+fruA	BSU14400	938757	P71012		PTS system fructose-specific EIIABC component	M97
+fruK	BSU14390	938761	O31714	fruB	phosphofructokinase	M97
+fruR	BSU14380	936082	O31713		DeoR family transcriptional regulator	M97
+ftsA	BSU15280	936145	P28264		cell division protein FtsA	M25.3
+ftsE	BSU35260	936681	O34814		cell division ATP-binding protein FtsE	Basal machinery
+ftsH	BSU00690	938094	P37476		ATP-dependent zinc metalloprotease FtsH	M100
+ftsW	BSU14850	935918	O07639	ylaO	lipid II flippase FtsW	M26
+ftsX	BSU35250	936708	O34876		cell division protein FtsX	Basal machinery
+ftsY	BSU15950	936921	P51835	srb	signal recognition particle receptor FtsY	Basal machinery
+ftsZ	BSU15290	935971	P17865		cell division protein FtsZ	M25.3
+fumC	BSU33040	938591	P07343	citG	fumarate hydratase class II	Basal machinery
+fur	BSU23520	938727	P54574	yqkL	ferric uptake regulation protein	Global regulator
+gabD	BSU03910	939976	P94428	ycnH	succinate-semialdehyde dehydrogenase	M24
+gabP	BSU06310	939485	P46349		GABA permease	Basal machinery
+gabR	BSU03890	938271	P94426	ycnF	GntR family transcriptional regulator	M24
+gabT	BSU03900	938264	P94427	ycnG	4-aminobutyrate aminotransferase	M24
+galE	BSU38860	937420	P55180		UDP-glucose 4-epimerase	Basal machinery
+galK	BSU38200	937297	P39574		galactokinase	Basal machinery
+galM	BSU18360		P39840	yoxA		Basal machinery
+galT	BSU38190	937307	P39575		galactose-1-phosphate uridylyltransferase	Basal machinery
+gamA	BSU02360		O31458	nagBB,ybfT		M118
+gamP	BSU02350		P39816	ybfS,yzfA		M118
+ganA	BSU34130	936313	O07012	galO,yvfN,lacA	arabinogalactan type I oligomer exo-hydrolase	M124
+ganB	BSU34120	937086	O07013	galA,yvfO	arabinogalactan endo-1,4-beta-galactosidase	M124
+ganP	BSU34150	936323	O32261	yvfL	arabinogalactan oligomer transport system permease protein GanP	M124
+ganQ	BSU34140	937991	O07011	yvfM	arabinogalactan oligomer transport system permease protein GanQ	M124
+ganR	BSU34170	936331	O07008	yvfJ,lacR	HTH-type transcriptional regulator GanR	M124
+gapA	BSU33940	938627	P09124	gap	glyceraldehyde-3-phosphate dehydrogenase 1	M42
+gapB	BSU29020	937393	O34425		glyceraldehyde-3-phosphate dehydrogenase 2	M72
+garD	BSU02510	938407	P42240	ycbH	D-galactarate dehydratase	M74
+gbsA	BSU31060	938829	P71016		betaine aldehyde dehydrogenase	M25.13
+gbsB	BSU31050	938832	P71017		alcohol dehydrogenase	M25.13
+gbsR	BSU31070		P71015	yuaC		M25.13
+gdh	BSU03930	938261	P12310		glucose 1-dehydrogenase	Basal machinery
+gerAA	BSU33050	935953	P07868	gerA1	spore germination protein A1	Basal machinery
+gerAB	BSU33060	935948	P07869	gerA2	spore germination protein A2	Basal machinery
+gerAC	BSU33070	935951	P07870	gerA3	spore germination protein A3	Basal machinery
+gerBA	BSU35800	936814	P39569		spore germination protein B1	Basal machinery
+gerBB	BSU35810	936827	P39570		spore germination protein B2	Basal machinery
+gerBC	BSU35820	936819	P39571		spore germination protein B3	Basal machinery
+gerD	BSU01550	938910	P16450		spore germination protein GerD	Basal machinery
+gerE	BSU28410	937462	P11470		spore germination protein GerE	Global regulator
+gerKA	BSU03700	938285	P49939		spore germination protein KA	Basal machinery
+gerKB	BSU03720	938282	P49940		spore germination protein KB	Basal machinery
+gerKC	BSU03710	938287	P49941		spore germination protein KC	Basal machinery
+gerM	BSU28380	936490	P39072		spore germination protein GerM	Basal machinery
+gerPA	BSU10720	936348	O06721	yisH	spore germination protein GerPA	Basal machinery
+gerPB	BSU10710	939781	O06720	yisG	spore germination protein	Basal machinery
+gerPC	BSU10700	939327	O06719	yisF	spore germination protein GerPC	Basal machinery
+gerPD	BSU10690	936349	O06718	yisE	spore germination protein GerPD	Basal machinery
+gerPE	BSU10680	939782	O06717	yisD	spore germination protein GerPE	Basal machinery
+gerPF	BSU10670	939326	O06716	yisC	spore germination protein	Basal machinery
+gerQ	BSU37920		P39620	ywdL		Basal machinery
+gerT	BSU19490	2914248	Q7WY67	yozR	spore germination protein GerT	Basal machinery
+ggaA	BSU35690	936798	P46917		minor teichoic acid biosynthesis protein GgaA	Basal machinery
+ggaB	BSU35680	936775	P46918		minor teichoic acid biosynthesis protein GgaB	Basal machinery
+glcP	BSU10520	936346	O07563	yhjI,glcT1	sugar transporter	M28
+glcR	BSU36300	936908	P94591	ywpI	HTH-type transcriptional repressor GlcR	M59
+glcT	BSU13880	939254	O31691	ykwA	BglG family transcription antiterminator	M92
+glcU	BSU03920	938268	P40420	ycxE	glucose uptake protein GlcU	Basal machinery
+glgA	BSU30950	936781	P39125		glycogen synthase	Basal machinery
+glgB	BSU30980	937993	P39118		1,4-alpha-glucan branching enzyme GlgB	Basal machinery
+glgC	BSU30970	937990	P39122		glucose-1-phosphate adenylyltransferase	Basal machinery
+glgD	BSU30960	936778	P39124		glycogen biosynthesis protein GlgD	Basal machinery
+glgP	BSU30940	936630	P39123		glycogen phosphorylase	Basal machinery
+glmM	BSU01770	938632	O34824	ybbT	phosphoglucosamine mutase	Basal machinery
+glmS	BSU01780	938736	P0CI73	ybxD,gcaA	glutamine--fructose-6-phosphate aminotransferase	Basal machinery
+glmU	BSU00500	936139	P14192	tms,gcaD,tms-26	bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase	Basal machinery
+glnA	BSU17460	940020	P12425		glutamine synthetase	M21
+glnH	BSU27440	938139	O34563		ABC transporter glutamine-binding protein GlnH	Basal machinery
+glnL	BSU02450	938414	P40759	yzgB,ycbB	transcriptional regulatory protein GlnL	M73
+glnM	BSU27450	935975	O34671		glutamine ABC transporter permease protein GlnM	Basal machinery
+glnP	BSU27460	937556	O34606		glutamine ABC transporter permease protein GlnP	Basal machinery
+glnQ	BSU27430	937558	O34677		glutamine transport ATP-binding protein GlnQ	Basal machinery
+glnR	BSU17450	940070	P37582		MerR family transcriptional regulator	M21
+glnT	BSU02420	938419	O31464	ybgH	sodium/glutamine symporter GlnT	M73
+glpD	BSU09300	936250	P18158		aerobic glycerol-3-phosphate dehydrogenase	M1
+glpF	BSU09280	939266	P18156		glycerol uptake facilitator protein	M1
+glpK	BSU09290	939741	P18157		glycerol kinase	M1
+glpP	BSU09270	936251	P30300	glpP1	glycerol uptake operon antiterminator regulatory protein	M1
+glpQ	BSU02130	938446	P37965	ybeD	glycerophosphoryl diester phosphodiesterase	M1
+glpT	BSU02140	938447	P37948	ybeE	glycerol-3-phosphate transporter	M1
+glsA1	BSU02430		O31465	glsA,ybgJ		M73
+gltA	BSU18450	940024	P39812		glutamate synthase [NADPH] large chain	M103
+gltB	BSU18440		O34399	gltD		M103
+gltC	BSU18460	940104	P20668		LysR family transcriptional regulator	M103
+gltR	BSU26670	938189	P94501	yrdL	LysR family transcriptional regulator	Basal machinery
+gltX	BSU00920	936862	P22250		glutamate--tRNA ligase	Basal machinery
+glvA	BSU08180		P54716	glvG,glv-1,malA		M6
+glvR	BSU08190		P54717	malR,yfiA		M6
+glxK	BSU40040	937708	P42100	yxaA	glycerate kinase	Basal machinery
+glyA	BSU36900	937015	P39148	glyC	serine hydroxymethyltransferase	M26
+gmk	BSU15680	938821	O34328	yloD	guanylate kinase	Basal machinery
+gmuA	BSU05820	938039	O05506	ydhN	PTS system oligo-beta-mannoside transporter subunit IIA	M20
+gmuB	BSU05810	938018	O05505	ydhM	PTS system oligo-beta-mannoside transporter subunit IIB	M20
+gmuC	BSU05830	939882	O05507	ydhO	PTS system oligo-beta-mannoside transporter subunit IIC	M20
+gmuD	BSU05840	939872	O05508	ydhP,bglD	6-phospho-beta-glucosidase GmuD	M20
+gmuE	BSU05860	938016	O05510	ydhR	fructokinase	M20
+gmuF	BSU05870	938028	O05511	ydhS	mannose-6-phosphate isomerase GmuF	M20
+gmuG	BSU05880	938034	O05512	ydhT	mannan endo-1,4-beta-mannosidase	M20
+gmuR	BSU05850	939879	O05509	ydhQ	GntR family transcriptional regulator	M20
+gntK	BSU40060	937713	P12011		gluconokinase	M85
+gntP	BSU40070	937715	P12012		gluconate permease	M85
+gntR	BSU40050	937710	P10585		gluconate operon transcriptional repressor	M85
+gntZ	BSU40080	937716	P12013		6-phosphogluconate dehydrogenase	M85
+gpmI	BSU33910		P39773	pgm		M42
+gpr	BSU25540	937838	P22322		germination protease	Basal machinery
+groL	BSU06030		P28598	mopA,groEL		M101
+groS	BSU06020		P28599	mopB,groES		M101
+grpE	BSU25480	937846	P15874		heat shock protein GrpE	M101
+gsiB	BSU04400	938235	P26907		glucose starvation-inducible protein B	M25.3
+gspA	BSU38430	937339	P25148	ywaG	general stress protein A	Basal machinery
+gtaB	BSU35670	936797	Q05852		UTP--glucose-1-phosphate uridylyltransferase	Basal machinery
+guaA	BSU06360	936028	P29727		GMP synthase	Basal machinery
+guaB	BSU00090	938032	P21879	gnaB	inosine-5'-monophosphate dehydrogenase	Basal machinery
+guaC	BSU32130	937189	O05269	yumD	GMP reductase	M26
+guaD	BSU13170	936695	O34598	gde	guanine deaminase	M21
+gudB	BSU22960	938975	A3F462	ypcA	cryptic catabolic NAD-specific glutamate dehydrogenase GudB	Basal machinery
+gudD	BSU02490	938410	P42238	ycbF	glucarate dehydratase	M74
+gudP	BSU02480	938413	P42237	ycbE	glucarate transporter	M74
+gutA	BSU06160		O34368	gutP,ydjD		M46
+gutB	BSU06150	939495	Q06004		sorbitol dehydrogenase	M46
+gutR	BSU06140	938026	P39143		transcription activator GutR	M46
+gyrA	BSU00070	940002	P05653	cafB,nalA	DNA gyrase subunit A	Basal machinery
+gyrB	BSU00060	939456	G0YY35	novA	DNA gyrase subunit B	Basal machinery
+hag	BSU35360	936742	P02968		flagellin	Basal machinery
+hemA	BSU28170	937443	P16618		glutamyl-tRNA reductase	M25.16
+hemAT	BSU10380	936320	O07621	yhfV	heme-based aerotactic transducer HemAT	Basal machinery
+hemB	BSU28130	936972	P30950		delta-aminolevulinic acid dehydratase	M25.16
+hemC	BSU28150	937488	P16616		porphobilinogen deaminase	M25.16
+hemD	BSU28140	939823	P21248		hypothetical protein	M25.16
+hemL	BSU28120	937490	P30949	hemK	glutamate-1-semialdehyde 2,1-aminomutase	M25.16
+hemN	BSU25500	937845	P54304	yqeR	oxygen-independent coproporphyrinogen-III oxidase 1	Basal machinery
+hemX	BSU28160	937489	P16645		protein HemX	M25.16
+hemZ	BSU09840	937935	Q796V8	yhaW,yhaV	oxygen-independent coproporphyrinogen-III oxidase	M111
+hisA	BSU34880	936580	O35006		1-(5-phosphoribosyl)-5-[(5- phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase	Basal machinery
+hisB	BSU34900	936560	O34683		imidazoleglycerol-phosphate dehydratase	Basal machinery
+hisC	BSU22620	939009	A3F3C5	hisH	histidinol-phosphate aminotransferase	M80
+hisD	BSU34910	936584	O34651		histidinol dehydrogenase	Basal machinery
+hisF	BSU34870	936554	O34727		imidazole glycerol phosphate synthase subunit HisF	Basal machinery
+hisG	BSU34920	936568	O34520		ATP phosphoribosyltransferase	Basal machinery
+hisH	BSU34890	936590	O34565		imidazole glycerol phosphate synthase subunit HisH	Basal machinery
+hisI	BSU34860	936552	O34912	hisIE	histidine biosynthesis bifunctional protein HisIE	Basal machinery
+hisZ	BSU34930	936602	O34459		ATP phosphoribosyltransferase regulatory subunit	Basal machinery
+hmoA	BSU07150		O31534	yetG		Basal machinery
+hmp	BSU13040	939891	P49852	ane3,ykiA	flavohemoprotein	M25.5
+hom	BSU32260	936654	P19582	tdm	homoserine dehydrogenase	M122
+hpr	BSU09990	939765	P11065	scoC,catA	MarR family transcriptional regulator	Global regulator
+hprK	BSU35000	936615	O34483	yvoB,ptsK	HPr kinase/phosphorylase	Basal machinery
+hprT	BSU00680	936945	P37472	hpt	hypoxanthine-guanine phosphoribosyltransferase	M100
+hrcA	BSU25490	937843	P25499	yqeS,yqxE	heat-inducible transcription repressor HrcA	M101
+hslO	BSU00710	936762	P37565	yacC	33 kDa chaperonin	Basal machinery
+htpG	BSU39820	937631	P46208	yxbB	chaperone protein HtpG	Basal machinery
+htpX	BSU13490		O31657	ykrL		M25.7
+htrA	BSU12900	939849	O34358	ykdA	serine protease Do-like HtrA	M75
+htrB	BSU33000	935935	Q9R9I1	yvtA	serine protease Do-like HtrB	M75
+hupA	BSU22790		P08821	hbsU,dbpA,hbs		Basal machinery
+hutG	BSU39380	937546	P42068		formimidoylglutamase	M79
+hutH	BSU39350	937541	P10944		histidine ammonia-lyase	M79
+hutI	BSU39370	937531	P42084		imidazolonepropionase	M79
+hutM	BSU39390	938565	P42087		histidine permease	M79
+hutP	BSU39340	937529	P10943		anti-terminator HutP	M79
+hutU	BSU39360	937542	P25503		urocanate hydratase	M79
+hxlA	BSU03460	938314	P42405	yckG	3-hexulose-6-phosphate synthase	M7
+hxlB	BSU03450	938313	P42404	yckF	3-hexulose-6-phosphate isomerase	M7
+hxlR	BSU03470	938311	P42406		HxlR family transcriptional regulator	M7
+icd	BSU29130	938183	P39126	citC	isocitrate dehydrogenase	M84
+ilvA	BSU21770	939093	P37946		threonine dehydratase	Basal machinery
+ilvB	BSU28310	936792	P37251		acetolactate synthase large subunit	Basal machinery
+ilvC	BSU28290	937475	P37253		ketol-acid reductoisomerase	Basal machinery
+ilvD	BSU21870	939084	P51785		dihydroxy-acid dehydratase	Basal machinery
+ilvE	BSU02390		O31461	ybgE		Basal machinery
+ilvH	BSU28300	937477	P37252	ilvN	acetolactate synthase small subunit	Basal machinery
+ilvK	BSU38550		P39576	ywaA		Basal machinery
+immR	BSU04820	938150	P96631	ydcN	XRE family transcriptional regulator	M117
+infA	BSU01390	938924	P20458		translation initiation factor IF-1	Basal machinery
+infB	BSU16630	939630	P17889		translation initiation factor IF-2	M47
+infC	BSU28870	937835	P55872		translation initiation factor IF-3	M36
+iolA	BSU39760		P42412	yxdA,mmsA		M9
+iolB	BSU39750	937580	P42413	yxdB	5-deoxy-glucuronate isomerase	M9
+iolC	BSU39740	937622	P42414	yxdC	5-dehydro-2-deoxygluconokinase	M9
+iolD	BSU39730	937590	P42415	yxdD	3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase	M9
+iolE	BSU39720	936212	P42416	yxdE	inosose dehydratase	M9
+iolF	BSU39710	937616	P42417	yxdF	minor myo-inositol transporter IolF	M9
+iolG	BSU39700	937615	P26935	idh	inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase	M9
+iolH	BSU39690	937613	P42418	yxdG	myo-inositol catabolism protein IolH	M9
+iolI	BSU39680	937582	P42419	yxdH	inosose isomerase	M9
+iolJ	BSU39670	937601	P42420	yxdI,fbaB	6-phospho-5-dehydro-2-deoxy-D-gluconate aldolase	M9
+iolR	BSU39770	937635	P46337		HTH-type transcriptional regulator IolR	M9
+iolS	BSU39780	937636	P46336	yxbF	aldo/keto reductase family protein IolS	M9
+iolT	BSU06230	936014	O34718	ydjK	major myo-inositol transporter IolT	M9
+iolW	BSU33530		O32223	yvaA		Basal machinery
+iolX	BSU10850		P40332	yuxD,yucG,yisS		M76
+ipi	BSU11130	936380	P39804		intracellular proteinase inhibitor	Basal machinery
+iscS1	BSU27510		O34599	yrvO,iscS		Basal machinery
+isp	BSU13190		P11018	ispA		Basal machinery
+ispD	BSU00900	936855	Q06755	yacM	2-D-methyl-D-erythritol 4-phosphate cytidylyltransferase	Basal machinery
+ispE	BSU00460		P37550	yabH,ipk		M26
+ispF	BSU00910	936634	Q06756	yacN	2-D-methyl-D-erythritol 2,4-cyclodiphosphate synthase	Basal machinery
+ispG	BSU25070	937984	P54482	yqfY	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase	Basal machinery
+jag	BSU41030	937933	Q01620		protein jag	Basal machinery
+kamA	BSU19690	940040	O34676		L-lysine 2,3-aminomutase	Basal machinery
+kapB	BSU31460	938848	Q08429		kinase-associated lipoprotein B	Basal machinery
+katA	BSU08820	939240	P26901	kat,kat-19	vegetative catalase	M25.16
+katE	BSU39050	937481	P42234	katB	catalase-2	Basal machinery
+katX	BSU38630	937399	P94377	yxlI	catalase X	M116
+kdgA	BSU22100	939066	P50846		KHG/KDPG aldolase	M31
+kdgK	BSU22110	939058	P50845		2-dehydro-3-deoxygluconokinase	M31
+kdgR	BSU22120	939063	P50844		LacI family transcriptional regulator	M31
+kdgT	BSU22090	939065	P50847		2-keto-3-deoxygluconate permease	M31
+kduD	BSU22140	939059	P50842		2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase	M31
+kduI	BSU22130	939062	P50843		4-deoxy-l-threo-5-hexosulose-uronate ketol-isomerase	M31
+kinA	BSU13990	939230	P16497	spoIIF,scoD,gsiC,spoIIJ	sporulation kinase A	Basal machinery
+kinB	BSU31450	937167	Q08430		sporulation kinase B	Basal machinery
+kinC	BSU14490	938742	P39764	ssb,mskA	sporulation kinase C	Basal machinery
+kinE	BSU13530	939349	O31661	ykrQ	sporulation kinase E	Basal machinery
+kipA	BSU04090	2914204	Q7WY77		kipi antagonist	M38
+kipI	BSU04080	938256	P60495	ycsJ	kinase A inhibitor	M38
+kipR	BSU04100	939999	P42968	ycsO	IclR family transcriptional regulator	M38
+ktrC	BSU14510	939429	P39760	ykqB,ylxV,yzaC	ktr system potassium uptake protein C	Basal machinery
+ku	BSU13410		O34859	ykoV		Basal machinery
+lcfA	BSU28560	936505	P94547		long-chain-fatty-acid--CoA ligase	M89
+lcfB	BSU10270		O07610	yhfL		M89
+lctP	BSU03060	938353	P55910	ycgC	L-lactate permease	M111
+ldh	BSU03050	938348	P13714	lctE	L-lactate dehydrogenase	M111
+lepA	BSU25510	937840	P37949	yqxB,yqeQ	elongation factor 4	Basal machinery
+leuA	BSU28280	936316	P94565		2-isopropylmalate synthase	Basal machinery
+leuB	BSU28270	936221	P05645	leuC	3-isopropylmalate dehydrogenase	Basal machinery
+leuC	BSU28260	937478	P80858		3-isopropylmalate dehydratase large subunit	Basal machinery
+leuD	BSU28250	937683	P94568		3-isopropylmalate dehydratase small subunit	Basal machinery
+levB	BSU34460	938616	O07003	yveB	levanbiose-producing levanase	M112
+levD	BSU27070	936536	P26379	sacL	PTS system fructose transporter subunit IIA	Intermodular
+levE	BSU27060	937078	P26380	sacL	PTS system fructose-specific transporter subunit IIB	Intermodular
+levF	BSU27050	937602	P26381		PTS system fructose transporter subunit IIC	Intermodular
+levG	BSU27040	937595	P26382		PTS system fructose transporter subunit IID	Intermodular
+levR	BSU27080	937594	P23914		transcriptional regulatory protein LevR	M25.21
+lexA	BSU17850	939564	P31080	dinR	lexa repressor	Global regulator
+lgt	BSU34990	936609	O34752	gerF	prolipoprotein diacylglyceryl transferase	Basal machinery
+liaF	BSU33100	938469	O32199	yvqF	LiaR negative effector LiaF	M87
+liaG	BSU33110	938471	O32200	yvqG	protein LiaG	M87
+liaH	BSU33120	938585	O32201	yvqH	lia operon expression modulator LiaH	M87
+liaI	BSU33130	935958	O32202	yvqI	protein LiaI	M87
+liaR	BSU33080	935957	O32197	yvqC	transcriptional regulatory protein LiaR	M87
+liaS	BSU33090	935967	O32198	yvqE	sensor histidine kinase	M87
+licA	BSU38570	937374	P46319	celC	PTS system lichenan transporter subunit IIA	M22
+licB	BSU38590	937379	P46318	celA	PTS system lichenan transporter subunit IIB	M22
+licC	BSU38580	937375	P46317	celB	PTS system lichenan transporter subunit IIC	M22
+licH	BSU38560	937373	P46320	celD,celF	6-phospho-beta-glucosidase	M22
+licR	BSU38600	937383	P46321	celR	licABCH operon regulator	M22
+licT	BSU39080	937503	P39805		transcription antiterminator LicT	M57
+ligA	BSU06620	936056	O31498	lig,yerG	DNA ligase	Basal machinery
+ligd	BSU13400		O34398	ligD,ykoU		Basal machinery
+lipC	BSU04110	938249	P42969	ycsK	spore germination lipase LipC	M38
+lmrA	BSU02680	938385	O34619	yccB	TetR family transcriptional regulator	M88
+lmrB	BSU02670	938388	O35018	yccA	lincomycin resistance protein LmrB	M88
+lon1	BSU28200		P37945	lonA		M107
+lon2	BSU28210		P42425	ysxF,lonB		Basal machinery
+lplD	BSU07130	938770	P39130		alpha-galacturonidase	Basal machinery
+lrgA	BSU28910		P94515	ysbA		Intermodular
+lrgB	BSU28900	937323	P94516	ysbB	hypothetical protein	Intermodular
+lrpC	BSU04250	940147	P96582	ydaI	AsnC family transcriptional regulator	Basal machinery
+ltaS1	BSU07260		Q797B3	ltaSA,yfnI		Basal machinery
+lutA	BSU34050		O07020	yvfV		M25.20
+lutB	BSU34040		O07021	yvfW		M25.20
+lutC	BSU34030		O32259	yvbY		M25.20
+lutP	BSU34190		P71067	yvfH		Intermodular
+lutR	BSU34180		O07007	yvfI		M25.20
+luxS	BSU30670	937106	O34667	ytjB	S-ribosylhomocysteine lyase	Basal machinery
+lysA	BSU23380	938931	P23630	lys	diaminopimelate decarboxylase	Basal machinery
+lysS	BSU00820	936911	P37477		lysine--tRNA ligase	Basal machinery
+lytA	BSU35640	936784	Q02112	lppX	membrane-bound protein LytA	Intermodular
+lytB	BSU35630	936795	Q02113	cwbA	amidase enhancer	Intermodular
+lytC	BSU35620	936777	Q02114	cwlB	N-acetylmuramoyl-L-alanine amidase LytC	Intermodular
+lytD	BSU35780	936822	P39848	cwlG	beta-N-acetylglucosaminidase	Basal machinery
+lytE	BSU09420	939269	P54421	papQ,cwlF	peptidoglycan endopeptidase LytE	M25.3
+lytF	BSU09370	939271	O07532	cwlE,yhdD	peptidoglycan endopeptidase LytF	M25.1
+lytH	BSU32340	936510	O32130	yunA,yutA	L-Ala--D-Glu endopeptidase	Basal machinery
+lytR	BSU35650	936787	Q02115	tagU	transcriptional regulator LytR	Basal machinery
+lytT	BSU28920	936931	P94514		sensory transduction protein LytT	M25.17
+maeA	BSU37050		P45868	ywkA		M96
+maeN	BSU31580	938855	O05256	yufR	Na(+)-malate symporter	M96
+maf	BSU28050	936605	Q02169		septum formation protein Maf	Basal machinery
+malP	BSU08200	939713	P54715	glvC,glvCB,yfiB,glv-2	PTS maltose transporter subunit IIBC	M6
+malR	BSU31530	939205	O05251	yufM	RpiR family transcriptional regulator	M96
+manA	BSU12020	939393	O31646	yjdE,pmi	mannose-6-phosphate isomerase ManA	M58
+manP	BSU12010	936437	O31645	yjdD	PTS system mannose-specific EIIBCA component	M58
+manR	BSU12000	939394	O31644		transcriptional regulator ManR	M58
+map	BSU01380		P19994	mapA		Basal machinery
+mapB	BSU07690		O34484	yflG		M29
+mbl	BSU36410	936916	P39751		MreB-like protein	Basal machinery
+mccA	BSU27260	937576	O05393	yrhA	O-acetylserine dependent cystathionine beta-synthase	Basal machinery
+mccB	BSU27250		O05394	yrhB		Basal machinery
+mciZ	BSU23616		L8EBJ9			Basal machinery
+mcpA	BSU31240	937154	P39214		methyl-accepting chemotaxis protein McpA	Basal machinery
+mcpB	BSU31260	937155	P39215		methyl-accepting chemotaxis protein McpB	Basal machinery
+mcpC	BSU13950	936206	P54576	prg71	methyl-accepting chemotaxis protein McpC	Basal machinery
+mcsA	BSU00840	936845	P37569	yacH	hypothetical protein	M107
+mcsB	BSU00850	936939	P37570	yacI	ATP:guanido phosphotransferase YacI	M107
+mdh	BSU29120	937385	P49814	citH	malate dehydrogenase	M84
+mecA	BSU11520	936406	P37958		adapter protein MecA 1	Basal machinery
+med	BSU11300	936388	O32436		transcriptional activator protein med	Basal machinery
+melA	BSU30300	937255	O34645		alpha-galactosidase	M105
+menB	BSU30800	937195	P23966		1,4-dihydroxy-2-naphthoyl-CoA synthase	Basal machinery
+menC	BSU30780	937201	O34514	ytfD	o-succinylbenzoate synthase	Basal machinery
+menD	BSU30820	937198	P23970		2-succinyl-5-enolpyruvyl-6-hydroxy-3- cyclohexene-1-carboxylate synthase	Basal machinery
+menE	BSU30790	937132	P23971		2-succinylbenzoate--CoA ligase	Basal machinery
+menF	BSU30830	937190	P23973	icsM	menaquinone-specific isochorismate synthase	Basal machinery
+menH	BSU30810		A3F3D8	ytfB,ytxM		Basal machinery
+metA	BSU21910	939083	P54167	metB	homoserine O-succinyltransferase	Basal machinery
+metC	BSU11880		O31632	yjcJ		Basal machinery
+metG	BSU00380		P37465	metS		Basal machinery
+metI	BSU11870		O31631	yjcI		Basal machinery
+metN	BSU32750	936716	O32169	yusC,metQ	methionine-binding lipoprotein MetQ	Basal machinery
+metP	BSU32740	936709	O32168	yusB	methionine import system permease protein MetP	Basal machinery
+metQ	BSU32730	936700	O32167	metN,yusA	methionine import ATP-binding protein MetN	Basal machinery
+mgfK	BSU34760		O06974	yvcK		Basal machinery
+mgsA	BSU22480	939027	A3F357	ypjF	methylglyoxal synthase	Basal machinery
+mgsR	BSU24770	938484	P54503	yqgZ	regulatory protein MgsR	Basal machinery
+mhqA	BSU12870	936149	O34689	ykcA	ring-cleaving dioxygenase MhqA	M56
+mhqD	BSU19560		O34842	yodD,yolF		M56
+mhqE	BSU19570		O34543	yodE		M56
+mhqN	BSU05480		P96692	ydfN		M56
+mhqO	BSU05490		P96693	ydfO		M56
+mhqP	BSU05500		P96694	ydfP		M56
+mhqR	BSU13670	939303	O31672	ykvE	MarR family transcriptional regulator	M56
+mifM	BSU23880		Q7WY64	yqzJ		M18
+minC	BSU28000	937500	Q01463		septum site-determining protein MinC	Basal machinery
+minD	BSU27990	937499	Q01464	divIVB	septum site-determining protein MinD	Basal machinery
+minJ	BSU35220	936668	O34375	yvjD,swrAB	cell division topological determinant MinJ	Basal machinery
+misCA	BSU41040		Q01625	spoIIIJ		Basal machinery
+misCB	BSU23890		P54544	yqjG,yidC2		M18
+mleN	BSU23560	938720	P54571	yqkI	malate-2H(+)/Na(+)-lactate antiporter	M49
+mmgA	BSU24170	938662	P45855	yqiL	acetyl-CoA acetyltransferase	Basal machinery
+mmgB	BSU24160	938660	P45856	yqiM	3-hydroxybutyryl-CoA dehydrogenase	Basal machinery
+mmgC	BSU24150	938664	P45857	yqiN	acyl-CoA dehydrogenase	Basal machinery
+mmgD	BSU24140	938665	P45858	yqiO	2-methylcitrate synthase	Basal machinery
+mnmA	BSU27500	938049	O35020	trmU,yrrA	tRNA-specific 2-thiouridylase MnmA	Basal machinery
+mnmE	BSU41020		P25811	thdF,trmE		M25.4
+mnmG	BSU41010		P25812	gidA		M25.4
+mntA	BSU30770	937219	O34385	ytgA	manganese-binding lipoprotein MntA	M35
+mntB	BSU30760	937196	O34338	ytgB	manganese transport system ATP-binding protein MntB	M35
+mntC	BSU30750	937203	O35024	ytgC	manganese transport system membrane protein MntC	M35
+mntD	BSU30740	937149	O34500	ytgD	manganese transport system membrane protein MntD	M35
+mntH	BSU04360	938241	P96593	ydaR	divalent metal cation transporter MntH	M35
+mntR	BSU24520	938554	P54512	yqhN	transcriptional regulator MntR	M35
+motA	BSU13690	939302	P28611		motility protein A	Basal machinery
+motB	BSU13680	939304	P28612		motility protein B	Basal machinery
+moxC	BSU29310		O34974	cmoJ,ytnJ		M115
+mpr	BSU02240	938430	P39790		extracellular metalloprotease	Basal machinery
+mraY	BSU15190	939856	Q03521		phospho-n-acetylmuramoyl-pentapeptide- transferase	Basal machinery
+mreB	BSU28030	936759	Q01465		rod shape-determining protein MreB	Basal machinery
+mreBH	BSU14470	938746	P39763		rod-share determining protein MreBH	M25.3
+mreC	BSU28020	937498	Q01466		cell shape-determining protein MreC	Basal machinery
+mreD	BSU28010	936183	Q01467	rodB	rod shape-determining protein MreD	Basal machinery
+mrgA	BSU32990	938592	P37960		metalloregulation DNA-binding stress protein	M25.16
+mrnC	BSU00950	936369	O31418	yazC	mini-ribonuclease 3	Basal machinery
+msmE	BSU30270	936693	O34335		sugar ABC transporter substrate-binding protein	M105
+msmR	BSU30260	937257	O34829		LacI family transcriptional regulator	M105
+msmX	BSU38810	937422	P94360	yxkG	maltodextrin import ATP-binding protein MsmX	Basal machinery
+msrA	BSU21690	939099	P54154	yppP	peptide methionine sulfoxide reductase MsrA	Basal machinery
+msrB	BSU21680		P54155	yppQ		Basal machinery
+mstX	BSU31321	8303011	Q5BU39		protein mistic	Basal machinery
+mta	BSU36600	936962	P71039	ywnD	HTH-type transcriptional activator mta	M45
+mtaB	BSU25430		P54462	rimO,yqeV,tmtB		M101
+mtlA	BSU03981	938263	P42956		PTS system mannitol-specific EIICB component	M27
+mtlD	BSU03990	939968	P42957	mtlB	mannitol-1-phosphate 5-dehydrogenase	M27
+mtlF	BSU03982	8303136	C0H3V2		mannitol-specific phosphotransferase enzyme IIA component	M27
+mtlR	BSU04160	938253	P96574	ydaA	transcriptional regulator MtlR	M27
+mtnA	BSU13550	939341	O31662	ykrS	methylthioribose-1-phosphate isomerase	Basal machinery
+mtnB	BSU13610	939320	O31668	ykrY	methylthioribulose-1-phosphate dehydratase	Basal machinery
+mtnD	BSU13620	939322	O31669	ykrZ	acireductone dioxygenase	Basal machinery
+mtnE	BSU13580		O31665	ykrV,mtnV		Basal machinery
+mtnK	BSU13560	939336	O31663	ykrT	methylthioribose kinase	Basal machinery
+mtnN	BSU27270		O32028	pfs,mtn		Basal machinery
+mtnU	BSU13570	939328	O31664	ykrU	hydrolase	Basal machinery
+mtnW	BSU13590	939339	O31666	ykrW	2,3-diketo-5-methylthiopentyl-1-phosphate enolase	Basal machinery
+mtnX	BSU13600	939331	O31667	ykrX	2-hydroxy-3-keto-5-methylthiopentenyl-1- phosphate phosphatase	Basal machinery
+mtrB	BSU22770	938996	A3F3E0		transcription attenuation protein MtrB	M80
+murAA	BSU36760	936980	P70965	murA	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 1	Basal machinery
+murB	BSU15230	939804	P18579	ylxC	UDP-N-acetylenolpyruvoylglucosamine reductase	Basal machinery
+murD	BSU15200	935950	Q03522		UDP-N-acetylmuramoylalanine--D-glutamate ligase	Basal machinery
+murE	BSU15180	937567	Q03523		UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2, 6-diaminopimelate ligase	Basal machinery
+murF	BSU04570	939947	P96613	ydbQ	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase	M25.1
+murG	BSU15220	935929	P37585		UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase	Basal machinery
+murQ	BSU01700	938882	Q45582	ybbI	N-acetylmuramic acid 6-phosphate etherase	M123
+mutM	BSU29080	936741	O34403	fpg,ytaE	formamidopyrimidine-DNA glycosylase	Basal machinery
+nadA	BSU27850	937522	Q9KWZ1		quinolinate synthase A	M83
+nadB	BSU27870	938051	P38032		L-aspartate oxidase	M83
+nadC	BSU27860	936245	P39666	yrxB	nicotinate-nucleotide pyrophosphorylase	M83
+nadE	BSU03130	938339	P08164	outB	NH(3)-dependent NAD(+) synthetase	Basal machinery
+nadR	BSU27890	937515	P39667	yrxA,niaR	transcription repressor NadR	M83
+nagA	BSU35010	936621	O34450		N-acetylglucosamine-6-phosphate deacetylase	M29
+nagB	BSU35020		O35000	nagBA		M29
+nagP	BSU07700	938807	O34521		PTS system N-acetylglucosamine-specific EIICB component	M29
+nagZ	BSU01660		P40406	yzbA,ybbD		M123
+naiP	BSU02950		O34691	yceI,niaP		M83
+narG	BSU37280	938358	P42175		nitrate reductase alpha chain	M25.5
+narH	BSU37270	937047	P42176		nitrate reductase beta chain	M25.5
+narI	BSU37250	938454	P42177		nitrate reductase gamma chain	M25.5
+narJ	BSU37260	937051	P42178		nitrate reductase molybdenum cofactor assembly chaperone NarJ	M25.5
+narK	BSU37320	937055	P46907		nitrite extrusion protein	M25.5
+nasA	BSU03330	938326	P42432		nitrate transporter	Basal machinery
+nasB	BSU03320	938328	P42433	nasBA	assimilatory nitrate reductase electron transfer subunit	M25.5
+nasC	BSU03310	938321	P42434	narB,nasBB	assimilatory nitrate reductase catalytic subunit	M25.5
+nasD	BSU03300	938329	P42435	nasBC,nirB	nitrite reductase	M25.5
+nasE	BSU03290	938331	P42436	nirD,nasBD	assimilatory nitrite reductase [NAD(P)H] small subunit	M25.5
+nasF	BSU03280	938324	P42437	nasBE	uroporphyrinogen-iii C-methyltransferase	M25.5
+natA	BSU02750	936283	P46903		ABC transporter ATP-binding protein	M12
+natB	BSU02760	938383	P46904		sodium efflux ABC transporter permease NatB	M12
+natR	BSU02740	938379	P70955	yccH	transcriptional regulator	M12
+new_1056384_1056537	new_1056384_1056537			S345		Basal machinery
+new_1077024_1077320_c	new_1077024_1077320_c			S357		Basal machinery
+new_1399409_1400187	new_1399409_1400187			S477		Intermodular
+new_148755_148930	new_148755_148930			S56		Basal machinery
+new_1569226_1569349_c	new_1569226_1569349_c			S547		Basal machinery
+new_2273724_2273988_c	new_2273724_2273988_c			S810		Basal machinery
+new_2477758_2477958_c						M19
+new_3035475_3036308_c	new_3035475_3036308_c			S1134		Basal machinery
+new_3036310_3036529_c	new_3036310_3036529_c			S1136		Basal machinery
+new_3460206_3462957	new_3460206_3462957			S1290		Basal machinery
+new_3631609_3631729_c	new_3631609_3631729_c			S1350		Basal machinery
+new_3708133_3708785	new_3708133_3708785			S1384		Basal machinery
+new_4005137_4005322_c	new_4005137_4005322_c			S1501		M55
+new_4164565_4165231	new_4164565_4165231			S1559		Basal machinery
+new_535832_536095	new_535832_536095			S172		M117
+new_820648_820823	new_820648_820823			S254		M99
+nfrA1	BSU38110		P39605	nfrA,ywcG		Basal machinery
+nhaC	BSU09680	936274	O07553	yheL	Na(+)/H(+) antiporter NhaC	M60
+nhaX	BSU09690	939286	O07552	yheK	stress response protein NhaX	M60
+nicK	BSU04870		P96635	ydcR		M117
+nifS	BSU27880	936637	P38033	iscS	cysteine desulfurase NifS	M83
+nin	BSU03420	938312	P12669	comJ	DNA-entry nuclease inhibitor	Basal machinery
+nnrD	BSU38720		P94368	yxkO		Basal machinery
+noc	BSU40990	937920	P37524	yyaA	nucleoid occlusion protein	M25.4
+nprB	BSU11100	936384	P39899		neutral protease B	Basal machinery
+nprE	BSU14700	935981	P68736		bacillolysin	Basal machinery
+nrdE	BSU17380	940091	P50620	nrdA	ribonucleoside-diphosphate reductase subunit alpha	Intermodular
+nrdF	BSU17390	939476	P50621		ribonucleoside-diphosphate reductase subunit beta	Intermodular
+nrdI	BSU17370	939562	P50618	ymaA	ribonucleotide reductase stimulatory protein NrdI	Intermodular
+nrdR	BSU29000	937402	Q45549	ytcG	transcriptional repressor NrdR	M25.12
+nrgA	BSU36510		Q07429	amtB		Basal machinery
+nrgB	BSU36520		Q07428	glnK		Basal machinery
+nsrR	BSU09380	939744	O07573	yhdE	Rrf2 family transcriptional regulator	M25.5
+ntdA	BSU10550	939788	O07566	yhjL	NTD biosynthesis operon protein NtdA	M28
+ntdB	BSU10540	939323	O07565	yhjK	NTD biosynthesis operon putative hydrolase NtdB	M28
+ntdC	BSU10530	936337	O07564	yhjJ	NTD biosynthesis operon putative oxidoreductase NtdC	M28
+ntdR	BSU10560		O07567	yhjM		M28
+nucA	BSU03430	938309	P12667	comI	DNA-entry nuclease	Basal machinery
+nucB	BSU25750	937804	P42983		sporulation-specific extracellular nuclease	Basal machinery
+nupC	BSU39410	937534	P39141		pyrimidine nucleoside transport protein	M62
+nusA	BSU16600	939628	P32727		transcription termination/antitermination protein NusA	M47
+nusB	BSU24320	938606	P54520	yqhZ	N utilization substance protein B homolog	M26
+obg	BSU27920		P20964	obgE		Basal machinery
+odhA	BSU19370		P23129	sucA,citK		Basal machinery
+odhB	BSU19360	939505	P16263	citM	dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	Basal machinery
+ogt	BSU13540	939332	P11742	dat1,dat	methylated-dna--protein-cysteine methyltransferase	Basal machinery
+ohrA	BSU13140	939848	O34762	yklA	organic hydroperoxide resistance protein OhrA	M106
+ohrB	BSU13160	936734	P80242	yzzE,ykzA	organic hydroperoxide resistance protein OhrB	Basal machinery
+ohrR	BSU13150	939850	O34777	ykmA	organic hydroperoxide resistance transcriptional regulator	M106
+opcR	BSU33840		O34709	yvbF		M25.22
+oppA	BSU11430	936398	P24141	spo0KA	oligopeptide ABC transporter binding lipoprotein	Basal machinery
+oppB	BSU11440	936397	P24138	spo0KB	oligopeptide transport system permease protein OppB	Basal machinery
+oppC	BSU11450	936396	P24139	spo0KC	oligopeptide transport system permease protein OppC	Basal machinery
+oppD	BSU11460	939814	P24136	spo0KD	oligopeptide transport ATP-binding protein OppD	Basal machinery
+oppF	BSU11470	936410	P24137	spo0KE	oligopeptide transport ATP-binding protein OppF	Basal machinery
+opuAA	BSU02980	938362	P46920		glycine/betaine ABC transporter ATP-binding protein	M25.11
+opuAB	BSU02990	938360	P46921		glycine betaine transport system permease protein OpuAB	M25.11
+opuAC	BSU03000	938354	P46922		glycine betaine-binding protein OpuAC	M25.11
+opuBA	BSU33730	936230	Q45460	proV	choline transport ATP-binding protein OpuBA	Intermodular
+opuBB	BSU33720	936225	Q45461	proW	choline transport system permease protein OpuBB	Intermodular
+opuBC	BSU33710	938475	Q45462	proX	choline-binding protein	Intermodular
+opuBD	BSU33700	936226	P39775	proZ	choline transport system permease protein OpuBD	Intermodular
+opuCA	BSU33830	937136	O34992	yvbE	glycine betaine/carnitine/choline transport ATP-binding protein OpuCA	Intermodular
+opuCB	BSU33820	937105	O34878	yvbD	glycine betaine/carnitine/choline transport system permease protein OpuCB	Intermodular
+opuCC	BSU33810	936248	O32243	yvbC	glycine betaine/carnitine/choline-binding protein OpuCC	Intermodular
+opuCD	BSU33800	937199	O34742	yvbB	glycine betaine/carnitine/choline transport system permease protein OpuCD	Intermodular
+opuD	BSU30070	937986	P54417	ytfQ	glycine betaine transporter OpuD	Basal machinery
+opuE	BSU06660	939439	O06493	yerK	osmoregulated proline transporter	Basal machinery
+oxdC	BSU33240	938620	O34714	yvrK	oxalate decarboxylase OxdC	M25.2
+oxdD	BSU18670		O34767	yoaN		Basal machinery
+pabA	BSU00750	936441	P28819	trpG	para-aminobenzoate/anthranilate synthase glutamine amidotransferase component II	Basal machinery
+pabB	BSU00740	936926	P28820	pab	para-aminobenzoate synthase component 1	Basal machinery
+pabC	BSU00760	936944	P28821		aminodeoxychorismate lyase	Basal machinery
+padC	BSU34400	938579	O07006	pad,yveH	phenolic acid decarboxylase PadC	M53
+padR	BSU08340	936174	P94443	yfiO	negative transcription regulator PadR	M53
+panE	BSU15110		O34661	ylbQ,apbA		Basal machinery
+parC	BSU18100	937107	Q45066	grlA	DNA topoisomerase 4 subunit A	Basal machinery
+parE	BSU18090	936151	Q59192	grlB	DNA topoisomerase 4 subunit B	Basal machinery
+pbpD	BSU31490	938851	P40750		penicillin-binding protein 4	Basal machinery
+pbpE	BSU34440	938615	P32959		penicillin-binding protein 4*	Basal machinery
+pbpF	BSU10110	939766	P38050	ponA	penicillin-binding protein 1F	Basal machinery
+pbpG	BSU37510	937200	P70997	ywhE	penicillin-binding protein 2D	Basal machinery
+pbpH	BSU13980	936204	Q796K8	ykuA	penicillin-binding enzyme for formation of rod-shaped peptidoglycan cell wall	Basal machinery
+pbpI	BSU27310	936016	O32032	yrrR	penicillin-binding protein 4B	Basal machinery
+pbpX	BSU16950	939677	O31773		penicillin-binding protein PbpX	M25.1
+pbuG	BSU06370	936043	O34987	yebB	guanine/hypoxanthine permease PbuG	M26
+pbuO	BSU29990	938070	O34978	ytiP	guanine/hypoxanthine permease PbuO	M26
+pbuX	BSU22060	939068	P42086	ypaQ	xanthine permease	M26
+pckA	BSU30560	937235	P54418	ppc	phosphoenolpyruvate carboxykinase	M72
+pcrA	BSU06610	938747	O34580	yerF	ATP-dependent DNA helicase PcrA	Basal machinery
+pcrB	BSU06600	936052	O34790	yerE	heptaprenylglyceryl phosphate synthase	Basal machinery
+pdaA	BSU07980	936136	O34928	yfjS	polysaccharide deacetylase PdaA	Basal machinery
+pdaB	BSU01570		P50865	ybaN,ybxG		Basal machinery
+pdaC	BSU12100		O34798	yjeA		M25.3
+pdhA	BSU14580	936005	P21881	aceA	pyruvate dehydrogenase E1 component subunit alpha	Basal machinery
+pdhB	BSU14590	939496	P21882	aceB	pyruvate dehydrogenase E1 component subunit beta	Basal machinery
+pdhC	BSU14600	936010	P21883	aceC	dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	Basal machinery
+pdhD	BSU14610	939492	P21880	aceD,citL	dihydrolipoyl dehydrogenase	Basal machinery
+pdp	BSU39400	937540	P39142		pyrimidine-nucleoside phosphorylase	M62
+pdxS	BSU00110		P37527	yaaD		M26
+pdxT	BSU00120		P37528	yaaE		M26
+pel	BSU07560	936113	P39116		pectate lyase	M25.6
+perR	BSU08730	939227	P71086	ygaG	peroxide operon regulator	M25.16
+pfyP	BSU30340		O34627	ytvA		Basal machinery
+pgdS	BSU35860	936837	P96740	ywtD	gamma-dl-glutamyl hydrolase	Basal machinery
+pgk	BSU33930	938572	P40924		phosphoglycerate kinase	M42
+pgl	BSU13010		O34499	ykgB		Basal machinery
+pheA	BSU27900	937513	P21203		prephenate dehydratase	Basal machinery
+pheS	BSU28640	937987	P17921		phenylalanine--tRNA ligase alpha subunit	Basal machinery
+pheT	BSU28630	937445	P17922		phenylalanine--tRNA ligase beta subunit	Basal machinery
+phoA	BSU09410	936265	P19406	phoAIV	alkaline phosphatase	Basal machinery
+phoB	BSU05740	938004	P19405	phoAIII	alkaline phosphatase 3	Basal machinery
+phoD	BSU02620	938391	P42251	ycbS	alkaline phosphatase D	Basal machinery
+phoE	BSU10340	939773	O07617	yhfR	phosphatase PhoE	M98
+phoP	BSU29110	936644	G5D7Q4		alkaline phosphatase synthesis transcriptional regulatory protein PhoP	Global regulator
+phoR	BSU29100	937387	G5D7Q5		alkaline phosphatase synthesis sensor protein PhoR	Basal machinery
+phrA	BSU12440	939413	Q00829	gsiAB	phosphatase RapA inhibitor	M25.6
+phrC	BSU03780	938281	P94416	hprC	phosphatase RapC inhibitor	M25.6
+phrE	BSU25840	937784	O32025		phosphatase RapE inhibitor	M25.6
+phrF	BSU37470	936721	P71001	ywhI	phosphatase RapF inhibitor	M25.6
+phrG	BSU40310	937767	O32295	yycL	phosphatase RapG inhibitor	M48
+phrH	BSU06839	8303115	Q59HN7		inhibitor of regulatory cascade	M48
+phrI	BSU05020	939927	O31492		secreted regulator of the activity of phosphatase RapI	M25.6
+phrK	BSU18920	939608	O31840		phosphatase RapK inhibitor	Basal machinery
+phy	BSU19800	940065	P42094	yzxA,yodV	3-phytase	Basal machinery
+pit	BSU12840	936281	O34436	ykaB	low-affinity inorganic phosphate transporter	Basal machinery
+pksC	BSU17100	939504	O34825		polyketide biosynthesis malonyl CoA-acyl carrier protein transacylase PksC	Basal machinery
+pksD	BSU17110	939463	O34877		polyketide biosynthesis acyltransferase homolog PksD	Basal machinery
+pksE	BSU17120	939997	O34787		polyketide biosynthesis protein PksE	Basal machinery
+pksF	BSU17140	939500	P40804		polyketide biosynthesis malonyl-ACP decarboxylase PksF	Basal machinery
+pksG	BSU17150	940121	P40830		polyketide biosynthesis 3-hydroxy-3-methylglutaryl-ACP synthase PksG	Basal machinery
+pksH	BSU17160	940033	P40805		polyketide biosynthesis enoyl-CoA hydratase PksH	Basal machinery
+pksI	BSU17170	940096	P40802		polyketide biosynthesis enoyl-CoA isomerase PksI	Basal machinery
+pksJ	BSU17180	940043	P40806	pksK	polyketide synthase PksJ	Basal machinery
+pksL	BSU17190	940032	Q05470	pksA,outG,pksX	polyketide synthase PksL	Basal machinery
+pksM	BSU17200	940026	P40872	pksY	polyketide synthase PksM	Basal machinery
+pksN	BSU17210	940054	O31782		polyketide synthase PksN	Basal machinery
+pksR	BSU17220	940036	O31784		polyketide synthase PksR	Basal machinery
+plsC	BSU09540	936269	O07584	yhdO	1-acyl-sn-glycerol-3-phosphate acyltransferase	M25.6
+plsX	BSU15890	938066	P71018	ylpD	phosphate acyltransferase	M25.6
+pnbA	BSU34390	938580	P37967	estB	para-nitrobenzyl esterase	M25.1
+polA	BSU29090	936617	O34996		DNA polymerase I	Basal machinery
+ponA	BSU22320	939044	A3F2U2		penicillin-binding protein 1A/1B	Basal machinery
+ppaX	BSU34970		Q9JMQ2	ptsL,hprP,yvoE		Basal machinery
+ppiB	BSU23360	938934	P35137		peptidyl-prolyl cis-trans isomerase	Basal machinery
+ppsA	BSU18340	939983	P39845	pps1	plipastatin synthase subunit A	Basal machinery
+ppsB	BSU18330	939993	P39846	pps2	plipastatin synthase subunit B	Basal machinery
+ppsC	BSU18320	940102	P39847	pps3	plipastatin synthase subunit C	Basal machinery
+ppsD	BSU18310	940013	A7XMX8	pps4	plipastatin synthase subunit D	Basal machinery
+ppsE	BSU18300	939956	O31827	pps5	plipastatin synthase subunit E	Basal machinery
+prfB	BSU35290	936692	P28367		peptide chain release factor 2	Basal machinery
+prkA	BSU08970	939250	P39134		serine protein kinase PrkA	Basal machinery
+prmA	BSU25450	937847	P54460	yqeT	ribosomal protein L11 methyltransferase	M101
+proA	BSU13130	936166	P39821		gamma-glutamyl phosphate reductase	Basal machinery
+proB	BSU13120	936790	P39820		glutamate 5-kinase 1	Basal machinery
+proH	BSU18480	940035	P0CI77	proC,yoxE	pyrroline-5-carboxylate reductase 1	Basal machinery
+proI	BSU23800	938697	P54552	yqjO	pyrroline-5-carboxylate reductase 2	Basal machinery
+proJ	BSU18470	940098	O07509	yohA	glutamate 5-kinase	Basal machinery
+prpB	BSU24120	938668	P54528	yqiQ	methylisocitrate lyase	Basal machinery
+prpD	BSU24130	938663	P45859	mmgE,yqiP	2-methylcitrate dehydratase	Basal machinery
+prs	BSU00510	936985	P14193		ribose-phosphate pyrophosphokinase	Basal machinery
+psd	BSU02290	938431	P39822		phosphatidylserine decarboxylase proenzyme	Basal machinery
+psiE	BSU26410		P54445	yrkR		M8
+pssA	BSU02270	938427	P39823	pss	CDP-diacylglycerol--serine O-phosphatidyltransferase	Basal machinery
+pstB1	BSU24950		P46342	yqgK,yzmF,pstBB		Basal machinery
+pstB2	BSU24960		P46341	yzmE,pstBA,yqgJ		Basal machinery
+pstS	BSU24990	938197	P46338	yzmB,yqgG	phosphate-binding protein PstS	Basal machinery
+pta	BSU37660		P39646	eutD,ywfJ		Basal machinery
+ptsG	BSU13890	939255	P20166	ptsX,crr	PTS system glucose-specific EIICBA component	M92
+ptsH	BSU13900	939259	P08877		phosphocarrier protein HPr	M92
+ptsI	BSU13910	939253	P08838		phosphoenolpyruvate-protein phosphotransferase	M92
+pucA	BSU32510	938865	O32147	yurF	xanthine dehydrogenase subunit A	M21
+pucB	BSU32500	936486	O32146	yurE	purine catabolism protein PucB	M21
+pucC	BSU32490	936685	O32145	yurD	xanthine dehydrogenase subunit C	M21
+pucD	BSU32480	936686	O32144	yurC	xanthine dehydrogenase subunit D	M21
+pucE	BSU32470	936680	O32143	yurB	xanthine dehydrogenase subunit E	M21
+pucF	BSU32530		O32149	yurH		M21
+pucG	BSU32520	936676	O32148	yurG	purine catabolism protein PucG	M21
+pucI	BSU36470	936935	P94575	ywoE	allantoin permease	M21
+pucJ	BSU32430	937096	O32139	yunJ	uric acid permease PucJ	M21
+pucK	BSU32440	937191	O32140	yunK	uric acid permease PucK	M21
+pucL	BSU32450	936669	O32141	yunL	urate oxidase with peroxide reductase N-terminal domain	M21
+pucM	BSU32460	937977	O32142	yunM	5-hydroxyisourate hydrolase	M21
+pucR	BSU32420	937221	O32138	yunI	purine catabolism regulatory protein	M21
+punA	BSU23490		P46354	pnp,deoD,pupG,yqkO		Basal machinery
+purA	BSU40420	937805	P29726		adenylosuccinate synthetase	M26
+purB	BSU06440	936048	P12047	purE	adenylosuccinate lyase	M26
+purC	BSU06450	939389	P12046		phosphoribosylaminoimidazole-succinocarboxamide synthase	M26
+purD	BSU06530	938741	P12039		phosphoribosylamine--glycine ligase	M26
+purE	BSU06420	939481	P12044		N5-carboxyaminoimidazole ribonucleotide mutase	M26
+purF	BSU06490	936046	P00497		amidophosphoribosyltransferase	M26
+purH	BSU06520	936053	P12048	purHJ	bifunctional purine biosynthesis protein PurH	M26
+purK	BSU06430	936039	P12045		N5-carboxyaminoimidazole ribonucleotide synthase	M26
+purL	BSU06480	939233	P12042		phosphoribosylformylglycinamidine synthase	M26
+purM	BSU06500	936044	P12043	ath	phosphoribosylformylglycinamidine cyclo-ligase	M26
+purN	BSU06510	936045	P12040		phosphoribosylglycinamide formyltransferase	M26
+purQ	BSU06470	938760	P12041		phosphoribosylformylglycinamidine synthase	M26
+purR	BSU00470	937000	P37551	yabI	Pur operon repressor	M26
+purS	BSU06460	936041	P12049	yexA	hypothetical protein	M26
+purT	BSU02230	938438	P39771		phosphoribosylglycinamide formyltransferase	Basal machinery
+pyc	BSU14860		Q9KWU4	ylaP,pycA		M26
+pyrAA	BSU15510	937368	P25993		carbamoyl-phosphate synthase pyrimidine-specific small chain	M90
+pyrAB	BSU15520		P25994			M90
+pyrB	BSU15490	937734	P05654		aspartate carbamoyltransferase	M90
+pyrC	BSU15500	937095	P25995		dihydroorotase	M90
+pyrD	BSU15540	938008	P25996	pyrDA,pyrDI	dihydroorotate dehydrogenase B	M90
+pyrE	BSU15560	936714	P25972	pyrX	orotate phosphoribosyltransferase	M90
+pyrF	BSU15550	935960	P25971		orotidine 5'-phosphate decarboxylase	M90
+pyrG	BSU37150	937044	P13242	ctrA	CTP synthase	Basal machinery
+pyrK	BSU15530	936854	P25983	pyrDII,pyrDB,ylxD,pyrZ	dihydroorotate dehydrogenase B	M90
+pyrP	BSU15480	936604	P39766		uracil permease	M90
+pyrR	BSU15470	938030	P39765		bifunctional protein PyrR	M90
+qcrA	BSU22560	939017	A3F397	bfcA	menaquinol-cytochrome c reductase iron-sulfur subunit	Basal machinery
+qcrB	BSU22550	939019	A3F396	bfcB	menaquinol-cytochrome c reductase cytochrome b subunit	Basal machinery
+qcrC	BSU22540	939021	P46913	bfcC	menaquinol-cytochrome c reductase cytochrome b/c subunit	Basal machinery
+qdoI	BSU39980		P42106	yxaG,qodI		M88
+qoxA	BSU38170	937295	P34957		quinol oxidase subunit 2	M84
+qoxB	BSU38160	937303	P34956		quinol oxidase subunit 1	M84
+qoxC	BSU38150	937299	P34958		quinol oxidase subunit 3	M84
+qoxD	BSU38140	937285	P34959		quinol oxidase subunit 4	M84
+racA	BSU37030	937043	P45870	ywkC	chromosome-anchoring protein RacA	Basal machinery
+racX	BSU34430	938575	P32960		amino acid racemase	Basal machinery
+radA	BSU00870	936872	P37572	sms,yacJ	DNA repair protein RadA	M107
+rapA	BSU12430	939417	Q00828	spo0L,gsiAA	response regulator aspartate phosphatase A	M25.6
+rapB	BSU36690	936963	P70962	ywmE,spo0P	response regulator aspartate phosphatase B	Basal machinery
+rapC	BSU03770	938284	P94415	yclL	response regulator aspartate phosphatase C	M25.6
+rapD	BSU36380	936919	P94583	ywpA	response regulator aspartate phosphatase D	M48
+rapE	BSU25830	937796	P45943	yqcH	response regulator aspartate phosphatase E	M25.6
+rapF	BSU37460	936725	P71002	ywhJ	response regulator aspartate phosphatase F	M25.6
+rapG	BSU40300	937771	O32294	yycM	response regulator aspartate phosphatase G	M48
+rapH	BSU06830	936065	Q59HN8	yeeH,yzqA	response regulator aspartate phosphatase H	M48
+rapI	BSU05010	938127	P96649	yddL	response regulator aspartate phosphatase I	M25.6
+rapK	BSU18910	939604	O34930	yobG	response regulator aspartate phosphatase K	Basal machinery
+rbfA	BSU16650	939635	P32731	ylxO,ymxE	ribosome-binding factor A	M47
+rbsA	BSU35940	936839	P36947		ribose import ATP-binding protein RbsA	Basal machinery
+rbsB	BSU35960	936848	P36949		D-ribose-binding protein	Basal machinery
+rbsC	BSU35950	936841	P36948		ribose transport system permease RbsC	Basal machinery
+rbsD	BSU35930	936846	P36946		D-ribose pyranase	Basal machinery
+rbsK	BSU35920	936844	P36945		ribokinase	Basal machinery
+rbsR	BSU35910	936836	P36944		ribose operon repressor	Basal machinery
+recA	BSU16940	939497	P16971	recE	recombinase RecA	Basal machinery
+recF	BSU00040	939454	P05651		DNA replication and repair protein RecF	Basal machinery
+recO	BSU25280	937881	P42095	yqfI,yqxN	DNA repair protein RecO	Basal machinery
+recU	BSU22310	939039	A3F2U1	yppB,prfA	holliday junction resolvase RecU	Basal machinery
+resA	BSU23150	938958	P35160	ypxA	thiol-disulfide oxidoreductase ResA	Basal machinery
+resB	BSU23140	938961	P35161	ypxB	cytochrome c biogenesis protein ResB	Basal machinery
+resC	BSU23130	938962	P35162	ypxC	cytochrome c biogenesis protein ResC	Basal machinery
+resD	BSU23120	938960	P35163	ypxD	transcriptional regulatory protein ResD	Global regulator
+resE	BSU23110	938965	P35164	ypxE	sensor histidine kinase	Basal machinery
+rex	BSU05970	939407	O05521	ydiH	hypothetical protein	M111
+rfbB	BSU37830		P39630	spsJ		Basal machinery
+rghR	BSU33660		O32236	rghRA,yvaN		M48
+rhaA	BSU31180		O05264	yulE		M50
+rhaB	BSU31200		O05262	yulC		M50
+rhaM	BSU31190		O05263	yulD		M50
+rhgT	BSU07020	936074	O31523	yesT	rhamnogalacturonan acetylesterase RhgT	M68
+ribBA	BSU23260		P17620	ribA		Basal machinery
+ribD	BSU23280	938945	P17618	ribG	riboflavin biosynthesis protein RibD	Basal machinery
+ribE	BSU23270	938947	P16440	ribB	riboflavin synthase	Basal machinery
+ribH	BSU23250	938949	P11998		6,7-dimethyl-8-ribityllumazine synthase	Basal machinery
+ribR	BSU29300		P94465	rbfK,ytnK		M115
+ribT	BSU23240		P17622	ypzK		Basal machinery
+rimM	BSU16020	935999	O31740	ylqE	ribosome maturation factor RimM	Basal machinery
+rimP	BSU16590		P32726	ylxS,ymxA		M47
+rlmH	BSU40230		Q45601	yydA		M25.4
+rlmN	BSU15750		O34617	yloN		Basal machinery
+rmlA	BSU37840		P39629	spsI		Basal machinery
+rnc	BSU15930	936169	P51833	rncS	ribonuclease 3	Basal machinery
+rnhB	BSU16060	940133	O31744	rnh	ribonuclease HII	Basal machinery
+rnjA	BSU14530	939483	Q45493	ykqC	ribonuclease J 1	Basal machinery
+rnjB	BSU16780	938463	O31760	ymfA	ribonuclease J 2	Basal machinery
+rnr	BSU33610	938644	O32231	vacB,yvaJ	ribonuclease R	Basal machinery
+rocA	BSU37780	937222	P39634		1-pyrroline-5-carboxylate dehydrogenase	Intermodular
+rocB	BSU37770	937220	P39635		arginine utilization protein RocB	Intermodular
+rocC	BSU37760	938495	P39636		amino acid permease RocC	Intermodular
+rocD	BSU40340	937755	P38021		ornithine aminotransferase	Intermodular
+rocE	BSU40330	937761	P39137		amino acid permease RocE	Intermodular
+rocF	BSU40320		P39138	argI		Intermodular
+rocG	BSU37790	937066	P39633	yweB,gudA	catabolic NAD-specific glutamate dehydrogenase RocG	Intermodular
+rocR	BSU40350	937769	P38022		arginine utilization regulatory protein RocR	M25.9
+rodA	BSU38120	937294	P39604	ywcF	rod shape-determining protein RodA	Basal machinery
+rok	BSU14240	938793	O34857	ykuW	repressor rok	M25.7
+rplB	BSU01190	936817	P42919		50S ribosomal protein L2	Basal machinery
+rplC	BSU01160	936239	P42920		50S ribosomal protein L3	Basal machinery
+rplD	BSU01170	936690	P42921		50S ribosomal protein L4	Basal machinery
+rplE	BSU01280	936981	P12877		50S ribosomal protein L5	Basal machinery
+rplF	BSU01310	938229	P46898		50S ribosomal protein L6	Basal machinery
+rplGA	BSU16620		P32729	ymxC,ylxQ		M47
+rplJ	BSU01040	936153	P42923		50S ribosomal protein L10	M82
+rplL	BSU01050	935952	P02394		50S ribosomal protein L7/L12	M82
+rplN	BSU01260	935939	P12875		50S ribosomal protein L14	Basal machinery
+rplO	BSU01350	935940	P19946		50S ribosomal protein L15	Basal machinery
+rplP	BSU01230	936807	P14577		50S ribosomal protein L16	Basal machinery
+rplQ	BSU01440	938918	P20277		50S ribosomal protein L17	Basal machinery
+rplR	BSU01320	936785	P46899		50S ribosomal protein L18	Basal machinery
+rplS	BSU16040	937598	O31742		50S ribosomal protein L19	Basal machinery
+rplT	BSU28850	936645	P55873		50S ribosomal protein L20	M36
+rplV	BSU01210	938123	P42060		50S ribosomal protein L22	Basal machinery
+rplW	BSU01180	936820	P42924		50S ribosomal protein L23	Basal machinery
+rplX	BSU01270	936799	P0CI78		50S ribosomal protein L24	Basal machinery
+rpmC	BSU01240	936801	P12873		50S ribosomal protein L29	Basal machinery
+rpmD	BSU01340	936920	P19947		50S ribosomal protein L30	Basal machinery
+rpmE	BSU37070	937034	Q03223		50S ribosomal protein L31	Basal machinery
+rpmE2	BSU30700	937208	O34967	ytiA	50S ribosomal protein L31 type B	M19
+rpmGB	BSU00990		Q06798	rpmG,rpmG2		Basal machinery
+rpmH	BSU41060	937942	P05647		50S ribosomal protein L34	Basal machinery
+rpmI	BSU28860	937421	P55874		50S ribosomal protein L35	M36
+rpmJ	BSU01400	938927	P20278		50S ribosomal protein L36	Basal machinery
+rpoA	BSU01430	938921	P20429		DNA-directed RNA polymerase subunit alpha	Basal machinery
+rpoB	BSU01070	936335	P37870	crsE,rfm	DNA-directed RNA polymerase subunit beta	Basal machinery
+rpoC	BSU01080	935977	P37871	lpm,std	DNA-directed RNA polymerase subunit beta'	Basal machinery
+rpoE	BSU37160	937046	P12464		DNA-directed RNA polymerase subunit delta	M89
+rpoZ	BSU15690	936419	O35011	yloH	DNA-directed RNA polymerase subunit omega	Basal machinery
+rpsB	BSU16490	939599	P21464		30S ribosomal protein S2	Basal machinery
+rpsC	BSU01220	936808	P21465		30S ribosomal protein S3	Basal machinery
+rpsD	BSU29660	937319	P21466		30S ribosomal protein S4	Basal machinery
+rpsE	BSU01330	938012	P21467	spcA	30S ribosomal protein S5	Basal machinery
+rpsF	BSU40910	937919	P21468		30S ribosomal protein S6	Basal machinery
+rpsH	BSU01300	936328	P12879		30S ribosomal protein S8	Basal machinery
+rpsJ	BSU01150	936825	P21471	tetA	30S ribosomal protein S10	Basal machinery
+rpsK	BSU01420	938926	P04969		30S ribosomal protein S11	Basal machinery
+rpsM	BSU01410	938928	P20282		30S ribosomal protein S13	Basal machinery
+rpsN1	BSU01290		P12878	rpsNA,rpsZ,rpsN		Basal machinery
+rpsN2	BSU08880		O31587	yhzA,rpsNB		M19
+rpsP	BSU15990	938059	P21474		30S ribosomal protein S16	Basal machinery
+rpsQ	BSU01250	936805	P12874		30S ribosomal protein S17	Basal machinery
+rpsR	BSU40890	937906	P21475		30S ribosomal protein S18	Basal machinery
+rpsS	BSU01200	936818	P21476		30S ribosomal protein S19	Basal machinery
+rsbRA	BSU04670	938176	P42409	rsbR,ycxR	RsbT co-antagonist protein RsbRA	Basal machinery
+rsbRD	BSU24760	938513	P54504	yqhA	RsbT co-antagonist protein RsbRD	Basal machinery
+rsbS	BSU04680	938157	P42410	ycxS	RsbT antagonist protein RsbS	Basal machinery
+rsbT	BSU04690	938168	P42411	ycxT	serine/threonine protein kinase	Basal machinery
+rsbU	BSU04700	939939	P40399		phosphoserine phosphatase RsbU	Basal machinery
+rsbV	BSU04710	939930	P17903		anti-sigma-B factor antagonist	Basal machinery
+rsbW	BSU04720	938167	P17904		serine-protein kinase RsbW	Basal machinery
+rsbX	BSU04740	938155	P17906		phosphoserine phosphatase RsbX	Basal machinery
+rsfA	BSU37620	937126	P39650	ywfN	prespore-specific transcriptional regulator RsfA	M116
+rsgI	BSU13460	939360	O31655	ykrI	anti-sigma-I factor RsgI	M25.3
+rsiV	BSU27130	937593	O05403	yrhM	anti-sigma-V factor RsiV	M25.1
+rsiW	BSU01740	938876	Q45588	ybbM	anti-sigma-W factor RsiW	Basal machinery
+rsiX	BSU23090	938959	P35166	ypuN	sigma-X negative effector	M25.2
+rsmB	BSU15740	938106	P94464	yloM,sun	ribosomal RNA small subunit methyltransferase B	Basal machinery
+rsmE	BSU25440		P54461	yqeU		M101
+rsmG	BSU41000		P25813	gidB		M25.4
+rsoA	BSU33222	8302938	C0H3R4	yvrHa	sigma-O factor regulatory protein RsoA	M25.2
+rtpA	BSU02530	938403	O31466	yczA	tryptophan RNA-binding attenuator protein inhibitory protein	Basal machinery
+ruvA	BSU27740	937829	O05392		holliday junction ATP-dependent DNA helicase RuvA	Basal machinery
+ruvB	BSU27730	2914219	O32055		holliday junction ATP-dependent DNA helicase RuvB	Basal machinery
+sacA	BSU38040	937277	P07819		sucrose-6-phosphate hydrolase	M25.4
+sacB	BSU34450	936413	P05655		levansucrase	M112
+sacC	BSU27030	938092	P05656		levanase	Intermodular
+sacP	BSU38050	937266	P05306		PTS system sucrose-specific EIIBC component	M25.4
+sacT	BSU38070	937284	P26212		SacPA operon antiterminator	M25.4
+sacX	BSU38410	937333	P15400	sacS	negative regulator of SacY activity	M112
+sacY	BSU38420	937335	P15401	sacS	levansucrase and sucrase synthesis operon antiterminator	M112
+safA	BSU27840	937514	O32062	yrbA	spoivd-associated factor A	Basal machinery
+salA	BSU01540	938914	P50863	mrp,ybxI,rec233,ybaL	protein mrp homolog SalA	Basal machinery
+sat	BSU15590	936726	O34764	ylnB	sulfate adenylyltransferase	Basal machinery
+sbcC	BSU10650	939784	O06714	yirY	nuclease SbcCD subunit C	Basal machinery
+sbcD	BSU10640	936351	P23479	yixA	nuclease SbcCD subunit D	Basal machinery
+sboA	BSU37350	938512	O07623	sbo	subtilosin-A	M25.7
+sboX	BSU37360	2914193	Q7WY57		bacteriocin-like protein SboX	M25.7
+sbp	BSU15270	936141	P28265		small basic protein	Basal machinery
+scoA	BSU38990	937468	P42315	yxjD	succinyl-CoA:3-ketoacid coenzyme A transferase subunit A	Basal machinery
+scoB	BSU38980	937453	P42316	yxjE	succinyl-CoA:3-ketoacid coenzyme A transferase subunit B	Basal machinery
+sda	BSU25690	2914223	Q7WY62		sporulation inhibitor sda	M25.4
+sdhA	BSU28440	937600	P08065	citF	succinate dehydrogenase flavoprotein subunit	Basal machinery
+sdhB	BSU28430	937460	P08066		succinate dehydrogenase iron-sulfur subunit	Basal machinery
+sdhC	BSU28450	937458	P08064		succinate dehydrogenase cytochrome b558 subunit	Basal machinery
+sdpA	BSU33750	938629	O34889	yvaW	sporulation-delaying protein SdpA	M25.7
+sdpB	BSU33760	936240	O34616	yvaX	sporulation-delaying protein SdpB	M25.7
+sdpC	BSU33770		O34344	yvaY,spbC		M25.7
+sdpI	BSU33780	936238	O32241	yvaZ	immunity protein SdpI	M89
+sdpR	BSU33790	936249	O32242	yvbA	transcriptional repressor SdpR	M89
+secA	BSU35300	936711	P28366	div+	protein translocase subunit SecA	Basal machinery
+secDF	BSU27650	937938	O32047		protein translocase subunit SecDF	Basal machinery
+secE	BSU01000	936856	Q06799		preprotein translocase subunit SecE	Basal machinery
+secG	BSU33630	938477	O32233	yvaL	protein-export membrane protein SecG	Basal machinery
+secY	BSU01360	936779	P16336		protein translocase subunit SecY	Basal machinery
+senS	BSU08810	936207	P21344		transcriptional regulator	Basal machinery
+sepF	BSU15390	939952	O31728	ylmF	cell division machinery factor	Basal machinery
+serA	BSU23070	938964	P35136		D-3-phosphoglycerate dehydrogenase	Basal machinery
+sigA	BSU25200	937897	P06224	rpoD	RNA polymerase sigma factor RpoD	Global regulator
+sigB	BSU04730	939937	P06574	rpoF	RNA polymerase sigma-B factor	Global regulator
+sigD	BSU16470	938482	P10726	flaB	RNA polymerase sigma-D factor	Global regulator
+sigE	BSU15320	939683	P06222	spoIIGB	RNA polymerase sigma-E factor	Global regulator
+sigF	BSU23450	938729	P07860	spoIIAC	RNA polymerase sigma-F factor	Global regulator
+sigG	BSU15330	939953	P19940	spoIIIG	RNA polymerase sigma-G factor	Global regulator
+sigH	BSU00980	936150	P17869	spo0H	RNA polymerase sigma-H factor	Global regulator
+sigI	BSU13450	939363	O31654	ykoZ	RNA polymerase sigma factor SigI	M25.3
+sigL	BSU34200	936362	P24219		RNA polymerase sigma-54 factor	M25.10
+sigM	BSU09520	936267	O07582	yhdM	RNA polymerase sigma factor SigM	Global regulator
+sigO	BSU33230	935983	O34843	yvrI	RNA polymerase sigma factor SigO	M25.2
+sigV	BSU27120	937591	O05404		RNA polymerase sigma factor SigV	M25.1
+sigW	BSU01730	938868	Q45585	ybbL	RNA polymerase sigma factor SigW	Global regulator
+sigX	BSU23100	938966	A3F488	ypuM	RNA polymerase sigma factor SigX	Global regulator
+sigY	BSU38700	937400	P94370	yxlB	RNA polymerase sigma factor SigY	M118
+sinI	BSU24600	938543	P23308		SinR antagonist SinI	Basal machinery
+sinR	BSU24610	938544	P06533	sin,flaD	XRE family transcriptional regulator	Global regulator
+sipS	BSU23310	938944	P28628		signal peptidase I S	Basal machinery
+sipT	BSU14410	938763	P71013		signal peptidase I T	Basal machinery
+sipV	BSU10490	939318	O07560	yhjF	signal peptidase I V	Basal machinery
+sipW	BSU24630	938542	P54506	yqhE	signal peptidase I W	Intermodular
+sirA	BSU17900		P45707	yneE,yoxF		Basal machinery
+sirB	BSU15620	936218	O34632	ylnE	sirohydrochlorin ferrochelatase	Basal machinery
+sirC	BSU15630	938048	O34813	ylnF	precorrin-2 dehydrogenase	Basal machinery
+skfA	BSU01910	938506	O31422	ybcO	sporulation-killing factor SkfA	Basal machinery
+skfB	BSU01920	938501	O31423	ybcP,ybcQ	hypothetical protein	Basal machinery
+skfC	BSU01935	8302931	O31425	ybcS,ybcT,skfD	sporulation-killing factor biosynthesis protein SkfC	Basal machinery
+skfE	BSU01950	938498	O31427	ybdA	SkfA peptide export ATP-binding protein SkfE	Basal machinery
+skfF	BSU01960	938494	O31428	ybdB	bacteriocin-SkfA transport system permease SkfF	Basal machinery
+skfG	BSU01970	938502	O31429	ybdD	hypothetical protein	Basal machinery
+skfH	BSU01980	938499	O31430	ybdE	thioredoxin	Basal machinery
+sleB	BSU22930	938979	P50739	ypeA	spore cortex-lytic enzyme	Basal machinery
+slrA	BSU38229	8303165	P0C8M5		transcriptional regulator SlrA	M30
+slrR	BSU34380	938581	P71049	slr,yveJ	HTH-type transcriptional regulator SlrR	M25.1
+smc	BSU15940	938085	P51834	ylqA	chromosome partition protein Smc	Basal machinery
+smf	BSU16110		P39813	dprA		Basal machinery
+smpB	BSU33600	936170	O32230	yvaI	SsrA-binding protein	Basal machinery
+sodA	BSU25020	938052	P54375	yqgD	superoxide dismutase	Basal machinery
+sodF	BSU19330	939503	O35023		superoxide dismutase	Basal machinery
+soj	BSU40970		P37522	parA,orf253		Basal machinery
+speB	BSU37490	937205	P70999	ywhG	agmatinase	Basal machinery
+speE	BSU37500	937075	P70998	ywhF	spermidine synthase	Basal machinery
+speH	BSU29010		O34426	speD,ytcF		M72
+splA	BSU13920	939728	P37955	ykxI	transcriptional regulator SplA	M2
+splB	BSU13930	939248	P37956	spl	spore photoproduct lyase	M2
+spmA	BSU23180	938954	P35157	ypuJ	spore maturation protein A	Basal machinery
+spmB	BSU23170	938957	P35158	ypuK	spore maturation protein B	Basal machinery
+spo0A	BSU24220	938655	P06534	spo0G,spo0C	stage 0 sporulation protein A	Global regulator
+spo0B	BSU27930	935956	P06535	spo0D	sporulation initiation phosphotransferase B	Basal machinery
+spo0E	BSU13640	939315	P05043		aspartyl-phosphate phosphatase Spo0E	M25.7
+spo0F	BSU37130	937041	P06628		sporulation initiation phosphotransferase F	Basal machinery
+spo0J	BSU40960		P26497	parB		Basal machinery
+spo0M	BSU08760	939725	P71088	ygaI	sporulation-control protein spo0M	Basal machinery
+spoIIAA	BSU23470	938730	P10727		anti-sigma F factor antagonist	Basal machinery
+spoIIAB	BSU23460	938930	P10728		anti-sigma F factor	Basal machinery
+spoIIB	BSU28060	937497	P37575		stage II sporulation protein B	M25.1
+spoIID	BSU36750	936979	P07372	spoIIC	stage II sporulation protein D	Basal machinery
+spoIIE	BSU00640	938480	P37475	spoIIH	stage II sporulation protein E	Basal machinery
+spoIIGA	BSU15310	939984	P13801		sporulation sigma-E factor-processing peptidase	Basal machinery
+spoIIIAA	BSU24430	938563	Q01367		stage III sporulation protein AA	Basal machinery
+spoIIIAB	BSU24420	938561	Q01368		stage III sporulation protein AB	Basal machinery
+spoIIIAC	BSU24410	938562	P49780		stage III sporulation protein AC	Basal machinery
+spoIIIAD	BSU24400	938577	P49781		stage III sporulation protein AD	Basal machinery
+spoIIIAE	BSU24390	938569	P49782		stage III sporulation protein AE	Basal machinery
+spoIIIAF	BSU24380	938576	P49783		stage III sporulation protein AF	Basal machinery
+spoIIIAG	BSU24370	938595	P49784		stage III sporulation protein AG	Basal machinery
+spoIIIAH	BSU24360	938600	P49785		stage III sporulation protein AH	Basal machinery
+spoIIID	BSU36420	936917	P15281		stage III sporulation protein D	Global regulator
+spoIIIE	BSU16800	936503	P21458	ftsK	spore DNA translocase	Basal machinery
+spoIIM	BSU23530	938723	P37873		stage II sporulation protein M	Basal machinery
+spoIIP	BSU25530	937842	P37968		stage II sporulation protein P	Basal machinery
+spoIIQ	BSU36550	936951	P71044	ywnI	stage II sporulation protein Q	Basal machinery
+spoIIR	BSU36970	937017	P39151		stage II sporulation protein R	Basal machinery
+spoIISA	BSU12830	938174	O34853	ykaC	stage II sporulation protein SA	Basal machinery
+spoIISB	BSU12820	938005	O34800		stage II sporulation protein SB	Basal machinery
+spoIVA	BSU22800	938991	P35149	spoVP	stage IV sporulation protein A	Basal machinery
+spoIVB	BSU24230	938654	P17896		peptidase S55	Basal machinery
+spoIVFA	BSU27980	937501	P26936	bofB	stage IV sporulation protein FA	Basal machinery
+spoIVFB	BSU27970	937505	P26937	bofB	stage IV sporulation protein FB	Basal machinery
+spoVAA	BSU23440	938734	P40866		stage V sporulation protein AA	Basal machinery
+spoVAB	BSU23430	938933	P40867		stage V sporulation protein AB	Basal machinery
+spoVAC	BSU23420	938733	P40868		stage V sporulation protein AC	Basal machinery
+spoVAD	BSU23410	938932	P40869		stage V sporulation protein AD	Basal machinery
+spoVAEA	BSU23401	8303022	P40870	spoVAE	stage V sporulation protein AE	Basal machinery
+spoVAEB	BSU23402	8303020	C0H450		stage V sporulation protein AEB	Basal machinery
+spoVAF	BSU23390	938936	P31845		stage V sporulation protein AF	Basal machinery
+spoVB	BSU27670	938022	Q00758	spoIIIF	stage V sporulation protein B	Basal machinery
+spoVC	BSU00530		P37470	pth		Basal machinery
+spoVD	BSU15170	936661	Q03524		stage V sporulation protein D	Basal machinery
+spoVE	BSU15210	936953	P07373		stage V sporulation protein E	Basal machinery
+spoVG	BSU00490	936959	P28015		septation protein SpoVG	Basal machinery
+spoVID	BSU28110	936772	P37963		stage VI sporulation protein D	Basal machinery
+spoVIF	BSU11810	939384	O31625	yjcC	sporulation-specific transcription factor SpoVIF	M39
+spoVK	BSU17420	940089	P27643	spoVJ	stage V sporulation protein K	Basal machinery
+spoVM	BSU15810	937168	P37817		stage V sporulation protein M	Basal machinery
+spoVR	BSU09400	939747	P37875		stage V sporulation protein R	Basal machinery
+spoVS	BSU16980	939460	P45693		stage V sporulation protein S	Basal machinery
+spoVT	BSU00560	936975	P37554	yabL	stage V sporulation protein T	Global regulator
+sppA	BSU29530	937679	O34525	yteI	signal peptide peptidase SppA	Basal machinery
+spsA	BSU37910	937253	P39621		spore coat polysaccharide biosynthesis protein SpsA	Basal machinery
+spsB	BSU37900	937239	P39622		spore coat polysaccharide biosynthesis protein SpsB	Basal machinery
+spsC	BSU37890	937234	P39623		spore coat polysaccharide biosynthesis protein SpsC	Basal machinery
+spsD	BSU37880	937250	P39624		spore coat polysaccharide biosynthesis protein SpsD	Basal machinery
+spsE	BSU37870	937233	P39625		spore coat polysaccharide biosynthesis protein SpsE	Basal machinery
+spsF	BSU37860	937232	P39626		spore coat polysaccharide biosynthesis protein SpsF	Basal machinery
+spsG	BSU37850	937230	P39627	spsH	spore coat polysaccharide biosynthesis protein SpsG	Basal machinery
+spsK	BSU37820	937225	P39631		spore coat polysaccharide biosynthesis protein SpsK	Basal machinery
+spsL	BSU37810	2914201	Q7WY56		spore coat polysaccharide biosynthesis protein SpsL	Basal machinery
+spxA	BSU11500	936407	O31602	spx	regulatory protein spx	Global regulator
+sqhC	BSU19320	939443	Q796C3		sporulenol synthase	Basal machinery
+srfAA	BSU03480	938306	P27206	srfA1,srfA	surfactin synthase subunit 1	Intermodular
+srfAB	BSU03490	938303	Q04747	comL,srfA2	surfactin synthase subunit 2	Intermodular
+srfAC	BSU03510	938308	Q08787	srfA3	surfactin synthase subunit 3	Intermodular
+srfAD	BSU03520	938300	Q08788	srfA4	surfactin synthase thioesterase subunit	Intermodular
+ssbA	BSU40900	937911	P37455		single-stranded DNA-binding protein	Basal machinery
+ssbB	BSU36310	936910	C0SPB6	ywpH	single-stranded DNA-binding protein SsbB	Basal machinery
+sspA	BSU29570	937338	P04831		small acid-soluble spore protein A	Basal machinery
+sspB	BSU09750	939281	P04832		small acid-soluble spore protein B	Basal machinery
+sspC	BSU19950	939473	P02958		small acid-soluble spore protein C	Basal machinery
+sspD	BSU13470	939362	P04833		small acid-soluble spore protein D	Basal machinery
+sspE	BSU08660	939716	P07784		small acid-soluble spore protein gamma-type	M67
+sspF	BSU00450	936996	P37549		small acid-soluble spore protein SspF	Basal machinery
+sspG	BSU32640	2914218	Q7WY59		small acid-soluble spore protein G	Basal machinery
+sspH	BSU08110	939208	O31552	yfjU	small acid-soluble spore protein H	Basal machinery
+sspI	BSU28660	937579	P94537	ysfA	small acid-soluble spore protein I	Basal machinery
+sspJ	BSU33340	2914269	Q7WY58		small acid-soluble spore protein J	Basal machinery
+sspK	BSU08550	2914224	Q7WY75		small acid-soluble spore protein K	Basal machinery
+sspL	BSU22000	2914255	Q7WY66		small acid-soluble spore protein L	Basal machinery
+sspM	BSU22290	2914288	Q7WY65		small acid-soluble spore protein M	Basal machinery
+sspN	BSU18020	2914184	Q7WY69		small acid-soluble spore protein N	Basal machinery
+sspO	BSU17990	938222	P71031	cotK	small acid-soluble spore protein O	Basal machinery
+sspP	BSU17980	938192	P71032	cotL	small acid-soluble spore protein P	Basal machinery
+ssuA	BSU08840	936215	P40400	ygbA,yzeA	aliphatic sulfonates-binding protein	Basal machinery
+ssuB	BSU08830	939730	P97027	ygaL,ycbE	aliphatic sulfonates import ATP-binding protein SsuB	Basal machinery
+ssuC	BSU08850	936208	P40401	ygaM,yzeB	aliphatic sulfonates transport permease protein SsuC	Basal machinery
+ssuD	BSU08860	939733	P40402	yzeC,ygcA	alkanesulfonate monooxygenase	Basal machinery
+steT	BSU12860		O34739	ykbA		M26
+stoA	BSU13840	936262	O31687	spoIVH	sporulation thiol-disulfide oxidoreductase A	Basal machinery
+sucC	BSU16090	938521	P80886		succinyl-CoA ligase [ADP-forming] subunit beta	Basal machinery
+sucD	BSU16100	937797	P80865		succinyl-CoA ligase [ADP-forming] subunit alpha	Basal machinery
+sufB	BSU32670	936706	O32162		FeS cluster assembly protein SufB	Basal machinery
+sufC	BSU32710	937073	P80866	yurY	vegetative protein 296	Basal machinery
+sufD	BSU32700	938871	O32165	yurX	FeS cluster assembly protein SufD	Basal machinery
+sufS	BSU32690	937108	O32164	csd,yurW	cysteine desulfurase	Basal machinery
+sufU	BSU32680		O32163	iscU,yurV,nifU		Basal machinery
+suhB	BSU14670	935986	Q45499	yktC	inositol-1-monophosphatase	Basal machinery
+sul	BSU00770	936256	P28822		dihydropteroate synthase	Basal machinery
+sumT	BSU15610	936712	O34744	ylnD	uroporphyrinogen-iii C-methyltransferase	Basal machinery
+sunA	BSU21480	939121	P68577	yolG	bacteriocin sublancin-168	Intermodular
+sunS	BSU21450		O31986	yolJ		Intermodular
+sunT	BSU21470	939124	P68579	yolH	sublancin-168-processing and transport ATP-binding protein SunT	Intermodular
+swrAA	BSU35230	936672	O32266	swrA,swrAA/1		M113
+swrB	BSU16480		P40405	ylxL		M113
+tadA	BSU00180	937989	P21335	yaaJ	tRNA-specific adenosine deaminase	Basal machinery
+tagA	BSU35750	936810	P27620		N-acetylmannosaminyltransferase	M25.3
+tagB	BSU35760	936813	P27621		CDP-glycerol:glycerophosphate glycerophosphotransferase	M25.3
+tagC	BSU35770	936812	P27622	dinC	major teichoic acid biosynthesis protein C	Basal machinery
+tagD	BSU35740	936809	P27623		glycerol-3-phosphate cytidylyltransferase	M25.3
+tagE	BSU35730	936804	P13484	gtaA,rodD	poly(glycerol-phosphate) alpha-glucosyltransferase	M25.3
+tagF	BSU35720	936803	P13485	rodC,tag3	CDP-glycerol:poly	M25.3
+tagG	BSU35710	936794	P42953		teichoic acid translocation permease protein TagG	M25.3
+tagH	BSU35700	936513	P42954		teichoic acids export ATP-binding protein TagH	M25.3
+tasA	BSU24620	938545	P54507	yqhF,cotN	spore coat protein N	Intermodular
+tatAd	BSU02630		O31467	tatAD,yczB		Basal machinery
+tatC1	BSU02640		P42252	tatCd,tatCD,ycbT		Basal machinery
+tcyJ	BSU29380	937354	O34406	ytmJ	L-cystine-binding protein TcyJ	M115
+tcyK	BSU29370	937359	O34852	ytmK	L-cystine-binding protein TcyK	M115
+tcyL	BSU29360	936115	O34315	ytmL	L-cystine transport system permease protein TcyL	M115
+tcyM	BSU29350	935938	O34931	ytmM	L-cystine transport system permease protein TcyM	M115
+tcyN	BSU29340	937364	O34900	ytmN	L-cystine import ATP-binding protein TcyN	M115
+tcyP	BSU09130	939257	P54596	yhcL	L-cystine uptake protein TcyP	Basal machinery
+tenA	BSU11650	939807	P25052		thiaminase	M15
+tenI	BSU11660	936411	P25053		regulatory protein TenI	M15
+tepA	BSU16790	936370	Q99171	ylxI,ymfB	translocation-enhancing protein TepA	Basal machinery
+tetB	BSU40770	937890	P23054	tet	tetracycline resistance protein	Basal machinery
+tetL	BSU40780		P23053			Basal machinery
+tgl	BSU31270	937158	P40746	yugV,yuxF	protein-glutamine gamma-glutamyltransferase	Basal machinery
+thiC	BSU08790	939745	P45740	thiA	phosphomethylpyrimidine synthase	M15
+thiD	BSU11710	937262	O31620	yjbV	pyridoxine kinase	M15
+thiE	BSU38290	937316	P39594	thiC,ywbK	thiamine-phosphate synthase	Basal machinery
+thiF	BSU11700	939816	O31619	yjbU	sulfur carrier protein ThiS adenylyltransferase	M15
+thiG	BSU11690	936422	O31618	yjbT	thiazole synthase	M15
+thiM	BSU38300	938519	P39593	ywbJ,thiK	hydroxyethylthiazole kinase	Basal machinery
+thiO	BSU11670	939377	O31616	goxB,yjbR	glycine oxidase	M15
+thiS	BSU11680	939811	O31617	yjbS	sulfur carrier protein ThiS	M15
+thiT	BSU30990	937137	O32074	yuaJ	thiamine transporter ThiT	M15
+thrB	BSU32240	936665	P04948		homoserine kinase	M122
+thrC	BSU32250	936660	P04990		threonine synthase	M122
+thrS	BSU28950	937410	P18255	thrSV	threonine--tRNA ligase 1	Basal machinery
+thrZ	BSU37560	937135	P18256	thrS2	threonine--tRNA ligase 2	Basal machinery
+thyA2	BSU21820		P11044	thyB		M72
+tilS	BSU00670	936922	P37563	yacA	tRNA(ile)-lysidine synthase	M100
+tkt	BSU17890	937377	P45694	tktA	transketolase	Basal machinery
+tlp	BSU18030	938091	Q45060	tlpA	small acid-soluble spore protein Tlp	Basal machinery
+tlpA	BSU31250	938840	P39216		methyl-accepting chemotaxis protein TlpA	Basal machinery
+tlpB	BSU31230	937152	P39217		methyl-accepting chemotaxis protein TlpB	Basal machinery
+tlpC	BSU03440	938316	P39209		methyl-accepting chemotaxis protein TlpC	Basal machinery
+tnrA	BSU13310	936445	Q45666	scgR	MerR family transcriptional regulator	Global regulator
+topA	BSU16120	937982	P39814	topI	DNA topoisomerase 1	Basal machinery
+topB	BSU04260	938247	P96583		DNA topoisomerase 3	Basal machinery
+tpiA	BSU33920	938626	P27876	tpi	triosephosphate isomerase	M42
+tpx	BSU29490	937688	P80864	ytgI	thiol peroxidase	Basal machinery
+treA	BSU07810	939690	P39795	treC	trehalose-6-phosphate hydrolase	M95
+treP	BSU07800	939188	P39794	treB	PTS system trehalose-specific EIIBC component	M95
+treR	BSU07820	936133	P39796	yfxA	trehalose operon transcriptional repressor	M95
+trmD	BSU16030	936650	O31741		tRNA (guanine-N(1)-)-methyltransferase	Basal machinery
+trmFO	BSU16130		P39815	gid,ylyC		Basal machinery
+trpA	BSU22630	939011	A3F3C6		tryptophan synthase alpha chain	M80
+trpB	BSU22640	939010	A3F3C7		tryptophan synthase beta chain	M80
+trpC	BSU22660	939004	A3F3C9		indole-3-glycerol phosphate synthase	M80
+trpD	BSU22670	939007	A3F3D0		anthranilate phosphoribosyltransferase	M80
+trpE	BSU22680	939008	A3F3D1		anthranilate synthase component 1	M80
+trpF	BSU22650	939006	A3F3C8		N-(5'-phosphoribosyl)anthranilate isomerase	M80
+trpP	BSU10010	936290	O07515		tryptophan transport protein	Basal machinery
+trxA	BSU28500	938187	P14949	trx	thioredoxin	M107
+trxB	BSU34790	936549	P80880	yvcH	thioredoxin	Basal machinery
+tuaA	BSU35610	8302930	O32274	yvhA,tuaA/2		Basal machinery
+tuaB	BSU35600	936770	O32273	yvhB	teichuronic acid biosynthesis protein TuaB	Basal machinery
+tuaC	BSU35590	936771	O32272	yvhC	teichuronic acid biosynthesis glycosyltransferase TuaC	Basal machinery
+tuaD	BSU35580	936766	O32271	yvhD	UDP-glucose 6-dehydrogenase TuaD	Basal machinery
+tuaE	BSU35570	936765	O32270	yvhE	teichuronic acid biosynthesis protein TuaE	Basal machinery
+tuaF	BSU35560	936768	O32269	yvhF	teichuronic acid biosynthesis protein TuaF	Basal machinery
+tuaG	BSU35550	937965	O32268	yvhG	teichuronic acid biosynthesis glycosyltransferase TuaG	Basal machinery
+tuaH	BSU35540	938535	O32267	yvhH	teichuronic acid biosynthesis glycosyltransferase TuaH	Basal machinery
+txpA	BSU26050		P54373	yqdB,yqcR		M13
+tyrA	BSU22610	939013	A3F3C4		prephenate dehydrogenase	M80
+tyrS1	BSU29670		P22326	tyrS		Basal machinery
+tyrS2	BSU38460		P25151	tyrZ,tyrT,tyrS1,tyrR		M64
+ugtP	BSU21920	939081	P54166	ypfP	processive diacylglycerol glucosyltransferase	Basal machinery
+ureA	BSU36660	936968	P75030		urease subunit gamma	M21
+ureB	BSU36650	936967	P71035		urease subunit beta	M21
+ureC	BSU36640	936958	P77837		urease subunit alpha	M21
+usd	BSU36430	938188	O32276		protein usd	Basal machinery
+uvrA	BSU35160	936646	O34863		UvrABC system protein A	Basal machinery
+uvrB	BSU35170	936663	P37954	uvr,dinA	UvrABC system protein B	Basal machinery
+uvrC	BSU28490	937729	P14951		UvrABC system protein C	Basal machinery
+uvrX	BSU21500	939122	O31990		UV-damage repair protein UvrX	Basal machinery
+uxaA	BSU12390	939837	O34673	yjmJ	altronate dehydratase	M3
+uxaB	BSU12380	936468	O34354	yjmI	altronate oxidoreductase	M3
+uxaC	BSU12300	936461	O34808	yjmA	uronate isomerase	M3
+uxuA	BSU12340	939409	O34346	yjmE	mannonate dehydratase	M3
+uxuB	BSU12350		O34896	yjmF		M3
+valS	BSU28090	937491	Q05873		valine--tRNA ligase	Basal machinery
+veg	BSU00440	936744	P37466		protein Veg	Basal machinery
+vpr	BSU38090	937291	P29141		minor extracellular protease vpr	M25.4
+wapA	BSU39230	937525	Q07833		wall-associated protein	Intermodular
+wapI	BSU39220		Q07836	yxxG		Intermodular
+whiA	BSU34750	936540	O06975	yvcL	sporulation transcription regulator WhiA	Basal machinery
+wprA	BSU10770	936350	P54423	yisM	cell wall-associated protease	M25.2
+xepA	BSU12780	938161	P39797	xkdY	phage-like element PBSX protein XepA	M65
+xerC	BSU16140	938003	P39776	codV	tyrosine recombinase XerC	Basal machinery
+xhlA	BSU12790	936210	P39798		phage-like element PBSX protein XhlA	M65
+xhlB	BSU12800	939732	Q99163	xpaB	holin	M65
+xis	BSU04830		O31490	sacV		M117
+xkdA	BSU12500	939838	P39780	ykxA	phage-like element PBSX protein XkdA	Basal machinery
+xkdB	BSU12520	939420	P39781	ykxB	phage-like element PBSX protein XkdB	M66
+xkdC	BSU12530	939841	P39782	ykxC	phage-like element PBSX protein XkdC	M66
+xkdD	BSU12540	936466	P39783	ykxD	phage-like element PBSX protein XkdD	M66
+xkdE	BSU12590	936471	P54325		phage-like element PBSX protein XkdE	M65
+xkdF	BSU12600	939833	P54326		phage-like element PBSX protein XkdF	M65
+xkdG	BSU12610	939845	P54327		phage-like element PBSX protein XkdG	M65
+xkdH	BSU12620	936470	P54328		phage-like element PBSX protein XkdH	M65
+xkdI	BSU12630	939425	P54329		phage-like element PBSX protein XkdI	M65
+xkdJ	BSU12640	936496	P54330		phage-like element PBSX protein XkdJ	M65
+xkdK	BSU12650	939943	P54331		phage-like element PBSX protein XkdK	M65
+xkdM	BSU12660	938181	P54332		phage-like element PBSX protein XkdM	M65
+xkdO	BSU12680	936500	P54334		phage-like element PBSX protein XkdO	M65
+xkdP	BSU12690	939946	P54335		phage-like element PBSX protein XkdP	M65
+xkdQ	BSU12700	938173	P54336		phage-like element PBSX protein XkdQ	M65
+xkdR	BSU12710	939427	P54337		phage-like element PBSX protein XkdR	M65
+xkdS	BSU12720	939840	P54338		phage-like element PBSX protein XkdS	M65
+xkdT	BSU12730	936475	P54339		phage-like element PBSX protein XkdT	M65
+xkdU	BSU12740	936476	P54340		phage-like element PBSX protein XkdU	M65
+xkdV	BSU12750	939421	P54341		phage-like element PBSX protein XkdV	M65
+xkdW	BSU12760	936237	P54342		phage-like element PBSX protein XkdW	M65
+xkdX	BSU12770	939941	P54343		phage-like element PBSX protein XkdX	M65
+xkzA	BSU12749	8303196	C0H3Z9		hypothetical protein	M65
+xkzB	BSU12672	8303192	C0H3Z8		hypothetical protein	M65
+xlyA	BSU12810	939869	P39800		N-acetylmuramoyl-L-alanine amidase XlyA	M65
+xpaC	BSU00250	937019	P37467		5-bromo 4-chloroindolyl phosphate hydrolysis protein XpaC	Basal machinery
+xpf	BSU12560	936474	P39784	ykxE,pcf	positive control factor	M65
+xpt	BSU22070	939064	P42085		xanthine phosphoribosyltransferase	M26
+xre	BSU12510	936473	P23789		XRE family transcriptional regulator	M66
+xtmA	BSU12570	939835	P39785	ykxF	PBSX phage terminase small subunit	M65
+xtmB	BSU12580	939426	P39786	ykxG	PBSX phage terminase large subunit	M65
+xtrA	BSU12550	939839	P54344		phage-like element PBSX protein XtrA	M66
+xylA	BSU17600	939558	P0CI80		xylose isomerase	M120
+xylB	BSU17610	939560	P39211	yncA	xylulose kinase	M120
+xylR	BSU17590	939531	P94490		transcriptional regulator	M120
+xynA	BSU18840	939861	P18429		endo-1,4-beta-xylanase A	Basal machinery
+xynB	BSU17580	939472	P94489		beta-xylosidase	M120
+xynC	BSU18150	937052	Q45070	ynfF	glucuronoxylanase XynC	Basal machinery
+xynD	BSU18160	936433	Q45071		arabinoxylan arabinofuranohydrolase	Basal machinery
+yaaA	BSU00030	939444	P05650		hypothetical protein	Basal machinery
+yaaB	BSU00050	939466	P37525	remB	hypothetical protein	Basal machinery
+yaaH	BSU00160	937029	P37531		spore germination protein YaaH	Basal machinery
+yaaI	BSU00170	937036	P37532		isochorismatase	Basal machinery
+yaaN	BSU00260	936551	P37535		hypothetical protein	Basal machinery
+yaaO	BSU00270	937013	P37536		hypothetical protein	Basal machinery
+yabD	BSU00390	936949	P37545		deoxyribonuclease YabD	Basal machinery
+yabE	BSU00400	936891	P37546		hypothetical protein	Basal machinery
+yabG	BSU00430	937005	P37548		sporulation-specific protease YabG	Basal machinery
+yabJ	BSU00480	936988	P37552		enamine/imine deaminase	M26
+yabK	BSU00540	936978	P37553	subA	hypothetical protein	Basal machinery
+yabM	BSU00570	936539	P37555		membrane protein	Basal machinery
+yabN	BSU00580	936973	P37556		hypothetical protein	Basal machinery
+yabO	BSU00590	936800	P37557		hypothetical protein	Basal machinery
+yabP	BSU00600	936966	P37558		spore protein YabP	Basal machinery
+yabQ	BSU00610	936971	P37559		spore protein YabQ	Basal machinery
+yabR	BSU00630	936574	P37560		hypothetical protein	Basal machinery
+yabS	BSU00650	936965	P37561		hypothetical protein	Basal machinery
+yabT	BSU00660	936964	P37562		serine/threonine protein kinase	Basal machinery
+yacD	BSU00720	936955	P37566		peptidyl-prolyl cis-trans isomerase	Basal machinery
+yacL	BSU00890	936863	Q06754		PIN and TRAM-domain containing protein YacL	Basal machinery
+yacO	BSU00960		Q06753	rlmB		Basal machinery
+yacP	BSU00970	936993	P37574		hypothetical protein	Basal machinery
+yazB	BSU00800	936295	O31417		XRE family transcriptional regulator	Basal machinery
+ybaJ	BSU01510	938919	P70976		methyltransferase	Basal machinery
+ybaK	BSU01520	938916	P50862	ybxH	hypothetical protein	Basal machinery
+ybbA	BSU01600	938887	P55192		hypothetical protein	M119
+ybbC	BSU01650	938889	P40407	yzbB	hypothetical protein	M123
+ybbE	BSU01670	938886	O05213	amiE	hypothetical protein	M123
+ybbF	BSU01680	938879	Q797S1	murP	PTS system EIIBC component YbbF	M123
+ybbH	BSU01690	938885	Q45581	murR	RpiR family transcriptional regulator	M123
+ybbP	BSU01750	938735	Q45589	cdaA	hypothetical protein	Basal machinery
+ybbR	BSU01760	938867	O34659	cdaR	YbbR-like domain-containing protein YbbR	Basal machinery
+ybdK	BSU02010	938496	O31433		sensor histidine kinase	Basal machinery
+ybdN	BSU02040	938489	O31436		hypothetical protein	Basal machinery
+ybdO	BSU02050	938493	O31437		hypothetical protein	Basal machinery
+ybdZ	BSU31959	8303138	C0H3Q6		hypothetical protein	Intermodular
+ybfJ	BSU02250	938435	O31451		hypothetical protein	Basal machinery
+ybfK	BSU02260	938434	O31452		carboxylesterase YbfK	Basal machinery
+ybfM	BSU02280	938432	O31453		membrane protein	Basal machinery
+ybfO	BSU02310	938424	O31455		hydrolase YbfO	Basal machinery
+ybfP	BSU02320	938428	O31456		AraC family transcriptional regulator	Basal machinery
+ybfQ	BSU02330	938426	O31457		hypothetical protein	Basal machinery
+ybgA	BSU02370	938422	O31459	gamR	GntR family transcriptional regulator	M118
+ybgB	BSU02380	938423	O31460		membrane protein	M118
+ybxH	BSU02080	938445	P54426		hypothetical protein	Basal machinery
+ybyB	BSU02110	938450	O31441		hypothetical protein	Basal machinery
+ybzG	BSU01389	8303095	C0H3S8		ribosome-binding protein YbzG	Basal machinery
+ycbC	BSU02460	938409	P42235		5-dehydro-4-deoxyglucarate dehydratase	M74
+ycbD	BSU02470	938406	P42236		aldehyde dehydrogenase YcbD	M74
+ycbG	BSU02500	938411	P42239		GntR family transcriptional regulator	M74
+ycbJ	BSU02520	938408	P42242		hypothetical protein	M74
+ycbK	BSU02540	938405	P42243		transporter	Basal machinery
+ycbP	BSU02590	938402	P42248		hypothetical protein	Basal machinery
+ycdA	BSU02780	938380	O34538		lipoprotein	Intermodular
+ycdF	BSU02830	938377	P80869		glucose 1-dehydrogenase 2	Basal machinery
+ycdG	BSU02840	938375	O34364		oligo-1,6-glucosidase 2	Basal machinery
+yceC	BSU02890	938372	P81100		stress response protein SCP2	Basal machinery
+yceD	BSU02900	938364	P80875		general stress protein 16U	Basal machinery
+yceE	BSU02910	938368	O34384		hypothetical protein	Basal machinery
+yceF	BSU02920	938369	O34447		membrane protein	Basal machinery
+yceG	BSU02930	938361	O34809		hypothetical protein	Basal machinery
+yceH	BSU02940	938366	O34833		hypothetical protein	Basal machinery
+ycgA	BSU03020	938359	P55908		hypothetical protein	Basal machinery
+ycgG	BSU03100	938350	P94382		hypothetical protein	Basal machinery
+ycgM	BSU03200	938338	P94390	putB	proline dehydrogenase 2	M91
+ycgN	BSU03210	938333	P94391	putC	1-pyrroline-5-carboxylate dehydrogenase 2	M91
+ycgO	BSU03220	938330	P94392	putP	symporter	M91
+ycgP	BSU03230	938337	P94393	putR	hypothetical protein	M91
+ycgQ	BSU03240	938334	P94394		hypothetical protein	M25.1
+ycgR	BSU03250	938335	P94395		hypothetical protein	M25.1
+ycgT	BSU03270	938327	O31475		ferredoxin--NADP reductase 1	Basal machinery
+ychF	BSU40920		P37518	engD,yyaF		Basal machinery
+yciB	BSU03350	938318	C0SP99		L,D-transpeptidase YciB	M19
+yciC	BSU03360	938322	P94400		metal chaperone YciC	M19
+yckC	BSU03390	938315	P42401		hypothetical protein	Basal machinery
+yckD	BSU03400	938319	P42402		hypothetical protein	Basal machinery
+yclF	BSU03670		P94408	dtpT		Basal machinery
+yclH	BSU03730	938289	P94411		ABC transporter ATP-binding protein	M8
+yclI	BSU03740	938279	P94412		ABC transporter permease	M8
+yclJ	BSU03750	938286	P94413		transcriptional regulator	M8
+yclK	BSU03760	938283	P94414		sensor histidine kinase	Basal machinery
+yclM	BSU03790	938276	P94417		aspartokinase 3	M122
+yclN	BSU03800	938273	P94418		ABC transporter permease	Basal machinery
+yclO	BSU03810	938280	P94419		ABC transporter permease	Basal machinery
+yclP	BSU03820	938278	P94420		ABC transporter ATP-binding protein	Basal machinery
+yclQ	BSU03830	938277	P94421		ABC transporter substrate-binding protein	Basal machinery
+ycnI	BSU03940	938266	P94431		hypothetical protein	M14
+ycnJ	BSU03950	938258	C0SP95		copper transport protein YcnJ	M14
+ycnK	BSU03960	938265	P94433		DeoR family transcriptional regulator	M14
+ycnL	BSU03970	939465	P94434		hypothetical protein	Basal machinery
+ycsF	BSU04050	938259	P42963		hypothetical protein	M38
+ycsG	BSU04060	938257	P42964	ycsH	membrane protein	M38
+ycsI	BSU04070	938647	P42966		hypothetical protein	M38
+ycxA	BSU03530	938307	Q08791		MFS transporter	M25.6
+yczF	BSU03690	938290	O31479	gerKD	hypothetical protein	Basal machinery
+yczL	BSU03359	8303053	C0H3U7		hypothetical protein	M19
+yczO	BSU04039	8302943	C0H3V3		hypothetical protein	Basal machinery
+ydaC	BSU04180	940142	P96576		methyltransferase	Basal machinery
+ydaD	BSU04190	938251	P80873		general stress protein 39	Basal machinery
+ydaE	BSU04200	938182	P96578		D-lyxose ketol-isomerase	Basal machinery
+ydaF	BSU04210	938250	P96579		ribosomal N-acetyltransferase YdaF	Basal machinery
+ydaG	BSU04220	939958	P80238	yzzA	general stress protein 26	Basal machinery
+ydaH	BSU04230	938243	P96581	amj	hypothetical protein	Basal machinery
+ydaJ	BSU04270	938245	O31486		lipoprotein	Basal machinery
+ydaK	BSU04280	938240	P96585		membrane protein	Basal machinery
+ydaL	BSU04290	938244	O31487		hypothetical protein	Basal machinery
+ydaM	BSU04300	939986	P96587		glycosyltransferase YdaM	Basal machinery
+ydaN	BSU04310	940004	O31488		hypothetical protein	Basal machinery
+ydaP	BSU04340	938239	P96591		thiamine pyrophosphate-containing protein YdaP	Basal machinery
+ydaS	BSU04370	938230	P96594		hypothetical protein	Basal machinery
+ydaT	BSU04380	939950	P96595		hypothetical protein	Basal machinery
+ydbD	BSU04430	938232	P80878		manganese catalase	Basal machinery
+ydbM	BSU04520	939949	P96608		acyl-CoA dehydrogenase YdbM	Basal machinery
+ydbN	BSU04530	938190	P96609	fbpB	hypothetical protein	Basal machinery
+ydbS	BSU04590	940149	P96615		hypothetical protein	Basal machinery
+ydbT	BSU04600	938221	P96616		hypothetical protein	Basal machinery
+ydcA	BSU04610	939936	P96617		rhomboid protease YdcA	Basal machinery
+ydcC	BSU04630	938166	P96619		sporulation protein YdcC	Basal machinery
+ydcF	BSU04750	938158	P96623		hypothetical protein	M41
+ydcG	BSU04760	938162	P96624		hypothetical protein	M41
+ydcH	BSU04770	939928	P96625		MarR family transcriptional regulator	M41
+ydcO	BSU04840	938142	P96632		hypothetical protein	M117
+ydcP	BSU04850	939920	P96633		hypothetical protein	M117
+ydcQ	BSU04860	939923	P96634		Ftsk domain-containing protein YdcQ	M117
+ydcS	BSU04880	938148	P96636		hypothetical protein	M117
+ydcT	BSU04890	938146	P96637		hypothetical protein	M117
+yddA	BSU04900	938135	P96638		hypothetical protein	M117
+yddB	BSU04910	939918	O31491	conB	hypothetical protein	M117
+yddC	BSU04920	938144	P96640	conC	hypothetical protein	M117
+yddD	BSU04930	939921	P96641	conD	hypothetical protein	M117
+yddE	BSU04940	938130	P96642	conE	hypothetical protein	M117
+yddF	BSU04950	938143	P96643		hypothetical protein	M117
+yddG	BSU04960	938141	P96644	conG	membrane protein	M117
+yddH	BSU04970	938136	P96645	cwlT	endopeptidase YddH	M117
+yddI	BSU04980	939919	P96646		hypothetical protein	M117
+yddJ	BSU04990	939925	P96647		hypothetical protein	M117
+yddT	BSU05100	939913	P96657		hypothetical protein	Basal machinery
+ydeC	BSU05150	938103	P96660		AraC family transcriptional regulator	Basal machinery
+ydeH	BSU05200	938097	P96665		membrane protein	Basal machinery
+ydeJ	BSU05220	939910	P96667		lipoprotein	Basal machinery
+ydfA	BSU05340	939905	P96678	aseA	arsenic pump protein	M121
+ydfI	BSU05420	938080	P96686		transcriptional regulator	M5
+ydfJ	BSU05430	939901	P96687		membrane protein	M5
+ydfK	BSU05450	939896	P96689		membrane protein	M45
+ydfM	BSU05470	939900	C0SP78		transporter	M35
+ydfR	BSU05530	939897	P96696		hypothetical protein	Basal machinery
+ydfS	BSU05540	939890	P96697		hypothetical protein	Basal machinery
+ydgA	BSU05560	938065	P96699		hypothetical protein	Basal machinery
+ydgB	BSU05570	938056	P96700		hypothetical protein	Basal machinery
+ydgG	BSU05640	939880	P96705		MarR family transcriptional regulator	Basal machinery
+ydgH	BSU05650	938043	P96706		membrane protein	Basal machinery
+ydhD	BSU05710	939885	O05495		sporulation protein	Basal machinery
+ydhE	BSU05720	939868	O05496		UDP-glucosyltransferase YdhE	M87
+ydhF	BSU05730	938019	O05497		hypothetical protein	Basal machinery
+ydhK	BSU05790	939873	O05503		hypothetical protein	Basal machinery
+ydiO	BSU06060	939892	O34939		BsuMI modification methylase subunit YdiO	Basal machinery
+ydiP	BSU06070	939876	O34680		BsuMI modification methylase subunit YdiP	Basal machinery
+ydjE	BSU06170	939494	O34768	fruC	sugar kinase YdjE	M46
+ydjF	BSU06180		P54617	pspA		Basal machinery
+ydjG	BSU06190	939489	O34434		hypothetical protein	Basal machinery
+ydjH	BSU06200	936015	O35004		hypothetical protein	Basal machinery
+ydjI	BSU06210	939493	O34789		hypothetical protein	Basal machinery
+ydjM	BSU06250	936017	P40775	yzvA	hypothetical protein	M25.3
+ydjN	BSU06260	939488	O34353		hypothetical protein	M25.3
+ydjO	BSU06270	936021	O34759		hypothetical protein	Basal machinery
+ydjP	BSU06280	936035	O34592		AB hydrolase superfamily protein YdjP	Basal machinery
+ydzE	BSU05140	938121	O31493		permease	Basal machinery
+ydzL	BSU04839	8303154	C0H3V5		hypothetical protein	M117
+yeaA	BSU06290	936018	O34803	ydjQ	hypothetical protein	Basal machinery
+yeaB	BSU06320	936032	P46348	ydxT	transporter	M35
+yebC	BSU06380	939478	O34341		hypothetical protein	M25.1
+yebE	BSU06400	939480	O34624	yebF	hypothetical protein	Basal machinery
+yebG	BSU06410	939351	O34700		hypothetical protein	Basal machinery
+yeeK	BSU06850	936073	O31510		spore coat protein YeeK	Basal machinery
+yerB	BSU06570	936050	O34968	yecC	lipoprotein	Basal machinery
+yerC	BSU06580	936049	Q7BVT7	yecD	hypothetical protein	Basal machinery
+yerD	BSU06590	936058	O34849	yecE	glutamate synthase large subunit-like protein YerD	Basal machinery
+yerH	BSU06630	938744	O34629		lipoprotein	Basal machinery
+yerI	BSU06640	936055	O34640		hypothetical protein	Basal machinery
+yesJ	BSU06920	936070	O31513	yfxC,yeeN,yfxD	N-acetyltransferase YesJ	Basal machinery
+yesK	BSU06930	936069	O31514		hypothetical protein	Basal machinery
+yesL	BSU06940	938754	O31515		hypothetical protein	Basal machinery
+yesM	BSU06950	936078	O31516		sensor histidine kinase	Basal machinery
+yesN	BSU06960	938764	O31517		transcriptional regulator	M68
+yesO	BSU06970	936072	O31518	rhiL	ABC transporter substrate-binding protein	M68
+yesP	BSU06980	936076	O31519	rhiF	ABC transporter permease	M68
+yesQ	BSU06990	938765	O31520	rhiG	ABC transporter permease	M68
+yesR	BSU07000	938759	O31521	rhiN	rhamnogalacturonyl hydrolase	M68
+yesS	BSU07010	936075	O31522	rhgR	AraC family transcriptional regulator	M68
+yesU	BSU07030	936083	O31524		hypothetical protein	M68
+yesV	BSU07040	936077	O31525		hypothetical protein	M68
+yesW	BSU07050	938769	O31526		rhamnogalacturonan endolyase YesW	M68
+yesX	BSU07060	936081	O31527		rhamnogalacturonan exolyase YesX	M68
+yesY	BSU07070	938772	O31528		rhamnogalacturonan acetylesterase YesY	M68
+yesZ	BSU07080	936080	O31529		beta-galactosidase YesZ	M68
+yetF	BSU07140	936086	O31533		hypothetical protein	Basal machinery
+yetJ	BSU07200	938782	O31539		hypothetical protein	Basal machinery
+yetL	BSU07220	938778	O31541		MarR family transcriptional regulator	M51
+yetM	BSU07230	936090	O06489	yfnL	oxidoreductase	M51
+yezD	BSU07190	938773	O31538		hypothetical protein	Basal machinery
+yfhA	BSU08460	939714	O31569		siderophore transport system permease protein YfhA	Basal machinery
+yfhC	BSU08480	939221	O31571		NAD(P)H nitroreductase YfhC	Basal machinery
+yfhD	BSU08490	939709	O31572		hypothetical protein	Basal machinery
+yfhE	BSU08500	936184	O31573		hypothetical protein	Basal machinery
+yfhF	BSU08510	939217	O31574		epimerase family protein YfhF	Basal machinery
+yfhK	BSU08570	939215	O31579		hypothetical protein	Basal machinery
+yfhL	BSU08580	939228	O31580		hypothetical protein	Basal machinery
+yfhM	BSU08590	936187	O31581		AB hydrolase superfamily protein YfhM	Basal machinery
+yfhO	BSU08610	936195	O31582		hypothetical protein	Basal machinery
+yfhP	BSU08620	936190	O31583		hypothetical protein	M67
+yfhQ	BSU08630	939222	O31584	mutY	A/G-specific adenine glycosylase YfhQ	M67
+yfhS	BSU08640	936193	O31585		hypothetical protein	Basal machinery
+yfiK	BSU08300	939209	P94439		transcriptional regulator	M78
+yfiL	BSU08310	936175	P94440		ABC transporter ATP-binding protein	M78
+yfiM	BSU08320	939210	P94441		transport permease YfiM	M78
+yfiN	BSU08330	939705	P94442		transport permease YfiN	M78
+yfiR	BSU08370	936176	O31560		TetR family transcriptional regulator	M77
+yfiS	BSU08380	939219	O31561		MFS transporter	M77
+yfiY	BSU08440	939206	O31567		siderophore-binding lipoprotein YfiY	Basal machinery
+yfiZ	BSU08450	936179	O31568		siderophore transport system permease protein YfiZ	Basal machinery
+yfjR	BSU07990	939198	O34969		oxidoreductase	M8
+yfkD	BSU07930	936138	O34579		hypothetical protein	Basal machinery
+yfkH	BSU07900	936134	O34437		ribonuclease-like protein YfkH	Basal machinery
+yfkI	BSU07890	939691	O34418		hypothetical protein	Basal machinery
+yfkJ	BSU07880	939191	O35016		low molecular weight protein-tyrosine-phosphatase YfkJ	Basal machinery
+yfkM	BSU07850	938808	P80876		general stress protein 18	Basal machinery
+yfkN	BSU07840	936131	O34313		nucleotide phosphoesterase	Basal machinery
+yfkO	BSU07830	939189	O34475	hypO	NAD(P)H nitroreductase YfkO	M70
+yfkQ	BSU07790	939688	O34486		membrane protein	Basal machinery
+yfkR	BSU07780	936126	O35028		spore germination protein YfkR	Basal machinery
+yfkS	BSU07770	936123	O35036		hypothetical protein	Basal machinery
+yfkT	BSU07760	936135	O34573		spore germination protein YfkT	Basal machinery
+yflA	BSU07750	939686	O34708		transporter	M25.1
+yflD	BSU07720	936125	O34489		hypothetical protein	Basal machinery
+yflH	BSU07680	936129	O34306		hypothetical protein	M29
+yflI	BSU07670	936118	O34905		hypothetical protein	M29
+yflN	BSU07620	936120	O34409		hypothetical protein	M34
+yflS	BSU07570	936122	O34726		malate transporter YflS	M96
+yflT	BSU07550	938794	P80241		general stress protein 17M	Basal machinery
+yfmB	BSU07530	938795	O34626		hypothetical protein	Basal machinery
+yfmC	BSU07520	936114	O34348		Fe(3+)-citrate-binding protein YfmC	Basal machinery
+yfmD	BSU07510	936110	O34933		Fe(3+)-citrate import system permease protein YfmD	Basal machinery
+yfmE	BSU07500	939692	O34832		Fe(3+)-citrate import system permease protein YfmE	Basal machinery
+yfmF	BSU07490	936117	O34510		Fe(3+)-citrate import ATP-binding protein YfmF	Basal machinery
+yfmG	BSU07480	938798	O34722		hypothetical protein	M99
+yfmI	BSU07460	936105	O34440		MFS transporter	Basal machinery
+yfmJ	BSU07450	936106	O34812		NADP-dependent oxidoreductase YfmJ	Basal machinery
+yfmO	BSU07400	936111	O06473		MFS transporter	M63
+yfmP	BSU07390	936101	O06474		MerR family transcriptional regulator	M63
+yfmS	BSU07360	936102	O06477		sensory transducer protein YfmS	Basal machinery
+yfmT	BSU07350	938788	O06478		aldehyde dehydrogenase YfmT	Basal machinery
+yfnD	BSU07310	936096	O31542		hypothetical protein	Basal machinery
+yfnE	BSU07300	938781	O06483		glycosyltransferase YfnE	Basal machinery
+yfnF	BSU07290	936097	O06484		hypothetical protein	Basal machinery
+yfnG	BSU07280	938783	O06485		CDP-sugar-dehydratase/epimerase	Basal machinery
+yfnH	BSU07270	938779	O06486		glucose-1-phosphate cytidylyltransferase	Basal machinery
+ygaN	BSU08870	939249	P97028		hypothetical protein	Basal machinery
+ygxB	BSU09390	936263	P37874		hypothetical protein	Basal machinery
+yhaL	BSU09940	936285	O07520		sporulation protein YhaL	Basal machinery
+yhaM	BSU09930	939762	O07521		3'-5' exoribonuclease YhaM	Basal machinery
+yhaN	BSU09920	936294	O08455	sbcE	hypothetical protein	Basal machinery
+yhaO	BSU09910	936282	O07522		metallophosphoesterase	Basal machinery
+yhaP	BSU09900		O07523			Basal machinery
+yhaQ	BSU09890		C0SPB4	natA		Basal machinery
+yhaR	BSU09880	939767	O07533		enoyl-CoA hydratase/isomerase YhaR	Basal machinery
+yhaX	BSU09830	939288	O07539		hydrolase	Basal machinery
+yhaZ	BSU09810	939758	O07541		hypothetical protein	Basal machinery
+yhbB	BSU08920	936223	O31589	ygaQ	hypothetical protein	Basal machinery
+yhbH	BSU08980	936217	P45742	yzdC	stress response UPF0229 protein YhbH	Basal machinery
+yhcM	BSU09140	939279	P54597		hypothetical protein	Basal machinery
+yhcN	BSU09150	939739	P54598		lipoprotein	Basal machinery
+yhcO	BSU09165	936243	P54599		hypothetical protein	Basal machinery
+yhcQ	BSU09180	936236	P54601		spore coat protein F	Basal machinery
+yhcV	BSU09230	939740	P54606		CBS domain-containing protein YhcV	Basal machinery
+yhcY	BSU09320	939760	O07527		sensor histidine kinase	M87
+yhcZ	BSU09330	939750	O07528		transcriptional regulator	M87
+yhdB	BSU09350	939272	O07530		hypothetical protein	Basal machinery
+yhdF	BSU09450	939749	O07575		oxidoreductase	M94
+yhdG	BSU09460		O07576	ctrA,bcaP		Basal machinery
+yhdK	BSU09500	936268	O07580		anti-sigma-M factor YhdK	Basal machinery
+yhdL	BSU09510	939753	O07581		anti-sigma-M factor YhdL	Basal machinery
+yhdN	BSU09530	939270	P80874		general stress protein 69	M25.6
+yheC	BSU09780	939293	O07544		endospore coat-associated protein YheC	Basal machinery
+yheD	BSU09770	936276	O07545		endospore coat-associated protein YheD	Basal machinery
+yheH	BSU09720	939287	O07549	bmrD	multidrug resistance ABC transporter ATP-binding/permease protein YheH	M54
+yheI	BSU09710	936278	O07550	bmrC	multidrug resistance ABC transporter ATP-binding/permease protein YheI	M54
+yheJ	BSU09700	939757	O07551	bmrB	hypothetical protein	M54
+yhfH	BSU10230	936305	O07606		hypothetical protein	Basal machinery
+yhfM	BSU10280	936312	O07611		hypothetical protein	Basal machinery
+yhfQ	BSU10330	936324	C0SP94		ABC transporter substrate-binding protein	Basal machinery
+yhfS	BSU10350	939311	O07618		acetyl-CoA acetyltransferase	M98
+yhfT	BSU10360	936315	O07619		acyl--CoA ligase	M98
+yhfW	BSU10390	936319	O07622		rieske 2Fe-2S iron-sulfur protein YhfW	Basal machinery
+yhjB	BSU10450	939317	O07556		symporter	Basal machinery
+yhjC	BSU10460	939777	O07557		membrane protein	Basal machinery
+yhjD	BSU10470	936334	O07558		hypothetical protein	Basal machinery
+yhjE	BSU10480	936333	O07559		membrane protein	Basal machinery
+yhjQ	BSU10600	939779	O07571		cysteine-rich protein YhjQ	Basal machinery
+yhjR	BSU10610	939352	O07572		hypothetical protein	Basal machinery
+yhxA	BSU09260	939742	P33189		aminotransferase YhxA	Basal machinery
+yhxC	BSU10400	939316	P40397		oxidoreductase	Basal machinery
+yhxD	BSU10430	939776	P40398		oxidoreductase	Basal machinery
+yhzE	BSU09958	8303205	C0H3Y2	sscA	hypothetical protein	Basal machinery
+yisB	BSU10660	936345	O06715	hlpB	hypothetical protein	Basal machinery
+yisI	BSU10730	936347	O06722		aspartyl-phosphate phosphatase YisI	M17
+yisK	BSU10750	936356	O06724		hypothetical protein	Basal machinery
+yisL	BSU10760	939333	O06725		hypothetical protein	Basal machinery
+yisP	BSU10810	936353	O06728	yucD	squalene/phytoene synthase	Basal machinery
+yisY	BSU10900	939790	O06734		AB hydrolase superfamily protein YisY	Basal machinery
+yisZ	BSU10910	936359	O06735		adenylyl-sulfate kinase	Basal machinery
+yitA	BSU10920		O06736			Basal machinery
+yitB	BSU10930	939787	O06737		phosphoadenosine phosphosulfate reductase	Basal machinery
+yitD	BSU10950	939794	O06739		phosphosulfolactate synthase	Basal machinery
+yitF	BSU10970	939345	O06741		isomerase	Basal machinery
+yitG	BSU10980	939791	Q796Q1		MFS transporter	Basal machinery
+yitM	BSU11040	936374	O06748		hypothetical protein	Basal machinery
+yitO	BSU11055	936373	O06750		hypothetical protein	Basal machinery
+yitP	BSU11070	939348	O06751		hypothetical protein	Basal machinery
+yitT	BSU11120	939346	P39803	yuxA	hypothetical protein	Basal machinery
+yitU	BSU11140	939795	P70947		phosphatase YitU	Basal machinery
+yizC	BSU11139	8303093	C0H3Y5		hypothetical protein	Basal machinery
+yizD	BSU11549	8303008	C0H3Y6		membrane protein	Basal machinery
+yjaV	BSU11290	939802	O34959		hypothetical protein	Basal machinery
+yjbA	BSU11410	939369	O31597		hypothetical protein	Basal machinery
+yjbC	BSU11490	939373	O31601		acetyltransferase YjbC	M25.16
+yjbH	BSU11550	939365	O31606		hypothetical protein	Basal machinery
+yjbI	BSU11560	936416	O31607		group 2 truncated hemoglobin YjbI	Basal machinery
+yjbJ	BSU11570	939382	O31608	cwlQ	murein lytic transglycosylase YjbJ	Basal machinery
+yjcA	BSU11790	936428	O31623		sporulation protein YjcA	Basal machinery
+yjcM	BSU11910	939395	O31635		hypothetical protein	Basal machinery
+yjcN	BSU11920	939817	O31636		hypothetical protein	M25.7
+yjcP	BSU11940	936429	O31638		hypothetical protein	Basal machinery
+yjcQ	BSU11950	939821	O31639		hypothetical protein	Basal machinery
+yjdB	BSU11990	936431	O31643		hypothetical protein	Basal machinery
+yjdF	BSU12030	939820	O31647		hypothetical protein	M58
+yjdG	BSU12040	936436	O31648		N-acetyltransferase YjdG	Basal machinery
+yjdH	BSU12050	939819	O31649		hypothetical protein	Basal machinery
+yjfA	BSU12110	939830	O34554		hypothetical protein	Basal machinery
+yjfB	BSU12120	936446	O34438		hypothetical protein	Basal machinery
+yjgB	BSU12150	936448	O34960		hypothetical protein	Basal machinery
+yjgC	BSU12160	939396	O34720		oxidoreductase	Basal machinery
+yjgD	BSU12170	939826	O34681		hypothetical protein	Basal machinery
+yjiB	BSU12210	936452	O34374		cytochrome P450 YjiB	Basal machinery
+yjiC	BSU12220	939402	O34539		UDP-glucosyltransferase YjiC	Basal machinery
+yjlC	BSU12280		O34633	rex		M111
+yjlD	BSU12290		P80861	ndh		M111
+yjmB	BSU12310		O34961	exuM		M3
+yjmC	BSU12320	939828	O34736		oxidoreductase	M3
+yjmD	BSU12330	936463	O35045		zinc-type alcohol dehydrogenase	M3
+yjoB	BSU12420	936467	O34703		ATPase YjoB	Basal machinery
+yjqC	BSU12490	939414	O34423		hypothetical protein	Basal machinery
+yjzB	BSU11320	939366	O34891		hypothetical protein	Basal machinery
+yjzE	BSU11839	8303175	C0H3Y9		hypothetical protein	Basal machinery
+yjzJ	BSU12519	8303027	C0H3Z4		hypothetical protein	M66
+ykaA	BSU12850	939843	O34454		hypothetical protein	Basal machinery
+ykcB	BSU12880	939775	O34575		mannosyltransferase YkcB	M8
+ykcC	BSU12890	936326	O34319		glycosyltransferase YkcC	M8
+ykfA	BSU12970	938175	O34851		murein peptide carboxypeptidase	Basal machinery
+ykfB	BSU12980	939862	O34508		L-Ala-D/L-Glu epimerase	Basal machinery
+ykfC	BSU12990	937979	O35010		gamma-D-glutamyl-l-lysine endopeptidase	Basal machinery
+ykfD	BSU13000	939863	C0SP98		oligopeptide transport ATP-binding protein YkfD	Basal machinery
+ykgA	BSU13020	939864	O34497		hypothetical protein	Basal machinery
+ykkC	BSU13090	936835	P49856		multidrug resistance protein	M10
+ykkD	BSU13100	938109	P49857		multidrug resistance protein	M10
+yknW	BSU14340	938771	O31709		hypothetical protein	Basal machinery
+yknX	BSU14350	938774	O31710		efflux system component YknX	Basal machinery
+yknY	BSU14360	938766	O31711		ABC transporter ATP-binding protein	Basal machinery
+yknZ	BSU14370	938803	O31712		ABC transporter permease	Basal machinery
+ykoC	BSU13210		O34572	thiX		M15
+ykoD	BSU13220		O34362	thiW		M15
+ykoE	BSU13230		O34738	thiV		M15
+ykoF	BSU13240		O34911	thiU		M15
+ykoL	BSU13330	939391	O34763		stress response protein YkoL	Basal machinery
+ykoP	BSU13360	936444	O34495		hypothetical protein	Intermodular
+ykoS	BSU13380	939380	O34830	ykoR	membrane protein	Basal machinery
+ykoT	BSU13390	939378	O34755		glycosyltransferase YkoT	Basal machinery
+ykoW	BSU13420		O34311	dgcW		Basal machinery
+ykpC	BSU14460	938750	Q45492		hypothetical protein	M25.3
+ykqA	BSU14500	939408	P39759	ylxU,yzaB	gamma-glutamylcyclotransferase YkqA	Basal machinery
+ykuD	BSU14040	939216	O34816	ldt	L,D-transpeptidase YkuD	Basal machinery
+ykuJ	BSU14100	936162	O34588		hypothetical protein	Basal machinery
+ykuK	BSU14110	939213	O34776		hypothetical protein	Basal machinery
+ykuL	BSU14130	939199	O31698		CBS domain-containing protein YkuL	Basal machinery
+ykuM	BSU14140		O34827	ccpC		M84
+ykuN	BSU14150	939194	O34737		flavodoxin	Intermodular
+ykuO	BSU14160	939196	O34879		hypothetical protein	Intermodular
+ykuP	BSU14170	938811	O34589		flavodoxin-2	Intermodular
+ykuT	BSU14210	938809	O34897		MscS family protein YkuT	Basal machinery
+ykuU	BSU14220	938810	O34564		thioredoxin	Basal machinery
+ykuV	BSU14230	938804	O31699		thiol-disulfide oxidoreductase	Basal machinery
+ykvI	BSU13710	939307	O31674		membrane protein	Basal machinery
+ykvP	BSU13780	939278	O31681		spore protein YkvP	Basal machinery
+ykvQ	BSU13790	939273	O31682		glycosylase YkvQ	Basal machinery
+ykvR	BSU13800	939743	O31683		hypothetical protein	Basal machinery
+ykvT	BSU13820	939264	O31685		hypothetical protein	M25.3
+ykvU	BSU13830	939262	O31686		sporulation protein YkvU	Basal machinery
+ykyB	BSU14020	939225	P42430	kre	hypothetical protein	M25.8
+ykzB	BSU13320	939392	O34923		hypothetical protein	Basal machinery
+ykzC	BSU14680	935976	O31720		hypothetical protein	Basal machinery
+ykzD	BSU13290	936450	O34405		hypothetical protein	Basal machinery
+ykzE	BSU13510	939354	O31659		hypothetical protein	Basal machinery
+ykzF	BSU14120	939703	O31697	abbA	hypothetical protein	Basal machinery
+ykzG	BSU14540	939482	O31718	rpoY	hypothetical protein	Basal machinery
+ykzI	BSU14660	935992	O31719		hypothetical protein	Basal machinery
+ykzK	BSU12539	8303179	C0H3Z5		hypothetical protein	M66
+ykzN	BSU13169	8302905	C0H400		hypothetical protein	Basal machinery
+ykzP	BSU13509	8303057	C0H402		hypothetical protein	Basal machinery
+ykzQ	BSU13789	8303133	C0H403		hypothetical protein	Basal machinery
+ykzS	BSU13819	8302968	C0H405		hypothetical protein	M25.3
+ykzU	BSU14072	8303033	C0H408		hypothetical protein	M89
+ykzW	BSU14629	8302953	C0H410	sr1	hypothetical protein	M72
+ylaA	BSU14710	935984	O07625		hypothetical protein	M93
+ylaB	BSU14720	935962	O07626		hypothetical protein	M93
+ylaC	BSU14730	935973	O07627		RNA polymerase sigma factor YlaC	M93
+ylaD	BSU14740	935961	O07628		anti-sigma-YlaC factor YlaD	M93
+ylaE	BSU14750	935955	O07629		hypothetical protein	M25.1
+ylaJ	BSU14800	935926	O07634		lipoprotein	Basal machinery
+ylbA	BSU14940	939858	O34743		hypothetical protein	Basal machinery
+ylbB	BSU14950	938107	O34682		hypothetical protein	Basal machinery
+ylbC	BSU14960	937363	O34586		membrane protein	Basal machinery
+ylbD	BSU14970	936929	O34880		hypothetical protein	Basal machinery
+ylbE	BSU14980	938216	O34958		hypothetical protein	Basal machinery
+ylbJ	BSU15030	936629	O34765		sporulation integral membrane protein YlbJ	Basal machinery
+ylbO	BSU15090	935998	O34549	gerR	hypothetical protein	M39
+ylbP	BSU15100	939853	O34468		N-acetyltransferase YlbP	Basal machinery
+yllA	BSU15120	939844	P55342	bshC	hypothetical protein	Basal machinery
+ylmA	BSU15340	940012	O31723		ABC transporter ATP-binding protein	Basal machinery
+ylmB	BSU15350	940116	O31724	thiQ	N-formyl-4-amino-5-aminomethyl-2- methylpyrimidine deformylase	M15
+ylmC	BSU15360	939682	O31725		hypothetical protein	Basal machinery
+ylmD	BSU15370	939954	O31726		laccase domain protein YlmD	Basal machinery
+ylmE	BSU15380	940117	O31727		hypothetical protein	Basal machinery
+ylmG	BSU15400	940008	O31729		membrane protein	Basal machinery
+ylmH	BSU15410	940118	P71020		RNA-binding protein YlmH	Basal machinery
+yloA	BSU15640	936878	O34693		hypothetical protein	Basal machinery
+yloC	BSU15660	936454	O34441		hypothetical protein	Basal machinery
+ylqB	BSU15960	938179	O31737		hypothetical protein	Basal machinery
+ylqC	BSU16000	936821	O31738		hypothetical protein	Basal machinery
+ylqD	BSU16010	937226	O31739		hypothetical protein	Basal machinery
+ylqG	BSU16070	936698	O31745		hypothetical protein	Basal machinery
+ylqH	BSU16080	938163	O34867		hypothetical protein	Basal machinery
+ylxF	BSU16260	940140	P23454		FlaA locus 22.9 kDa protein	M113
+ylxG	BSU16280		P23455	flgD		M113
+ylxH	BSU16410	940123	P40742	flhG	flagellum site-determining protein YlxH	M113
+ylxM	BSU15970	937995	P37104		hypothetical protein	Basal machinery
+ylxP	BSU16640	939641	P32730	ymxD	hypothetical protein	M47
+ylxR	BSU16610	939653	P32728	ymxB	hypothetical protein	Global regulator
+ylxW	BSU15250	936403	C0SPA3		hypothetical protein	Basal machinery
+ylxX	BSU15260	936107	Q45544		hypothetical protein	Basal machinery
+ylyA	BSU15440	938068	Q45478	ylmK	hypothetical protein	Basal machinery
+ylzA	BSU15670	937956	Q7WY72	remA	hypothetical protein	M25.11
+ylzI	BSU16299	8303013	C0H412		hypothetical protein	M113
+ylzJ	BSU16799	8303181	C0H413		hypothetical protein	Basal machinery
+ymaB	BSU17400	939453	P50619		hypothetical protein	Intermodular
+ymaE	BSU17250	940045	O31787		hypothetical protein	Basal machinery
+ymaG	BSU17310	940062	O31793		hypothetical protein	Basal machinery
+ymfC	BSU16810	940138	O31761		GntR family transcriptional regulator	Basal machinery
+ymfD	BSU16825	939662	O31762	ymfE	bacillibactin exporter	M45
+ymfH	BSU16860	939665	O31766		zinc protease YmfH	M45
+ymfJ	BSU16880	939670	O31768		hypothetical protein	Basal machinery
+ymxH	BSU16720	939648	Q04811		hypothetical protein	Basal machinery
+ymzB	BSU17240	940041	O31786		hypothetical protein	Basal machinery
+ynaJ	BSU17570		P94488	xynP		M120
+yncM	BSU17690	939576	O31803		hypothetical protein	Basal machinery
+yndA	BSU17720	939521	O31805		hypothetical protein	Basal machinery
+yndD	BSU17750	939529	O31808		membrane protein	Basal machinery
+yndE	BSU17760	936538	O31809		spore germination protein YndE	Basal machinery
+yndF	BSU17770	939547	O31810		spore germination protein YndF	Basal machinery
+yndL	BSU17820	939553	O31815	pghL	hypothetical protein	Basal machinery
+yneA	BSU17860	936112	Q45056		cell division suppressor protein YneA	Basal machinery
+yneB	BSU17870	939557	Q45057		resolvase homolog YneB	Basal machinery
+yneF	BSU17910	939469	P45708	yoxG	hypothetical protein	Basal machinery
+yneN	BSU18010	938193	O31820		thioredoxin	M84
+yngA	BSU18170	936300	O31821		membrane protein	M8
+yngB	BSU18180	936791	O31822		UTP--glucose-1-phosphate uridylyltransferase YngB	M8
+yngC	BSU18190	939567	O31823		membrane protein	M8
+yngE	BSU18210	939528	O31825		carboxylase YngE	Basal machinery
+yngF	BSU18220	939467	O34893		enoyl-CoA hydratase/isomerase YngF	Basal machinery
+yngG	BSU18230	939515	O34873		hydroxymethylglutaryl-CoA lyase YngG	Basal machinery
+yngHB	BSU18239	8303012	C0H419		biotin/lipoyl attachment protein	Basal machinery
+yngI	BSU18250	939571	O31826		acyl-CoA synthetase YngI	Basal machinery
+yngJ	BSU18260	939996	O34421		acyl-CoA dehydrogenase YngJ	Basal machinery
+ynzB	BSU17740	939516	O31807		hypothetical protein	Basal machinery
+ynzC	BSU17880	939578	O31818		hypothetical protein	Basal machinery
+ynzD	BSU17920	938818	O31819		aspartyl-phosphate phosphatase YnzD	Basal machinery
+ynzH	BSU17670		O31802	cotU		M39
+yoaA	BSU18530	940097	O34569		N-acetyltransferase YoaA	Basal machinery
+yoaF	BSU18580	940103	O31829		hypothetical protein	Basal machinery
+yoaG	BSU18590	940105	O31830		hypothetical protein	Basal machinery
+yoaH	BSU18610	940110	C0SP89		methyl-accepting chemotaxis protein YoaH	Basal machinery
+yoaJ	BSU18630		O34918	exlX		Basal machinery
+yoaR	BSU18720	939962	O34611		hypothetical protein	Basal machinery
+yoaW	BSU18780	940131	O34541		hypothetical protein	Basal machinery
+yobH	BSU18930	939613	C0SPA8		DNA repair protein	Basal machinery
+yobJ	BSU18980	939633	O34774		hypothetical protein	Basal machinery
+yobO	BSU19030	939627	O34433		phage-related protein YobO	Basal machinery
+yocB	BSU19150	939442	O34516		hypothetical protein	Basal machinery
+yocD	BSU19170	939659	O35046		carboxypeptidase YocD	Basal machinery
+yocH	BSU19210	939673	O34669		cell wall-binding protein YocH	M25.3
+yocK	BSU19240	939676	P80872		general stress protein 16O	Basal machinery
+yocL	BSU19250	939586	O34976		hypothetical protein	Basal machinery
+yodB	BSU19540	939449	O34844		ArsR family transcriptional regulator	M43
+yodC	BSU19550	939506	P81102	yolG	NAD(P)H nitroreductase	M43
+yodF	BSU19580	940028	O34745		symporter	Basal machinery
+yodH	BSU19600	940101	O34954	yolB	methyltransferase	Basal machinery
+yodI	BSU19610	940039	O34654	yolA	hypothetical protein	Basal machinery
+yodL	BSU19640	940030	O30472	yokX	hypothetical protein	Basal machinery
+yodP	BSU19700	940057	O34895	yokR	N-acetyltransferase YodP	Basal machinery
+yodQ	BSU19710	940044	O34984	yokP,argE	metallohydrolase YodQ	Basal machinery
+yodR	BSU19720	940048	O34466	yokO	coenzyme A transferase subunit beta	Basal machinery
+yodS	BSU19730	940052	O34317	yokN	coenzyme A transferase subunit alpha	Basal machinery
+yodT	BSU19740	940050	O34662	yokM	aminotransferase YodT	Basal machinery
+yoeB	BSU18380		O34841	iseA		M25.3
+yofA	BSU18420		O34685	ftsR		M26
+yojE	BSU19480	939447	O31859	yojD	transporter	Basal machinery
+yojF	BSU19470	939590	O31858		hypothetical protein	Basal machinery
+yojJ	BSU19430	939589	O31854	cdaS	hypothetical protein	Basal machinery
+yokA	BSU21660	939105	O32006		resolvase homolog YokA	Basal machinery
+yokI	BSU21580	939115	O31998		hypothetical protein	Basal machinery
+yokJ	BSU21570	939114	O31997		hypothetical protein	Basal machinery
+yokK	BSU21560	939116	O31996		hypothetical protein	Basal machinery
+yokL	BSU21550	939118	O31995		N-acetyltransferase YokL	Basal machinery
+yokU	BSU19689	8303010	C0H434		hypothetical protein	Basal machinery
+yolA	BSU21540	939117	O31994		hypothetical protein	Basal machinery
+yolB	BSU21530	939119	O31993		hypothetical protein	Basal machinery
+yolC	BSU21520	939120	O31992		hypothetical protein	Basal machinery
+yolD	BSU21510	939126	O31991		hypothetical protein	Basal machinery
+yomJ	BSU21340	939133	O31975		membrane protein	Basal machinery
+yopL	BSU20850	939422	O31926		hypothetical protein	Basal machinery
+yoqM	BSU20580	939973	O31925		hypothetical protein	Basal machinery
+yorB	BSU20440	939951	O31911		hypothetical protein	Basal machinery
+yorC	BSU20430	936462	O31910		hypothetical protein	Basal machinery
+yorD	BSU20420	940145	P68575		stress response protein SCP1	Basal machinery
+yosX	BSU19970	939517	P68583	yojZ	hypothetical protein	M11
+yotB	BSU19940	940114	O34642	yokB	hypothetical protein	M11
+yotC	BSU19930	940094	O34702	yokC	hypothetical protein	M11
+yotD	BSU19920	940092	O34407	yokD	hypothetical protein	M11
+yotE	BSU19910	939566	O31870		hypothetical protein	M11
+yotF	BSU19900	940086	O31869		hypothetical protein	M11
+yotG	BSU19890	940082	O31868		hypothetical protein	M11
+yotH	BSU19880	940084	O31867		membrane protein	M11
+yotI	BSU19870	940078	Q796A8	yodW,yokF	hypothetical protein	M11
+yotJ	BSU19860	940079	O34699	yokG	hypothetical protein	M11
+yotK	BSU19850	939549	O31866		hypothetical protein	M11
+yotM	BSU19830	940081	O34820	yokI,yodV	hypothetical protein	M11
+yotN	BSU19820	940072	O34850	yokJ	hypothetical protein	M11
+yoxB	BSU18520	940087	P28671		hypothetical protein	Basal machinery
+yoxC	BSU18510	940083	P28670		hypothetical protein	Basal machinery
+yoyC	BSU19479	8303009	O68260	yojE	hypothetical protein	Basal machinery
+yoyD	BSU19579	8303187	C0H431		membrane protein	Basal machinery
+yoyE	BSU19639	8303105	C0H432		hypothetical protein	Basal machinery
+yoyG	BSU19749	8302971	C0H435		hypothetical protein	Basal machinery
+yozE	BSU19680	940055	O31864		hypothetical protein	Basal machinery
+yozK	BSU18940	939614	O31841		DNA repair protein UvrX	Basal machinery
+yozL	BSU18950	939619	O31842		hypothetical protein	Basal machinery
+yozM	BSU18960	939622	O31843		prophage-derived-like protein YozM	Basal machinery
+yozO	BSU19290	939681	O31847		hypothetical protein	Basal machinery
+yozQ	BSU18600	2914173	Q7WY68		hypothetical protein	Basal machinery
+ypbG	BSU22980	938974	P50733		hypothetical protein	Basal machinery
+ypbR	BSU22030	939071	P54159	dynA	hypothetical protein	Basal machinery
+ypbS	BSU22020	939067	P54160		hypothetical protein	Basal machinery
+ypeB	BSU22920	938981	P38490	yzuA,joeB	sporulation protein YpeB	Basal machinery
+ypfB	BSU22900	938983	P38492	jofB	hypothetical protein	Basal machinery
+yphA	BSU22860	938987	A3F422		hypothetical protein	Basal machinery
+yphB	BSU22850		P50742	seaA		Basal machinery
+yphE	BSU22820	938993	P50744		hypothetical protein	Basal machinery
+yphF	BSU22810	938992	P39911	johF	hypothetical protein	Basal machinery
+ypiF	BSU22570	939015	P54391		hypothetical protein	Basal machinery
+ypjB	BSU22520	939020	P54393		hypothetical protein	Basal machinery
+ypjD	BSU22500	939022	A3F359	jojD	hypothetical protein	Basal machinery
+ypmP	BSU21760	939096	P54177		hypothetical protein	Basal machinery
+yppD	BSU22280	939042	P50832		hypothetical protein	Basal machinery
+yppE	BSU22270	939047	P50833		hypothetical protein	Basal machinery
+yppG	BSU22250	939049	P50835		hypothetical protein	Basal machinery
+ypqA	BSU22240	939048	P50836		hypothetical protein	Basal machinery
+ypqE	BSU22230	939046	P50829		PTS system transporter subunit IIA YpqE	Basal machinery
+ypuA	BSU23370	938939	P31847		hypothetical protein	Basal machinery
+ypuB	BSU23340	938942	P35151		hypothetical protein	Basal machinery
+ypuD	BSU23300	938943	P17616		hypothetical protein	Basal machinery
+ypzA	BSU21950	939078	O32007		hypothetical protein	Basal machinery
+ypzF	BSU22019	8302979	C0H443		hypothetical protein	Basal machinery
+ypzG	BSU22169	8303061	C0H444		hypothetical protein	Basal machinery
+ypzI	BSU22869	8303059	C0H446		hypothetical protein	Basal machinery
+yqaE	BSU26350	937672	P45902	sknR	XRE family transcriptional regulator	M33
+yqaF	BSU26340	937684	P45903		XRE family transcriptional regulator	M33
+yqaG	BSU26320	937671	P45904		transcriptional regulator	M33
+yqaH	BSU26310	937692	P45905		hypothetical protein	M33
+yqaI	BSU26300	937680	P45906		hypothetical protein	M33
+yqaJ	BSU26290	937681	P45907		hypothetical protein	M33
+yqaK	BSU26280	937691	P45908		hypothetical protein	M33
+yqaL	BSU26270	937695	P45909		DNA-binding protein	M33
+yqaM	BSU26260	937685	P45910		hypothetical protein	M33
+yqaN	BSU26250	937694	P45911		hypothetical protein	M33
+yqaP	BSU26230	937705	P45913		hypothetical protein	Basal machinery
+yqaR	BSU26210	937703	P45914		hypothetical protein	Basal machinery
+yqaS	BSU26200	937704	P45915		hypothetical protein	Basal machinery
+yqcF	BSU25870	937785	P45941		hypothetical protein	Basal machinery
+yqcG	BSU25860	937792	P45942		hypothetical protein	Basal machinery
+yqcK	BSU25800	937794	P45945		hypothetical protein	M44
+yqdA	BSU26330	937682	P54372	yqcS	hypothetical protein	M33
+yqeZ	BSU25390	937859	P54465		hypothetical protein	Basal machinery
+yqfA	BSU25380	937865	P54466	floA	hypothetical protein	Basal machinery
+yqfB	BSU25370	937864	P54467		hypothetical protein	Basal machinery
+yqfC	BSU25360	937870	P54468		hypothetical protein	Basal machinery
+yqfD	BSU25350	937867	P54469		hypothetical protein	Basal machinery
+yqfQ	BSU25150	937910	P54474		hypothetical protein	Basal machinery
+yqfX	BSU25080	937973	P54481		hypothetical protein	Basal machinery
+yqfZ	BSU25060	938027	P54483		hypothetical protein	Basal machinery
+yqgH	BSU24980		P46339	pstC,yzmC		Basal machinery
+yqgI	BSU24970		P46340	yzmD,pstA		Basal machinery
+yqhB	BSU24750	938492	P54505		hypothetical protein	Basal machinery
+yqhG	BSU24590	938541	P54508		hypothetical protein	Basal machinery
+yqhH	BSU24580	938548	P54509		ATP-dependent helicase YqhH	Basal machinery
+yqhP	BSU24500	938552	P54514		hypothetical protein	Basal machinery
+yqhQ	BSU24490	938556	P54515		hypothetical protein	Basal machinery
+yqhV	BSU24440	938559	P49779	yqgE	hypothetical protein	Basal machinery
+yqiH	BSU24200	938658	P40770	yzpA	lipoprotein	Basal machinery
+yqiI	BSU24190	938657	P54525		hypothetical protein	Basal machinery
+yqiK	BSU24180	938661	P54527		hypothetical protein	Basal machinery
+yqiR	BSU24100		P54529	bkdR		M25.18
+yqiS	BSU24090		P54530	ptb		Intermodular
+yqiT	BSU24080		P54531	bcd		Intermodular
+yqjB	BSU23940	938684	P54539		L,D-transpeptidase YqjB	Basal machinery
+yqjC	BSU23930	938689	P54540		hypothetical protein	Basal machinery
+yqjL	BSU23830	938693	P54549		hypothetical protein	M25.1
+yqjX	BSU23700	938710	P54561		hypothetical protein	Basal machinery
+yqjY	BSU23690	938709	P54562		hypothetical protein	Basal machinery
+yqjZ	BSU23680	938708	P54563		hypothetical protein	Basal machinery
+yqkA	BSU23670	938712	P54564		hypothetical protein	Basal machinery
+yqkB	BSU23660	938713	P54565		hypothetical protein	Basal machinery
+yqkC	BSU23650	938711	P54566		hypothetical protein	Basal machinery
+yqkF	BSU23620	938714	P54569		oxidoreductase	Basal machinery
+yqkJ	BSU23550		P54572	mleA		M49
+yqxA	BSU25520	937841	P38425	yqeP	hypothetical protein	Basal machinery
+yqxD	BSU25230	937896	P17868	yqfM	hypothetical protein	Basal machinery
+yqxI	BSU25890	937775	P24812	yqdE	hypothetical protein	Basal machinery
+yqxJ	BSU25880	937786	P24809	yqdF	hypothetical protein	Basal machinery
+yqxM	BSU24640	938532	P40949	tapA,yqhD	hypothetical protein	Intermodular
+yqzC	BSU24940	938202	O32023		hypothetical protein	Basal machinery
+yqzD	BSU24930	938203	O32022		hypothetical protein	Basal machinery
+yqzE	BSU24660	938540	O32020	spoIIIL	hypothetical protein	Basal machinery
+yqzG	BSU24650	938529	O32019		hypothetical protein	Basal machinery
+yqzH	BSU23720	938707	O32014		hypothetical protein	Basal machinery
+yqzL	BSU25289	8303204	C0H452		hypothetical protein	Basal machinery
+yqzO	BSU26259	8302984	C0H455		hypothetical protein	M33
+yraA	BSU27020	937603	O06006		cysteine protease YraA	M114
+yraD	BSU26990	935919	O06010		spore coat protein F	Basal machinery
+yraE	BSU26980	938108	O06011		hypothetical protein	Basal machinery
+yraF	BSU26960	937606	O07949		spore coat protein F	Basal machinery
+yraG	BSU26950	936783	O07919		spore coat protein F	Basal machinery
+yrbD	BSU27810	937941	O32060		sodium/proton-dependent alanine carrier protein YrbD	Basal machinery
+yrdK	BSU26680	938740	P94500		hypothetical protein	M69
+yrdR	BSU26620	937629	O07086		transporter	Basal machinery
+yrhC	BSU27240	936495	O05395		hypothetical protein	Basal machinery
+yrhH	BSU27180	938507	O05400		methyltransferase	Basal machinery
+yrhK	BSU27150	937587	O05401		hypothetical protein	M25.1
+yrhL	BSU27140		O05402	oatA		M25.1
+yrkC	BSU26560	937645	P54430		hypothetical protein	Basal machinery
+yrkN	BSU26450	937664	P54441		hypothetical protein	M8
+yrkO	BSU26440	937667	P54442		hypothetical protein	M8
+yrkP	BSU26430	937663	P54443		transcriptional regulator	M8
+yrkQ	BSU26420	937662	P54444		sensor histidine kinase	M8
+yrpD	BSU26820	937397	O05411		hypothetical protein	Basal machinery
+yrpE	BSU26830	936254	O05410	zinT	zinc-binding protein	M19
+yrrD	BSU27470	937552	O34402		hypothetical protein	Basal machinery
+yrrL	BSU27370	936260	O34758		hypothetical protein	Basal machinery
+yrrS	BSU27300	936614	O32031		membrane protein	Basal machinery
+yrrT	BSU27280	937566	O32029		methyltransferase	Basal machinery
+yrzE	BSU27690	938165	O32051		membrane protein	Basal machinery
+yrzI	BSU27190	937584	O32027		hypothetical protein	Basal machinery
+yrzO	BSU26619	8303041	C0H458		hypothetical protein	Basal machinery
+yrzQ	BSU27468	8302994	C0H461		hypothetical protein	Basal machinery
+yrzR	BSU27469	8302944	C0H462		hypothetical protein	Basal machinery
+yscB	BSU28890	936599	P94517		hypothetical protein	Basal machinery
+ysdA	BSU28840	937419	P94519		hypothetical protein	M36
+ysdB	BSU28830	937429	P94520		sigma-W pathway protein YsdB	Basal machinery
+ysfE	BSU28700	937588	P94533		hypothetical protein	Basal machinery
+yslB	BSU28460	936806	P42955		hypothetical protein	Basal machinery
+ysnD	BSU28320	937466	P94563		hypothetical protein	Basal machinery
+ysnF	BSU28340	936228	P94560		stress response protein YsnF	Basal machinery
+ysxA	BSU28040		Q02170	radC		Basal machinery
+ysxE	BSU28100	937496	P37964		hypothetical protein	Basal machinery
+yszB	BSU27910		P21204	pheB		M122
+ytaB	BSU30930	938164	O34694		membrane protein	Basal machinery
+ytaF	BSU29070	937389	C0SP79		membrane protein	Basal machinery
+ytbQ	BSU30180	937270	P53560		hypothetical protein	M98
+ytcA	BSU30860	936155	O34862		UDP-glucose 6-dehydrogenase YtcA	Basal machinery
+ytcB	BSU30870	938900	O34886		UDP-glucose epimerase YtcB	Basal machinery
+ytcC	BSU30880	939212	O34413		glycosyltransferase YtcC	Basal machinery
+ytdA	BSU30850	937119	P42407	yzwA	UTP--glucose-1-phosphate uridylyltransferase	Basal machinery
+yteA	BSU30840	937192	P42408	yzwB	hypothetical protein	Basal machinery
+yteJ	BSU29520	937343	O34424		membrane protein	Basal machinery
+ytfI	BSU29510	937342	O34917		hypothetical protein	Basal machinery
+ytfJ	BSU29500	937346	O34806	gerW	spore protein YtfJ	Basal machinery
+ytfP	BSU30060	937280	Q795R8		hypothetical protein	Basal machinery
+ythP	BSU30010	937282	O34977		ABC transporter ATP-binding protein	Basal machinery
+ythQ	BSU30000	937288	O35029		transporter	Basal machinery
+ytiB	BSU30690	938087	O34872		carbonic anhydrase YtiB	Basal machinery
+ytkC	BSU30640	937209	O34883		hypothetical protein	Basal machinery
+ytkD	BSU30630	937072	O35013	mutTA	8-oxo-dGTP diphosphatase YtkD	Basal machinery
+ytkK	BSU29420		O34308			Basal machinery
+ytkL	BSU29410	936598	Q795U4		metal-dependent hydrolase	Basal machinery
+ytlA	BSU30595	935959	C0SP84	ytlB	binding protein YtlA	Basal machinery
+ytlC	BSU30610	937218	O34314		ABC transporter ATP-binding protein	Basal machinery
+ytlD	BSU30620	937097	O34649		ABC transporter permease	Basal machinery
+ytlI	BSU29400	938452	O35038	ascR	LysR family transcriptional regulator	M115
+ytlP	BSU29960	937293	O34570		hypothetical protein	Basal machinery
+ytlQ	BSU29950	938075	O34471		hypothetical protein	Basal machinery
+ytlR	BSU29940	937289	O34799		lipid kinase YtlR	Basal machinery
+ytmI	BSU29390	937353	O34350		N-acetyltransferase YtmI	M115
+ytmO	BSU29330	936618	O34846	cmoO	hypothetical protein	M115
+ytnI	BSU29320	936632	O34639	cmoI	glutaredoxin YtnI	M115
+ytnL	BSU29290	936157	O34980	sndA	hydrolase YtnL	M115
+ytnM	BSU29280	937366	O34430		hypothetical protein	M115
+ytpA	BSU30510	937237	O34705		phospholipase YtpA	Basal machinery
+ytpB	BSU30500	936222	O34707		tetraprenyl-beta-curcumene synthase	Basal machinery
+ytpP	BSU29840	936697	O34357		thioredoxin	Basal machinery
+ytpQ	BSU29830	937506	O34496		hypothetical protein	Basal machinery
+ytpR	BSU29820	937964	O34943		tRNA-binding protein YtpR	Basal machinery
+ytrA	BSU30460	937244	O34712		GntR family transcriptional regulator	M37
+ytrB	BSU30450	936641	O34641		ABC transporter ATP-binding protein	M37
+ytrC	BSU30440	937243	O34898		ABC transporter permease	M37
+ytrD	BSU30430	936438	O34953		ABC transporter permease	M37
+ytrE	BSU30420	937245	O34392		ABC transporter ATP-binding protein	M37
+ytrF	BSU30410	937247	O35005		ABC transporter permease	M37
+ytrH	BSU29239	8303067	C0H3P8	spoVIGA	sporulation membrane protein YtrH	Basal machinery
+ytrI	BSU29240	937371	O34460		sporulation protein	Basal machinery
+ytsJ	BSU29220	937378	O34962		NAD-dependent malic enzyme 4	Basal machinery
+yttA	BSU30360	937248	Q795Q5		membrane protein	Basal machinery
+yttP	BSU29630	937327	O34970	refZ	TetR family transcriptional regulator	Basal machinery
+ytvI	BSU29160	937380	O34991		hypothetical protein	Basal machinery
+ytxC	BSU28960	937401	P06569		hypothetical protein	Basal machinery
+ytxD	BSU29730	937317	P39063	motP	hypothetical protein	Basal machinery
+ytxE	BSU29720	937315	P39064	motS	hypothetical protein	Basal machinery
+ytxG	BSU29780	937386	P40779		hypothetical protein	Basal machinery
+ytxH	BSU29770	937312	P40780		hypothetical protein	Basal machinery
+ytxJ	BSU29760	937308	P39914		hypothetical protein	Basal machinery
+ytxK	BSU29480	938186	P37876	ythI	hypothetical protein	Basal machinery
+ytxO	BSU30890	936317	P46916	ytbB	hypothetical protein	Basal machinery
+ytzC	BSU30470	936521	O32073		hypothetical protein	Basal machinery
+ytzL	BSU30739	8303158	C0H3Q2		hypothetical protein	Basal machinery
+yuaB	BSU31080	938831	P71014	bslA	hypothetical protein	M25.20
+yuaF	BSU31020	937144	O32077		membrane protein	Basal machinery
+yuaG	BSU31010	937138	O32076	floT,yuaH	hypothetical protein	Basal machinery
+yuaI	BSU31000	938830	O32075		N-acetyltransferase YuaI	Basal machinery
+yueB	BSU31860	936567	O32101		bacteriophage SPP1 adsorption protein YueB	Basal machinery
+yueC	BSU31850	936550	O32100		hypothetical protein	Basal machinery
+yueD	BSU31840	936558	O32099		benzil reductase	Basal machinery
+yufN	BSU31540	938870	O05252	nupN	lipoprotein	Basal machinery
+yufO	BSU31550	937172	O05253	nupO	ABC transporter ATP-binding protein	Basal machinery
+yufP	BSU31560	937175	O05254	nupP	ABC transporter permease	Basal machinery
+yufQ	BSU31570	937176	O05255	nupQ	ABC transporter permease	Basal machinery
+yufS	BSU31590	938856	O05257		hypothetical protein	Basal machinery
+yugJ	BSU31370	937164	O05239		NADH-dependent butanol dehydrogenase 1	Basal machinery
+yugO	BSU31322	938842	Q795M8		potassium channel protein YugO	Basal machinery
+yugT	BSU31290	938857	O05242		oligo-1,6-glucosidase 3	Basal machinery
+yugU	BSU31280	937156	O05243		hypothetical protein	Basal machinery
+yuiA	BSU32090	938869	O32110	yumA	hypothetical protein	Basal machinery
+yuiB	BSU32080	938035	O32109		membrane protein	Basal machinery
+yuiC	BSU32070	936601	O32108		hypothetical protein	Basal machinery
+yukB	BSU31875	936565	C0SPA7	yukA,yukBA	Ftsk domain-containing protein YukB	Basal machinery
+yukC	BSU31890	936572	P71070		hypothetical protein	Basal machinery
+yukD	BSU31900	936543	P71071		ubiquitin-like protein YukD	Basal machinery
+yukE	BSU31910	936578	C0SP85		hypothetical protein	Basal machinery
+yulB	BSU31210	938838	O05261	rhaR	DeoR family transcriptional regulator	M50
+yunB	BSU32350	936670	O32131	fisB	sporulation protein YunB	Basal machinery
+yurJ	BSU32550	937070	O32151		ABC transporter ATP-binding protein	M71
+yurK	BSU32560		O32152	frlR		M71
+yurM	BSU32580		O32154	frlM		M71
+yurN	BSU32590		O32155	frlN		M71
+yurO	BSU32600		O32156	frlO		M71
+yurS	BSU32650	936705	O32160		hypothetical protein	Basal machinery
+yusD	BSU32760	936713	O32170		hypothetical protein	Basal machinery
+yusE	BSU32770	937184	O32171		thioredoxin	Basal machinery
+yusN	BSU32860	937194	O32180		hypothetical protein	Basal machinery
+yusO	BSU32870	935923	O32181	mdtR	HTH-type transcriptional regulator YusO	M86
+yusP	BSU32880	937088	O32182	mdtP	MFS transporter	M86
+yusQ	BSU32890	938468	O32183		tautomerase YusQ	Basal machinery
+yusR	BSU32900	937076	O32184		3-oxoacyl-ACP reductase	Basal machinery
+yusS	BSU32910	935924	O32185		short-chain dehydrogenase/reductase homolog YusS	Basal machinery
+yusU	BSU32930	935925	O32187		hypothetical protein	Basal machinery
+yusV	BSU32940	935921	O32188		siderophore transport system ATP-binding protein YusV	Basal machinery
+yutC	BSU32320	936674	O32128		lipoprotein	Basal machinery
+yutD	BSU32310	937182	O32127		hypothetical protein	Basal machinery
+yutE	BSU32300	938483	O32126		hypothetical protein	Basal machinery
+yutF	BSU32290	936508	O32125		hydrolase YutF	Basal machinery
+yuxG	BSU31220	938841	P40747	yulA,rhaEW	oxidoreductase	M50
+yuxH	BSU31740		P14203	yufA,pdeH		Basal machinery
+yuxK	BSU31500	938854	P40761	yugD	hypothetical protein	Basal machinery
+yuxN	BSU33030	935945	P40950		HTH-type transcriptional regulator YuxN	M75
+yuxO	BSU31670	937178	P14205	comAB,comA2	esterase ComA2	Basal machinery
+yuzA	BSU31380	937163	O32087		membrane protein	Basal machinery
+yuzC	BSU31730	938859	O32089		hypothetical protein	Basal machinery
+yuzH	BSU31279	8303174	C0H3Q3		hypothetical protein	Basal machinery
+yuzM	BSU32859	8302981	C0H3R1		hypothetical protein	Basal machinery
+yuzO	BSU33029	8303202	O32302	yirB	hypothetical protein	M75
+yvaM	BSU33640	938476	O32234		AB hydrolase superfamily protein YvaM	M48
+yvaP	BSU33680	938478	O32238	catR	HTH-type transcriptional regulator YvaP	M43
+yvaQ	BSU33690	938479	O32239		sensory transducer protein YvaQ	Basal machinery
+yvbG	BSU33850	938636	O32244		hypothetical protein	Basal machinery
+yvbI	BSU33870	938638	O32246		hypothetical protein	Basal machinery
+yvcA	BSU34850	936576	O06965	yvrA	lipoprotein	Basal machinery
+yvcB	BSU34840	936563	O06966	yvrB	hypothetical protein	Basal machinery
+yvcD	BSU34810	936542	O06968		TPR repeat-containing protein YvcD	Basal machinery
+yvcI	BSU34780	936528	O06972		Nudix hydrolase YvcI	Basal machinery
+yvcJ	BSU34770	936532	O06973		UPF0042 nucleotide-binding protein YvcJ	Basal machinery
+yvcN	BSU34730	936525	O06977		acetyltransferase YvcN	Basal machinery
+yvcP	BSU34720	936531	O06978	psdR	transcriptional regulator	M104
+yvcQ	BSU34710	938024	O06979	psdS	sensor histidine kinase	M104
+yvcR	BSU34700	936524	O06980	psdA	ABC transporter ATP-binding protein	M104
+yvcS	BSU34690	938473	O06981	psdB	ABC transporter permease	M104
+yvdP	BSU34520	936442	O06997	cotQ	FAD-linked oxidoreductase YvdP	Basal machinery
+yvdQ	BSU34510	936432	O06998		hypothetical protein	Basal machinery
+yveA	BSU34470	938612	O07002		aspartate-proton symporter	Basal machinery
+yveF	BSU34420	938614	O07004		hypothetical protein	M53
+yveG	BSU34410	938578	O07005		hypothetical protein	M53
+yveK	BSU34370		P71050	epsA		M25.11
+yveL	BSU34360		P71051	epsB		M25.11
+yvgN	BSU33400	936001	O32210		glyoxal reductase	Basal machinery
+yvgO	BSU33410	936024	O32211		stress response protein YvgO	Basal machinery
+yvgT	BSU33460	936011	O32216		hypothetical protein	Basal machinery
+yvhJ	BSU35520	936761	P96499	tagV	transcriptional regulator YvhJ	Basal machinery
+yviE	BSU35390	936735	P96502		hypothetical protein	Basal machinery
+yvlA	BSU35130	936640	O34322		hypothetical protein	Basal machinery
+yvlB	BSU35120	936656	O34628		hypothetical protein	Basal machinery
+yvlC	BSU35110	936642	O34719		membrane protein	Basal machinery
+yvlD	BSU35100	936638	O34648		membrane protein	Basal machinery
+yvmA	BSU35090	936643	O34307		MFS transporter	M17
+yvmB	BSU35080	936625	P40762	yzhA	HTH-type transcriptional regulator YvmB	M17
+yvmC	BSU35070	936633	O34351		hypothetical protein	M17
+yvnA	BSU35050	936639	O34692		HTH-type transcriptional regulator YvnA	Basal machinery
+yvoA	BSU35030	936626	O34817	nagR	HTH-type transcriptional repressor YvoA	M29
+yvoD	BSU34980	936603	O34382		membrane protein	Basal machinery
+yvoF	BSU34960	936620	O34993		acetyltransferase YvoF	Basal machinery
+yvqJ	BSU33140	935970	O32203		MFS transporter	Basal machinery
+yvrE	BSU33200	935979	O34940		sugar lactone lactonase YvrE	Basal machinery
+yvrJ	BSU33239	8303113	C0H3R5		hypothetical protein	M25.2
+yvrL	BSU33250	935982	O34686	rsiO	membrane-bound negative regulator YvrL	M25.2
+yvrN	BSU33260	937213	P46324	yziB,yvrM	ABC transporter permease	Basal machinery
+yvrO	BSU33270	938472	O34979		ABC transporter ATP-binding protein	Basal machinery
+yvrP	BSU33280	938618	O35007		efflux system protein YvrP	Basal machinery
+yvyC	BSU35350	936737	P39737	yviH	hypothetical protein	Basal machinery
+yvyD	BSU35310	936715	P28368	yviI,hpf	sigma-54 modulation protein	Basal machinery
+yvyE	BSU35510	936754	P32437	yvhK	IMPACT family member YvyE	Basal machinery
+yvyF	BSU35440	936743	P39807	yviB	hypothetical protein	Basal machinery
+yvyG	BSU35420	936745	P39808	yviC	hypothetical protein	Basal machinery
+yvyI	BSU35790	936815	P39841	pmi	mannose-6-phosphate isomerase YvyI	Basal machinery
+yvzA	BSU34830	936541	O32265		hypothetical protein	Basal machinery
+yvzG	BSU35319	8303029	C0H3R9	smiA	hypothetical protein	Basal machinery
+ywaC	BSU38480	937355	P39583	sasA	GTP pyrophosphokinase YwaC	Intermodular
+ywaE	BSU38450	937344	P25150	dtrR	HTH-type transcriptional regulator YwaE	M64
+ywbD	BSU38360	937328	P39587		ribosomal RNA large subunit methyltransferase YwbD	Basal machinery
+ywbE	BSU38350	937326	P39588		hypothetical protein	Basal machinery
+ywbF	BSU38340	937325	P39589		transporter	Basal machinery
+ywbG	BSU38330		P39590	lrgB		M109
+ywbI	BSU38310	937626	P39592		HTH-type transcriptional regulator YwbI	M109
+ywbO	BSU38250	937309	P39598		hypothetical protein	Basal machinery
+ywcA	BSU38240	937320	P39599		symporter	Basal machinery
+ywcB	BSU38230	937304	P39600		hypothetical protein	Basal machinery
+ywcC	BSU38220	937314	P39601		HTH-type transcriptional regulator YwcC	M30
+ywcE	BSU38130	937296	P39603		spore morphogenesis and germination protein YwcE	Basal machinery
+ywcH	BSU38100	937286	P39606		hypothetical protein	Basal machinery
+ywcI	BSU38080	937275	P39607		hypothetical protein	M25.4
+ywcJ	BSU38060	937283	P39608		transporter	M111
+ywdA	BSU38030	937276	P39609		hypothetical protein	M25.4
+ywdI	BSU37950	937251	P39617		hypothetical protein	Basal machinery
+ywdJ	BSU37940	937261	P39618		purine permease YwdJ	Basal machinery
+ywdK	BSU37930	937242	P39619		hypothetical protein	Basal machinery
+yweA	BSU37800	937223	P39632		hypothetical protein	Basal machinery
+ywfG	BSU37690	937157	P39643	bacF	aspartate aminotransferase	Basal machinery
+ywfH	BSU37680	937215	P39644	bacG	bacilysin biosynthesis oxidoreductase YwfH	Basal machinery
+ywhA	BSU37550	937081	P70993		HTH-type transcriptional regulator YwhA	Basal machinery
+ywhH	BSU37480	937183	P71000		hypothetical protein	M25.6
+ywiE	BSU37240	938453	P45860		cardiolipin synthase YwiE	Basal machinery
+ywjA	BSU37230	937049	P45861		ABC transporter ATP-binding protein	Basal machinery
+ywjB	BSU37220	938455	P45862		hypothetical protein	Basal machinery
+ywjC	BSU37210	938458	P45863		hypothetical protein	Basal machinery
+ywkB	BSU37040	936875	P45869		transporter	M96
+ywlB	BSU36960	937028	P39152		hypothetical protein	Basal machinery
+ywlC	BSU36950	937023	P39153	tsaC	tRNA threonylcarbamoyladenosine biosynthesis protein YwlC	M25.4
+ywlF	BSU36920	937014	P39156		sugar phosphate isomerase YwlF	Basal machinery
+ywlG	BSU36910	937007	P39157		hypothetical protein	Basal machinery
+ywmB	BSU36770	936983	O32277	spoIIT	hypothetical protein	Basal machinery
+ywmE	BSU36720	936977	P70966		hypothetical protein	Basal machinery
+ywmF	BSU36680	936974	P70963		hypothetical protein	Basal machinery
+ywnJ	BSU36540	936936	P71045		membrane protein	Basal machinery
+ywoB	BSU36500	936938	P94572		hypothetical protein	M37
+ywoC	BSU36490	936934	P94573		isochorismatase	M37
+ywoD	BSU36480	938533	P94574		MFS transporter	M37
+ywoF	BSU36460	936925	P94576		hypothetical protein	M25.1
+ywpJ	BSU36290	936907	P94592		phosphatase YwpJ	M59
+ywqC	BSU36260	936897	P96715	tkmA	capsular polysaccharide biosynthesis protein YwqC	Basal machinery
+ywqD	BSU36250		P96716	ptkA		Basal machinery
+ywqE	BSU36240	936893	P96717	ptpZ	tyrosine-protein phosphatase YwqE	Basal machinery
+ywqF	BSU36230	936890	P96718	ugd	UDP-glucose 6-dehydrogenase YwqF	Basal machinery
+ywrA	BSU36130	936879	O05215		transporter	M23
+ywrB	BSU36120	936876	O05216		transporter	M23
+ywrC	BSU36110	936886	O05217	chrS	HTH-type transcriptional regulator YwrC	M23
+ywrD	BSU36100	936884	O05218		gamma-glutamyltransferase YwrD	Basal machinery
+ywrE	BSU36090	936874	O05219		hypothetical protein	Basal machinery
+ywrJ	BSU36040	936867	O05223		hypothetical protein	M39
+ywsA	BSU35980	936847	P96728		hypothetical protein	Basal machinery
+ywsB	BSU35970	936850	P96729		cell wall-binding protein YwsB	Basal machinery
+ywtC	BSU35870		P96739	capE,pgsE		Basal machinery
+ywtE	BSU35850	936824	P96741		hypothetical protein	Basal machinery
+ywtF	BSU35840	936823	Q7WY78		transcriptional regulator YwtF	Basal machinery
+ywtG	BSU35830	936832	C0SPB2		metabolite transport protein YwtG	Basal machinery
+ywzA	BSU38180	937305	O32282		hypothetical protein	Basal machinery
+ywzB	BSU36780	936986	O32278		membrane protein	Basal machinery
+ywzH	BSU38499	8303014	C0H3T3		membrane protein	Intermodular
+yxaB	BSU40030	937700	P42101		general stress protein 30	Basal machinery
+yxaF	BSU39990	937690	P42105	qdoR	HTH-type transcriptional regulator YxaF	M88
+yxaH	BSU39970	937697	P42107		hypothetical protein	M88
+yxaJ	BSU39950	937687	P42109		hypothetical protein	Intermodular
+yxaL	BSU39940	937661	P42111	yxaK	hypothetical protein	Intermodular
+yxaM	BSU39930	937678	P42112		MFS transporter	Basal machinery
+yxbA	BSU39900		P46325	aslA,yxaO		Basal machinery
+yxbB	BSU39890	937673	P46326	yxaP	hypothetical protein	Basal machinery
+yxbC	BSU39880	937640	P46327	yxaQ	hypothetical protein	Basal machinery
+yxbD	BSU39870	937655	P46328	yxaR	hypothetical protein	Basal machinery
+yxbG	BSU39840	937642	P46331	E3BR,yxaU	oxidoreductase	Basal machinery
+yxdJ	BSU39660	937599	P42421		transcriptional regulator	M40
+yxdL	BSU39640	937596	P42423		ABC transporter ATP-binding protein	M40
+yxdM	BSU39630	937589	P42424		ABC transporter permease	M40
+yxeA	BSU39620	937612	P54940		hypothetical protein	M40
+yxeB	BSU39610	937581	P54941		iron(3+)-hydroxamate-binding protein YxeB	Basal machinery
+yxeD	BSU39590	937597	P54943		hypothetical protein	Basal machinery
+yxeE	BSU39580	936477	P54944		hypothetical protein	Basal machinery
+yxeK	BSU39520	937570	P54950		monooxygenase YxeK	Basal machinery
+yxeL	BSU39510	937563	P54951	snaB	N-acetyltransferase YxeL	Basal machinery
+yxeM	BSU39500	937568	P54952		amino acid-binding protein YxeM	Basal machinery
+yxeN	BSU39490	937554	P54953		amino acid permease protein YxeN	Basal machinery
+yxeO	BSU39480	937555	P54954		amino acid import ATP-binding protein YxeO	Basal machinery
+yxeP	BSU39470	937572	P54955	sndB	hydrolase YxeP	Basal machinery
+yxeQ	BSU39460	938528	P54956		hypothetical protein	Basal machinery
+yxiE	BSU39250	937971	P42297		universal stress protein YxiE	M57
+yxiO	BSU39100	937480	P42306	S3AR	MFS transporter	Basal machinery
+yxiS	BSU39040	937467	P42310		hypothetical protein	Basal machinery
+yxjB	BSU39010	937456	P42313		23S rRNA (guanine-N(1)-)-methyltransferase YxjB	M55
+yxjC	BSU39000	937455	P42314	hbuT	transporter	Basal machinery
+yxjF	BSU38970	937450	P42317		oxidoreductase	Basal machinery
+yxjI	BSU38940	937439	P94352		hypothetical protein	Basal machinery
+yxjJ	BSU38930	937454	P94353		hypothetical protein	Basal machinery
+yxkC	BSU38850	937416	P94356		hypothetical protein	Basal machinery
+yxkF	BSU38820	937413	P94359		hypothetical protein	Basal machinery
+yxkH	BSU38800	937411	P94361		polysaccharide deacetylase	Basal machinery
+yxlC	BSU38690	938082	P94371		hypothetical protein	M118
+yxlD	BSU38680	937398	P94372		negative regulatory protein YxlD	M118
+yxlE	BSU38670	937395	P94373		negative regulatory protein YxlE	M118
+yxlF	BSU38660	938137	P94374		ABC transporter ATP-binding protein	M118
+yxlG	BSU38650	937394	P94375		transmembrane protein YxlG	M118
+yxlJ	BSU38620	937391	P94378	aag	3-methyladenine DNA glycosylase	Basal machinery
+yxnA	BSU40000	937698	O32291		oxidoreductase	Basal machinery
+yxnB	BSU39910	937643	O34704		hypothetical protein	Basal machinery
+yxzE	BSU38790	937409	O32284		hypothetical protein	Basal machinery
+yxzF	BSU38610	937390	O32283		hypothetical protein	Basal machinery
+yyaC	BSU40950	937925	P37521		hypothetical protein	Basal machinery
+yyaD	BSU40940	937923	P37520		hypothetical protein	Basal machinery
+yybI	BSU40630	937811	P37495		hypothetical protein	Basal machinery
+yybJ	BSU40620	937807	P37494		ABC transporter ATP-binding protein	Intermodular
+yybK	BSU40610	938116	P37493		hypothetical protein	Intermodular
+yybL	BSU40600	936529	P37492		hypothetical protein	Intermodular
+yybM	BSU40590	937824	P37491		hypothetical protein	Intermodular
+yybN	BSU40580	937850	P37490		hypothetical protein	Intermodular
+yybO	BSU40570	937836	P37489		transporter	Basal machinery
+yybR	BSU40540	937825	P37486	hypR	HTH-type transcriptional regulator YybR	M70
+yycA	BSU40490	937828	P37483		mannosyltransferase YycA	M8
+yycB	BSU40480	937777	P37482		transporter	Basal machinery
+yycC	BSU40470	937823	P37481		hypothetical protein	Basal machinery
+yycD	BSU40450	937781	P37480		hypothetical protein	Basal machinery
+yycF	BSU40410		P37478	walR		M25.3
+yycO	BSU40280	937766	Q45607		hypothetical protein	Basal machinery
+yycP	BSU40270	937764	Q45606		hypothetical protein	Basal machinery
+yycQ	BSU40260	937733	Q45605		hypothetical protein	Basal machinery
+yydC	BSU40210	937731	Q45599		hypothetical protein	Basal machinery
+yydF	BSU40180	937753	Q45596		hypothetical protein	M25.7
+yydG	BSU40170	937720	Q45595		peptide biosynthesis protein YydG	M25.7
+yydH	BSU40160	937745	Q45594		peptide zinc metalloprotease protein YydH	M25.7
+yydI	BSU40150	937743	Q45593		peptide export ATP-binding protein YydI	M25.7
+yydJ	BSU40140	937730	Q45592		peptide export permease protein YydJ	M25.7
+yyxA	BSU40360		P39668	yycK,htrC		Basal machinery
+yyzG	BSU40259	8303112	C0H3U0		membrane protein	Basal machinery
+yyzH	BSU40529	8302993	C0H3U2		membrane protein	Basal machinery
+znuA	BSU02850		O34966	ycdH,adcA		M19
+znuB	BSU02870		O34610	yceA,adcB		M19
+znuC	BSU02860		O34946	adcC,ycdI		M19
+zosA	BSU13850	939268	O31688	pfeT,ykvW	zinc-transporting ATPase	M25.16
+zur	BSU25100	937968	P54479	yqfV	zinc-specific metallo-regulatory protein	M19

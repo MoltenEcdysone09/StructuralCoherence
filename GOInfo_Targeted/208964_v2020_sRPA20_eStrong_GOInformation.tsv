@@ -1,0 +1,800 @@
+Node	MeanAbsOutCoh	MeanAbsInCoh	NodeLevel	DiagCohval	Locus_tag	NCBI_gene_ID	Uniprot_ID	Synonyms	Product_function	NDA_component	Uniprot_ID_clean	GO_terms	Is_TF_GO	Is_SignalingReceptor_GO	Is_HistKinase_GO	Is_SignallingTransducer_GO
+PA5085	1.0		Input		PA5085					M54		[]	False	False	False	False
+PA5083		1.0	Output		PA5083					M54		[]	False	False	False	False
+PA5082		1.0	Output		PA5082					M54		[]	False	False	False	False
+dadA2		1.0	Output		PA5084	880266	Q9HU99		oxidoreductase	M54	Q9HU99	['GO:0008718']	False	False	False	False
+cifR	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	PA2931	PseudoCap:PA2931	Q9HZR6		CifR protein	M51	Q9HZR6	['GO:0001217', 'GO:0000976']	True	False	False	False
+morB		0.3678794411714786	Output		PA2932	878999	Q9HZR5		morphinone reductase	M51	Q9HZR5	['GO:0010181', 'GO:0016628']	False	False	False	False
+cif		0.3678794411714786	Output		PA2934	PseudoCap:PA2934	Q9HZR3		CFTR inhibitory factor	M51	Q9HZR3	['GO:0004301', 'GO:0016787']	False	False	False	False
+cmpX	1.0		Input		PA1775	877590	G3XCV6		hypothetical protein	M39	G3XCV6	[]	False	False	False	False
+exoS		0.7926959595726352	Output		PA3841	879837	G3XDA1		exoenzyme S	M39	G3XDA1	['GO:0005096', 'GO:0106274', 'GO:0016779', 'GO:0090729']	False	False	False	False
+rsmY		1.0	Output		PA0527.1	4179186		RsmY	regulatory RNA RsmY	M39		[]	False	False	False	False
+oprF		0.9651492787611489	Output		PA1777	878442	P13794		porin	M39	P13794	['GO:0005509', 'GO:0001851', 'GO:0015288']	False	False	False	False
+sigX		1.0	Output		PA1776	878527	Q9I2W5		RNA polymerase sigma factor SigX	Global regulator	Q9I2W5	['GO:0003677', 'GO:0016987']	True	False	False	False
+mvfR	0.36787944117147864	0.5953571565866898	Middle	-0.3678794411714786	PA1003	PseudoCap:PA100	Q9I4X0		transcriptional regulator MvfR	Global regulator	Q9I4X0	['GO:0003677', 'GO:0003700']	True	False	False	False
+phnB		0.7330508375634555	Output		PA1002	880689	P09786		anthranilate synthase component II	Basal machinery	P09786	['GO:0004048', 'GO:0004049']	False	False	False	False
+phnA		0.7402656797914702	Output		PA1001	878421	P09785		anthranilate synthase component I	M30	P09785	['GO:0004049', 'GO:0046872']	False	False	False	False
+pqsD		0.7527811712662452	Output		PA0999	880625	P20582		3-oxoacyl-ACP synthase	Basal machinery	P20582	['GO:0004315', 'GO:0016746']	False	False	False	False
+pqsE		0.7527811712662452	Output		PA1000	880721	P20581		quinolone signal response protein	Basal machinery	P20581	['GO:0016787', 'GO:0046872']	False	False	False	False
+pqsA		0.7594627612320224	Output		PA0996	880760	Q9I4X3		coenzyme A ligase	M30	Q9I4X3	['GO:0016878', 'GO:0018860', 'GO:0005524']	False	False	False	False
+pqsB		0.7527811712662452	Output		PA0997	883098	Q9I4X2		PqsB protein	Basal machinery	Q9I4X2	['GO:0016746']	False	False	False	False
+pqsC		0.7527811712662452	Output		PA0998	880660	Q9I4X1		PqsC protein	Basal machinery	Q9I4X1	['GO:0004315']	False	False	False	False
+rhlI		0.7875739237136355	Output		PA3476	878967	P54291	vsmI	autoinducer synthesis protein RhlI	Basal machinery	P54291	['GO:0061579']	False	False	False	False
+lrp	1.0	1.0	Middle	1.0	PA5308	878436	Q9HTP6		leucine-responsive regulatory protein	M49	Q9HTP6	['GO:0043565']	False	False	False	False
+dadA1		1.0	Output		PA5304	878057	Q9HTQ0	dadA	D-amino acid dehydrogenase small subunit	M49	Q9HTQ0	['GO:0008718']	False	False	False	False
+dadX		1.0	Output		PA5302	878055	Q9HTQ2		alanine racemase	M49	Q9HTQ2	['GO:0008784', 'GO:0030170']	False	False	False	False
+PA2100	1.0		Input		PA2100					M4		[]	False	False	False	False
+PA5159		1.0	Output		PA5159					M4		[]	False	False	False	False
+PA5160		1.0	Output		PA5160					M4		[]	False	False	False	False
+mexB		0.9752065187014125	Output		PA0426	877852	P52002		resistance-nodulation-cell division (RND) multidrug efflux transporter MexB	M4	P52002	['GO:0015562', 'GO:0042910']	False	False	False	False
+oprM		0.9752065187014125	Output		PA0427	877851	Q51487	oprK	multidrug ABC transporter	M4	Q51487	['GO:0015562', 'GO:0022857']	False	False	False	False
+mexA		0.7815941265961589	Output		PA0425	877855	P52477		resistance-nodulation-cell division (RND) multidrug efflux membrane fusion protein MexA	M4	P52477	['GO:0015562', 'GO:0042802']	False	False	False	False
+amgR	1.0		Input		PA5200	880301	Q9HTY9		osmolarity response regulator	M4	Q9HTY9	['GO:0000156', 'GO:0000976']	False	False	False	True
+cyaB	0.9012738754287494		Input		PA3217	882555	Q9HZ23		protein CyaB	Basal machinery	Q9HZ23	['GO:0004016']	False	False	False	False
+exsA	0.8278034189034529	0.7548583487143615	Middle	0.5816255144477953	PA1713	879712	P26993		transcriptional regulator ExsA	Global regulator	P26993	['GO:0001216', 'GO:0043565', 'GO:0000976']	True	False	False	False
+aguR	1.0		Input		PA0294	880857	Q9I6J7		transcriptional regulator AguR	M44	Q9I6J7	['GO:0003700', 'GO:0000976']	True	False	False	False
+aguB		1.0	Output		PA0293	880699	Q9I6J8		N-carbamoylputrescine amidohydrolase	M44	Q9I6J8	['GO:0050126']	False	False	False	False
+aguA		1.0	Output		PA0292	879730	Q9I6J9		agmatine deiminase	M44	Q9I6J9	['GO:0047632', 'GO:0004668']	False	False	False	False
+bexR	1.0	1.0	Middle	1.0	PA2432	882852	Q9I150		bistable expression regulator, BexR	M43	Q9I150	['GO:0003700', 'GO:0043565']	True	False	False	False
+aprA		0.9780701675317887	Output		PA1249	881248	Q03023		alkaline metalloproteinase	M43	Q03023	['GO:0005509', 'GO:0004222', 'GO:0008233', 'GO:0008270']	False	False	False	False
+PA1202		1.0	Output		PA1202					M43		[]	False	False	False	False
+PA1203		1.0	Output		PA1203					M43		[]	False	False	False	False
+PA1204		1.0	Output		PA1204					M43		[]	False	False	False	False
+PA1205		1.0	Output		PA1205					M43		[]	False	False	False	False
+PA0572		1.0	Output		PA0572					M43		[]	False	False	False	False
+cdhR	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	PA5389	PseudoCap:PA5389	Q9HTH5		CdhR family transcriptional regulator	M50	Q9HTH5	['GO:0003700', 'GO:0043565']	True	False	False	False
+PA5384		0.3678794411714786	Output		PA5384					M50		[]	False	False	False	False
+cdhC		0.3678794411714786	Output		PA5387	PseudoCap:PA5387	Q9HTH7		carnitine dehydrogenase	M50	Q9HTH7	['GO:0043720', 'GO:0046872']	False	False	False	False
+cdhB		0.3678794411714786	Output		PA5385	PseudoCap:PA5385	Q9HTH9		carnitine dehydrogenase	M50	Q9HTH9	['GO:0047617']	False	False	False	False
+PA5388		0.965964283498512	Output		PA5388					M50		[]	False	False	False	False
+lcdH		0.3678794411714786	Output		PA5386	PseudoCap:PA5386	Q9HTH8	cdhA	3-hydroxybutyryl-CoA dehydrogenase	M50	Q9HTH8	['GO:0047728', 'GO:0070403', 'GO:0016491']	False	False	False	False
+rpoS	0.9192996245218712	0.955080838627516	Middle		PA3622	880421	P45684		RNA polymerase sigma factor RpoS	Global regulator	P45684	['GO:0003677', 'GO:0016987']	True	False	False	False
+exsE	0.9621661431315749	0.7874120529841131	Middle	-0.9687038661860073	PA1711	880941	Q9I322		ExsE protein	M21	Q9I322	['GO:0051087']	False	False	False	False
+coIII		0.9666838721802417	Output		PA0108	882001	Q9I724		cytochrome C oxidase subunit III	Basal machinery	Q9I724	['GO:0004129']	False	False	False	False
+exsC	0.9293928125151127	0.6333007194279328	Middle	0.7508083240749217	PA1710	878452	P26995		exoenzyme S synthesis protein C	M21	P26995	[]	False	False	False	False
+cioA		0.9686436444049332	Output		PA3930	879045	G3XCW8		cyanide insensitive terminal oxidase	Basal machinery	G3XCW8	['GO:0009055', 'GO:0020037', 'GO:0046872', 'GO:0016682']	False	False	False	False
+cioB		0.9686436444049332	Output		PA3929	879044	G3XD05		cyanide insensitive terminal oxidase	Basal machinery	G3XD05	['GO:0009055', 'GO:0016682']	False	False	False	False
+PA0107		0.9666838721802417	Output		PA0107					Basal machinery		[]	False	False	False	False
+coxB		0.9686436444049332	Output		PA0105	881940	Q9I727		cytochrome C oxidase subunit II	Basal machinery	Q9I727	['GO:0005507', 'GO:0004129', 'GO:0020037']	False	False	False	False
+exsB		0.788408048086846	Output		PA1712	878557	P26994		exoenzyme S synthesis protein B	M12	P26994	[]	False	False	False	False
+coxA		0.9686436444049332	Output		PA0106	881877	Q9I726		cytochrome C oxidase subunit I	Basal machinery	Q9I726	['GO:0004129', 'GO:0020037', 'GO:0046872']	False	False	False	False
+azu		0.9666838721802417	Output		PA4922	878046	P00282		azurin	Basal machinery	P00282	['GO:0005507', 'GO:0009055', 'GO:0042802', 'GO:0046914', 'GO:0008270']	False	False	False	False
+clpX	0.8791809787996321		Input		PA1802	878307	Q9I2U0		ATP-dependent protease ATP-binding subunit ClpX	Basal machinery	Q9I2U0	['GO:0005524', 'GO:0016887', 'GO:0140662', 'GO:0046983', 'GO:0051082', 'GO:0008270']	False	False	False	False
+algU	0.8569673003594032	0.9399921897052584	Middle	0.700827590100332	PA0762	882125	Q06198	algT	RNA polymerase sigma factor AlgU	Global regulator	Q06198	['GO:0001216', 'GO:0016987', 'GO:0000976']	True	False	False	False
+cysB	0.36787944117147847	0.3678794411714786	Middle	-0.3678794411714786	PA1754	883007	G3XCU6		transcriptional regulator CysB	Global regulator	G3XCU6	['GO:0003700', 'GO:0000976']	True	False	False	False
+algJ		0.8936189874863367	Output		PA3549	878716	Q51393		alginate o-acetyltransferase AlgJ	Basal machinery	Q51393	['GO:0016746']	False	False	False	False
+algX		0.8936189874863367	Output		PA3546	878551	Q51372		alginate biosynthesis protein AlgX	Basal machinery	Q51372	['GO:0016746']	False	False	False	False
+msuD		0.3678794411714786	Output		PA2356	879651	Q9I1C2		methanesulfonate sulfonatase MsuD	Basal machinery	Q9I1C2	['GO:0008726']	False	False	False	False
+algG		0.8936189874863367	Output		PA3545	879839	Q51371		alginate-c5-mannuronan-epimerase AlgG	Basal machinery	Q51371	['GO:0016853']	False	False	False	False
+cysH		0.3678794411714786	Output		PA1756	878560	O05927		phosphoadenosine phosphosulfate reductase	Basal machinery	O05927	['GO:0051539', 'GO:0043866', 'GO:0046872', 'GO:0004604']	False	False	False	False
+msuC		0.3678794411714786	Output		PA2355	879208	Q9I1C3		FMNH2-dependent monooxygenase	Basal machinery	Q9I1C3	['GO:0008470', 'GO:0050660', 'GO:0004497']	False	False	False	False
+alg8		0.8936189874863367	Output		PA3541	879005	Q52463		alginate biosynthesis protein Alg8	Basal machinery	Q52463	['GO:0047643', 'GO:0050501']	False	False	False	False
+retS		0.3678794411714786	Output		PA4856	877881	Q9HUV7		RetS protein	Basal machinery	Q9HUV7	['GO:0005524', 'GO:0000155']	False	False	False	False
+algK		0.8936189874863367	Output		PA3543	878771	P96956		alginate biosynthetic protein AlgK	Basal machinery	P96956	[]	False	False	False	False
+algI		0.8936189874863367	Output		PA3548	877959	Q51392		alginate o-acetyltransferase AlgI	Basal machinery	Q51392	['GO:0016746']	False	False	False	False
+pvdS		0.9097074697502866	Output		PA2426	882839	G3XCV1		extracytoplasmic-function sigma-70 factor	M32.1	G3XCV1	['GO:0001216', 'GO:0016987', 'GO:0000976']	True	False	False	False
+algL		0.8936189874863367	Output		PA3547	878552	Q06749		poly(beta-D-mannuronate) lyase	Basal machinery	Q06749	['GO:0045135', 'GO:0004794']	False	False	False	False
+alg44		0.8936189874863367	Output		PA3542	878770	Q9HY69		alginate biosynthesis protein Alg44	Basal machinery	Q9HY69	['GO:0047643', 'GO:0015125', 'GO:0035438', 'GO:0004467']	False	False	False	False
+algA		0.8936189874863367	Output		PA3551	879142	P07874	pmi	phosphomannose isomerase / guanosine 5'-diphospho-D-mannose pyrophosphorylase	Basal machinery	P07874	['GO:0005525', 'GO:0004475', 'GO:0004476']	False	False	False	False
+algF		0.8936189874863367	Output		PA3550	878717	Q06062		alginate o-acetyltransferase AlgF	Basal machinery	Q06062	[]	False	False	False	False
+msuE		0.3678794411714786	Output		PA2357	882283	O31038	slfA	NADH-dependent FMN reductase MsuE	Basal machinery	O31038	['GO:0052873', 'GO:0016655']	False	False	False	False
+algD		0.8860335382059141	Output		PA3540	879004	P11759		GDP-mannose 6-dehydrogenase AlgD	M5	P11759	['GO:0047919', 'GO:0051287']	False	False	False	False
+algE		0.8936189874863367	Output		PA3544	879838	P18895	alg76	Alginate production outer membrane protein AlgE	Basal machinery	P18895	[]	False	False	False	False
+rpoN	0.9568126088047282		Input		PA4462	881022	P49988		RNA polymerase factor sigma-54	Global regulator	P49988	['GO:0001216', 'GO:0016779', 'GO:0016987', 'GO:0000976']	True	False	False	False
+PA1196	1.0	1.0	Middle		PA1196					M40		[]	False	False	False	False
+lasR	0.9400949241149841	0.9737283664180644	Middle	-0.9892264281582444	PA1430	881789	P25084		transcriptional regulator LasR	Global regulator	P25084	['GO:0001216', 'GO:0003700', 'GO:0043565', 'GO:0000976']	True	False	False	False
+nirD		1.0	Output		PA1780	878289	Q9I2W2		assimilatory nitrite reductase small subunit	Basal machinery	Q9I2W2	['GO:0051537', 'GO:0046872', 'GO:0008942']	False	False	False	False
+PA1785		1.0	Output		PA1785					Basal machinery		[]	False	False	False	False
+nirB		1.0	Output		PA1781	877714	Q9I2W1		assimilatory nitrite reductase large subunit	Basal machinery	Q9I2W1	['GO:0051537', 'GO:0051539', 'GO:0050660', 'GO:0020037', 'GO:0046872', 'GO:0050661', 'GO:0098809']	False	False	False	False
+glnK		1.0	Output		PA5288	878342	Q9HTR6		nitrogen regulatory protein P-II 2	Basal machinery	Q9HTR6	['GO:0005524', 'GO:0030234']	False	False	False	False
+rsaL		0.9772869957003947	Output		PA1431	881782	G3XD78		regulatory protein RsaL	Global regulator	G3XD78	['GO:0003677', 'GO:0001217', 'GO:0000976']	True	False	False	False
+amtB		1.0	Output		PA5287	879509	Q9HTR7		ammonium transporter	Basal machinery	Q9HTR7	['GO:0008519']	False	False	False	False
+PA2449	1.0	1.0	Middle		PA2449					M31		[]	False	False	False	False
+nosY		1.0	Output		PA3395	879978	Q9HYK9		NosY protein	Basal machinery	Q9HYK9	['GO:0140359']	False	False	False	False
+pqsH		0.9772869879687894	Output		PA2587	879540	Q9I0Q0		FAD-dependent monooxygenase	Basal machinery	Q9I0Q0	['GO:0102164', 'GO:0071949', 'GO:0004497']	False	False	False	False
+nosR		0.8324297681570669	Output		PA3391	879823	Q9HYL3		regulatory protein NosR	Basal machinery	Q9HYL3	['GO:0003677', 'GO:0010181']	False	False	False	False
+nosZ		1.0	Output		PA3392	879824	Q9HYL2		nitrous-oxide reductase	Basal machinery	Q9HYL2	['GO:0005509', 'GO:0005507', 'GO:0004129', 'GO:0050304']	False	False	False	False
+mifR	1.0	1.0	Middle		PA5511	878064	Q9HT62		MifR protein	M24	Q9HT62	['GO:0005524', 'GO:0000987', 'GO:0001216']	True	False	False	False
+nasA		1.0	Output		PA1783	877748	Q9I2V9		nitrate transporter	Basal machinery	Q9I2V9	['GO:0015112', 'GO:0015113']	False	False	False	False
+nosD		1.0	Output		PA3393	880013	Q9HYL1		NosD protein	Basal machinery	Q9HYL1	[]	False	False	False	False
+nosF		1.0	Output		PA3394	879977	Q9HYL0		NosF protein	Basal machinery	Q9HYL0	['GO:0005524', 'GO:0016887']	False	False	False	False
+algB	1.0	0.9430230420654706	Middle		PA5483	877696	P23747		two-component response regulator AlgB	M5	P23747	['GO:0005524', 'GO:0016887', 'GO:0000987', 'GO:0001216']	True	False	False	False
+lasI		0.9672326131647491	Output		PA1432	881777	P33883		autoinducer synthesis protein LasI	M1	P33883	['GO:0061579']	False	False	False	False
+nosL		1.0	Output		PA3396	879912	Q9HYK8		NosL protein	Basal machinery	Q9HYK8	[]	False	False	False	False
+hcpA		1.0	Output		PA5267		Q9HI36	PA0263,PA5267,hcpC,PA1512		Basal machinery	Q9HI36	[]	False	False	False	False
+PA1786		1.0	Output		PA1786					Basal machinery		[]	False	False	False	False
+PA2005		1.0	Output		PA2005					Basal machinery		[]	False	False	False	False
+gltR	1.0	1.0	Middle		PA3192	882907	G3XCY6		two-component response regulator GltR	M18	G3XCY6	['GO:0000156', 'GO:0000976']	False	False	False	True
+oprB		1.0	Output		PA3186	882788	Q51485		glucose/carbohydrate outer membrane porin OprB	M18	Q51485	['GO:0015288']	False	False	False	False
+glk		1.0	Output		PA3193	882908	Q9HZ46		glucokinase	M18	Q9HZ46	['GO:0005524', 'GO:0005536', 'GO:0004340']	False	False	False	False
+edd		1.0	Output		PA3194	882909	P31961		phosphogluconate dehydratase	M18	P31961	['GO:0051539', 'GO:0046872', 'GO:0004456']	False	False	False	False
+eta		0.9397797770926114	Output		PA1148	877850	P11439	toxA,sodM	exotoxin A	M18	P11439	['GO:0047286', 'GO:0016779', 'GO:0090729']	False	False	False	False
+bfiS	0.9706376475845206		Input		PA4197	880350	Q9HWI4		protein BfiS	M34	Q9HWI4	['GO:0000155']	False	False	False	False
+gacA	0.9524174767418022	1.0	Middle		PA2586	880582	Q51373		response regulator GacA	Global regulator	Q51373	['GO:0003677']	False	False	False	False
+gacS	0.960528765733303	1.0	Middle		PA0928	880882	G3XD98		sensor/response regulator hybrid	M34	G3XD98	['GO:0005524', 'GO:0046872', 'GO:0000155']	False	False	False	False
+cafA		1.0	Output		PA4477	881046	Q9HVU4		cytoplasmic axial filament protein	M34	Q9HVU4	['GO:0004519', 'GO:0016787', 'GO:0046872', 'GO:0004540', 'GO:0019843', 'GO:0000049']	False	False	False	False
+PA1195		1.0	Output		PA1195					M40		[]	False	False	False	False
+PA2047	1.0		Input		PA2047					M13		[]	False	False	False	False
+mexF		0.9664921501288499	Output		PA2494	882884	Q9I0Y8		resistance-nodulation-cell division (RND) multidrug efflux transporter MexF	M13	Q9I0Y8	['GO:0015562', 'GO:0042910']	False	False	False	False
+mexE		0.9664921501288499	Output		PA2493	880212	Q9I0Y9		resistance-nodulation-cell division (RND) multidrug efflux membrane fusion protein MexE	M13	Q9I0Y9	['GO:0022857']	False	False	False	False
+oprN		0.9664921501288499	Output		PA2495	882885	Q9I0Y7		Multidrug efflux outer membrane protein OprN	M13	Q9I0Y7	['GO:0015562', 'GO:0022857']	False	False	False	False
+gbuR	0.9663086000672448	0.9470134957404087	Middle	-0.9892264281582444	PA1422	881769	Q9I3S2		protein GbuR	M7	Q9I3S2	['GO:0003700', 'GO:0000976']	True	False	False	False
+glpR	0.9603152058827975	0.9576061512032068	Middle	-0.9892264281582444	PA3583	880163	Q51391		glycerol-3-phosphate regulon repressor	M7	Q51391	['GO:0000987', 'GO:0098531']	True	False	False	False
+acoR	1.0		Input		PA4147	880118	Q9HWN4		transcriptional regulator AcoR	M28	Q9HWN4	['GO:0005524', 'GO:0000987', 'GO:0001216']	True	False	False	False
+acoB		1.0	Output		PA4151	880055	Q9HWN0		acetoin catabolism protein AcoB	M28	Q9HWN0	['GO:0016491']	False	False	False	False
+PA4148		1.0	Output		PA4148					M28		[]	False	False	False	False
+PA4149		1.0	Output		PA4149					M28		[]	False	False	False	False
+PA4150		1.0	Output		PA4150					M28		[]	False	False	False	False
+PA4153		1.0	Output		PA4153					M28		[]	False	False	False	False
+PA4152		1.0	Output		PA4152					M28		[]	False	False	False	False
+dnr	1.0	1.0	Middle	1.0	PA0527	882180	G3XCW6		transcriptional regulator Dnr	Global regulator	G3XCW6	['GO:0001216', 'GO:0003700', 'GO:0000976']	True	False	False	False
+narK2		0.972695215802179	Output		PA3876	879781	Q9HXD4	nark1	nitrite extrusion protein 2	Basal machinery	Q9HXD4	['GO:0015112', 'GO:0015113', 'GO:0015291']	False	False	False	False
+narK1		0.972695215802179	Output		PA3877	878320	G3XD60	nark2	nitrite extrusion protein 1	Basal machinery	G3XD60	['GO:0015112']	False	False	False	False
+nirQ		1.0	Output		PA0520	882214	Q51481		regulatory protein NirQ	Basal machinery	Q51481	['GO:0005524', 'GO:0016887', 'GO:0003677']	False	False	False	False
+narX		1.0	Output		PA3878	878321	G3XD66		two-component sensor NarX	Basal machinery	G3XD66	['GO:0005524', 'GO:0000155', 'GO:0046983']	False	False	False	False
+nirS		0.8333123824245469	Output		PA0519	882217	P24474		nitrite reductase	Basal machinery	P24474	['GO:0009055', 'GO:0020037', 'GO:0050418', 'GO:0046872', 'GO:0050421']	False	False	False	False
+nirE		1.0	Output		PA0510	881871	G3XD80		uroporphyrin-III C-methyltransferase	Basal machinery	G3XD80	['GO:0016829', 'GO:0008168', 'GO:0016491', 'GO:0004851']	False	False	False	False
+nirG		1.0	Output		PA0513	877708	P95414		transcriptional regulator	Basal machinery	P95414	['GO:0016829']	False	False	False	False
+nirF		1.0	Output		PA0516	882198	Q51480		heme d1 biosynthesis protein NirF	Basal machinery	Q51480	[]	False	False	False	False
+narI		0.972695215802179	Output		PA3872	878884	G3XD18		respiratory nitrate reductase subunit gamma	Basal machinery	G3XD18	['GO:0009055', 'GO:0020037', 'GO:0046872', 'GO:0008940']	False	False	False	False
+narH		0.972695215802179	Output		PA3874	879783	G3XD87		respiratory nitrate reductase subunit beta	Basal machinery	G3XD87	['GO:0051538', 'GO:0051539', 'GO:0046872', 'GO:0008940']	False	False	False	False
+nirC		1.0	Output		PA0517	879462	Q51479		cytochrome C	Basal machinery	Q51479	['GO:0009055', 'GO:0020037', 'GO:0046872']	False	False	False	False
+narJ		0.972695215802179	Output		PA3873	879782	G3XCY9		respiratory nitrate reductase subunit delta	Basal machinery	G3XCY9	['GO:0016530', 'GO:0051082']	False	False	False	False
+nirM		1.0	Output		PA0518	882220	P00099		cytochrome C-551	Basal machinery	P00099	['GO:0009055', 'GO:0020037', 'GO:0005506']	False	False	False	False
+nirL		1.0	Output		PA0514	879762	P95413		heme d1 biosynthesis protein NirL	Basal machinery	P95413	['GO:0016829']	False	False	False	False
+narG		0.972695215802179	Output		PA3875	879780	G3XCX1		respiratory nitrate reductase subunit alpha	Basal machinery	G3XCX1	['GO:0051539', 'GO:0046872', 'GO:0043546', 'GO:0160182']	False	False	False	False
+nirN		1.0	Output		PA0509	878428	Q9I609		cytochrome C	Basal machinery	Q9I609	['GO:0009055', 'GO:0020037', 'GO:0046872', 'GO:0016491']	False	False	False	False
+nirH		1.0	Output		PA0512	877584	P95415		hypothetical protein	Basal machinery	P95415	['GO:0016829']	False	False	False	False
+nirJ		1.0	Output		PA0511	879503	G3XD10		heme d1 biosynthesis protein NirJ	Basal machinery	G3XD10	['GO:0051539', 'GO:0003824', 'GO:0046872']	False	False	False	False
+norB		1.0	Output		PA0524	882193	Q59647		nitric-oxide reductase subunit B	Basal machinery	Q59647	['GO:0004129', 'GO:0020037', 'GO:0046872', 'GO:0016966']	False	False	False	False
+norC		1.0	Output		PA0523	882200	Q59646		nitric-oxide reductase subunit C	Basal machinery	Q59646	['GO:0009055', 'GO:0020037', 'GO:0046872']	False	False	False	False
+hemN		1.0	Output		PA1546	883053	P77915		coproporphyrinogen III oxidase	Basal machinery	P77915	['GO:0051539', 'GO:0051989', 'GO:0004109', 'GO:0046872']	False	False	False	False
+narL		1.0	Output		PA3879	878838	Q9HXD3		transcriptional regulator NarL	Basal machinery	Q9HXD3	['GO:0003700', 'GO:0001217', 'GO:0000976']	True	False	False	False
+hemA		0.972695215802179	Output		PA4666	881361	P42807		glutamyl-tRNA reductase	Basal machinery	P42807	['GO:0008883', 'GO:0050661']	False	False	False	False
+hemF		1.0	Output		PA0024	880901	P43898		coproporphyrinogen III oxidase	Basal machinery	P43898	['GO:0004109', 'GO:0046872', 'GO:0042803']	False	False	False	False
+anr	1.0	1.0	Middle	1.0	PA1544	883009	P23926		transcriptional regulator Anr	Global regulator	P23926	['GO:0003677', 'GO:0003700']	True	False	False	False
+aroE		1.0	Output		PA0025	879716	Q9I6P4		shikimate 5-dehydrogenase	Basal machinery	Q9I6P4	['GO:0050661', 'GO:0004764']	False	False	False	False
+pmrB	1.0	1.0	Middle	1.0	PA4777	881841	Q9HV31		two-component regulator system signal sensor kinase PmrB	Basal machinery	Q9HV31	['GO:0005524', 'GO:0000155']	False	False	False	False
+pmrA	1.0	1.0	Middle	1.0	PA4776	881834	Q9HV32		two-component regulator system response regulator PmrA	Global regulator	Q9HV32	['GO:0000156', 'GO:0000976']	False	False	False	True
+cbrB	1.0	1.0	Middle	1.0	PA4726	881609	Q9HV73		two-component response regulator CbrB	Global regulator	Q9HV73	['GO:0005524', 'GO:0000987', 'GO:0001216', 'GO:0000976']	True	False	False	False
+aotP		1.0	Output		PA0892	882247	O30506		arginine/ornithine transporter AotP	Basal machinery	O30506	['GO:0015424', 'GO:0005524', 'GO:0016887']	False	False	False	False
+aotQ		1.0	Output		PA0889	882205	Q9I557		arginine/ornithine transporter AotQ	Basal machinery	Q9I557	['GO:0022857']	False	False	False	False
+spuH		1.0	Output		PA0304	878265	Q9I6I7		polyamine transporter PotI	Basal machinery	Q9I6I7	['GO:0015417']	False	False	False	False
+spuI		1.0	Output		PA0296	PseudoCap:PA029	Q9I6J5		glutamine synthetase	Basal machinery	Q9I6J5	['GO:0005524', 'GO:0004356']	False	False	False	False
+spuF		1.0	Output		PA0302	877636	Q9I6I9		polyamine transporter PotG	Basal machinery	Q9I6I9	['GO:0015417', 'GO:0140359', 'GO:0005524', 'GO:0016887']	False	False	False	False
+spuG		1.0	Output		PA0303	880687	Q9I6I8		polyamine transporter PotH	Basal machinery	Q9I6I8	['GO:0015417']	False	False	False	False
+spuE		1.0	Output		PA0301	877626	Q9I6J0		polyamine transporter	Basal machinery	Q9I6J0	['GO:0019809']	False	False	False	False
+spuB		1.0	Output		PA0298	880835	Q9I6J3		glutamine synthetase	Basal machinery	Q9I6J3	['GO:0005524', 'GO:0004356']	False	False	False	False
+spuC		1.0	Output		PA0299	878357	Q9I6J2		aminotransferase	Basal machinery	Q9I6J2	['GO:0004015', 'GO:0030170', 'GO:0008483']	False	False	False	False
+spuA		1.0	Output		PA0297	880604	Q9I6J4		glutamine amidotransferase	Basal machinery	Q9I6J4	['GO:0033969', 'GO:0046872']	False	False	False	False
+csrA		0.972727410606227	Output		PA0905	878352	O69078	rsmA	carbon storage regulator	M32.1	O69078	['GO:0048027']	False	False	False	False
+lip		0.9849521957999978	Output		PA2862	882662	P26876	lipA	lactonizing lipase	Basal machinery	P26876	['GO:0016298', 'GO:0046872', 'GO:0004806']	False	False	False	False
+spuD		1.0	Output		PA0300	880655	Q9I6J1		polyamine transporter	Basal machinery	Q9I6J1	['GO:0019810']	False	False	False	False
+aotM		1.0	Output		PA0890	880652	G3XCZ5		arginine/ornithine transporter AotM	Basal machinery	G3XCZ5	['GO:0022857']	False	False	False	False
+PA4726.11		1.0	Output		PA4726.11	9793394		crcZ	CrcZ	Basal machinery		[]	False	False	False	False
+hutU		1.0	Output		PA5100	880890	Q9HU83		urocanate hydratase	Basal machinery	Q9HU83	['GO:0016153']	False	False	False	False
+aotJ		1.0	Output		PA0888	879210	G3XD47		arginine/ornithine binding protein AotJ	M53	G3XD47	['GO:0016597']	False	False	False	False
+phoQ	1.0	1.0	Middle	1.0	PA1180	879187	Q9I4F8		two-component sensor PhoQ	M15	Q9I4F8	['GO:0005524', 'GO:0000155']	False	False	False	False
+phoP	1.0	1.0	Middle	1.0	PA1179	879194	Q9I4F9		two-component response regulator PhoP	Global regulator	Q9I4F9	['GO:0000156', 'GO:0000976']	False	False	False	True
+oprH		1.0	Output		PA1178	878005	G3XD11		PhoP/Q and low Mg2+ inducible outer membrane protein H1	M15	G3XD11	['GO:0001530']	False	False	False	False
+PA3559		1.0	Output		PA3559					Basal machinery		[]	False	False	False	False
+arnT		1.0	Output		PA3556	879122	Q9HY61		4-amino-4-deoxy-L-arabinose transferase	Basal machinery	Q9HY61	['GO:0103015', 'GO:0000030', 'GO:0016763']	False	False	False	False
+arnC		1.0	Output		PA3553	PseudoCap:PA355	Q9HY64		protein ArnC	Basal machinery	Q9HY64	['GO:0016780', 'GO:0099621']	False	False	False	False
+arnB		1.0	Output		PA3552	PseudoCap:PA355	Q9HY65		UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase	Basal machinery	Q9HY65	['GO:0030170', 'GO:0008483', 'GO:0099620']	False	False	False	False
+arnA		1.0	Output		PA3554	PseudoCap:PA355	Q9HY63		bifunctional UDP-glucuronic acid decarboxylase/UDP-4-amino-4-deoxy-L-arabinose formyltransferase	Basal machinery	Q9HY63	['GO:0016831', 'GO:0099619', 'GO:0099618']	False	False	False	False
+arnF		1.0	Output		PA3558	PseudoCap:PA355	Q9HY59		hypothetical protein	Basal machinery	Q9HY59	['GO:1901505', 'GO:0022857']	False	False	False	False
+arnE		1.0	Output		PA3557	PseudoCap:PA355	Q9HY60		protein ArnE	Basal machinery	Q9HY60	['GO:1901505', 'GO:0022857']	False	False	False	False
+arnD		1.0	Output		PA3555	PseudoCap:PA355	Q9HY62		protein ArnD	Basal machinery	Q9HY62	['GO:0016811']	False	False	False	False
+fpvR	1.0	0.9470134957404087	Middle		PA2388	PseudoCap:PA2388	Q9I192		protein FpvR	M32.1	Q9I192	['GO:0016989']	True	False	False	False
+fpvI	1.0	0.9657153687753468	Middle		PA2387	PseudoCap:PA2387	Q9I193		RNA polymerase sigma factor	M32.1	Q9I193	['GO:0003677', 'GO:0016987']	True	False	False	False
+amrZ	0.7000171188259118	0.7778763214040129	Middle	-0.3678795125851833	PA3385	878714	G3XCY4		alginate and motility regulator Z	Global regulator	G3XCY4	['GO:0003677', 'GO:0001217', 'GO:0043565', 'GO:0000976']	True	False	False	False
+PA4033		0.7820871052979762	Output		PA4033					Basal machinery		[]	False	False	False	False
+lecA		0.8354487230165654	Output		PA2570	PseudoCap:PA257	Q05097	pa1L	LecA protein	Basal machinery	Q05097	['GO:0030246']	False	False	False	False
+PA4222		0.8154529948271768	Output		PA4222					Basal machinery		[]	False	False	False	False
+PA1941		0.8154529948271768	Output		PA1941					Basal machinery		[]	False	False	False	False
+PA0082		0.8154529948271768	Output		PA0082					Basal machinery		[]	False	False	False	False
+PA1680		0.8154529948271768	Output		PA1680					Basal machinery		[]	False	False	False	False
+PA1340		0.8154529948271768	Output		PA1340					Basal machinery		[]	False	False	False	False
+lecB		0.8354487230165654	Output		PA3361	882528	Q9HYN5		fucose-binding lectin PA-IIL	Basal machinery	Q9HYN5	['GO:0030246', 'GO:0046872']	False	False	False	False
+PA2567		0.8154529948271768	Output		PA2567					Basal machinery		[]	False	False	False	False
+ctpL		0.8154529948271768	Output		PA4844	879569	Q9HUW6		chemotaxis transducer	Basal machinery	Q9HUW6	['GO:0004888']	False	True	False	True
+PA4625		0.8154529948271768	Output		PA4625					Basal machinery		[]	False	False	False	False
+PA1199		0.8154529948271768	Output		PA1199					Basal machinery		[]	False	False	False	False
+PA2867		0.8154529948271768	Output		PA2867					Basal machinery		[]	False	False	False	False
+pslA		0.8525474418598975	Output		PA2231	PseudoCap:PA223	Q9I1N8	psIA	protein PslA	M7	Q9I1N8	['GO:0016780']	False	False	False	False
+PA3353		0.8154529948271768	Output		PA3353					Basal machinery		[]	False	False	False	False
+hemH		0.8154529948271768	Output		PA4655	881311	Q9HVD7		ferrochelatase	Basal machinery	Q9HVD7	['GO:0004325', 'GO:0046872']	False	False	False	False
+PA1069		0.8154529948271768	Output		PA1069					Basal machinery		[]	False	False	False	False
+adcA		0.8154529948271768	Output		PA4843	879632	Q9HUW7	gcbA	two-component response regulator	Basal machinery	Q9HUW7	['GO:0052621']	False	False	False	False
+fleQ	0.9729602853964647	0.9037106873566494	Middle	-0.9892264281582444	PA1097	881960	G3XCV0		transcriptional regulator FleQ	Global regulator	G3XCV0	['GO:0005524', 'GO:0016887', 'GO:0000987', 'GO:0035438', 'GO:0001216', 'GO:0001217', 'GO:0000976']	True	False	False	False
+PA3401		0.8154529948271768	Output		PA3401					Basal machinery		[]	False	False	False	False
+PA0494		0.8154529948271768	Output		PA0494					Basal machinery		[]	False	False	False	False
+PA1738		0.8154529948271768	Output		PA1738					Basal machinery		[]	False	False	False	False
+PA3951		0.8154529948271768	Output		PA3951					Basal machinery		[]	False	False	False	False
+hasAp		0.7570774310931403	Output		PA3407	879854	G3XD33		heme acquisition protein HasAp	Basal machinery	G3XD33	['GO:0046872']	False	False	False	False
+pchG		0.8154529948271768	Output		PA4224	880082	Q9HWG5		pyochelin biosynthetic protein PchG	Basal machinery	Q9HWG5	['GO:0000166']	False	False	False	False
+PA0472		0.8154529948271768	Output		PA0472					M32.1		[]	False	False	False	False
+pelB		0.8874217876627063	Output		PA3063	PseudoCap:PA306	Q9HZE5		protein PelB	M7	Q9HZE5	[]	False	False	False	False
+PA3367		0.8154529948271768	Output		PA3367					Basal machinery		[]	False	False	False	False
+PA2462		0.8154529948271768	Output		PA2462					Basal machinery		[]	False	False	False	False
+PA0938		0.8154529948271768	Output		PA0938					Basal machinery		[]	False	False	False	False
+PA1664		0.8154529948271768	Output		PA1664					Basal machinery		[]	False	False	False	False
+PA0172		0.8154529948271768	Output		PA0172					Basal machinery		[]	False	False	False	False
+phzA1		0.8736455142663806	Output		PA4210	880515	Q9HWH1		phenazine biosynthesis protein	M1	Q9HWH1	[]	False	False	False	False
+PA1088		0.8154529948271768	Output		PA1088					Basal machinery		[]	False	False	False	False
+prtN		0.8154529948271768	Output		PA0610	877720	Q06552		transcriptional regulator PrtN	Basal machinery	Q06552	['GO:0003677']	False	False	False	False
+ispF		0.8154529948271768	Output		PA3627	880484	P57708	ygbB	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase	Basal machinery	P57708	['GO:0008685', 'GO:0046872']	False	False	False	False
+PA1657		0.8991690555521538	Output		PA1657					Basal machinery		[]	False	False	False	False
+PA4677		0.8154529948271768	Output		PA4677					Basal machinery		[]	False	False	False	False
+PA5167		0.8154529948271768	Output		PA5167					Basal machinery		[]	False	False	False	False
+PA1784		0.8154529948271768	Output		PA1784					Basal machinery		[]	False	False	False	False
+PA0102		0.8154529948271768	Output		PA0102					Basal machinery		[]	False	False	False	False
+PA4980		0.8154529948271768	Output		PA4980					Basal machinery		[]	False	False	False	False
+PA1668		0.8154529948271768	Output		PA1668					Basal machinery		[]	False	False	False	False
+PA1913		0.8154529948271768	Output		PA1913					Basal machinery		[]	False	False	False	False
+rhlA		0.7425317303070883	Output		PA3479	PseudoCap:PA347	Q51559		rhamnosyltransferase subunit A	M30	Q51559	['GO:0016746', 'GO:0090499']	False	False	False	False
+PA3722		0.8154529948271768	Output		PA3722					Basal machinery		[]	False	False	False	False
+PA3413		0.8154529948271768	Output		PA3413					Basal machinery		[]	False	False	False	False
+rhlR	0.8518391134174924	0.8767643574337527	Middle		PA3477	878968	P54292	vsmR,lasM	transcriptional regulator RhlR	Global regulator	P54292	['GO:0001216', 'GO:0003700', 'GO:0001217', 'GO:0038023', 'GO:0000976']	True	True	False	True
+fliF		0.8834011372220887	Output		PA1101	881927	Q51463		flagellar MS-ring protein	Basal machinery	Q51463	['GO:0003774']	False	False	False	False
+flp		0.8307501812106383	Output		PA4306	PseudoCap:PA430	Q9HW94		type IVb pilin Flp	Basal machinery	Q9HW94	[]	False	False	False	False
+pys2		0.8154529948271768	Output		PA1150	878080	Q06584		pyocin S2	Basal machinery	Q06584	['GO:0004519', 'GO:0046872', 'GO:0005102']	False	False	False	False
+PA3019		0.8154529948271768	Output		PA3019					Basal machinery		[]	False	False	False	False
+pctC		0.8154529948271768	Output		PA4307	881576	Q9HW93		chemotactic transducer PctC	Basal machinery	Q9HW93	['GO:0016597']	False	False	False	False
+PA3691		0.8154529948271768	Output		PA3691					Basal machinery		[]	False	False	False	False
+PA4324		0.8154529948271768	Output		PA4324					Basal machinery		[]	False	False	False	False
+PA1939		0.8154529948271768	Output		PA1939					Basal machinery		[]	False	False	False	False
+PA5138		0.8154529948271768	Output		PA5138					Basal machinery		[]	False	False	False	False
+PA0038		0.8154529948271768	Output		PA0038					Basal machinery		[]	False	False	False	False
+PA4683		0.8154529948271768	Output		PA4683					Basal machinery		[]	False	False	False	False
+flgG		0.8154529948271768	Output		PA1082	880935	Q9I4P7		flagellar basal body rod protein FlgG	Basal machinery	Q9I4P7	[]	False	False	False	False
+flgE		0.8154529948271768	Output		PA1080	878285	Q9I4P9		flagellar hook protein FlgE	Basal machinery	Q9I4P9	[]	False	False	False	False
+vreA		0.8154529948271768	Output		PA0674	879213	G3XD45		VreA protein	Basal machinery	G3XD45	[]	False	False	False	False
+PA3235		0.8154529948271768	Output		PA3235					Basal machinery		[]	False	False	False	False
+PA3234		0.8154529948271768	Output		PA3234					Basal machinery		[]	False	False	False	False
+fpvA		0.9738821504112775	Output		PA2398	878605	P48632		ferripyoverdine receptor	M32.1	P48632	['GO:0015344', 'GO:0038023']	False	True	False	True
+bfmR	0.9014628567054332		Input		PA4101	878752	Q9HWS7		protein BfmR	M46	Q9HWS7	['GO:0000156', 'GO:0043565', 'GO:0000976']	False	False	False	True
+PA0691		1.0	Output		PA0691					M46		[]	False	False	False	False
+ihfB	0.9503276054066639		Input		PA3161	882561	Q51473	himD	integration host factor subunit beta	Global regulator	Q51473	['GO:0003677', 'GO:0030527']	False	False	False	False
+pchP		0.9836687929422309	Output		PA5292	877730	Q9HTR2		phosphorylcholine phosphatase	Basal machinery	Q9HTR2	['GO:0016787', 'GO:0046872']	False	False	False	False
+moeB		0.9707448740737632	Output		PA4663	881352	Q9HVC9		molybdopterin biosynthesis protein MoeB	Basal machinery	Q9HVC9	['GO:0005524', 'GO:0016779', 'GO:0008146', 'GO:0004792', 'GO:0008641']	False	False	False	False
+murI		0.9707448740737632	Output		PA4662	881345	Q9HVD0		glutamate racemase	Basal machinery	Q9HVD0	['GO:0008881']	False	False	False	False
+prmC		0.9707448740737632	Output		PA4664	881353	Q9HVC8	hemK	methyl transferase	Basal machinery	Q9HVC8	['GO:0003676', 'GO:0102559', 'GO:0036009']	False	False	False	False
+gbdR	1.0	0.9836687929422309	Middle	1.0	PA5380	PseudoCap:PA538	Q9HTI4		protein GbdR	Global regulator	Q9HTI4	['GO:0001216', 'GO:0000976']	True	False	False	False
+oprE		0.972695215802179	Output		PA0291	879473	G3XDA5		anaerobically-induced outer membrane porin OprE	Basal machinery	G3XDA5	['GO:0015288']	False	False	False	False
+fliD		0.9329392250315099	Output		PA1094	881775	Q9K3C5		flagellar capping protein FliD	Basal machinery	Q9K3C5	[]	False	False	False	False
+fleS		0.9329392250315099	Output		PA1098	878201	Q9I4N4		two-component sensor	Basal machinery	Q9I4N4	['GO:0005524', 'GO:0000155']	False	False	False	False
+fleR		0.9329392250315099	Output		PA1099	882087	Q9I4N3		two-component response regulator	Basal machinery	Q9I4N3	['GO:0005524', 'GO:0016887', 'GO:0000987', 'GO:0001216']	True	False	False	False
+PA2780	1.0		Input		PA2780					M22		[]	False	False	False	False
+rsmZ		1.0	Output		PA3621.1	4179184		RsmZ	regulatory RNA RsmZ	M22		[]	False	False	False	False
+PA0739	1.0	1.0	Middle	1.0	PA0739					M20		[]	False	False	False	False
+sdsA1		1.0	Output		PA0740	PseudoCap:PA074	Q9I5I9		SDS hydrolase SdsA1	M20	Q9I5I9	['GO:0042802', 'GO:0018741', 'GO:0046872', 'GO:0046983']	False	False	False	False
+foxR	1.0	0.9470134957404087	Middle		PA2467	PseudoCap:PA246	Q9I115		anti-sigma factor FoxR	M32.1	Q9I115	['GO:0016989']	True	False	False	False
+foxI	1.0	0.8356980539966448	Middle		PA2468	PseudoCap:PA246	Q9I114		ECF sigma factor FoxI	M32.1	Q9I114	['GO:0003677', 'GO:0016987']	True	False	False	False
+PA0601	1.0		Input		PA0601					M55		[]	False	False	False	False
+PA0603		1.0	Output		PA0603					M55		[]	False	False	False	False
+PA0605		1.0	Output		PA0605					M55		[]	False	False	False	False
+PA0604		1.0	Output		PA0604					M55		[]	False	False	False	False
+PA0606		1.0	Output		PA0606					M55		[]	False	False	False	False
+agmR	1.0	0.9650026046030293	Middle		PA1978	880879	P29369	erbR,glpR	response regulator ErbR	Global regulator	P29369	['GO:0003677']	False	False	False	False
+exaA		0.97114338899024	Output		PA1982	880475	Q9Z4J7		quinoprotein ethanol dehydrogenase	Basal machinery	Q9Z4J7	['GO:0052934', 'GO:0005509']	False	False	False	False
+exaB		0.97114338899024	Output		PA1983	880387	Q9I2C5		cytochrome C550	Basal machinery	Q9I2C5	['GO:0009055', 'GO:0020037', 'GO:0046872']	False	False	False	False
+exaC		0.97114338899024	Output		PA1984	880413	Q9I2C4		NAD+ dependent aldehyde dehydrogenase ExaC	Basal machinery	Q9I2C4	['GO:0004030', 'GO:0000166', 'GO:0016491']	False	False	False	False
+pqqB		0.97114338899024	Output		PA1986	880354	Q9I2C3		pyrroloquinoline quinone biosynthesis protein PqqB	Basal machinery	Q9I2C3	[]	False	False	False	False
+pqqC		0.97114338899024	Output		PA1987	879112	Q9I2C2		pyrroloquinoline quinone biosynthesis protein PqqC	Basal machinery	Q9I2C2	['GO:0033732']	False	False	False	False
+pqqA		0.97114338899024	Output		PA1985	880480	Q9ZAA0		coenzyme PQQ synthesis protein PqqA	Basal machinery	Q9ZAA0	[]	False	False	False	False
+eraR		0.97114338899024	Output		PA1980	880513	Q9I2C7	exaD,exaE	response regulator EraR	Basal machinery	Q9I2C7	['GO:0003700', 'GO:0000976']	True	False	False	False
+eraS		0.97114338899024	Output		PA1979	880447	Q9I2C8		sensor kinase EraS	Basal machinery	Q9I2C8	['GO:0000155', 'GO:0046983']	False	False	False	False
+pqqD		0.97114338899024	Output		PA1988	879085	Q9I2C1		pyrroloquinoline quinone biosynthesis protein PqqD	Basal machinery	Q9I2C1	['GO:0048038']	False	False	False	False
+pqqE		0.97114338899024	Output		PA1989	880128	Q9I2C0		pyrroloquinoline quinone biosynthesis protein PqqE	Basal machinery	Q9I2C0	['GO:0051539', 'GO:0009975', 'GO:0005506', 'GO:0016491', 'GO:1904047']	False	False	False	False
+pqqH		0.97114338899024	Output		PA1990	880121	Q9I2B9		PqqH protein	Basal machinery	Q9I2B9	['GO:0008236']	False	False	False	False
+mgtE	0.9642179642492354		Input		PA0913	878306	Q9I544		Mg transporter MgtE	M34	Q9I544	['GO:0000287', 'GO:0015095']	False	False	False	False
+cbrA	1.0		Input		PA4725	881602	Q9HV74		two-component sensor CbrA	M32.1	Q9HV74	['GO:0005524', 'GO:0000155', 'GO:0022857']	False	False	False	False
+hfq	1.0	1.0	Middle		PA4944	PseudoCap:PA494	Q9HUM0		RNA-binding protein Hfq	Global regulator	Q9HUM0	['GO:0003723']	False	False	False	False
+PA0714.1		1.0	Output		PA0714.1	9793389		phrD	PhrD	Basal machinery		[]	False	False	False	False
+PA2511	1.0	1.0	Middle	1.0	PA2511					M45		[]	False	False	False	False
+antA		1.0	Output		PA2512	882892	Q9I0X0		anthranilate dioxygenase large subunit	M45	Q9I0X0	['GO:0051537', 'GO:0051213', 'GO:0005506']	False	False	False	False
+antC		1.0	Output		PA2514	882979	Q9I0W8		anthranilate dioxygenase reductase	M45	Q9I0W8	['GO:0051537', 'GO:0051213', 'GO:0046872', 'GO:0016491']	False	False	False	False
+antB		1.0	Output		PA2513	882978	Q9I0W9		anthranilate dioxygenase small subunit	M45	Q9I0W9	['GO:0051213']	False	False	False	False
+clpP1	0.8791809787996321	0.9772869592293525	Middle	-0.9892264281582444	PA1801	878359	Q9I2U1	clpP	ATP-dependent Clp protease proteolytic subunit	Basal machinery	Q9I2U1	['GO:0004176', 'GO:0051117', 'GO:0004252']	False	False	False	False
+PA2657	1.0		Input		PA2657					M30		[]	False	False	False	False
+rhlB		0.9204799591639126	Output		PA3478	878954	Q9HYD1		rhamnosyltransferase subunit B	M30	Q9HYD1	['GO:0016758', 'GO:0008194']	False	False	False	False
+PA5166	1.0		Input		PA5166					M9		[]	False	False	False	False
+PA0886		1.0	Output		PA0886					M9		[]	False	False	False	False
+PA0885		1.0	Output		PA0885					M9		[]	False	False	False	False
+PA0884		1.0	Output		PA0884					M9		[]	False	False	False	False
+dctA2		1.0	Output		PA1183	880848	Q9I4F5	dctA	C4-dicarboxylate transporter DctA	M9	Q9I4F5	['GO:0015138', 'GO:0015366', 'GO:0015141']	False	False	False	False
+flhB		0.9308101295183232	Output		PA1449	881855	Q9I3Q2		flagellar biosynthesis protein FlhB	Basal machinery	Q9I3Q2	[]	False	False	False	False
+flhA		0.9308101295183232	Output		PA1452	881867	Q9I3P9		flagellar biosynthesis protein FlhA	Basal machinery	Q9I3P9	[]	False	False	False	False
+fliG		0.9308101295183232	Output		PA1102	882074	Q51464		flagellar motor switch protein G	Basal machinery	Q51464	['GO:0003774']	False	False	False	False
+phoA2		0.9070006535722701	Output		PA0688	880790	P35482	phoA,pstS	ABC transporter	M23	P35482	['GO:0004035']	False	False	False	False
+fliQ		0.9308101295183232	Output		PA1447	881853	Q9I3Q4		flagellar biosynthesis protein FliQ	Basal machinery	Q9I3Q4	[]	False	False	False	False
+fliP		0.9308101295183232	Output		PA1446	881863	Q51468		flagellar biosynthesis protein FliP	Basal machinery	Q51468	[]	False	False	False	False
+fliR		0.9308101295183232	Output		PA1448	881861	Q9I3Q3		flagellar biosynthesis protein FliR	Basal machinery	Q9I3Q3	[]	False	False	False	False
+fliO		0.9308101295183232	Output		PA1445	881854	Q51467		flagellar protein FliO	Basal machinery	Q51467	[]	False	False	False	False
+fliN		0.9308101295183232	Output		PA1444	881851	Q51466		flagellar motor switch protein	Basal machinery	Q51466	['GO:0003774']	False	False	False	False
+fliI		0.9308101295183232	Output		PA1104	882010	Q9I4N1		flagellum-specific ATP synthase	Basal machinery	Q9I4N1	['GO:0005524', 'GO:0016887']	False	False	False	False
+fliJ		0.9308101295183232	Output		PA1105	879381	Q9I4N0		flagellar biosynthesis chaperone	Basal machinery	Q9I4N0	['GO:0003774']	False	False	False	False
+fliE		0.9308101295183232	Output		PA1100	882031	Q51462		flagellar hook-basal body protein FliE	Basal machinery	Q51462	['GO:0003774', 'GO:0005198']	False	False	False	False
+fliM		0.9308101295183232	Output		PA1443	881860	Q51465		flagellar motor switch protein FliM	Basal machinery	Q51465	['GO:0003774']	False	False	False	False
+fur	0.9687583423549462	0.9308101295183232	Middle	-0.9892264281582444	PA4764	881780	Q03456		ferric uptake regulation protein	Global regulator	Q03456	['GO:0003700', 'GO:0001217', 'GO:0008198', 'GO:0000976', 'GO:0008270']	True	False	False	False
+fliL		0.9207974389324248	Output		PA1442	881856	Q9I3Q5		flagellar basal body protein FliL	M39	Q9I3Q5	[]	False	False	False	False
+PA1438	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	PA1438					M42		[]	False	False	False	False
+PA1437		0.3678794411714786	Output		PA1437					M42		[]	False	False	False	False
+fleN	0.9739316273716868		Input		PA1454	881866	G3XD64		flagellar synthesis regulator FleN	M23	G3XD64	['GO:0005524', 'GO:0016887']	False	False	False	False
+PA2896	1.0	1.0	Middle	1.0	PA2896					M43		[]	False	False	False	False
+PA2895	1.0		Input		PA2895					M43		[]	False	False	False	False
+PA3347	0.8965545798628565	1.0	Middle		PA3347					M39		[]	False	False	False	False
+PA3343	1.0	1.0	Middle		PA3343					M39		[]	False	False	False	False
+flgM	0.8243460472826746	0.7812429859857122	Middle	-0.8464630566109912	PA3351	PseudoCap:PA335	Q9HYP5		protein FlgM	M39	Q9HYP5	['GO:0016989']	True	False	False	False
+PA5471	1.0		Input		PA5471					M5		[]	False	False	False	False
+mexZ	1.0	1.0	Middle		PA2020	880025	G3XCU9		transcriptional regulator	M5	G3XCU9	['GO:0003700', 'GO:0001217', 'GO:0000976']	True	False	False	False
+mexX		1.0	Output		PA2019	878839	G3XD21		periplasmic multidrug efflux lipoprotein	M5	G3XD21	['GO:0022857']	False	False	False	False
+mexY		1.0	Output		PA2018	878882	G3XCW2		multidrug efflux protein	M5	G3XCW2	['GO:0015562', 'GO:0042910']	False	False	False	False
+metR	1.0		Input		PA3587	880220	Q9HY39		transcriptional regulator MetR	Global regulator	Q9HY39	['GO:0003700', 'GO:0000976']	True	False	False	False
+PA4223		1.0	Output		PA4223					Basal machinery		[]	False	False	False	False
+pvdD		1.0	Output		PA2399	879750	Q9I182		pyoverdine synthetase D	Basal machinery	Q9I182	['GO:0003824', 'GO:0016874', 'GO:0031177']	False	False	False	False
+PA0848		1.0	Output		PA0848					Basal machinery		[]	False	False	False	False
+pvdH		1.0	Output		PA2413	882857	Q9I168		diaminobutyrate--2-oxoglutarate aminotransferase	Basal machinery	Q9I168	['GO:0030170', 'GO:0008483']	False	False	False	False
+atuF		1.0	Output		PA2891	PseudoCap:PA289	Q9HZV6		geranyl-CoA carboxylase subunit alpha	Basal machinery	Q9HZV6	['GO:0005524', 'GO:0047925', 'GO:0046872']	False	False	False	False
+PA4144		1.0	Output		PA4144					Basal machinery		[]	False	False	False	False
+PA0633		1.0	Output		PA0633					Basal machinery		[]	False	False	False	False
+metH		1.0	Output		PA1843	880631	Q9I2Q2		B12-dependent methionine synthase	Basal machinery	Q9I2Q2	['GO:0031419', 'GO:0008705', 'GO:0008270']	False	False	False	False
+ntrC		1.0	Output		PA5125	877699	Q9HU59		two-component response regulator NtrC	Basal machinery	Q9HU59	['GO:0005524', 'GO:0000987', 'GO:0001216', 'GO:0000156']	True	False	False	True
+roxS	1.0		Input		PA4494	881057	Q9HVS7		RoxS protein	Global regulator	Q9HVS7	['GO:0000155']	False	False	False	False
+ccoO1		1.0	Output		PA1553	883010	Q9I3G4		cbb3-type cytochrome C oxidase subunit II	Basal machinery	Q9I3G4	['GO:0004129', 'GO:0020037', 'GO:0046872']	False	False	False	False
+ccoN2		1.0	Output		PA1557	879347	Q9I3G0		cbb3-type cytochrome C oxidase subunit I	Basal machinery	Q9I3G0	['GO:0004129', 'GO:0020037', 'GO:0046872']	False	False	False	False
+ccoN1		1.0	Output		PA1554	883001	Q9I3G3		cbb3-type cytochrome C oxidase subunit I	Basal machinery	Q9I3G3	['GO:0004129', 'GO:0020037', 'GO:0046872']	False	False	False	False
+cyoD		1.0	Output		PA1320	881604	Q9I424		cytochrome o ubiquinol oxidase subunit IV	Basal machinery	Q9I424	['GO:0009486', 'GO:0015078']	False	False	False	False
+ccoQ2		1.0	Output		PA1555.1	9793391	E1JGJ7		cytochrome C oxidase cbb3-type subunit CcoQ	Basal machinery	E1JGJ7	['GO:0004129']	False	False	False	False
+ccoQ1		1.0	Output		PA1552.1	9793392	E1JGJ6		cytochrome C oxidase cbb3-type subunit CcoQ	Basal machinery	E1JGJ6	['GO:0004129']	False	False	False	False
+ccoO2		1.0	Output		PA1556	883049	Q9I3G1		cbb3-type cytochrome C oxidase subunit II	Basal machinery	Q9I3G1	['GO:0004129', 'GO:0020037', 'GO:0046872']	False	False	False	False
+cyoC		1.0	Output		PA1319	881595	Q9I425		cytochrome o ubiquinol oxidase subunit III	Basal machinery	Q9I425	['GO:0009486', 'GO:0004129']	False	False	False	False
+cyoB		1.0	Output		PA1318	881481	Q9I426		cytochrome o ubiquinol oxidase subunit I	Basal machinery	Q9I426	['GO:0009486', 'GO:0004129', 'GO:0020037', 'GO:0046872', 'GO:0016682']	False	False	False	False
+cyoA		1.0	Output		PA1317	881513	Q9I427		cytochrome o ubiquinol oxidase subunit II	Basal machinery	Q9I427	['GO:0005507', 'GO:0009486', 'GO:0004129', 'GO:0016682']	False	False	False	False
+ccoP1		1.0	Output		PA1552	883043	Q9I3G5		cytochrome C oxidase cbb3-type subunit CcoP	Basal machinery	Q9I3G5	['GO:0004129', 'GO:0020037', 'GO:0005506']	False	False	False	False
+ccoP2		1.0	Output		PA1555	883066	Q9I3G2		cytochrome C oxidase cbb3-type subunit CcoP	Basal machinery	Q9I3G2	['GO:0004129', 'GO:0020037', 'GO:0046872']	False	False	False	False
+cyoE2		1.0	Output		PA1321	881575	Q9I423	cyoE	protoheme IX farnesyltransferase	Basal machinery	Q9I423	['GO:0008495']	False	False	False	False
+roxR	1.0		Input		PA4493	881056	Q9HVS8		RoxR protein	Global regulator	Q9HVS8	['GO:0043565']	False	False	False	False
+dauR	0.3678794411714786	0.4915874119786877	Middle	-0.3678794411714786	PA3864	879820	Q9HXE2		transcriptional regulator	M10	Q9HXE2	['GO:0003677']	False	False	False	False
+dauB		0.4915874119786877	Output		PA3862	879805	Q9HXE4		NAD(P)H-dependent anabolic L-arginine dehydrogenase DauB	M10	Q9HXE4	['GO:0016639']	False	False	False	False
+dauA		0.4915874119786877	Output		PA3863	879806	Q9HXE3		FAD-dependent catabolic D-arginine dehydrogenase DauA	M10	Q9HXE3	['GO:0008718', 'GO:0000166']	False	False	False	False
+argP	1.0		Input		PA4363	881413	Q9HW38	iciA	chromosome replication initiation inhibitor protein	M56	Q9HW38	['GO:0003700', 'GO:0043565']	True	False	False	False
+PA4182		1.0	Output		PA4182					M56		[]	False	False	False	False
+PA4181		1.0	Output		PA4181					M56		[]	False	False	False	False
+PA4365		1.0	Output		PA4365					M56		[]	False	False	False	False
+argR	0.973770139735402	1.0	Middle	1.0	PA0893	879434	G3XCU2		transcriptional regulator ArgR	Global regulator	G3XCU2	['GO:0001216', 'GO:0001217', 'GO:0000976']	True	False	False	False
+astA		1.0	Output		PA0896	879437	P80357	aruF	arginine/ornithine succinyltransferase AI subunit	Basal machinery	P80357	['GO:0008791', 'GO:0009015']	False	False	False	False
+astB		1.0	Output		PA0899	878588	O50175	aruB	succinylarginine dihydrolase	Basal machinery	O50175	['GO:0009015']	False	False	False	False
+astD		1.0	Output		PA0898	883040	O50174	aruD	succinylglutamic semialdehyde dehydrogenase	Basal machinery	O50174	['GO:0043824']	False	False	False	False
+astE		1.0	Output		PA0901	878165	O50177	aruE	succinylglutamate desuccinylase	Basal machinery	O50177	['GO:0016811', 'GO:0016788', 'GO:0009017', 'GO:0008270']	False	False	False	False
+sstT		0.9849521957999978	Output		PA2042	878429	Q9I273		serine/threonine transporter SstT	Basal machinery	Q9I273	['GO:0005295']	False	False	False	False
+PA3934		0.9849521957999978	Output		PA3934					Basal machinery		[]	False	False	False	False
+alr		1.0	Output		PA4930	878646	Q9HUN4		biosynthetic alanine racemase	Basal machinery	Q9HUN4	['GO:0008784', 'GO:0030170']	False	False	False	False
+PA4757		1.0	Output		PA4757					Basal machinery		[]	False	False	False	False
+PA4754		1.0	Output		PA4754					Basal machinery		[]	False	False	False	False
+aotO		1.0	Output		PA0891	877572	G3XCZ4		hypothetical protein	Basal machinery	G3XCZ4	['GO:0016788', 'GO:0046872']	False	False	False	False
+PA0328		0.9849521957999978	Output		PA0328					Basal machinery		[]	False	False	False	False
+argG		0.9849521957999978	Output		PA3525	878872	Q9HY84		argininosuccinate synthase	Basal machinery	Q9HY84	['GO:0004055', 'GO:0005524']	False	False	False	False
+PA5152		0.9849521957999978	Output		PA5152					Basal machinery		[]	False	False	False	False
+PA5153		0.9849521957999978	Output		PA5153					Basal machinery		[]	False	False	False	False
+PA0900		1.0	Output		PA0900					Basal machinery		[]	False	False	False	False
+PA5154		1.0	Output		PA5154					Basal machinery		[]	False	False	False	False
+PA5155		1.0	Output		PA5155					Basal machinery		[]	False	False	False	False
+braZ		0.9849521957999978	Output		PA1971	879216	P25185		branched-chain amino acid ABC transporter	Basal machinery	P25185	['GO:0015188', 'GO:0015190', 'GO:0005304']	False	False	False	False
+oprD		0.9839667514815655	Output		PA0958	881970	P32722		porin	M1	P32722	['GO:0015288', 'GO:0008236']	False	False	False	False
+aruG		1.0	Output		PA0897	883082	P80358		arginine/ornithine succinyltransferase AII subunit	Basal machinery	P80358	['GO:0008791', 'GO:0009015']	False	False	False	False
+gdhA		0.9849521957999978	Output		PA4588	881027	Q9HVJ7		glutamate dehydrogenase	Basal machinery	Q9HVJ7	['GO:0004354', 'GO:0000166']	False	False	False	False
+greA		1.0	Output		PA4755	881736	Q9HV46		transcription elongation factor GreA	Basal machinery	Q9HV46	['GO:0003677', 'GO:0070063']	False	False	False	False
+gdhB		1.0	Output		PA3068	878664	Q9HZE0		NAD-dependent glutamate dehydrogenase	Basal machinery	Q9HZE0	['GO:0004352', 'GO:0004069']	False	False	False	False
+lysP		1.0	Output		PA4628	881192	Q9HVG3		lysine-specific permease	Basal machinery	Q9HVG3	['GO:0015171']	False	False	False	False
+PA3538		1.0	Output		PA3538					Basal machinery		[]	False	False	False	False
+aruH		1.0	Output		PA4976	PseudoCap:PA497	Q9HUI9		arginine:pyruvate transaminase, AruH	Basal machinery	Q9HUI9	['GO:0030170', 'GO:0008483']	False	False	False	False
+gltB		1.0	Output		PA5036	881222	Q9HUD5		glutamate synthase subunit alpha	Basal machinery	Q9HUD5	['GO:0051538', 'GO:0015930', 'GO:0046872']	False	False	False	False
+arcD		0.9859230218774173	Output		PA5170	881800	P18275		arginine/ornithine antiporter	Basal machinery	P18275	['GO:0043858', 'GO:0015293']	False	False	False	False
+arcA		0.9859230218774173	Output		PA5171	881801	P13981		arginine deiminase	Basal machinery	P13981	['GO:0016990']	False	False	False	False
+arcB		0.9859230218774173	Output		PA5172	881792	P08308		ornithine carbamoyltransferase	Basal machinery	P08308	['GO:0016597', 'GO:0004585']	False	False	False	False
+arcC		0.9859230218774173	Output		PA5173	881793	P13982		carbamate kinase	Basal machinery	P13982	['GO:0005524', 'GO:0008804']	False	False	False	False
+carB		1.0	Output		PA4756	881743	P38100		carbamoyl phosphate synthase large subunit	Basal machinery	P38100	['GO:0005524', 'GO:0004087', 'GO:0004088', 'GO:0046872']	False	False	False	False
+carA		1.0	Output		PA4758	881751	P38098		carbamoyl phosphate synthase small subunit	Basal machinery	P38098	['GO:0005524', 'GO:0004088', 'GO:0004359']	False	False	False	False
+gltD		1.0	Output		PA5035	881221	G3XD09		glutamate synthase subunit beta	Basal machinery	G3XD09	['GO:0051539', 'GO:0046872', 'GO:0016491']	False	False	False	False
+argF		1.0	Output		PA3537	878793	P11724		ornithine carbamoyltransferase	Basal machinery	P11724	['GO:0016597', 'GO:0004585']	False	False	False	False
+aruC		1.0	Output		PA0895	878207	O30508	astC,dapC,argD	bifunctional N-succinyldiaminopimelate-aminotransferase/acetylornithine transaminase protein	Basal machinery	O30508	['GO:0042802', 'GO:0003992', 'GO:0030170', 'GO:0043825']	False	False	False	False
+PA4853	0.9033654651444885		Input		PA4853	880045	Q9HUW0	fis	Fis family transcriptional regulator	M12	Q9HUW0	['GO:0043565']	False	False	False	False
+fhpR	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	PA2665	882374	Q9I0H3		anaerobic nitric oxide reductase transcriptional regulator	M5	Q9I0H3	['GO:0005524', 'GO:0000987', 'GO:0001216']	True	False	False	False
+hmp		0.6839397205857393	Output		PA2664	882373	Q9I0H4	fhp	nitric oxide dioxygenase	M5	Q9I0H4	['GO:0071949', 'GO:0020037', 'GO:0046872', 'GO:0008941', 'GO:0019825', 'GO:0005344']	False	False	False	False
+PA1261	1.0		Input		PA1261					Global regulator		[]	False	False	False	False
+PA1268		1.0	Output		PA1268					Basal machinery		[]	False	False	False	False
+PA1258		1.0	Output		PA1258					Basal machinery		[]	False	False	False	False
+PA1260		1.0	Output		PA1260					Basal machinery		[]	False	False	False	False
+PA1257		1.0	Output		PA1257					Basal machinery		[]	False	False	False	False
+PA1256		1.0	Output		PA1256					Basal machinery		[]	False	False	False	False
+PA1266		1.0	Output		PA1266					Basal machinery		[]	False	False	False	False
+PA1267		1.0	Output		PA1267					Basal machinery		[]	False	False	False	False
+PA1266.1		1.0	Output		PA1266.1					Basal machinery		[]	False	False	False	False
+gntR	1.0		Input		PA2320	883124	Q9I1F6		GntR family transcriptional regulator	M41	Q9I1F6	['GO:0003700', 'GO:0000976']	True	False	False	False
+gnuT		1.0	Output		PA2322	883019	Q9ZIJ1		gluconate permease	M41	Q9ZIJ1	['GO:0015128']	False	False	False	False
+algW	0.8953427013751829		Input		PA4446	880976	Q9HVX1		AlgW protein	M5	Q9HVX1	['GO:0008233', 'GO:0004252']	False	False	False	False
+mucA	0.8791809787996321	0.9647296506290053	Middle	0.949987198632341	PA0763	879357	P38107		anti-sigma factor MucA	M5	P38107	['GO:0016989']	True	False	False	False
+PA1182	1.0	1.0	Middle		PA1182					M9		[]	False	False	False	False
+PA4354	1.0	0.9916074955639129	Middle	1.0	PA4354					M52		[]	False	False	False	False
+xenB		0.9916074955639129	Output		PA4356	881382	Q9HW45		xenobiotic reductase	M52	Q9HW45	['GO:0010181', 'GO:0016628']	False	False	False	False
+PA4355		0.9916074955639129	Output		PA4355					M52		[]	False	False	False	False
+PA3898	1.0		Input		PA3898					M4		[]	False	False	False	False
+PA2667	1.0		Input		PA2667					M53		[]	False	False	False	False
+cupA1		1.0	Output		PA2128	880862	Q9I1Y7		fimbrial subunit CupA1	M53	Q9I1Y7	[]	False	False	False	False
+PA5295	1.0		Input		PA5295					M7		[]	False	False	False	False
+pslO		1.0	Output		PA2245		Q9I1M4			M7	Q9I1M4	[]	False	False	False	False
+pelA		0.9662094113408559	Output		PA3064	PseudoCap:PA306	Q9HZE4		PelA protein	M7	Q9HZE4	['GO:0019213']	False	False	False	False
+plcH		1.0	Output		PA0844	879296	P06200		hemolytic phospholipase C	Basal machinery	P06200	['GO:0016298', 'GO:0034480', 'GO:0033188', 'GO:0090729']	False	False	False	False
+PA0521		1.0	Output		PA0521					Basal machinery		[]	False	False	False	False
+PA1746		1.0	Output		PA1746					Basal machinery		[]	False	False	False	False
+adhA		1.0	Output		PA5427	877625	Q9HTD9		alcohol dehydrogenase	Basal machinery	Q9HTD9	['GO:0000166', 'GO:0016616', 'GO:0008270']	False	False	False	False
+hcnA		0.9385960315918314	Output		PA2193	882197	G3XD67		hydrogen cyanide synthase HcnA	Basal machinery	G3XD67	['GO:0051537', 'GO:0050622', 'GO:0046872']	False	False	False	False
+hcnC		0.91656811267328	Output		PA2195	882196	G3XD12		hydrogen cyanide synthase HcnC	Basal machinery	G3XD12	['GO:0050622']	False	False	False	False
+hcnB		0.91656811267328	Output		PA2194	882182	Q9I1S2		hydrogen cyanide synthase HcnB	Basal machinery	Q9I1S2	['GO:0050622']	False	False	False	False
+PA4352		1.0	Output		PA4352					Basal machinery		[]	False	False	False	False
+prfA		1.0	Output		PA4665	881360	P42806	prf1	peptide chain release factor 1	Basal machinery	P42806	['GO:0016149']	False	False	False	False
+PA0522		1.0	Output		PA0522					Basal machinery		[]	False	False	False	False
+PA3305.1		1.0	Output		PA3305.1	6965615		phrS	PhrS	Basal machinery		[]	False	False	False	False
+PA1571		1.0	Output		PA1571					Basal machinery		[]	False	False	False	False
+ccmB		1.0	Output		PA1476	880948	Q9I3N6		heme exporter protein CcmB	Basal machinery	Q9I3N6	['GO:0015232']	False	False	False	False
+glpT		0.9673357642961607	Output		PA5235	880661	Q9HTV5		sn-glycerol-3-phosphate transporter	M7	Q9HTV5	['GO:0061513', 'GO:0015169']	False	False	False	False
+aer		1.0	Output		PA1561	879271	Q9I3F6		aerotaxis receptor Aer	Basal machinery	Q9I3F6	['GO:0004888']	False	True	False	True
+PA0367	1.0		Input		PA0367					M33		[]	False	False	False	False
+calB		1.0	Output		PA0366	880299	Q9I6C8		aldehyde dehydrogenase	M33	Q9I6C8	['GO:0004029', 'GO:0050269']	False	False	False	False
+PA0365		1.0	Output		PA0365					M33		[]	False	False	False	False
+PA0364		1.0	Output		PA0364					M33		[]	False	False	False	False
+PA4595	0.8023003932699128		Input		PA4595					Global regulator		[]	False	False	False	False
+exsD	0.9012738754287494	0.32756858690631363	Middle	-0.6977527570512664	PA1714	880880	Q9I321		ExsD protein	M21	Q9I321	[]	False	False	False	False
+pscJ		0.7838104218795324	Output		PA1723	881901	Q9I314		type III export protein PscJ	Basal machinery	Q9I314	[]	False	False	False	False
+pscH		0.7838104218795324	Output		PA1721	880612	Q9I316		type III export protein PscH	Basal machinery	Q9I316	[]	False	False	False	False
+pscI		0.7838104218795324	Output		PA1722	879567	Q9I315		type III export protein PscI	Basal machinery	Q9I315	[]	False	False	False	False
+pscL		0.7838104218795324	Output		PA1725	880738	Q9I312		type III secretion system protein	Basal machinery	Q9I312	[]	False	False	False	False
+pscB		0.7838104218795324	Output		PA1715	879568	Q9I320		type III export apparatus protein	Basal machinery	Q9I320	[]	False	False	False	False
+pscC		0.7838104218795324	Output		PA1716	881978	Q9I319		type III secretion outer membrane protein PscC	Basal machinery	Q9I319	[]	False	False	False	False
+exoY		0.8548947234243546	Output		PA2191	879421	Q9I1S4		adenylate cyclase	M39	Q9I1S4	['GO:0008294']	False	False	False	False
+pscF		0.7838104218795324	Output		PA1719	879634	P95434		type III export protein PscF	Basal machinery	P95434	[]	False	False	False	False
+pscG		0.7838104218795324	Output		PA1720	881982	P95435		type III export protein PscG	Basal machinery	P95435	[]	False	False	False	False
+pscD		0.7838104218795324	Output		PA1717	877924	Q9I318		type III export protein PscD	Basal machinery	Q9I318	[]	False	False	False	False
+pscE		0.788459455111834	Output		PA1718	881908	Q9I317		type III export protein PscE	Basal machinery	Q9I317	[]	False	False	False	False
+PA4596	1.0		Input		PA4596					M2		[]	False	False	False	False
+oprJ		1.0	Output		PA4597	881070	Q51397		Multidrug efflux outer membrane protein OprJ	M2	Q51397	['GO:0015562', 'GO:0022857']	False	False	False	False
+mexD		1.0	Output		PA4598	881071	Q9HVI9		resistance-nodulation-cell division (RND) multidrug efflux transporter MexD	M2	Q9HVI9	['GO:0015562', 'GO:0042910']	False	False	False	False
+mexC		1.0	Output		PA4599	881078	G3XD25		resistance-nodulation-cell division (RND) multidrug efflux membrane fusion protein MexC	M2	G3XD25	['GO:0022857']	False	False	False	False
+liuR	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	PA2016	PseudoCap:PA201	Q9I295		regulator of liu genes	M29	Q9I295	['GO:0003677', 'GO:0003700']	True	False	False	False
+liuB		0.3678794411714786	Output		PA2014	PseudoCap:PA201	Q9I297		methylcrotonyl-CoA carboxylase subunit beta	M29	Q9I297	['GO:0004485']	False	False	False	False
+liuC		0.3678794411714786	Output		PA2013	PseudoCap:PA201	Q9I298		gamma-carboxygeranoyl-CoA hydratase	M29	Q9I298	['GO:0004490']	False	False	False	False
+liuA		0.3678794411714786	Output		PA2015	PseudoCap:PA201	Q9I296		isovaleryl-CoA dehydrogenase	M29	Q9I296	['GO:0008470', 'GO:0003995', 'GO:0050660']	False	False	False	False
+liuD		0.3678794411714786	Output		PA2012	PseudoCap:PA201	Q9I299		methylcrotonyl-CoA carboxylase subunit alpha	M29	Q9I299	['GO:0005524', 'GO:0046872', 'GO:0004485']	False	False	False	False
+liuE		0.3678794411714786	Output		PA2011	PseudoCap:PA201	Q9I2A0		hydroxymethylglutaryl-CoA lyase	M29	Q9I2A0	['GO:0047445', 'GO:0004419', 'GO:0046872']	False	False	False	False
+erdR	1.0		Input		PA3604	880150	Q9HY22		response regulator ErdR	M11	Q9HY22	['GO:0000156']	False	False	False	True
+acsA1		1.0	Output		PA0887	879732	Q9I558	acsA	acetyl-CoA synthetase	M11	Q9I558	['GO:0003987', 'GO:0016208', 'GO:0005524', 'GO:0046872']	False	False	False	False
+PA4878	1.0		Input		PA4878					Global regulator		[]	False	False	False	False
+PA1875		0.6839397205857393	Output		PA1875					Basal machinery		[]	False	False	False	False
+PA1874		0.6839397205857393	Output		PA1874					Basal machinery		[]	False	False	False	False
+PA1877		0.6839397205857393	Output		PA1877					Basal machinery		[]	False	False	False	False
+PA1876		0.6839397205857393	Output		PA1876					Basal machinery		[]	False	False	False	False
+vfr	0.8798358961070136	1.0	Middle	1.0	PA0652	880744	P55222		cAMP-regulatory protein	Global regulator	P55222	['GO:0030552', 'GO:0001216', 'GO:0003700', 'GO:0001217', 'GO:0043565', 'GO:0000976']	True	False	False	False
+cpdA		1.0	Output		PA4969	880028	Q9HUJ6		cAMP phosphodiesterase	Basal machinery	Q9HUJ6	['GO:0004115', 'GO:0046872']	False	False	False	False
+ptxR	0.7440708219190159	0.8209501193386608	Middle	-0.8464630566109912	PA2258	878030	P72131		transcriptional regulator PtxR	Global regulator	P72131	['GO:0001216', 'GO:0003950', 'GO:0000976']	True	False	False	False
+algR	0.892841183472548	0.9777848474867642	Middle	0.9999999933419387	PA5261	877674	P26275		alginate biosynthesis regulatory protein AlgR	Global regulator	P26275	['GO:0001216', 'GO:0001217', 'GO:0000156', 'GO:0043565', 'GO:0000976']	True	False	False	True
+toxR	1.0	1.0	Middle		PA0707	880684	P09852	regA	transcriptional regulator ToxR	Global regulator	P09852	[]	False	False	False	False
+orf1		0.7847591171684285	Output		PA3842	879848	G3XD93		chaperone	Basal machinery	G3XD93	[]	False	False	False	False
+tolR		0.9393686295731534	Output		PA0970	882113	P50599		TolR protein	Basal machinery	P50599	['GO:0022857']	False	False	False	False
+tolQ		0.9393686295731534	Output		PA0969	882055	P50598		TolQ protein	Basal machinery	P50598	[]	False	False	False	False
+tolB		0.9393686295731534	Output		PA0972	881864	P50601		translocation protein TolB	Basal machinery	P50601	[]	False	False	False	False
+tolA		0.9393686295731534	Output		PA0971	882033	P50600		TolA protein	Basal machinery	P50600	['GO:0019534']	False	False	False	False
+pal		0.9393686295731534	Output		PA0973	882991	Q9I4Z4	oprL	peptidoglycan associated lipoprotein OprL	Basal machinery	Q9I4Z4	[]	False	False	False	False
+PA2082	1.0	1.0	Middle	1.0	PA2082					M27		[]	False	False	False	False
+kynU		0.9780701675317887	Output		PA2080	PseudoCap:PA208	Q9I235		kynureninase KynU	M27	Q9I235	['GO:0030429', 'GO:0030170']	False	False	False	False
+kynB		0.9780701675317887	Output		PA2081	878591	Q9I234		kynurenine formamidase, KynB	M27	Q9I234	['GO:0004061', 'GO:0004328', 'GO:0008270']	False	False	False	False
+PA2079		1.0	Output		PA2079					M27		[]	False	False	False	False
+kynA		1.0	Output		PA2579	PseudoCap:PA257	Q9I0Q7		L-tryptophan:oxygen 2,3-oxidoreductase KynA	M27	Q9I0Q7	['GO:0020037', 'GO:0046872', 'GO:0004833']	False	False	False	False
+betI	1.0		Input		PA5374	881620	Q9HTJ0		BetI family transcriptional regulator	M37	Q9HTJ0	['GO:0003700', 'GO:0000976']	True	False	False	False
+betB		1.0	Output		PA5373	881619	Q9HTJ1		betaine aldehyde dehydrogenase	M37	Q9HTJ1	['GO:0008802', 'GO:0046872']	False	False	False	False
+betA		1.0	Output		PA5372	881124	Q9HTJ2		choline dehydrogenase	M37	Q9HTJ2	['GO:0008802', 'GO:0008812', 'GO:0050660']	False	False	False	False
+trpI	1.0		Input		PA0037	883090	P11720		transcriptional regulator TrpI	M14	P11720	['GO:0003700', 'GO:0043565']	True	False	False	False
+trpB		1.0	Output		PA0036	879212	P07345		tryptophan synthase subunit beta	M14	P07345	['GO:0004834']	False	False	False	False
+trpA		1.0	Output		PA0035	879479	P07344		tryptophan synthase subunit alpha	M14	P07344	['GO:0004834']	False	False	False	False
+nalC	0.9880948588373591	0.9712075701048661	Middle	-0.9834713207735476	PA3721	PseudoCap:PA3721	Q9HXS0		NalC protein	M4	Q9HXS0	['GO:0003700', 'GO:0000976']	True	False	False	False
+armR	0.9779733935179074	0.9756556201716748	Middle	-0.9834713207735476	PA3719	PseudoCap:PA3719	Q9HXS2		MexR antirepressor ArmR	M4	Q9HXS2	[]	False	False	False	False
+PA3204	1.0		Input		PA3204					M4		[]	False	False	False	False
+gcvP1		1.0	Output		PA2445	882927	Q9I137	gcvP2	glycine dehydrogenase	M31	Q9I137	['GO:0016594', 'GO:0004375', 'GO:0030170']	False	False	False	False
+gcvH1		1.0	Output		PA2446	882928	Q9I136	gcvH2	glycine cleavage system protein H	M31	Q9I136	[]	False	False	False	False
+glyA2		1.0	Output		PA2444	881085	Q9HVI7	glyA3	serine hydroxymethyltransferase	M31	Q9HVI7	['GO:0004372', 'GO:0030170']	False	False	False	False
+gcvT2		1.0	Output		PA2442	882934	Q9I140		glycine cleavage system protein T2	M31	Q9I140	['GO:0004047', 'GO:0008483']	False	False	False	False
+sdaA		1.0	Output		PA2443	882930	Q9I139		L-serine dehydratase	M31	Q9I139	['GO:0051539', 'GO:0003941', 'GO:0046872']	False	False	False	False
+iscR	1.0		Input		PA3815	879919	Q9HXI7		IscR protein	Global regulator	Q9HXI7	['GO:0003700', 'GO:0003690']	True	False	False	False
+hscB		1.0	Output		PA3811	879937	Q9HXJ1		co-chaperone HscB	Basal machinery	Q9HXJ1	['GO:0001671', 'GO:0051087']	False	False	False	False
+iscU		1.0	Output		PA3813	879917	Q9HXI9		scaffold protein	Basal machinery	Q9HXI9	['GO:0051537', 'GO:0008198']	False	False	False	False
+hscA		1.0	Output		PA3810	879936	Q51382		chaperone protein HscA	Basal machinery	Q51382	['GO:0005524', 'GO:0016887', 'GO:0140662', 'GO:0031072', 'GO:0044183', 'GO:0051082']	False	False	False	False
+nfuA		1.0	Output		PA1847	880675	Q9I2P8		hypothetical protein	Basal machinery	Q9I2P8	['GO:0051539', 'GO:0005506']	False	False	False	False
+iscS		1.0	Output		PA3814	879918	Q9HXI8		cysteine desulfurase	Basal machinery	Q9HXI8	['GO:0051537', 'GO:0031071', 'GO:0046872', 'GO:0030170']	False	False	False	False
+iscA		1.0	Output		PA3812	879916	Q9HXJ0		iron-binding protein IscA	Basal machinery	Q9HXJ0	['GO:0051537']	False	False	False	False
+PA3808		1.0	Output		PA3808					Basal machinery		[]	False	False	False	False
+fdx		1.0	Output		PA3809	879944	Q51383	fdx2	(2Fe-2S) ferredoxin	Basal machinery	Q51383	['GO:0051537', 'GO:0009055', 'GO:0046872']	False	False	False	False
+PA4615		1.0	Output		PA4615					Basal machinery		[]	False	False	False	False
+pilA	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	PA4525	878423	P04739	fimA	type 4 fimbrial PilA	Basal machinery	P04739	[]	False	False	False	False
+gpuR	1.0	1.0	Middle	1.0	PA0289	879727	Q9I6K1		transcriptional activator GpuR	M17	Q9I6K1	['GO:0003700', 'GO:0000976']	True	False	False	False
+gpuP		1.0	Output		PA0287	879633	Q9I6K3		3-guanidinopropionate transporter	M17	Q9I6K3	['GO:0015293', 'GO:0022857']	False	False	False	False
+gpuA		1.0	Output		PA0288	880781	Q9I6K2		3-guanidinopropionase	M17	Q9I6K2	['GO:0008783', 'GO:0047972', 'GO:0046872']	False	False	False	False
+atuR	1.0		Input		PA2885	PseudoCap:PA288	Q9HZW2		repressor of atu genes	Global regulator	Q9HZW2	['GO:0003677', 'GO:0003700', 'GO:0000976']	True	False	False	False
+atuD		1.0	Output		PA2889	PseudoCap:PA288	Q9HZV8		citronellyl-CoA dehydrogenase	Basal machinery	Q9HZV8	['GO:0003995', 'GO:0034824', 'GO:0050660']	False	False	False	False
+atuE		1.0	Output		PA2890	PseudoCap:PA289	Q9HZV7		isohexenylglutaconyl-CoA hydratase	Basal machinery	Q9HZV7	['GO:0004490']	False	False	False	False
+atuG		1.0	Output		PA2892	PseudoCap:PA289	Q9HZV5		short-chain dehydrogenase	Basal machinery	Q9HZV5	['GO:0016491']	False	False	False	False
+atuA		1.0	Output		PA2886	PseudoCap:PA288	Q9HZW1		hypothetical protein	Basal machinery	Q9HZW1	[]	False	False	False	False
+atuB		1.0	Output		PA2887	PseudoCap:PA288	Q9HZW0		citronellol catabolism dehydrogenase	Basal machinery	Q9HZW0	['GO:0016491']	False	False	False	False
+atuC		1.0	Output		PA2888	PseudoCap:PA288	Q9HZV9		geranyl-CoA carboxylase subunit beta	Basal machinery	Q9HZV9	['GO:0047925']	False	False	False	False
+atuH		1.0	Output		PA2893	PseudoCap:PA289	Q9HZV4		long-chain-acyl-CoA synthetase	Basal machinery	Q9HZV4	['GO:0005524', 'GO:0005324', 'GO:0004467']	False	False	False	False
+PA3345	0.9457218451906099		Input		PA3345					M39		[]	False	False	False	False
+PA3346		1.0	Output		PA3346					M39		[]	False	False	False	False
+plcB		0.9772869592293525	Output		PA0026	880904	Q9I7A4		phospholipase C, PlcB	Basal machinery	Q9I7A4	['GO:0016298', 'GO:0004629', 'GO:0008270']	False	False	False	False
+hvn		0.9772869592293525	Output		PA1914	878271	Q9I2J0		hypothetical protein	Basal machinery	Q9I2J0	[]	False	False	False	False
+PA2588		0.9780701675317887	Output		PA2588					Global regulator		[]	False	False	False	False
+inh		0.9772869592293525	Output		PA1250	881261	Q03026	aprI	alkaline proteinase inhibitor AprI	Basal machinery	Q03026	['GO:0008191']	False	False	False	False
+nuh		0.9772869592293525	Output		PA0143	879451	Q9I6Y9		nonspecific ribonucleoside hydrolase	Basal machinery	Q9I6Y9	['GO:0008477', 'GO:0045437']	False	False	False	False
+aprE		0.9772869592293525	Output		PA1247	881276	Q03025		alkaline protease secretion protein AprE	Basal machinery	Q03025	[]	False	False	False	False
+aprD		0.9772869592293525	Output		PA1246	881263	Q03024		alkaline protease secretion protein AprD	Basal machinery	Q03024	['GO:0140359', 'GO:0005524', 'GO:0016887', 'GO:0042626']	False	False	False	False
+phzD1		0.9772869592293525	Output		PA4213	881873	Q7DC80	phzD2,PA4213	phenazine biosynthesis protein PhzD	Basal machinery	Q7DC80	[]	False	False	False	False
+aprF		0.9772869592293525	Output		PA1248	881227	Q03027		alkaline protease secretion outer membrane protein AprF	Basal machinery	Q03027	['GO:0015562', 'GO:0015288']	False	False	False	False
+xcpQ		0.9772869592293525	Output		PA3105	880114	P35818		general secretion pathway protein D	Basal machinery	P35818	['GO:0042802']	False	False	False	False
+xcpP		0.9772869592293525	Output		PA3104	877805	Q51575		secretion protein XcpP	Basal machinery	Q51575	[]	False	False	False	False
+phzB1		0.9772869592293525	Output		PA4211	880518	O69753		phenazine biosynthesis protein	Basal machinery	O69753	[]	False	False	False	False
+PA3535.1		0.9772869592293525	Output		PA3535.1					Basal machinery		[]	False	False	False	False
+acpP1		0.9772869592293525	Output		PA2966	879895	O54439	acpP	acyl carrier protein	Basal machinery	O54439	['GO:0000035', 'GO:0000036', 'GO:0031177']	False	False	False	False
+aprX		0.9772869592293525	Output		PA1245	881251	G3XCU0		hypothetical protein	Basal machinery	G3XCU0	[]	False	False	False	False
+phzM		0.9772869592293525	Output		PA4209	880514	Q9HWH2		phenazine-specific methyltransferase	Basal machinery	Q9HWH2	['GO:0102168', 'GO:0042802', 'GO:0008171', 'GO:0042803', 'GO:1904047', 'GO:0008757']	False	False	False	False
+pslK		0.9772869592293525	Output		PA2241	880828	Q9I1M8	psIK	protein PslL	Basal machinery	Q9I1M8	[]	False	False	False	False
+rhlG		0.9772869592293525	Output		PA3387	880033	Q9RPT1		beta-ketoacyl reductase	Basal machinery	Q9RPT1	['GO:0004316', 'GO:0008709']	False	False	False	False
+pslI		0.9772869592293525	Output		PA2239	882276	Q9I1N0	psII	protein PslI	Basal machinery	Q9I1N0	['GO:0016757']	False	False	False	False
+pslH		0.9772869592293525	Output		PA2238	883079	Q9I1N1	psIH	protein PslH	Basal machinery	Q9I1N1	['GO:0016757']	False	False	False	False
+phnC2		0.9772869592293525	Output		PA3384	880003	Q9HYL7	phnC	phosphonate ABC transporter ATP-binding protein	Basal machinery	Q9HYL7	['GO:0015416', 'GO:0005524', 'GO:0016887']	False	False	False	False
+pslL		0.9772869592293525	Output		PA2242	880701	Q9I1M7	psIL	hypothetical protein	Basal machinery	Q9I1M7	['GO:0016747']	False	False	False	False
+pslC		0.9772869592293525	Output		PA2233	878103	Q9I1N6	psIC	protein PslC	Basal machinery	Q9I1N6	['GO:0016757']	False	False	False	False
+pslB		0.9772869592293525	Output		PA2232	880925	Q9I1N7	psIB	protein PslB	Basal machinery	Q9I1N7	['GO:0005525', 'GO:0050089', 'GO:0004475']	False	False	False	False
+pslF		0.9772869592293525	Output		PA2236	878020	Q9I1N3	psIF	protein PslF	Basal machinery	Q9I1N3	['GO:0016757']	False	False	False	False
+pslE		0.9772869592293525	Output		PA2235	878490	Q9I1N4	psIE	protein PslE	Basal machinery	Q9I1N4	['GO:0004713']	False	False	False	False
+pslD		0.9772869592293525	Output		PA2234	PseudoCap:PA223	Q9I1N5	psID	protein PslD	Basal machinery	Q9I1N5	['GO:0015159', 'GO:0015288']	False	False	False	False
+lasB		0.9242359417861715	Output		PA3724	880368	P14756		elastase LasB	Basal machinery	P14756	['GO:0004175', 'GO:0046872', 'GO:0004222']	False	False	False	False
+pslG		0.9772869592293525	Output		PA2237	879704	Q9I1N2	psIG	protein PslG	Basal machinery	Q9I1N2	['GO:0004553']	False	False	False	False
+lpdV		0.9772869592293525	Output		PA2250	878470	Q9I1L9		dihydrolipoamide dehydrogenase	Basal machinery	Q9I1L9	['GO:0004148', 'GO:0050660']	False	False	False	False
+pslJ		0.9772869592293525	Output		PA2240	882251	Q9I1M9	psIJ	protein PslJ	Basal machinery	Q9I1M9	['GO:0016757']	False	False	False	False
+mexR	0.9671614677169884	0.9628621269393622	Middle	-0.9834713207735476	PA0424	877857	P52003		multidrug resistance operon repressor MexR	M4	P52003	['GO:0001217', 'GO:0042802', 'GO:0000976']	True	False	False	False
+bphP		0.9772869592293525	Output		PA4117	PseudoCap:PA4117	Q9HWR3		phytochrome BphP	Basal machinery	Q9HWR3	['GO:0005524', 'GO:0042802', 'GO:0000156', 'GO:0000155', 'GO:0009881', 'GO:0030295']	False	True	False	True
+phzC1		0.9772869592293525	Output		PA1901	882061	Q7DC82	PA4212,phzC2	phenazine biosynthesis protein PhzC	Basal machinery	Q7DC82	['GO:0003849']	False	False	False	False
+phzF1		0.9772869592293525	Output		PA1904	879183	O69754	phzF2	phenazine biosynthesis protein	Basal machinery	O69754	['GO:0016853', 'GO:0102943']	False	False	False	False
+vqsR		0.9772869592293525	Output		PA2591	878740	Q9I0P6		transcriptional regulator	Global regulator	Q9I0P6	['GO:0003700', 'GO:0001217', 'GO:0000976']	True	False	False	False
+bphO		0.9772869592293525	Output		PA4116	PseudoCap:PA4116	Q9HWR4		heme oxygenase BphO	Basal machinery	Q9HWR4	['GO:0004392']	False	False	False	False
+tpbA		0.9772869592293525	Output		PA3885	878776	Q9HXC7		protein tyrosine phosphatase TpbA	Basal machinery	Q9HXC7	['GO:0016791', 'GO:0004725']	False	False	False	False
+bauR	1.0	1.0	Middle	1.0	PA0133	879432	Q9I6Z9		transcriptional regulator	M16	Q9I6Z9	['GO:0003700', 'GO:0000976']	True	False	False	False
+bauD		1.0	Output		PA0129	880844	Q9I703	gabP	gamma-aminobutyrate permease	M16	Q9I703	['GO:0015185']	False	False	False	False
+bauA		1.0	Output		PA0132	879350	Q9I700		beta alanine--pyruvate transaminase	M16	Q9I700	['GO:0004015', 'GO:0016223', 'GO:0030170']	False	False	False	False
+bauB		1.0	Output		PA0131	878383	Q9I701		hypothetical protein	M16	Q9I701	[]	False	False	False	False
+bauC		1.0	Output		PA0130	880875	Q9I702		aldehyde dehydrogenase	M16	Q9I702	['GO:0004491']	False	False	False	False
+PA1566		1.0	Output		PA1566					M16		[]	False	False	False	False
+mucC	0.8791809787996321		Input		PA0765	877954	G3XCY1		positive regulator for alginate biosynthesis MucC	Basal machinery	G3XCY1	[]	False	False	False	False
+mucB	0.8791809787996321	0.9639046101454757	Middle	-0.949987198632341	PA0764	882064	P38108	algN	negative regulator for alginate biosynthesis MucB	Basal machinery	P38108	['GO:0045152']	False	False	False	False
+mucD	0.8791809787996321		Input		PA0766	879207	G3XD20		serine protease MucD	Basal machinery	G3XD20	['GO:0004252']	False	False	False	False
+pscK		0.7795975640259556	Output		PA1724	880809	Q9I313		type III export protein PscK	Basal machinery	Q9I313	[]	False	False	False	False
+PA3843		0.7795975640259556	Output		PA3843					Basal machinery		[]	False	False	False	False
+exoT		0.784520553822048	Output		PA0044	878350	Q9I788		exoenzyme T	M39	Q9I788	['GO:0005096', 'GO:0106274', 'GO:0016779', 'GO:0090729']	False	False	False	False
+pruR	1.0		Input		PA0780	880836	Q9I5F8		proline utilization regulator	M25	Q9I5F8	['GO:0000987', 'GO:0003700']	True	False	False	False
+putA		1.0	Output		PA0782	878503	Q9I5F6		bifunctional proline dehydrogenase/pyrroline-5-carboxylate dehydrogenase	M25	Q9I5F6	['GO:0003842', 'GO:0003677', 'GO:0003700', 'GO:0004657']	True	False	False	False
+PA1131		0.9046896888849862	Output		PA1131					Basal machinery		[]	False	False	False	False
+rmlC		0.9046896888849862	Output		PA5164	879991	Q9HU21		dTDP-4-dehydrorhamnose 3,5-epimerase	Basal machinery	Q9HU21	['GO:0008830']	False	False	False	False
+rmlB		0.9046896888849862	Output		PA5161	879982	Q9HU24		dTDP-D-glucose 4,6-dehydratase	Basal machinery	Q9HU24	['GO:0008460']	False	False	False	False
+rmlD		0.9046896888849862	Output		PA5162	879983	Q9HU23		dTDP-4-dehydrorhamnose reductase	Basal machinery	Q9HU23	['GO:0008831']	False	False	False	False
+rmlA		0.9046896888849862	Output		PA5163	879990	Q9HU22		glucose-1-phosphate thymidylyltransferase	Basal machinery	Q9HU22	['GO:0008879', 'GO:0046872', 'GO:0000166']	False	False	False	False
+phuR		0.9393486604221523	Output		PA4710	881550	Q9HV88		heme/hemoglobin uptake outer membrane receptor PhuR	Basal machinery	Q9HV88	['GO:0015232', 'GO:0015344']	False	False	False	False
+pchR		0.9470134957404087	Output		PA4227	880049	P40883		transcriptional regulator PchR	Global regulator	P40883	['GO:0001216', 'GO:0001217', 'GO:0000976']	True	False	False	False
+phuT		0.9470134957404087	Output		PA4708	PseudoCap:PA470	Q9HV90		Heme-transporter, PhuT	Basal machinery	Q9HV90	[]	False	False	False	False
+pchF		0.9470134957404087	Output		PA4225	880083	Q9HWG4		pyochelin synthetase	Basal machinery	Q9HWG4	['GO:0016874', 'GO:0031177']	False	False	False	False
+pchD		0.9470134957404087	Output		PA4228	880566	Q9HWG3		pyochelin biosynthesis protein PchD	Basal machinery	Q9HWG3	['GO:0016878']	False	False	False	False
+pchC		0.9470134957404087	Output		PA4229	881845	Q9HWG2		pyochelin biosynthetic protein PchC	Basal machinery	Q9HWG2	['GO:0016787']	False	False	False	False
+pchB		0.9470134957404087	Output		PA4230	881846	Q51507		isochorismate-pyruvate lyase	Basal machinery	Q51507	['GO:0016835', 'GO:0004106', 'GO:0043904']	False	False	False	False
+pchA		0.9470134957404087	Output		PA4231	881821	Q51508		salicylate biosynthesis isochorismate synthase	Basal machinery	Q51508	['GO:0008909']	False	False	False	False
+pvdQ		0.9488406165769463	Output		PA2385	PseudoCap:PA238	Q9I194	qsc112	3-oxo-C12-homoserine lactone acylase PvdQ	Basal machinery	Q9I194	['GO:0016811', 'GO:0042802', 'GO:0016937']	False	False	False	False
+piuC		0.9470134957404087	Output		PA4515	881121	Q9HVQ7		hydroxylase	Basal machinery	Q9HVQ7	['GO:0016706', 'GO:0005506', 'GO:0031418']	False	False	False	False
+rplA		0.9470134957404087	Output		PA4273	881704	Q9HWC6		50S ribosomal protein L1	Basal machinery	Q9HWC6	['GO:0019843', 'GO:0003735', 'GO:0000049']	False	False	False	False
+rplJ		0.9470134957404087	Output		PA4272	881702	Q9HWC7		50S ribosomal protein L10	Basal machinery	Q9HWC7	['GO:0070180', 'GO:0003735']	False	False	False	False
+pfeR		0.9470134957404087	Output		PA2686	882764	Q04803		two-component response regulator PfeR	Basal machinery	Q04803	['GO:0000156', 'GO:0000976']	False	False	False	True
+fptB		0.9470134957404087	Output		PA4220	880418	P42513		hypothetical protein	Basal machinery	P42513	[]	False	False	False	False
+PA3530		0.9462932639277304	Output		PA3530					Basal machinery		[]	False	False	False	False
+fptA		0.9470134957404087	Output		PA4221	880419	P42512		Fe(III)-pyochelin outer membrane receptor	Basal machinery	P42512	['GO:1903981', 'GO:0015344', 'GO:0038023']	False	True	False	True
+fagA		0.9470134957404087	Output		PA4471	881034	G3XD99		hypothetical protein	Basal machinery	G3XD99	[]	False	False	False	False
+pchE		0.9470134957404087	Output		PA4226	880048	G3XCV2		dihydroaeruginoic acid synthetase	Basal machinery	G3XCV2	['GO:0016874', 'GO:0031177']	False	False	False	False
+rplL		0.9470134957404087	Output		PA4271	881701	Q9HWC8		50S ribosomal protein L7/L12	Basal machinery	Q9HWC8	['GO:0003729', 'GO:0003735']	False	False	False	False
+PrrF2		0.962360176876075	Output		PA4704.2	4179185		prrF2	regulatory RNA PrrF2	Basal machinery		[]	False	False	False	False
+PrrF1		0.9470134957404087	Output		PA4704.1	4179187		prrF1	regulatory RNA PrrF1	M32.1		[]	False	False	False	False
+icmP		0.9470134957404087	Output		PA4370	881386	Q9HW32		Insulin-cleaving metalloproteinase outer membrane protein	Basal machinery	Q9HW32	['GO:0046872']	False	False	False	False
+hasR		0.9470134957404087	Output		PA3408	879855	Q9HYJ7		heme uptake outer membrane receptor HasR	Basal machinery	Q9HYJ7	['GO:0020037', 'GO:0015232', 'GO:0015344', 'GO:0038023']	False	True	False	True
+kguT		0.5866710691562588	Output		PA2262	877717	Q9I1L1		2-ketogluconate transporter	M47	Q9I1L1	['GO:0022857']	False	False	False	False
+ptxS	0.5754764222848158	0.801846596209308	Middle	-0.8464630566109912	PA2259	877811	G3XD97		transcriptional regulator PtxS	M47	G3XD97	['GO:0003700', 'GO:0001217', 'GO:0000976']	True	False	False	False
+pvcD		0.8490508204737595	Output		PA2257	878068	G3XCY7		paerucumarin biosynthesis protein PvcD	Basal machinery	G3XCY7	['GO:0004129', 'GO:0020037', 'GO:0005506']	False	False	False	False
+pvcC		0.8490508204737595	Output		PA2256	878263	O30372		paerucumarin biosynthesis protein PvcC	Basal machinery	O30372	['GO:0016627']	False	False	False	False
+pvcB		0.8490508204737595	Output		PA2255	878457	Q9I1L4		paerucumarin biosynthesis protein PvcB	Basal machinery	Q9I1L4	['GO:0046872', 'GO:0016491']	False	False	False	False
+pvcA		0.8490508204737595	Output		PA2254	878099	Q9I1L5		paerucumarin biosynthesis protein PvcA	Basal machinery	Q9I1L5	['GO:0016829']	False	False	False	False
+kguE		0.5866710691562588	Output		PA2260	877758	Q9I1L3		hypothetical protein	M47	Q9I1L3	[]	False	False	False	False
+kguK		0.5866710691562588	Output		PA2261	877834	Q9I1L2		2-ketogluconate kinase	M47	Q9I1L2	['GO:0016301']	False	False	False	False
+PA2265		0.5866710691562588	Output		PA2265					M47		[]	False	False	False	False
+kguD		0.5866710691562588	Output		PA2263	877698	Q9I1L0		2-hydroxyacid dehydrogenase	M47	Q9I1L0	['GO:0030267', 'GO:0016618', 'GO:0051287']	False	False	False	False
+PA3398	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	PA3398					M48		[]	False	False	False	False
+fpr		0.3678794411714786	Output		PA3397	879913	Q9HYK7		ferredoxin-NADP reductase	M48	Q9HYK7	['GO:0004324', 'GO:0000166']	False	False	False	False
+foxA		0.8695303193441982	Output		PA2466	PseudoCap:PA246	Q9I116		Ferrioxamine receptor FoxA	M32.1	Q9I116	['GO:0015344', 'GO:0038023']	False	True	False	True
+soxR	1.0		Input		PA2273	882298	Q51506		SoxR protein	Global regulator	Q51506	['GO:0051537', 'GO:0003677', 'GO:0003700', 'GO:0046872']	True	False	False	False
+PA2274		1.0	Output		PA2274					Basal machinery		[]	False	False	False	False
+PA2958.1		1.0	Output		PA2958.1	6965620		rgsA	RgsA	Basal machinery		[]	False	False	False	False
+mexT	0.9831327226605395	0.9817238043909806	Middle	1.0	PA2492	880417	Q9I0Z0		transcriptional regulator MexT	Global regulator	Q9I0Z0	['GO:0001216', 'GO:0000976']	True	False	False	False
+ampR	0.8614148616522922		Input		PA4109	877983	P24734		transcriptional regulator AmpR	Global regulator	P24734	['GO:0003700', 'GO:0043565']	True	False	False	False
+poxB		1.0	Output		PA5297	881392	Q9HTQ7		pyruvate dehydrogenase (cytochrome)	Basal machinery	Q9HTQ7	['GO:0000287', 'GO:0052737', 'GO:0030976']	False	False	False	False
+ampDh2		1.0	Output		PA5485	PseudoCap:PA548	Q9HT86		protein AmpDh2	Basal machinery	Q9HT86	['GO:0046872', 'GO:0008745']	False	False	False	False
+ampDh3		1.0	Output		PA0807	PseudoCap:PA080	Q9I5D1		protein AmpDh3	Basal machinery	Q9I5D1	['GO:0046872', 'GO:0008745']	False	False	False	False
+creD		1.0	Output		PA0465	881586	Q9I653		hypothetical protein	Basal machinery	Q9I653	[]	False	False	False	False
+nagZ		1.0	Output		PA3005	880216	Q9HZK0		beta-hexosaminidase	Basal machinery	Q9HZK0	['GO:0016231']	False	False	False	False
+ampC		1.0	Output		PA4110	878149	P24735		beta-lactamase	Basal machinery	P24735	['GO:0008800']	False	False	False	False
+ampG		1.0	Output		PA4393	881279	G3XCT7		AmpG protein	Basal machinery	G3XCT7	['GO:0008521', 'GO:0022857']	False	False	False	False
+ampD		1.0	Output		PA4522	881105	G3XCW9		N-acetyl-anhydromuranmyl-L-alanine amidase	Basal machinery	G3XCW9	['GO:0046872', 'GO:0008745']	False	False	False	False
+lasA		1.0	Output		PA1871	878260	P14789		LasA protease	Basal machinery	P14789	['GO:0004175', 'GO:0046872', 'GO:0004222']	False	False	False	False
+prtR		1.0	Output		PA0611	879679	Q06553		transcriptional regulator PrtR	Basal machinery	Q06553	['GO:0003677']	False	False	False	False
+PA4218		1.0	Output		PA4218					Basal machinery		[]	False	False	False	False
+crc	0.9617089083235767		Input		PA5332	878037	G3XDB0		catabolite repression control protein	Global regulator	G3XDB0	['GO:0003906', 'GO:0008311', 'GO:0046872', 'GO:0008081']	False	False	False	False
+PA5530		1.0	Output		PA5530					M24		[]	False	False	False	False
+prpC		1.0	Output		PA0795	880674	Q9I5E3		methylcitrate synthase	Basal machinery	Q9I5E3	['GO:0050440', 'GO:0036440']	False	False	False	False
+PA2486		0.9867127994293309	Output		PA2486					Basal machinery		[]	False	False	False	False
+ptrB		1.0	Output		PA0612	PseudoCap:PA061	G3XDA6		repressor PtrB	Basal machinery	G3XDA6	['GO:0008270']	False	False	False	False
+fimL		1.0	Output		PA1822	881776	Q9I2S3		hypothetical protein	Basal machinery	Q9I2S3	[]	False	False	False	False
+pprB	0.36787944117147847	0.3678794411714786	Middle	-0.3678794411714786	PA4296	PseudoCap:PA429	Q9HWA4		two-component response regulator, PprB	Global regulator	Q9HWA4	['GO:0003677', 'GO:0000156']	False	False	False	True
+PA4652		0.3678794411714786	Output		PA4652					Basal machinery		[]	False	False	False	False
+PA4653		0.3678794411714786	Output		PA4653					Basal machinery		[]	False	False	False	False
+PA4650		0.3678794411714786	Output		PA4650					Basal machinery		[]	False	False	False	False
+PA4651		0.3678794411714786	Output		PA4651					Basal machinery		[]	False	False	False	False
+rcpA		0.3678794411714786	Output		PA4304	PseudoCap:PA430	Q9HW96		protein RcpA	Basal machinery	Q9HW96	[]	False	False	False	False
+rcpC		0.3678794411714786	Output		PA4305	PseudoCap:PA430	Q9HW95		RcpC protein	Basal machinery	Q9HW95	[]	False	False	False	False
+PA4294		0.3678794411714786	Output		PA4294					Basal machinery		[]	False	False	False	False
+tadG		0.3678794411714786	Output		PA4297	PseudoCap:PA429	Q9HWA3		protein TadG	Basal machinery	Q9HWA3	[]	False	False	False	False
+PA4299		0.3678794411714786	Output		PA4299	PseudoCap:PA429	Q9HWA1	tadD	protein TadD	Basal machinery	Q9HWA1	[]	False	False	False	False
+tadA		0.3678794411714786	Output		PA4302	880561	Q9HXM8		hypothetical protein	Basal machinery	Q9HXM8	['GO:0052717', 'GO:0008270']	False	False	False	False
+tadC		0.3678794411714786	Output		PA4300	PseudoCap:PA430	Q9HWA0		protein TadC	Basal machinery	Q9HWA0	[]	False	False	False	False
+tadB		0.3678794411714786	Output		PA4301	PseudoCap:PA430	Q9HW99		protein TadB	Basal machinery	Q9HW99	[]	False	False	False	False
+PA4649		0.3678794411714786	Output		PA4649					Basal machinery		[]	False	False	False	False
+PA4648		0.3678794411714786	Output		PA4648					Basal machinery		[]	False	False	False	False
+PA4298		0.3678794411714786	Output		PA4298					Basal machinery		[]	False	False	False	False
+pprA		0.3678794411714786	Output		PA4293	PseudoCap:PA429	Q9HWA7		two-component sensor PprA	Basal machinery	Q9HWA7	['GO:0005524', 'GO:0000155']	False	False	False	False
+fliA	0.5593232726158649	0.8284472102501637	Middle	-0.8464630566109912	PA1455	881996	P29248	rpoF	flagellar biosynthesis sigma factor	M39	P29248	['GO:0003677', 'GO:0003899', 'GO:0016987']	True	False	False	False
+fliC	1.0	0.6877569637183041	Middle		PA1092	882052	P72151		flagellin type B	M39	P72151	['GO:0005198']	False	False	False	False
+PA2010	1.0		Input		PA2010					M6		[]	False	False	False	False
+hmgA		1.0	Output		PA2009	877745	Q9X4G0		homogentisate 1,2-dioxygenase	M6	Q9X4G0	['GO:0004411', 'GO:0005506']	False	False	False	False
+mvaT	0.8182446219201519		Input		PA4315	881542	Q9HW86		transcriptional regulator MvaT	Global regulator	Q9HW86	['GO:0001216', 'GO:0000976']	True	False	False	False
+cupC1		1.0	Output		PA0992	880617	Q9I4X7		fimbrial subunit CupC1	M19	Q9I4X7	[]	False	False	False	False
+cupB1		1.0	Output		PA4086	878758	Q9HWU2		fimbrial subunit CupB1	M19	Q9HWU2	[]	False	False	False	False
+lldP		0.9862975744114972	Output		PA4770	881808	Q9HV38		L-lactate permease	Basal machinery	Q9HV38	['GO:0015129', 'GO:0015295']	False	False	False	False
+PA1942		0.9862975744114972	Output		PA1942					Basal machinery		[]	False	False	False	False
+PA2812		0.9862975744114972	Output		PA2812					Basal machinery		[]	False	False	False	False
+PA2813		0.9862975744114972	Output		PA2813					Basal machinery		[]	False	False	False	False
+PA2811		0.9862975744114972	Output		PA2811					Basal machinery		[]	False	False	False	False
+PA3205		0.9862975744114972	Output		PA3205					Basal machinery		[]	False	False	False	False
+PA2759		0.9862975744114972	Output		PA2759					Basal machinery		[]	False	False	False	False
+PA4772		0.9862975744114972	Output		PA4772					Basal machinery		[]	False	False	False	False
+PA4881		0.9862975744114972	Output		PA4881					Basal machinery		[]	False	False	False	False
+fabH		0.9862975744114972	Output		PA3333	882498	Q9HYR2	fabH2	3-oxoacyl-ACP synthase	Basal machinery	Q9HYR2	['GO:0004315', 'GO:0033818']	False	False	False	False
+cbpD		0.9862975744114972	Output		PA0852	877771	Q9I589	lasD	chitin-binding protein CbpD	Basal machinery	Q9I589	['GO:0008061']	False	False	False	False
+PA2491		0.9862975744114972	Output		PA2491					Basal machinery		[]	False	False	False	False
+PA4623		0.9862975744114972	Output		PA4623					Basal machinery		[]	False	False	False	False
+PA1970		0.9862975744114972	Output		PA1970					Basal machinery		[]	False	False	False	False
+acpP2		0.9862975744114972	Output		PA1869	881955	O52658		acyl carrier protein	Basal machinery	O52658	['GO:0000035', 'GO:0000036', 'GO:0031177']	False	False	False	False
+pvdA		0.9862975744114972	Output		PA2386	882167	Q51548	pvd-1	L-ornithine N5-oxygenase	Basal machinery	Q51548	['GO:0031172']	False	False	False	False
+PA1333		0.9862975744114972	Output		PA1333					Basal machinery		[]	False	False	False	False
+PA4141		0.9862975744114972	Output		PA4141					Basal machinery		[]	False	False	False	False
+PA3331		0.9862975744114972	Output		PA3331					Basal machinery		[]	False	False	False	False
+PA3332		0.9862975744114972	Output		PA3332					Basal machinery		[]	False	False	False	False
+PA1744		0.9862975744114972	Output		PA1744					Basal machinery		[]	False	False	False	False
+clpP2		0.9862975744114972	Output		PA3326	882491	Q9HYR9		ATP-dependent Clp protease proteolytic subunit	Basal machinery	Q9HYR9	['GO:0004176', 'GO:0051117', 'GO:0004252']	False	False	False	False
+PA1658		0.9862975744114972	Output		PA1658					Basal machinery		[]	False	False	False	False
+lldD		0.9862975744114972	Output		PA4771	881809	Q9HV37		L-lactate dehydrogenase	Basal machinery	Q9HV37	['GO:0010181', 'GO:0004459']	False	False	False	False
+PA3229		0.9862975744114972	Output		PA3229					Basal machinery		[]	False	False	False	False
+deaD	0.9012738754287494		Input		PA2840	882823	Q9I003		ATP-dependent RNA helicase	Basal machinery	Q9I003	['GO:0005524', 'GO:0016887', 'GO:0003724', 'GO:0033592']	False	False	False	False
+PA2251	1.0		Input		PA2251					M36		[]	False	False	False	False
+ansA		1.0	Output		PA2253	878133	Q9I1L6		L-asparaginase I	M36	Q9I1L6	['GO:0004067']	False	False	False	False
+PA2252		1.0	Output		PA2252					M36		[]	False	False	False	False
+algZ	0.7780863736591451	0.7161255107052942	Middle	-0.367879495043986	PA5262	879635	G3XCZ2		alginate biosynthesis protein AlgZ/FimS	Global regulator	G3XCZ2	['GO:0000155']	False	False	False	False
+algC		0.9254483142273574	Output		PA5322	879406	P26276		phosphomannomutase	Basal machinery	P26276	['GO:0000287', 'GO:0004614', 'GO:0004615']	False	False	False	False
+ladS	0.9705572033764919		Input		PA3974	878890	Q9HX42		Lost Adherence Sensor, LadS	M34	Q9HX42	['GO:0000155']	False	False	False	False
+pilW		0.9844147742214263	Output		PA4552	879456	G3XD15		type 4 fimbrial biogenesis protein PilW	Basal machinery	G3XD15	[]	False	False	False	False
+pilV		0.9844147742214263	Output		PA4551	879607	G3XD84		type 4 fimbrial biogenesis protein PilV	Basal machinery	G3XD84	[]	False	False	False	False
+pilX		0.9844147742214263	Output		PA4553	877858	Q9HVM9		type 4 fimbrial biogenesis protein PilX	Basal machinery	Q9HVM9	[]	False	False	False	False
+PA1819		0.9844147742214263	Output		PA1819					Basal machinery		[]	False	False	False	False
+ldcA		0.9844147742214263	Output		PA1818	PseudoCap:PA181	Q9I2S7		lysine-specific pyridoxal 5'-phosphate-dependent carboxylase LdcA	Basal machinery	Q9I2S7	['GO:0008923']	False	False	False	False
+nrdA		0.9844147742214263	Output		PA1156	PseudoCap:PA115	Q9I4I1		ribonucleotide-diphosphate reductase subunit alpha	Basal machinery	Q9I4I1	['GO:0005524', 'GO:0004748']	False	False	False	False
+nrdB		0.9844147742214263	Output		PA1155	PseudoCap:PA115	Q9I4I2		ribonucleotide-diphosphate reductase subunit beta	Basal machinery	Q9I4I2	['GO:0005506', 'GO:0004748']	False	False	False	False
+PA1727		0.9844147742214263	Output		PA1727	PseudoCap:PA1727	Q9I310	mucR	MucR protein	Basal machinery	Q9I310	['GO:0071111', 'GO:0052621', 'GO:0046872']	False	False	False	False
+argB		0.9844147742214263	Output		PA5323	879620	Q9HTN2		acetylglutamate kinase	Basal machinery	Q9HTN2	['GO:0003991', 'GO:0005524']	False	False	False	False
+PA2523	1.0	0.9844147742214263	Middle		PA2523					M1		[]	False	False	False	False
+fimU		0.9844147742214263	Output		PA4550	879606	G3XCZ0		type 4 fimbrial biogenesis protein FimU	Basal machinery	G3XCZ0	[]	False	False	False	False
+algP	0.8971786330839303		Input		PA5253	880806	P15276	algR3	alginate regulatory protein AlgP	Basal machinery	P15276	['GO:0003677']	False	False	False	False
+algQ	0.9389335306099593		Input		PA5255	879719	P15275	algR2	anti-RNA polymerase sigma 70 factor	M26	P15275	[]	False	False	False	False
+rpoD		1.0	Output		PA0576	882038	P26480	rpoDA	RNA polymerase sigma factor RpoD	M26	P26480	['GO:0003677', 'GO:0016987']	True	False	False	False
+PA3952		0.9639046101454757	Output		PA3952					Basal machinery		[]	False	False	False	False
+PA1053		0.9639046101454757	Output		PA1053	881262	Q9I4S1	slyB	hypothetical protein	Basal machinery	Q9I4S1	[]	False	False	False	False
+PA3819		0.9639046101454757	Output		PA3819					Basal machinery		[]	False	False	False	False
+tal		0.9639046101454757	Output		PA2796	882755	Q9I047		transaldolase B	Basal machinery	Q9I047	['GO:0004801']	False	False	False	False
+ivy		0.9639046101454757	Output		PA3902	878927	Q9HXB1		hypothetical protein	Basal machinery	Q9HXB1	[]	False	False	False	False
+PA5291		0.9639046101454757	Output		PA5291					Basal machinery		[]	False	False	False	False
+PA3262		0.9639046101454757	Output		PA3262					Basal machinery		[]	False	False	False	False
+osmC		0.9639046101454757	Output		PA0059	878070	Q9I773		osmotically inducible protein OsmC	Basal machinery	Q9I773	['GO:0051920']	False	False	False	False
+PA0856		0.9639046101454757	Output		PA0856					Basal machinery		[]	False	False	False	False
+rpoH		0.9639046101454757	Output		PA0376	883126	P42378		RNA polymerase factor sigma-32	Basal machinery	P42378	['GO:0003677', 'GO:0016987']	True	False	False	False
+bolA		0.9639046101454757	Output		PA0857	880702	Q9I584		morphogene protein BolA	Basal machinery	Q9I584	[]	False	False	False	False
+PA5492.1		0.9639046101454757	Output		PA5492.1					Basal machinery		[]	False	False	False	False
+lptA		0.9639046101454757	Output		PA0005	877576	Q9I7C1		lysophosphatidic acid acyltransferase, LptA	Basal machinery	Q9I7C1	['GO:0003841', 'GO:0042171']	False	False	False	False
+PA1592		0.9639046101454757	Output		PA1592					Basal machinery		[]	False	False	False	False
+dksA		0.9639046101454757	Output		PA4723	881594	G3XD14		suppressor protein DksA	Basal machinery	G3XD14	['GO:0070063', 'GO:0008270']	False	False	False	False
+lptF		0.9639046101454757	Output		PA3692	879104	Q9HXU8		lipotoxon F LptF	Basal machinery	Q9HXU8	[]	False	False	False	False
+lptB		0.9639046101454757	Output		PA4461	881018	Q9HVV6		ABC transporter ATP-binding protein	Basal machinery	Q9HVV6	['GO:0005524', 'GO:0016887', 'GO:0042626']	False	False	False	False
+czcB		0.9885469539918185	Output		PA2521	880333	Q9I0W1		resistance-nodulation-cell division (RND) divalent metal cation efflux membrane fusion protein CzcB	M1	Q9I0W1	['GO:0046914', 'GO:0022857']	False	False	False	False
+czcC		0.9885469539918185	Output		PA2522	882894	Q9I0W0		outer membrane protein CzcC	M1	Q9I0W0	['GO:0015562', 'GO:0022857']	False	False	False	False
+czcA		0.9885469539918185	Output		PA2520	880332	Q9I0W2		resistance-nodulation-cell division (RND) divalent metal cation efflux transporter CzcA	M1	Q9I0W2	['GO:0008324', 'GO:0042910']	False	False	False	False
+hexR	1.0		Input		PA3184	882618	O68281		HexR family transcriptional regulator	M35	O68281	['GO:0097367', 'GO:0003677', 'GO:0003700']	True	False	False	False
+zwf		1.0	Output		PA3183	878525	Q9HTC7		glucose-6-phosphate 1-dehydrogenase	M35	Q9HTC7	['GO:0004345', 'GO:0050661']	False	False	False	False
+lon	1.0		Input		PA1803	877926	Q9I2T9		Lon protease	M5	Q9I2T9	['GO:0005524', 'GO:0016887', 'GO:0004176', 'GO:0043565', 'GO:0004252']	False	False	False	False
+PA4778	1.0		Input		PA4778	881842	Q9HV30	cueR	protein CueR	M38	Q9HV30	['GO:0005507', 'GO:0003677', 'GO:0003700']	True	False	False	False
+PA3523		1.0	Output		PA3523					M38		[]	False	False	False	False
+dgcA		0.9859004449094132	Output		PA5398	PseudoCap:PA539	Q9HTG6		dimethylglycine catabolism protein DgcA	Basal machinery	Q9HTG6	['GO:0047865', 'GO:0047866', 'GO:0010181']	False	False	False	False
+soxB		0.9859004449094132	Output		PA5416	PseudoCap:PA541	Q9HTE8		sarcosine oxidase subunit beta	Basal machinery	Q9HTE8	['GO:0008115']	False	False	False	False
+soxA		0.9859004449094132	Output		PA5418	PseudoCap:PA541	Q9HTE6		sarcosine oxidase subunit alpha	Basal machinery	Q9HTE6	['GO:0047545', 'GO:0008115']	False	False	False	False
+soxG		0.9859004449094132	Output		PA5419	PseudoCap:PA541	Q9HTE5		sarcosine oxidase subunit gamma	Basal machinery	Q9HTE5	['GO:0008115']	False	False	False	False
+soxD		0.9859004449094132	Output		PA5417	PseudoCap:PA541	Q9HTE7		sarcosine oxidase subunit delta	Basal machinery	Q9HTE7	['GO:0008115']	False	False	False	False
+glyA1		0.9859004449094132	Output		PA5415	880066	Q9HTE9		serine hydroxymethyltransferase	Basal machinery	Q9HTE9	['GO:0004372', 'GO:0030170']	False	False	False	False
+dgcB		0.9859004449094132	Output		PA5399	PseudoCap:PA539	Q9HTG5		dimethylglycine catabolism protein DgcB	Basal machinery	Q9HTG5	['GO:0051539', 'GO:0047865', 'GO:0047866', 'GO:0046872', 'GO:0016491']	False	False	False	False
+sdaB		0.9859004449094132	Output		PA5379	878445	Q9HTI5		L-serine dehydratase	Basal machinery	Q9HTI5	['GO:0051539', 'GO:0031459', 'GO:0003941', 'GO:0046872']	False	False	False	False
+gbcB		0.9859004449094132	Output		PA5411	PseudoCap:PA541	Q9HTF3		protein GbcB	Basal machinery	Q9HTF3	['GO:0051537', 'GO:0046872', 'GO:0004497', 'GO:0016491']	False	False	False	False
+gbcA		0.9859004449094132	Output		PA5410	PseudoCap:PA541	Q9HTF4		protein GbcA	Basal machinery	Q9HTF4	['GO:0051537', 'GO:0005506', 'GO:0004497']	False	False	False	False
+ihfA	0.9503276054066639	0.9650026046030293	Middle	-0.9892264281582444	PA2738	882954	Q51472	himA	integration host factor subunit alpha	Global regulator	Q51472	['GO:0003677', 'GO:0001216', 'GO:0030527', 'GO:0000976']	True	False	False	False
+bifA		0.8507086048311367	Output		PA4367	PseudoCap:PA436	Q9HW35		protein BifA	M39	Q9HW35	['GO:0071111', 'GO:0046872']	False	False	False	False
+rocA1	1.0		Input		PA3948	PseudoCap:PA394	Q9HX68		two-component response regulator RocA1	M19	Q9HX68	['GO:0003700', 'GO:0000976']	True	False	False	False
+dhcR	1.0		Input		PA1998	PseudoCap:PA1998	Q9I2B1		transcriptional regulator DhcR	M8	Q9I2B1	['GO:0003700', 'GO:0043565']	True	False	False	False
+dhcA		1.0	Output		PA1999	PseudoCap:PA1999	Q9I2B0		dehydrocarnitine CoA transferase subunit A	M8	Q9I2B0	['GO:0047569']	False	False	False	False
+dhcB		1.0	Output		PA2000	PseudoCap:PA2000	Q9I2A9		dehydrocarnitine CoA transferase subunit B	M8	Q9I2A9	['GO:0047569']	False	False	False	False
+vqsM	1.0	1.0	Middle	1.0	PA2227	PseudoCap:PA222	Q9I1P2		AraC family transcriptional regulator	Global regulator	Q9I1P2	['GO:0001216', 'GO:0003700', 'GO:0000976']	True	False	False	False
+PA0007		1.0	Output		PA0007					Basal machinery		[]	False	False	False	False
+phuU		1.0	Output		PA4707	881537	Q9HV91		ABC transporter permease	Basal machinery	Q9HV91	['GO:0022857']	False	False	False	False
+cobS		1.0	Output		PA1281	881439	Q9I463	cobV	cobalamin synthase	Basal machinery	Q9I463	['GO:0051073', 'GO:0008818']	False	False	False	False
+ppk		1.0	Output		PA5242	879700	Q9S646		polyphosphate kinase	Basal machinery	Q9S646	[]	False	False	False	False
+accA		1.0	Output		PA3639	880489	Q9HXZ2		acetyl-CoA carboxylase carboxyltransferase subunit alpha	Basal machinery	Q9HXZ2	['GO:0003989', 'GO:0005524', 'GO:0016743']	False	False	False	False
+PA0526		1.0	Output		PA0526					Basal machinery		[]	False	False	False	False
+PA5518		1.0	Output		PA5518					Basal machinery		[]	False	False	False	False
+PA3342		1.0	Output		PA3342					Basal machinery		[]	False	False	False	False
+recD		1.0	Output		PA4283	881652	Q9HWB7		exodeoxyribonuclease V subunit alpha	Basal machinery	Q9HWB7	['GO:0043139', 'GO:0005524', 'GO:0016887', 'GO:0003677', 'GO:0008854', 'GO:0017116']	False	False	False	False
+purD		1.0	Output		PA4855	878236	Q9HUV8		phosphoribosylamine--glycine ligase	Basal machinery	Q9HUV8	['GO:0005524', 'GO:0046872', 'GO:0004637']	False	False	False	False
+PA5324		1.0	Output		PA5324					Global regulator		[]	False	False	False	False
+PA3565		1.0	Output		PA3565					Basal machinery		[]	False	False	False	False
+PA3670		1.0	Output		PA3670					Basal machinery		[]	False	False	False	False
+pyrC'		1.0	Output									[]	False	False	False	False
+trkH		1.0	Output		PA3210	882536	Q9HZ30		potassium uptake protein TrkH	Basal machinery	Q9HZ30	['GO:0046872', 'GO:0015079', 'GO:0015379']	False	False	False	False
+PA3106		1.0	Output		PA3106					Basal machinery		[]	False	False	False	False
+PA3907		1.0	Output		PA3907					Basal machinery		[]	False	False	False	False
+PA0525		1.0	Output		PA0525					Basal machinery		[]	False	False	False	False
+smpB		1.0	Output		PA4768	881797	Q9HV40		SsrA-binding protein	Basal machinery	Q9HV40	['GO:0003723']	False	False	False	False
+tsaC		1.0	Output		PA0022	880711	Q9I7A5	rimN	hypothetical protein	Basal machinery	Q9I7A5	['GO:0005524', 'GO:0003725', 'GO:0061710', 'GO:0016779', 'GO:0000049']	False	False	False	False
+PA3900		1.0	Output		PA3900					Basal machinery		[]	False	False	False	False
+cysG		1.0	Output		PA2611	882317	Q9I0M7		siroheme synthase	Basal machinery	Q9I0M7	['GO:0051287', 'GO:0043115', 'GO:0051266', 'GO:0004851']	False	False	False	False
+PA3514		1.0	Output		PA3514					Basal machinery		[]	False	False	False	False
+spdH		1.0	Output		PA3713	PseudoCap:PA371	Q9HXS8		spermidine dehydrogenase SpdH	Basal machinery	Q9HXS8	['GO:0046872', 'GO:0000166', 'GO:0016491']	False	False	False	False
+gcvP2		1.0	Output		PA5213	880606	Q9HTX7	gcvP1	glycine dehydrogenase	Basal machinery	Q9HTX7	['GO:0016594', 'GO:0004375', 'GO:0030170']	False	False	False	False
+PA5423		1.0	Output		PA5423					Basal machinery		[]	False	False	False	False
+opr86		1.0	Output		PA3648	PseudoCap:PA3648	Q9HXY4	bamA	outer membrane protein Opr86	Basal machinery	Q9HXY4	[]	False	False	False	False
+PA3925		1.0	Output		PA3925					Basal machinery		[]	False	False	False	False
+waaC		1.0	Output		PA5011	881533	Q9HUF5		heptosyltransferase I	Basal machinery	Q9HUF5	['GO:0008713', 'GO:0071968']	False	False	False	False
+PA5290		1.0	Output		PA5290					Basal machinery		[]	False	False	False	False
+PA0440		1.0	Output		PA0440					Basal machinery		[]	False	False	False	False
+PA5216		1.0	Output		PA5216					Basal machinery		[]	False	False	False	False
+PA0845		1.0	Output		PA0845					Basal machinery		[]	False	False	False	False
+PA2661		1.0	Output		PA2661					Basal machinery		[]	False	False	False	False
+recG		1.0	Output		PA5345	880937	Q9HTL3		ATP-dependent DNA helicase RecG	Basal machinery	Q9HTL3	['GO:0005524', 'GO:0016887', 'GO:0003677', 'GO:0003678', 'GO:0009378']	False	False	False	False
+PA1253		1.0	Output		PA1253					Basal machinery		[]	False	False	False	False
+PA4908		1.0	Output		PA4908					Basal machinery		[]	False	False	False	False
+PA4894		1.0	Output		PA4894					Basal machinery		[]	False	False	False	False
+PA2228		1.0	Output		PA2228					Basal machinery		[]	False	False	False	False
+PA3749		1.0	Output		PA3749					Basal machinery		[]	False	False	False	False
+glpD		0.9650026046030293	Output		PA3584	880179	P52111		glycerol-3-phosphate dehydrogenase	M7	P52111	['GO:0004368']	False	False	False	False
+glpF		0.9650026046030293	Output		PA3581	880152	Q51389		glycerol uptake facilitator protein	M7	Q51389	['GO:0015254']	False	False	False	False

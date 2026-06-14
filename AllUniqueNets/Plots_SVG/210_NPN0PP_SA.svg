@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 300" width="350" height="300">
+
+  <defs>
+    <marker id="arrow_act" viewBox="0 0 12 12" refX="8" refY="6" 
+            markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 2 2 L 9 6 L 2 10 z" fill="#5C82B6" stroke="#5C82B6" stroke-width="2" stroke-linejoin="round" />
+    </marker>
+    
+    <marker id="arrow_zero" viewBox="0 0 12 12" refX="8" refY="6" 
+            markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 2 2 L 9 6 L 2 10 z" fill="#999999" stroke="#999999" stroke-width="2" stroke-linejoin="round" />
+    </marker>
+
+    <marker id="bar_inh" viewBox="0 0 12 24" refX="5" refY="12" 
+            markerWidth="4.5" markerHeight="6.5" orient="auto">
+      <line x1="5" y1="5" x2="5" y2="19" stroke="#D05A5A" stroke-width="4" stroke-linecap="round" />
+    </marker>
+  </defs>
+
+  <path d="M 152.8456378952954 98.38978628841645 L 104.83065038373259 181.61576464179203" fill="none" stroke="#D05A5A" stroke-width="3.5" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#bar_inh)" />
+  <path d="M 122.15436210470459 191.61021371158355 L 170.16934961626743 108.38423535820797" fill="none" stroke="#5C82B6" stroke-width="3.5" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_act)" />
+  <path d="M 179.83065038373257 108.38423535820797 L 227.8456378952954 191.61021371158355" fill="none" stroke="#D05A5A" stroke-width="3.5" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#bar_inh)" />
+  <path d="M 245.16934961626743 181.61576464179203 L 197.1543621047046 98.38978628841645" fill="none" stroke="#999999" stroke-width="3.5" stroke-dasharray="1, 6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_zero)" />
+  <path d="M 127.0 220.0 L 223.0 220.0" fill="none" stroke="#5C82B6" stroke-width="3.5" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_act)" />
+  <path d="M 223.0 200.0 L 127.0 200.0" fill="none" stroke="#5C82B6" stroke-width="3.5" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_act)" />
+  <path d="M 158.36628334581965 56.24459071561924 A 24 24 0 1 1 191.63371665418035 56.24459071561924" fill="none" stroke="#5C82B6" stroke-width="3.5" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_act)" />
+  <path d="M 278.88964624466064 207.4724834603179 A 24 24 0 1 1 262.25592959048026 236.28292582406286" fill="none" stroke="#5C82B6" stroke-width="3.5" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_act)" />
+  <path d="M 87.74407040951971 236.28292582406283 A 24 24 0 1 1 71.11035375533937 207.47248346031793" fill="none" stroke="#5C82B6" stroke-width="3.5" stroke-dasharray="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_act)" />
+  <circle cx="175" cy="80" r="22" fill="white" stroke="#363942" stroke-width="3.5" />
+  <circle cx="100" cy="210" r="22" fill="white" stroke="#363942" stroke-width="3.5" />
+  <circle cx="250" cy="210" r="22" fill="white" stroke="#363942" stroke-width="3.5" />
+
+</svg>

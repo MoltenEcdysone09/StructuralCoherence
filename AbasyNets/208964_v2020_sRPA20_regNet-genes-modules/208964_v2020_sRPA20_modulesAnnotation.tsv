@@ -1,0 +1,83 @@
+Module_ID	GO_ID	GO_desc	q-value
+M1	GO:0006561	proline biosynthetic process	0.0337115683413
+M1	GO:0010133	proline catabolic process to glutamate	0.0337115683413
+M1	GO:2001158	positive regulation of proline catabolic process to glutamate	0.0337115683413
+M12	GO:0006097	glyoxylate cycle	0.021308255461
+M12	GO:1900232	negative regulation of single-species biofilm formation on inanimate substrate	0.038459616923
+M16	GO:0008300	isoprenoid catabolic process	0.000000000000248921225663
+M18	GO:0051345	positive regulation of hydrolase activity	0.038459616923
+M19	GO:0019439	aromatic compound catabolic process	0.038459616923
+M20.1	GO:0000160	phosphorelay signal transduction system	0.0420498020001
+M20.1	GO:0006542	glutamine biosynthetic process	0.0210522396847
+M20.1	GO:0015822	ornithine transport	0.00109586197273
+M20.1	GO:0015846	polyamine transport	0.0210522396847
+M20.1	GO:0018106	peptidyl-histidine phosphorylation	0.0470557308097
+M20.1	GO:0046203	spermidine catabolic process	0.00849125969498
+M20.1	GO:1902023	L-arginine transport	0.00109586197273
+M20.1	GO:1903506	regulation of nucleic acid-templated transcription	0.0337115683413
+M20.11	GO:0006811	ion transport	0.038459616923
+M20.11	GO:0055085	transmembrane transport	0.00404183961481
+M20.12	GO:0006546	glycine catabolic process	0.045629799573
+M20.12	GO:0019464	glycine decarboxylation via glycine cleavage system	0.000763139662155
+M20.13	GO:1900233	positive regulation of single-species biofilm formation on inanimate substrate	0.0420498020001
+M20.15	GO:0045862	positive regulation of proteolysis	0.038459616923
+M20.18	GO:0009244	lipopolysaccharide core region biosynthetic process	0.045629799573
+M20.18	GO:0009298	GDP-mannose biosynthetic process	0.0337115683413
+M20.19	GO:0032885	regulation of polysaccharide biosynthetic process	0.0337115683413
+M20.19	GO:1903506	regulation of nucleic acid-templated transcription	0.0337115683413
+M20.20	GO:0000103	sulfate assimilation	0.038459616923
+M20.20	GO:0019344	cysteine biosynthetic process	0.000054035288968
+M20.20	GO:0070814	hydrogen sulfide biosynthetic process	0.038459616923
+M20.22	GO:0023014	signal transduction by phosphorylation	0.0420498020001
+M20.22	GO:0045862	positive regulation of proteolysis	0.038459616923
+M20.22	GO:1900232	negative regulation of single-species biofilm formation on inanimate substrate	0.038459616923
+M20.22	GO:1900378	positive regulation of secondary metabolite biosynthetic process	0.0470557308097
+M20.22	GO:2000147	positive regulation of cell motility	0.0470557308097
+M20.24	GO:0006396	RNA processing	0.038459616923
+M20.25	GO:0007165	signal transduction	0.045629799573
+M20.25	GO:0051301	cell division	0.0156449992975
+M20.29	GO:1900377	negative regulation of secondary metabolite biosynthetic process	0.045629799573
+M20.3	GO:0015031	protein transport	0.0139457386162
+M20.3	GO:0045893	positive regulation of transcription, DNA-templated	0.0426323939922
+M20.3	GO:1900377	negative regulation of secondary metabolite biosynthetic process	0.029870478416
+M20.33	GO:0006284	base-excision repair	0.038459616923
+M20.33	GO:0031564	transcription antitermination	0.038459616923
+M20.33	GO:0034251	regulation of cellular amide catabolic process	0.038459616923
+M20.33	GO:0044248	cellular catabolic process	0.038459616923
+M20.33	GO:0051345	positive regulation of hydrolase activity	0.0470557308097
+M20.7	GO:0009405	pathogenesis	0.00000391066197613
+M20.7	GO:0030254	protein secretion by the type III secretion system	3.27853044234e-19
+M20.7	GO:0050708	regulation of protein secretion	0.00673229510731
+M20.7	GO:0050709	negative regulation of protein secretion	0.0359169360503
+M20.7	GO:0071277	cellular response to calcium ion	0.00264927302483
+M20.9	GO:0006261	DNA-dependent DNA replication	0.0470557308097
+M20.9	GO:0006265	DNA topological change	0.0470557308097
+M20.9	GO:0009372	quorum sensing	0.00404183961481
+M22	GO:0006119	oxidative phosphorylation	0.00385549088853
+M22	GO:0009060	aerobic respiration	0.00000000491587347357
+M22	GO:0019646	aerobic electron transport chain	0.00385549088853
+M22	GO:0022900	electron transport chain	0.000347138045406
+M22	GO:1902600	hydrogen ion transmembrane transport	0.000000000850434861789
+M24	GO:0006069	ethanol oxidation	0.00404183961481
+M24	GO:0006071	glycerol metabolic process	0.0000103677731504
+M24	GO:0018189	pyrroloquinoline quinone biosynthetic process	0.0000000646935356136
+M25	GO:0051301	cell division	0.00856570439723
+M26	GO:1900233	positive regulation of single-species biofilm formation on inanimate substrate	0.0420498020001
+M28	GO:0019441	tryptophan catabolic process to kynurenine	0.000000313165531427
+M28	GO:0043420	anthranilate metabolic process	0.000155057785734
+M29	GO:0033388	putrescine biosynthetic process from arginine	0.00041121043242
+M29	GO:0051346	negative regulation of hydrolase activity	0.038459616923
+M3	GO:0019285	glycine betaine biosynthetic process from choline	0.000000313165531427
+M32	GO:0019483	beta-alanine biosynthetic process	0.0000000113260590028
+M35	GO:0006631	fatty acid metabolic process	0.038459616923
+M35	GO:0009896	positive regulation of catabolic process	0.0470557308097
+M35	GO:0042413	carnitine catabolic process	0.0470557308097
+M36	GO:0000162	tryptophan biosynthetic process	0.00000773703077643
+M38	GO:0006520	cellular amino acid metabolic process	0.0420498020001
+M39	GO:0019478	D-amino acid catabolic process	0.021308255461
+M4	GO:0006457	protein folding	0.0312193698752
+M4	GO:0016226	iron-sulfur cluster assembly	0.000000637115067973
+M5	GO:0006098	pentose-phosphate shunt	0.038459616923
+M7	GO:0009896	positive regulation of catabolic process	0.0470557308097
+M7	GO:0042413	carnitine catabolic process	0.00041121043242
+M8	GO:0006559	L-phenylalanine catabolic process	0.021308255461

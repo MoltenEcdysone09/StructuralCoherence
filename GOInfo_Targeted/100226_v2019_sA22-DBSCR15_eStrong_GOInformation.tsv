@@ -1,0 +1,295 @@
+Node	MeanAbsOutCoh	MeanAbsInCoh	NodeLevel	DiagCohval	Locus_tag	NCBI_gene_ID	Uniprot_ID	Synonyms	Product_function	NDA_component	Uniprot_ID_clean	GO_terms	Is_TF_GO	Is_SignalingReceptor_GO	Is_HistKinase_GO	Is_SignallingTransducer_GO
+SCO1489	0.43622564667058217	0.3678794411714786	Middle	-0.3678794411714786	SCO1489	1096915.0	Q7AKQ8		DNA-binding protein	Global regulator	Q7AKQ8	['GO:0001217', 'GO:0000166', 'GO:0043565', 'GO:0000976']	True	False	False	False
+SCO2817		0.4400226580871991	Output		SCO2817	1098251.0	Q93J80			Basal machinery	Q93J80	['GO:0071111']	False	False	False	False
+SCO3323	1.0	0.4400226580871991	Middle		SCO3323	1098757.0	Q9WX11		RNA polymerase sigma factor	M4	Q9WX11	['GO:0003677', 'GO:0016987']	True	False	False	False
+sigH	1.0	0.4400226580871991	Middle		SCO5243	1100684.0	Q9RIT0		RNA polymerase sigma factor	Global regulator	Q9RIT0	['GO:0003677', 'GO:0016987']	True	False	False	False
+SCO2792	1.0	0.4400226580871991	Middle		SCO2792	1098226.0	Q9L062		AraC family transcription regulator	Global regulator	Q9L062	['GO:0003700', 'GO:0043565']	True	False	False	False
+whiG	1.0	0.4400226580871991	Middle		SCO5621	1101062.0	P17211		RNA polymerase sigma factor WhiG	M5	P17211	['GO:0003677', 'GO:0003899', 'GO:0016987']	True	False	False	False
+SCO7337		0.4400226580871991	Output		SCO7337	1102775.0	Q7AKD2			Basal machinery	Q7AKD2	[]	False	False	False	False
+SCOt24		0.4400226580871991	Output		SCOt24	1098521.0		bldA		Basal machinery		[]	False	False	False	False
+ftsZ		0.4400226580871991	Output		SCO2082	1097516.0	P45500			Basal machinery	P45500	['GO:0005525', 'GO:0003924']	False	False	False	False
+sti1		0.4400226580871991	Output		SCO0762	1096185.0	P61152			Basal machinery	P61152	['GO:0004867']	False	False	False	False
+SCO4596	1.0	1.0	Middle		SCO4596	1100036.0	Q9F2W5			Global regulator	Q9F2W5	['GO:0003700', 'GO:0000976']	True	False	False	False
+bfr		1.0	Output		SCO2113	1097547.0	Q9S2N0			Basal machinery	Q9S2N0	['GO:0008199', 'GO:0004322', 'GO:0020037', 'GO:0005506']	False	False	False	False
+SCO3328		1.0	Output		SCO3328	1098762.0	Q9WX06		hypothetical protein	Basal machinery	Q9WX06	['GO:0003677']	False	False	False	False
+SCO6809		1.0	Output		SCO6809	1102248.0	Q9L223			Basal machinery	Q9L223	['GO:0022857']	False	False	False	False
+SCO6992		1.0	Output		SCO6992	1102430.0	Q7AKD9			Basal machinery	Q7AKD9	['GO:0004222']	False	False	False	False
+SCO0736		1.0	Output		SCO0736	1096159.0	Q9EWT5			Basal machinery	Q9EWT5	['GO:0071972', 'GO:0016740']	False	False	False	False
+actII-4	1.0	0.7723928432190257	Middle		SCO5085	1100526.0	P46106		actinorhodin cluster activator protein	Global regulator	P46106	['GO:0003677']	False	False	False	False
+SCO2964	1.0	1.0	Middle	1.0	SCO2964	1098397.0	Q9L1T1			Basal machinery	Q9L1T1	['GO:0003677', 'GO:0003700']	True	False	False	False
+SCO3063	1.0		Input		SCO3063	1098496.0	Q9KZ82			Global regulator	Q9KZ82	['GO:0000156', 'GO:0000976']	False	False	False	True
+SCO2833		1.0	Output		SCO2833	1098267.0	Q9RDB8			Basal machinery	Q9RDB8	[]	False	False	False	False
+SCO2014		1.0	Output		SCO2014	1097448.0	Q9S2I9			Basal machinery	Q9S2I9	['GO:0005524', 'GO:0016301', 'GO:0000287', 'GO:0030955', 'GO:0004743']	False	False	False	False
+SCO6222		1.0	Output		SCO6222	1101663.0	O86587			Basal machinery	O86587	['GO:0030170', 'GO:0008483']	False	False	False	False
+SCO3139		1.0	Output		SCO3139	1098573.0	Q9K3S5			Basal machinery	Q9K3S5	['GO:0005412']	False	False	False	False
+SCO1147		1.0	Output		SCO1147	1096570.0	Q8CK38			Basal machinery	Q8CK38	['GO:0015421', 'GO:0005524', 'GO:0016887']	False	False	False	False
+SCO5393		1.0	Output		SCO5393	1100833.0	Q9K4B8			Basal machinery	Q9K4B8	['GO:0005524', 'GO:0016887']	False	False	False	False
+SCO4883		1.0	Output		SCO4883	1100324.0	Q9AK43			Basal machinery	Q9AK43	['GO:0016787', 'GO:0046872']	False	False	False	False
+SCO6748		1.0	Output		SCO6748	1102187.0	Q9X7Q4			Basal machinery	Q9X7Q4	[]	False	False	False	False
+SCO6280		0.6266817720581327	Output		SCO6280	1101721.0	Q93S09		regulatory protein	Basal machinery	Q93S09	['GO:0003677']	False	False	False	False
+SCO5405	1.0		Input		SCO5405	1100845.0	Q9L2B5			Global regulator	Q9L2B5	['GO:0003700']	True	False	False	False
+SCO7681		1.0	Output		SCO7681	1103119.0	Q9EWP6			Basal machinery	Q9EWP6	['GO:0016878', 'GO:0005524']	False	False	False	False
+SCO7682		1.0	Output		SCO7682	1103120.0	Q9EWP5			Basal machinery	Q9EWP5	['GO:0000036', 'GO:0016874', 'GO:0031177']	False	False	False	False
+SCO2183		1.0	Output		SCO2183	1097616.0	Q9S2Q3			Basal machinery	Q9S2Q3	['GO:0000287', 'GO:0004739']	False	False	False	False
+SCO2371		1.0	Output		SCO2371	1097805.0	Q9KY19			Basal machinery	Q9KY19	['GO:0000287', 'GO:0004739']	False	False	False	False
+afsQ1	1.0		Input		SCO4907	1100348.0	Q04942			Global regulator	Q04942	['GO:0000156', 'GO:0000976']	False	False	False	True
+SCO6276		1.0	Output		SCO6276	1101717.0	Q93S13		secreted protein	Basal machinery	Q93S13	['GO:0005506']	False	False	False	False
+SCO6275		1.0	Output		SCO6275	1101716.0	Q8CJN6			Basal machinery	Q8CJN6	['GO:0004315', 'GO:0004312', 'GO:0031177']	False	False	False	False
+SCO2978		1.0	Output		SCO2978	1098411.0	Q9L057			Basal machinery	Q9L057	['GO:0022857']	False	False	False	False
+SCO2529		1.0	Output		SCO2529	1097963.0	Q9L2L8			Basal machinery	Q9L2L8	['GO:0046872', 'GO:0004222']	False	False	False	False
+SCO2210		0.9019378877809907	Output		SCO2210	1097643.0	Q7AKP2		glutamine synthetase	Basal machinery	Q7AKP2	['GO:0005524', 'GO:0004356', 'GO:0046872']	False	False	False	False
+whiD		1.0	Output		SCO4767	1100208.0	Q7AKI9	wblB,whiB3		Basal machinery	Q7AKI9	['GO:0051539', 'GO:0035731', 'GO:0003677', 'GO:0046872', 'GO:0047134']	False	False	False	False
+SCO4908		1.0	Output		SCO4908	1100349.0	Q8R5N3			Basal machinery	Q8R5N3	['GO:0003677', 'GO:0016987']	True	False	False	False
+SCO5881		0.8759097258127244	Output		SCO5881	1101323.0	Q7AKF4		response regulator	M24	Q7AKF4	['GO:0003677', 'GO:0003700']	True	False	False	False
+SCO4142		1.0	Output		SCO4142	1099582.0	Q9KZV9		phosphate-binding protein precursor	Basal machinery	Q9KZV9	['GO:0042301']	False	False	False	False
+SCO5583		0.8896801237536145	Output		SCO5583	1101024.0	Q9ZBP6		ammonium transporter	Basal machinery	Q9ZBP6	['GO:0008519']	False	False	False	False
+SCO4768		0.7793602475072291	Output		SCO4768	1100209.0	Q7AKI8		two-component regulator	M4	Q7AKI8	['GO:0003700', 'GO:0000976']	True	False	False	False
+ureA		0.8896801237536145	Output		SCO1236	1096659.0	Q9FCD1			Basal machinery	Q9FCD1	['GO:0016151', 'GO:0009039']	False	False	False	False
+glnA		0.8896801237536145	Output		SCO2198	1097631.0	P15106		glutamine synthetase I	Basal machinery	P15106	['GO:0005524', 'GO:0004356', 'GO:0046872']	False	False	False	False
+dmdR1	1.0		Input		SCO4394	1099834.0	Q7AKJ7		iron repressor	M13	Q7AKJ7	['GO:0003677', 'GO:0003700', 'GO:0046983', 'GO:0046914']	True	False	False	False
+SCO2782		1.0	Output		SCO2782	1098216.0	Q9L072		pyridoxal-dependent decarboxylase	M13	Q9L072	['GO:0004058', 'GO:0016831', 'GO:0030170']	False	False	False	False
+SCO3361	0.4480385710778347	0.3678794411714786	Middle	-0.3678794411714786	SCO3361	1098798.0	Q7AKL8			M30	Q7AKL8	['GO:0043565']	False	False	False	False
+SCO3362		0.3678794411714786	Output		SCO3362	1098799.0	Q9X8L9			M30	Q9X8L9	['GO:0015171']	False	False	False	False
+amfC		0.3678794411714786	Output		SCO4184	1099624.0	Q54191			M30	Q54191	[]	False	False	False	False
+sigB	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	SCO0600	1096023.0	Q9R3I8		RNA polymerase sigma factor sig8	M28	Q9R3I8	['GO:0003677', 'GO:0016987']	True	False	False	False
+SCO0666		0.4400226580871991	Output		SCO0666	1096089.0	Q7AKS0		catalase	M28	Q7AKS0	['GO:0004096', 'GO:0020037', 'GO:0046872']	False	False	False	False
+sigE	1.0		Input		SCO3356	1098793.0	P38133		ECF sigma factor	Global regulator	P38133	['GO:0003677', 'GO:0016987']	True	False	False	False
+dagA		0.8234881980057832	Output		SCO3471	1098908.0	P07883		extracellular agarase precursor	Basal machinery	P07883	['GO:0033916']	False	False	False	False
+whiB		1.0	Output		SCO3034	1098467.0	Q7AKN0	whiB2	sporulation regulatory protein	M3	Q7AKN0	['GO:0051539', 'GO:0035731', 'GO:0003677', 'GO:0046872', 'GO:0047134']	False	False	False	False
+hrdD	1.0	1.0	Middle		SCO3202	1098636.0	P18249		RNA polymerase principal sigma factor	M3	P18249	['GO:0003677', 'GO:0016987']	True	False	False	False
+sigF	1.0	1.0	Middle		SCO4035	1099471.0	P37971	rpoX	RNA polymerase sigma factor	M11	P37971	['GO:0003677', 'GO:0016987']	True	False	False	False
+SCO5321		1.0	Output		SCO5321	1100761.0	P42534		polyketide hydroxylase	M11	P42534	['GO:0071949', 'GO:0016491', 'GO:0016709']	False	False	False	False
+SCO1276		0.7058136633429721	Output		SCO1276	1096699.0	Q9K2W6		RNA polymerase ECF sigma factor	Basal machinery	Q9K2W6	['GO:0003677', 'GO:0016987']	True	False	False	False
+SCO1541		0.7793602475072291	Output		SCO1541	1096967.0	Q9L268		regulator	Basal machinery	Q9L268	[]	False	False	False	False
+actIII		0.8397770251271524	Output		SCO5086	1100527.0	P16544		ketoacyl reductase	Basal machinery	P16544	['GO:0016491']	False	False	False	False
+sigR	0.8587586122278521	1.0	Middle	1.0	SCO5216	1100657.0	Q7AKG9		RNA polymerase sigma factor RpoE	Global regulator	Q7AKG9	['GO:0003677', 'GO:0016987']	True	False	False	False
+lon		1.0	Output		SCO5285	1100726.0	Q9EVK2		ATP-dependent protease	Basal machinery	Q9EVK2	['GO:0005524', 'GO:0016887', 'GO:0004176', 'GO:0043565', 'GO:0004252']	False	False	False	False
+mca		1.0	Output		SCO4967	1100408.0	Q9ADK0			Basal machinery	Q9ADK0	['GO:0016811', 'GO:0008270']	False	False	False	False
+trxA		1.0	Output		SCO3889	1099325.0	P52230		thioredoxin	Basal machinery	P52230	['GO:0015035']	False	False	False	False
+trxB		1.0	Output		SCO3890	1099326.0	P52215		thioredoxin reductase (NADPH)	Basal machinery	P52215	['GO:0004791']	False	False	False	False
+mshA		1.0	Output		SCO4204	1099644.0	Q9FCG5		glycosyltransferase	Basal machinery	Q9FCG5	['GO:0008375', 'GO:0102710', 'GO:0016757', 'GO:0000287']	False	False	False	False
+glnR	1.0	0.8133408860290663	Middle		SCO4159	1099599.0	Q05943		transcriptional regulatory protein	Global regulator	Q05943	['GO:0000156', 'GO:0000976']	False	False	False	True
+SCO2386	1.0		Input		SCO2386	1097820.0	Q9RDP8			M12	Q9RDP8	['GO:0003700']	True	False	False	False
+SCO2387		1.0	Output		SCO2387	1097821.0	Q7AKN9			M12	Q7AKN9	['GO:0004314']	False	False	False	False
+SCO1568	1.0	1.0	Middle	1.0	SCO1568	1096999.0	Q9L1B3		TetR family transcriptional regulator	Basal machinery	Q9L1B3	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO6286	0.9753517439473071		Input		SCO6286	1101727.0	Q93S03			Global regulator	Q93S03	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO1346		1.0	Output		SCO1346	1096769.0	Q9K3Y7			Basal machinery	Q9K3Y7	['GO:0016616']	False	False	False	False
+SCO1347		1.0	Output		SCO1347	1096770.0	Q9K3Y6			Basal machinery	Q9K3Y6	[]	False	False	False	False
+rpsD		1.0	Output		SCO1505	1096931.0	Q9KXP5			Basal machinery	Q9KXP5	['GO:0019843', 'GO:0003735']	False	False	False	False
+SCO6272		1.0	Output		SCO6272	1101713.0	Q9EX55			Basal machinery	Q9EX55	['GO:0071949', 'GO:0016491']	False	False	False	False
+SCO6271		1.0	Output		SCO6271	1101712.0				Basal machinery		[]	False	False	False	False
+SCO6312		0.6266817720581327	Output		SCO6312	1101753.0	Q7AKE7			Basal machinery	Q7AKE7	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO2616		1.0	Output		SCO2616	1098050.0	Q8CJZ0			Basal machinery	Q8CJZ0	[]	False	False	False	False
+SCO2373		0.6266817720581327	Output		SCO2373	1097807.0	Q8CJZ8			Basal machinery	Q8CJZ8	['GO:0022857']	False	False	False	False
+SCO1403		0.6266817720581327	Output		SCO1403	1096829.0	Q9KZM9			Basal machinery	Q9KZM9	[]	False	False	False	False
+SCO1402		0.6266817720581327	Output		SCO1402	1096828.0	Q9KZN0			Basal machinery	Q9KZN0	['GO:0016301']	False	False	False	False
+SCO3616		1.0	Output		SCO3616	1099052.0	Q9XAI6			Basal machinery	Q9XAI6	[]	False	False	False	False
+SCO3615		1.0	Output		SCO3615	1099051.0	Q9XAI7			Basal machinery	Q9XAI7	['GO:0004072', 'GO:0005524']	False	False	False	False
+SCO4947		0.6266817720581327	Output		SCO4947	1100388.0	Q9EWF3			Basal machinery	Q9EWF3	['GO:0051539', 'GO:0046872', 'GO:0043546', 'GO:0160182']	False	False	False	False
+SCO3229		0.6839397205857393	Output		SCO3229	1098663.0	Q9Z4X7		4-hydroxyphenylpyruvic acid dioxygenase	M14	Q9Z4X7	['GO:0003868', 'GO:0046872']	False	False	False	False
+SCO4921		0.6266817720581327	Output		SCO4921	1100362.0				Basal machinery		[]	False	False	False	False
+SCO3249		1.0	Output		SCO3249	1098683.0	Q9Z4Y2		acyl carrier protein	Basal machinery	Q9Z4Y2	[]	False	False	False	False
+murC		1.0	Output		SCO6060	1101501.0	Q9X827			Basal machinery	Q9X827	['GO:0005524', 'GO:0008763']	False	False	False	False
+SCO3225		1.0	Output		SCO3225	1098659.0	Q7AKM4		two component sensor kinase	Basal machinery	Q7AKM4	['GO:0000155', 'GO:0046983', 'GO:0004672']	False	False	False	False
+SCO3224		1.0	Output		SCO3224	1098658.0	Q9S6T6		ABC transporter ATP-binding protein	Basal machinery	Q9S6T6	['GO:0005524', 'GO:0016887']	False	False	False	False
+SCO7623		1.0	Output		SCO7623	1103061.0	Q9F3D4	pntA		Basal machinery	Q9F3D4	['GO:0050661', 'GO:0016491', 'GO:0008750']	False	False	False	False
+SCO6324		0.6266817720581327	Output		SCO6324	1101765.0	Q93RS1			Basal machinery	Q93RS1	['GO:0016787']	False	False	False	False
+SCO3868		0.6266817720581327	Output		SCO3868	1099304.0	Q9KXY0			Basal machinery	Q9KXY0	[]	False	False	False	False
+SCO6323		0.6266817720581327	Output		SCO6323	1101764.0	Q93RS2			Basal machinery	Q93RS2	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO4118	1.0	1.0	Middle		SCO4118	1099555.0	Q9KYF2		TetR family transcriptional regulator	M15.1	Q9KYF2	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO3867		0.6266817720581327	Output		SCO3867	1099303.0	Q9KXY1			Basal machinery	Q9KXY1	['GO:0051538', 'GO:0009055', 'GO:0005506']	False	False	False	False
+SCO6282		1.0	Output		SCO6282	1101723.0	Q93S07		3-oxoacyl-[acyl-carrier protein] reductase	Basal machinery	Q93S07	['GO:0016491']	False	False	False	False
+SCO5544		1.0	Output		SCO5544	1100984.0	O86525			Basal machinery	O86525	['GO:0004673']	False	False	False	False
+SCO5545		1.0	Output		SCO5545	1100985.0	O86526			Basal machinery	O86526	[]	False	False	False	False
+rpsL		1.0	Output		SCO4659	1100100.0	P0A4A3			Basal machinery	P0A4A3	['GO:0019843', 'GO:0003735', 'GO:0000049']	False	False	False	False
+SCO5423		0.6266817720581327	Output		SCO5423	1100863.0	Q9L299			Basal machinery	Q9L299	['GO:0005524', 'GO:0016301', 'GO:0000287', 'GO:0030955', 'GO:0004743']	False	False	False	False
+serS		1.0	Output		SCO3961	1099397.0	Q9ZBX1			Basal machinery	Q9ZBX1	['GO:0005524', 'GO:0004828', 'GO:0000049']	False	False	False	False
+leuA		1.0	Output		SCO2528	1097962.0	O31046			Basal machinery	O31046	['GO:0003852', 'GO:0003985', 'GO:0000287']	False	False	False	False
+SCO1571		1.0	Output		SCO1571	1097002.0	Q9L1B0			Basal machinery	Q9L1B0	[]	False	False	False	False
+SCO6268		0.6266817720581327	Output		SCO6268	1101709.0	Q9RKS6			Basal machinery	Q9RKS6	['GO:0000155', 'GO:0046983', 'GO:0004672']	False	False	False	False
+SCO6288		1.0	Output		SCO6288	1101729.0	Q93RY4			Basal machinery	Q93RY4	['GO:0003677']	False	False	False	False
+arsI		1.0	Output		SCO3067	1098500.0	Q9RIS6			Basal machinery	Q9RIS6	['GO:0043856']	True	False	False	False
+SCO6071		1.0	Output		SCO6071	1101512.0	Q7AKF2			Basal machinery	Q7AKF2	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO1698		1.0	Output		SCO1698	1097129.0	Q9S254			Basal machinery	Q9S254	['GO:0018812']	False	False	False	False
+SCO3217		0.8133408860290663	Output		SCO3217	1098651.0	Q9Z389		transcriptional regulator	M24	Q9Z389	['GO:0043531', 'GO:0003677']	False	False	False	False
+SCO1697	1.0	1.0	Middle		SCO1697	1097128.0	Q9S255			Global regulator	Q9S255	['GO:0051537', 'GO:0003677', 'GO:0003700']	True	False	False	False
+SCO2907		0.7022297749179551	Output		SCO2907	1098340.0	Q9S2H4		PTS transmembrane component	Intermodular	Q9S2H4	['GO:0008982', 'GO:0090563']	False	False	False	False
+SCO3230		1.0	Output		SCO3230	1098664.0	Q9Z4X6		CDA peptide synthetase I	Basal machinery	Q9Z4X6	['GO:0016874', 'GO:0031177']	False	False	False	False
+argH		1.0	Output		SCO1570	1097001.0	Q9L1B1			Basal machinery	Q9L1B1	['GO:0004056']	False	False	False	False
+sigI		1.0	Output		SCO3068	1098501.0	Q9RIS5			Basal machinery	Q9RIS5	['GO:0003677', 'GO:0016987']	True	False	False	False
+gap		0.6266817720581327	Output		SCO1947	1097381.0	Q9Z518			Basal machinery	Q9Z518	['GO:0004365', 'GO:0051287', 'GO:0050661']	False	False	False	False
+valS		1.0	Output		SCO2615	1098049.0	O06851			Basal machinery	O06851	['GO:0002161', 'GO:0005524', 'GO:0004832']	False	False	False	False
+SCO4503		1.0	Output		SCO4503	1099943.0	Q9L0U1			Basal machinery	Q9L0U1	['GO:0016405']	False	False	False	False
+SCO4677		1.0	Output		SCO4677	1100118.0	Q9L0G5			Basal machinery	Q9L0G5	['GO:0016989']	True	False	False	False
+afsK		0.6266817720581327	Output		SCO4423	1099863.0	P54741			Basal machinery	P54741	['GO:0005524', 'GO:0106310', 'GO:0004674']	False	False	False	False
+SCO2879		1.0	Output		SCO2879	1098313.0	Q9KZS2			Basal machinery	Q9KZS2	['GO:0016301']	False	False	False	False
+SCO3226	1.0		Input		SCO3226	1098660.0	Q7AKM3		two component system response regulator	M24	Q7AKM3	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO6265	0.47495331296586857	0.3678794411714786	Middle	-0.3678794411714786	SCO6265	1101706.0	Q7AKF1		gamma-butyrolactone binding protein	Global regulator	Q7AKF1	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO6266	1.0	0.7873180227362017	Middle	1.0	SCO6266	1101707.0	Q7AKF0		ScbA protein	M1	Q7AKF0	['GO:0016740']	False	False	False	False
+SCO3133	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	SCO3133	1098567.0	Q9K3T1			Global regulator	Q9K3T1	['GO:0003700']	True	False	False	False
+mdh		0.3678794411714786	Output		SCO4827	1100268.0	Q9K3J3		malate dehydrogenase	Basal machinery	Q9K3J3	['GO:0030060']	False	False	False	False
+SCO5999		0.3678794411714786	Output		SCO5999	1101441.0	Q7AKF3			Basal machinery	Q7AKF3	['GO:0047456', 'GO:0051539', 'GO:0003994', 'GO:0030350', 'GO:0046872']	False	False	False	False
+aceB		0.3678794411714786	Output		SCO6243	1101684.0	Q9RKU9			Basal machinery	Q9RKU9	['GO:0004474']	False	False	False	False
+SCO7000		0.3678794411714786	Output		SCO7000	1102438.0	Q9KZF3			Basal machinery	Q9KZF3	['GO:0004450', 'GO:0046872']	False	False	False	False
+tam		0.3678794411714786	Output		SCO3132	1098566.0	Q9K3T2			Basal machinery	Q9K3T2	['GO:0030798']	False	False	False	False
+SCO2928	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	SCO2928	1098361.0	Q9S2F3		transcription regulator AsnC	M14	Q9S2F3	['GO:0043565']	False	False	False	False
+hpd		0.4636024114923386	Output		SCO2927	1098360.0	Q9S2F4		4-hydroxyphenylpyruvate dioxygenase	M14	Q9S2F4	['GO:0003868', 'GO:0046872']	False	False	False	False
+SCO5033	1.0	1.0	Middle	1.0	SCO5033	1100474.0	Q9FBP4		hydrogen peroxide sensing regulator	M21	Q9FBP4	['GO:0003700', 'GO:0043565']	True	False	False	False
+SCO5032		1.0	Output		SCO5032	1100473.0	Q9FBP5		alkyl hydroperoxide reductase	M21	Q9FBP5	['GO:0008379']	False	False	False	False
+ahpD		1.0	Output		SCO5031	1100472.0	Q7AKI6		hypothetical protein	M21	Q7AKI6	['GO:0008785', 'GO:0015036', 'GO:0032843', 'GO:0051920']	False	False	False	False
+SCO5552	0.6029872018273799		Input		SCO5552	1100992.0	O86533			Global regulator	O86533	['GO:0003677', 'GO:0003700']	True	False	False	False
+leuC		1.0	Output		SCO5553	1100993.0	O86534			Basal machinery	O86534	['GO:0003861', 'GO:0051539', 'GO:0046872']	False	False	False	False
+SCO2103		1.0	Output		SCO2103	1097537.0	Q9S2V3			Basal machinery	Q9S2V3	['GO:0071949', 'GO:0106312', 'GO:0004489']	False	False	False	False
+rex	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	SCO3320	1098754.0	Q9WX14		redox-sensing transcriptional repressor Rex	Basal machinery	Q9WX14	['GO:0003677', 'GO:0003700', 'GO:0042802']	True	False	False	False
+SCO5819		0.7058136633429721	Output		SCO5819	1101261.0	Q7AKF5		sporulation transcription factor, WhiH	M5	Q7AKF5	['GO:0000987', 'GO:0003700']	True	False	False	False
+SCO6029		0.8138140936082993	Output		SCO6029	1101470.0	O69859		two-component regulator	M5	O69859	['GO:0003677']	False	False	False	False
+SCO3291	1.0		Input		SCO3291	1098725.0	Q9X883			M20	Q9X883	['GO:0003677']	False	False	False	False
+SCO3288		1.0	Output		SCO3288	1098722.0	Q9X880			M20	Q9X880	[]	False	False	False	False
+SCO1678	1.0	1.0	Middle	1.0	SCO1678	1097109.0	Q9AD89			M22	Q9AD89	['GO:0000987', 'GO:0003700']	True	False	False	False
+SCO1679		1.0	Output		SCO1679	1097110.0	Q9AD88			M22	Q9AD88	['GO:0005524', 'GO:0046316']	False	False	False	False
+hspR	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	SCO3668	1099104.0	P40183		heat shock protein	M2	P40183	['GO:0003677', 'GO:0003700']	True	False	False	False
+dnaJ1		0.3678794411714786	Output		SCO3669	1099105.0	P40170		molecular chaperone	M2	P40170	['GO:0005524', 'GO:0031072', 'GO:0051082', 'GO:0008270']	False	False	False	False
+dnaK		0.3678794411714786	Output		SCO3671	1099107.0	Q05558			M2	Q05558	['GO:0005524', 'GO:0016887', 'GO:0140662', 'GO:0031072', 'GO:0044183', 'GO:0051082']	False	False	False	False
+grpE		0.3678794411714786	Output		SCO3670	1099106.0	Q05562		heat chock protein	M2	Q05562	['GO:0000774', 'GO:0042803', 'GO:0051087', 'GO:0051082']	False	False	False	False
+argR	1.0		Input		SCO1576	1097007.0	Q9L1A5			Global regulator	Q9L1A5	['GO:0034618', 'GO:0000987', 'GO:0003700']	True	False	False	False
+pyrR		1.0	Output		SCO1488	1096914.0	Q9KXR1			Basal machinery	Q9KXR1	['GO:0004845']	False	False	False	False
+SCO4425		1.0	Output		SCO4425	1099865.0	Q7AKJ6		sigma-like protein	Basal machinery	Q7AKJ6	[]	False	False	False	False
+SCO5896		1.0	Output		SCO5896	1101338.0	Q8CJQ2			Basal machinery	Q8CJQ2	['GO:0005524', 'GO:0016301']	False	False	False	False
+carB		1.0	Output		SCO1483	1096909.0	Q9KXR6	pyrA		Basal machinery	Q9KXR6	['GO:0005524', 'GO:0004087', 'GO:0004088', 'GO:0046872']	False	False	False	False
+argC		1.0	Output		SCO1580	1097011.0	P54895			Basal machinery	P54895	['GO:0003942', 'GO:0051287', 'GO:0070401']	False	False	False	False
+argG		1.0	Output		SCO7036	1102474.0	P24532			Basal machinery	P24532	['GO:0004055', 'GO:0005524', 'GO:0042803']	False	False	False	False
+rsrA	0.8597803850762645		Input		SCO5217	1100658.0	Q7AKG8		anti-sigma factor	Basal machinery	Q7AKG8	['GO:0016989', 'GO:0008270']	True	False	False	False
+SCO0204	1.0		Input		SCO0204	1095628.0	Q9RI42			Global regulator	Q9RI42	['GO:0003677', 'GO:0003700']	True	False	False	False
+SCO0200		1.0	Output		SCO0200	1095624.0	Q9RI46			Basal machinery	Q9RI46	[]	False	False	False	False
+SCO5320		1.0	Output		SCO5320	1100760.0	P23158		whiE protein I	Basal machinery	P23158	[]	False	False	False	False
+SCO5778	1.0		Input		SCO5778	1101220.0	O50496			Global regulator	O50496	['GO:0000156', 'GO:0000976']	False	False	False	True
+SCO5777		1.0	Output		SCO5777	1101219.0	O50495			Basal machinery	O50495	['GO:0015424', 'GO:0005524', 'GO:0016887', 'GO:0042626']	False	False	False	False
+SCO5776		1.0	Output		SCO5776	1101218.0	O50494			Basal machinery	O50494	['GO:0016597']	False	False	False	False
+SCO5775		1.0	Output		SCO5775	1101217.0	O50493			Basal machinery	O50493	['GO:0022857']	False	False	False	False
+SCO5774		1.0	Output		SCO5774	1101216.0	O50492			Basal machinery	O50492	['GO:0022857']	False	False	False	False
+SCO0194	1.0	1.0	Middle	1.0	SCO0194	1095618.0	Q9RI52		sigma factor	M26	Q9RI52	['GO:0003677', 'GO:0016987']	True	False	False	False
+SCO0186		1.0	Output		SCO0186	1095610.0	Q9RIX9		phytoene dehydrogenase (phytoene desaturase) (secreted protein)	M26	Q9RIX9	['GO:0016491', 'GO:0016627']	False	False	False	False
+SCO0191		1.0	Output		SCO0191	1095615.0	Q9RI55		lycopene cyclase	M26	Q9RI55	[]	False	False	False	False
+SCO1135	1.0		Input		SCO1135	1096558.0	Q9EWZ1		TetR family transcriptional regulator	M19	Q9EWZ1	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO1134		1.0	Output		SCO1134	1096557.0	Q9EWZ2		oxidoreductase, iron-sulphur binding subunit	M19	Q9EWZ2	['GO:0051537', 'GO:0046872', 'GO:0016903']	False	False	False	False
+SCO1133		1.0	Output		SCO1133	1096556.0	Q9EWZ3		oxidoreductase, molybdopterin binding subunit	M19	Q9EWZ3	['GO:0071949', 'GO:0016903']	False	False	False	False
+SCO1132		1.0	Output		SCO1132	1096555.0	Q9EWZ4		oxidoreductase	M19	Q9EWZ4	['GO:0005506', 'GO:0016491']	False	False	False	False
+SCO2987	1.0		Input		SCO2987	1098420.0	Q9L048		regulatory protein	M9	Q9L048	['GO:0003677', 'GO:0003700']	True	False	False	False
+SCO2986		1.0	Output		SCO2986	1098419.0	Q9L049		hypothetical protein	M9	Q9L049	[]	False	False	False	False
+SCO6685	1.0		Input		SCO6685	1102124.0	Q7AKE4		two-component system response regulator	M29	Q7AKE4	['GO:0003677']	False	False	False	False
+SCO4075		1.0	Output		SCO4075	1099512.0	Q7AKK4		ABC transport protein, ATP-binding subunit	M29	Q7AKK4	['GO:0005524', 'GO:0016887', 'GO:0022857']	False	False	False	False
+SCO6681		1.0	Output		SCO6681	1102120.0	O88037		serine/threonine protein kinase	M29	O88037	['GO:0005524', 'GO:0004674']	False	False	False	False
+dasR	1.0		Input		SCO5231	1100672.0	Q9K492		GntR family transcriptional regulator	Global regulator	Q9K492	['GO:0003677', 'GO:0003700']	True	False	False	False
+SCO2758		1.0	Output		SCO2758	1098192.0	Q9RDG9			Basal machinery	Q9RDG9	['GO:0016231']	False	False	False	False
+nagB		1.0	Output		SCO5236	1100677.0	Q9K487			Basal machinery	Q9K487	['GO:0004342', 'GO:0042802']	False	False	False	False
+ptsI		1.0	Output		SCO1391	1096817.0	Q9KZP1		phosphoenolpyruvate-protein phosphotransferase	Basal machinery	Q9KZP1	['GO:0016301', 'GO:0046872', 'GO:0008965']	False	False	False	False
+ptsH		1.0	Output		SCO5841	1101283.0	O50515		phosphocarrier protein HPr	Basal machinery	O50515	[]	False	False	False	False
+SCO1390		1.0	Output		SCO1390	1096816.0	Q9KZP2		PTS system sugar phosphotransferase component IIA	Basal machinery	Q9KZP2	['GO:0016301']	False	False	False	False
+SCO2905		1.0	Output		SCO2905	1098338.0	Q9S2H6			Basal machinery	Q9S2H6	['GO:0016301', 'GO:0103111', 'GO:0008982']	False	False	False	False
+SCO2906		1.0	Output		SCO2906	1098339.0	Q9S2H5			Basal machinery	Q9S2H5	['GO:0008982', 'GO:0090563']	False	False	False	False
+SCO3129	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	SCO3129	1098563.0	Q9K3T5			M17	Q9K3T5	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO3128		0.3678794411714786	Output		SCO3128	1098562.0	Q9K3T6			M17	Q9K3T6	['GO:0016717']	False	False	False	False
+SCO3130		0.3678794411714786	Output		SCO3130	1098564.0	Q9K3T4			M17	Q9K3T4	['GO:0008410']	False	False	False	False
+afsR	1.0		Input		SCO4426	1099866.0	P25941	afsB	regulatory protein	Global regulator	P25941	['GO:0043531', 'GO:0005524', 'GO:0003677', 'GO:0031409']	False	False	False	False
+SCO4229		1.0	Output		SCO4229	1099669.0	Q9L0R2		sensor kinase	Basal machinery	Q9L0R2	['GO:0005524', 'GO:0009927', 'GO:0000155']	False	False	True	True
+SCO3925	1.0	1.0	Middle		SCO3925	1099361.0	Q9X9U3		transcriptional regulator	M15.1	Q9X9U3	['GO:0003677', 'GO:0003700']	True	False	False	False
+SCO6194	1.0		Input		SCO6194	1101635.0	Q9Z5A8		response regulator	M18	Q9Z5A8	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO6195		1.0	Output		SCO6195	1101636.0	Q9Z5A7		acetyl-coenzyme A synthetase	M18	Q9Z5A7	['GO:0016405', 'GO:0015645', 'GO:0004321']	False	False	False	False
+SCO4230	1.0		Input		SCO4230	1099670.0	Q9L0R1		response regulator	Global regulator	Q9L0R1	['GO:0000156', 'GO:0000976']	False	False	False	True
+SCO2878		1.0	Output		SCO2878	1098312.0	Q9KZS3		hypothetical protein	Basal machinery	Q9KZS3	[]	False	False	False	False
+SCO3081		1.0	Output		SCO3081	1098514.0	Q9KZ67			Basal machinery	Q9KZ67	[]	False	False	False	False
+SCO5584		1.0	Output		SCO5584	1101025.0	Q8CJR0		nitrogen regulatory protein P-II	Basal machinery	Q8CJR0	['GO:0005524', 'GO:0030234']	False	False	False	False
+glnD		1.0	Output		SCO5585	1101026.0	O69873		PII uridylyl-transferase	Basal machinery	O69873	['GO:0008773', 'GO:0008081']	False	False	False	False
+SCO2286		1.0	Output		SCO2286	1097719.0	Q9RKP2		alkaline phosphatase	Basal machinery	Q9RKP2	[]	False	False	False	False
+SCO2068		1.0	Output		SCO2068	1097502.0	Q8CK08		secreted alkaline phosphatase	Basal machinery	Q8CK08	[]	False	False	False	False
+SCO2532		1.0	Output		SCO2532	1097966.0	Q9L2L5			Basal machinery	Q9L2L5	['GO:0005524']	False	False	False	False
+SCO0034		1.0	Output		SCO0034	1095467.0	Q9S1V8		hypothetical protein	Basal machinery	Q9S1V8	[]	False	False	False	False
+SCO1394		1.0	Output		SCO1394	1096820.0	Q9KZN8			Basal machinery	Q9KZN8	['GO:0030246', 'GO:0004553']	False	False	False	False
+rpoZ		1.0	Output		SCO1478	1096904.0	Q9KXS1			Basal machinery	Q9KXS1	['GO:0001000', 'GO:0003677', 'GO:0003899']	False	False	False	False
+SCO4261		1.0	Output		SCO4261	1099701.0	Q9K4F1		response regulator	Basal machinery	Q9K4F1	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO1906		1.0	Output		SCO1906	1097340.0	Q9X9W6			Basal machinery	Q9X9W6	[]	False	False	False	False
+SCO1430		1.0	Output		SCO1430	1096856.0	Q9RKY8			Basal machinery	Q9RKY8	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO2262		1.0	Output		SCO2262	1097695.0	Q9RKR6			Basal machinery	Q9RKR6	['GO:0070967', 'GO:0050661', 'GO:0016651']	False	False	False	False
+hrdA		1.0	Output		SCO2465	1097899.0	P18182			Basal machinery	P18182	['GO:0003677', 'GO:0016987']	True	False	False	False
+SCO3790		1.0	Output		SCO3790	1099226.0	Q9F2J1			Basal machinery	Q9F2J1	[]	False	False	False	False
+SCO1196		1.0	Output		SCO1196	1096619.0	Q9RJX4			Basal machinery	Q9RJX4	['GO:0008081']	False	False	False	False
+SCO4878		1.0	Output		SCO4878	1100319.0	Q9AK48			Basal machinery	Q9AK48	['GO:0016757', 'GO:0016758']	False	False	False	False
+SCO3013	0.5657289285383003		Input		SCO3013	1098446.0	Q9KYW8			M5	Q9KYW8	['GO:0000156', 'GO:0000976']	False	False	False	True
+SCO6008	1.0		Input		SCO6008	1101450.0	O50502			M3	O50502	['GO:0003700']	True	False	False	False
+redD		1.0	Output		SCO5877	1101319.0	P16922		transcriptional regulator RedD	M3	P16922	['GO:0003677']	False	False	False	False
+SCO5082	1.0		Input		SCO5082	1100523.0	Q7AKH5		transcriptional regulatory protein	M8	Q7AKH5	['GO:0003700', 'GO:0000976']	True	False	False	False
+actII-2		0.8174935186142765	Output		SCO5083	1100524.0	P46105		actinorhodin transporter	M8	P46105	['GO:0022857']	False	False	False	False
+actII-3		1.0	Output		SCO5084	1100525.0	Q53902		hypothetical protein	M8	Q53902	[]	False	False	False	False
+SCO5260	1.0		Input		SCO5260	1100701.0	Q9F3K5			M15.2	Q9F3K5	['GO:0016597']	False	False	False	False
+SCO7168	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	SCO7168	1102606.0	Q9FBS4		GntR family transcriptional regulator	M6	Q9FBS4	['GO:0000987', 'GO:0003700']	True	False	False	False
+SCO7167		0.8106650539000493	Output		SCO7167	1102605.0	Q9FBS5		secreted sugar-binding protein	M6	Q9FBS5	['GO:0022857']	False	False	False	False
+SCO2700		0.7058136633429721	Output		SCO2700	1098134.0	Q9KYH2			Basal machinery	Q9KYH2	['GO:0046872', 'GO:0004497']	False	False	False	False
+SCO2699		0.7058136633429721	Output		SCO2699	1098133.0	Q9KYH3			Basal machinery	Q9KYH3	[]	False	False	False	False
+SCO6256	1.0	1.0	Middle		SCO6256	1101697.0	Q9RKT6			Global regulator	Q9RKT6	['GO:0003677', 'GO:0003700']	True	False	False	False
+SCO2652		1.0	Output		SCO2652	1098086.0	Q9L1Y3			Basal machinery	Q9L1Y3	['GO:0003700']	True	False	False	False
+SCO2120	1.0		Input		SCO2120	1097554.0	Q9S2M4			Global regulator	Q9S2M4	['GO:0003677', 'GO:0003700']	True	False	False	False
+SCO4924		1.0	Output		SCO4924	1100365.0	Q9EWV7			Basal machinery	Q9EWV7	[]	False	False	False	False
+SCO6728		1.0	Output		SCO6728	1102167.0	Q9X7N4			Basal machinery	Q9X7N4	[]	False	False	False	False
+SCO0607		1.0	Output		SCO0607	1096030.0	Q9RJN7			Basal machinery	Q9RJN7	[]	False	False	False	False
+SCO1700		1.0	Output		SCO1700	1097131.0	Q9S252			Basal machinery	Q9S252	[]	False	False	False	False
+SCO4225		1.0	Output		SCO4225	1099665.0	Q9FCE5			Basal machinery	Q9FCE5	[]	False	False	False	False
+SCO7613		1.0	Output		SCO7613	1103051.0	Q9F3E4			Basal machinery	Q9F3E4	[]	False	False	False	False
+SCO4011		1.0	Output		SCO4011	1099447.0	Q7AKK7			Basal machinery	Q7AKK7	[]	False	False	False	False
+SCO7460		1.0	Output		SCO7460	1102898.0	Q9L155			Basal machinery	Q9L155	[]	False	False	False	False
+SCO3201	0.4915874119786877	0.3678794411714786	Middle	-0.3678794411714786	SCO3201	1098635.0	Q9KYU4			M1	Q9KYU4	['GO:0003700', 'GO:0000976']	True	False	False	False
+SCO7164		0.8739201414327022	Output		SCO7164	1102602.0	Q9FBS8			Basal machinery	Q9FBS8	[]	False	False	False	False
+SCO7165		0.8739201414327022	Output		SCO7165	1102603.0	Q9FBS7		sugar-binding integral membrane transport protein	Basal machinery	Q9FBS7	[]	False	False	False	False
+SCO7166		0.8739201414327022	Output		SCO7166	1102604.0	Q9FBS6		sugar-transporter integral membrane protein	Basal machinery	Q9FBS6	[]	False	False	False	False
+SCO7162		0.8739201414327022	Output		SCO7162	1102600.0	Q9FBT0			Basal machinery	Q9FBT0	['GO:0016491']	False	False	False	False
+SCO7163		0.8739201414327022	Output		SCO7163	1102601.0	Q9FBS9			Basal machinery	Q9FBS9	['GO:0046872', 'GO:0008948', 'GO:0016740']	False	False	False	False
+SCO0255		0.8739201414327022	Output		SCO0255	1095679.0	Q8CK65			Basal machinery	Q8CK65	['GO:0005524', 'GO:0000987', 'GO:0001216']	True	False	False	False
+SCO2404		0.8739201414327022	Output		SCO2404	1097838.0	Q9RDN3			Basal machinery	Q9RDN3	['GO:0030246', 'GO:0003677']	False	False	False	False
+ectA		0.8739201414327022	Output		SCO1864	1097298.0	Q93RW2			Basal machinery	Q93RW2	['GO:0016747', 'GO:0033816']	False	False	False	False
+SCO2958	1.0	0.8739201414327022	Middle		SCO2958	1098391.0	Q9L1T7			Global regulator	Q9L1T7	['GO:0003677', 'GO:0004852']	False	False	False	False
+SCO0888		0.8739201414327022	Output		SCO0888	1096311.0	Q9RD22			Basal machinery	Q9RD22	['GO:0010181', 'GO:0016491']	False	False	False	False
+SCO2473		0.9324555616480018	Output		SCO2473	1097907.0	Q9L2E6			Basal machinery	Q9L2E6	['GO:0051539', 'GO:0046872', 'GO:0043546', 'GO:0016491']	False	False	False	False
+SCO4683		0.8739201414327022	Output		SCO4683	1100124.0	Q9L0F9		glutamate dehydrogenase	Basal machinery	Q9L0F9	['GO:0004354', 'GO:0000166']	False	False	False	False
+SCO2486		0.9324555616480018	Output		SCO2486	1097920.0	Q9L2D3			Basal machinery	Q9L2D3	['GO:0016491']	False	False	False	False
+nsrR	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	SCO7427	1102865.0	Q9L132			M16	Q9L132	['GO:0051537', 'GO:0003677', 'GO:0003700', 'GO:0046872']	True	False	False	False
+SCO7428		0.3678794411714786	Output		SCO7428	1102866.0	Q9L131			M16	Q9L131	['GO:0051537', 'GO:0071949', 'GO:0020037', 'GO:0046872', 'GO:0008941', 'GO:0019825', 'GO:0005344']	False	False	False	False
+SCO7094		0.3678794411714786	Output		SCO7094	1102532.0	Q9KZ38			M16	Q9KZ38	['GO:0051537', 'GO:0071949', 'GO:0020037', 'GO:0046872', 'GO:0008941', 'GO:0019825', 'GO:0005344']	False	False	False	False
+SCO2935	0.41574092633190857	0.3678794411714786	Middle	-0.3678794411714786	SCO2935	1098368.0	Q9R3R2		transcriptional regulator	M14	Q9R3R2	['GO:0003677', 'GO:0003700']	True	False	False	False
+SCO0712	1.0		Input		SCO0712	1096135.0	Q7AKS3		transcriptional activator	M25	Q7AKS3	['GO:0003700', 'GO:0000976']	True	False	False	False
+lipA		1.0	Output		SCO2194	1097627.0	Q9S2P2			M25	Q9S2P2	['GO:0051539', 'GO:0016992', 'GO:0046872']	False	False	False	False
+SCO6294	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	SCO6294	1101735.0	Q93RX8			Global regulator	Q93RX8	['GO:0000987', 'GO:0003700']	True	False	False	False
+SCO6289		0.3678794411714786	Output		SCO6289	1101730.0	Q93RY3			Basal machinery	Q93RY3	['GO:0016491']	False	False	False	False
+SCO6295		0.3678794411714786	Output		SCO6295	1101736.0	Q93RX7			Basal machinery	Q93RX7	['GO:0140359', 'GO:0005524', 'GO:0016887', 'GO:0034040']	False	False	False	False
+SCO5281		0.3678794411714786	Output		SCO5281	1100722.0	Q9FBR4	kgd		Basal machinery	Q9FBR4	['GO:0016831', 'GO:0004149', 'GO:0000287', 'GO:0004591', 'GO:0030976']	False	False	False	False
+SCO5912		0.3678794411714786	Output		SCO5912	1101354.0	O54108			Basal machinery	O54108	['GO:0004222', 'GO:0008270']	False	False	False	False
+SCO6459	1.0		Input		SCO6459	1101898.0	Q9ZBF4			M7	Q9ZBF4	['GO:0003700']	True	False	False	False
+SCO6460		1.0	Output		SCO6460	1101899.0	Q9ZBF3			M7	Q9ZBF3	['GO:0005524', 'GO:0016887', 'GO:0019829', 'GO:0046872']	False	False	False	False
+SCO2959		0.9093220832419714	Output		SCO2959	1098392.0	Q9L1T6			Basal machinery	Q9L1T6	['GO:0015112', 'GO:0015113']	False	False	False	False
+SCO3926		1.0	Output		SCO3926	1099362.0	Q9X9U2		regulator	M15.1	Q9X9U2	[]	False	False	False	False
+SCO1178		1.0	Output		SCO1178	1096601.0	Q9RJZ2			Basal machinery	Q9RJZ2	[]	False	False	False	False
+ecaA		1.0	Output		SCO7008	1102446.0	Q9KZE5			Basal machinery	Q9KZE5	['GO:0140359', 'GO:0005524', 'GO:0016887', 'GO:0034040']	False	False	False	False
+ecaD1		1.0	Output		SCO4266	1099706.0	Q9FBQ4			Basal machinery	Q9FBQ4	['GO:0016491']	False	False	False	False
+SCO1909		1.0	Output		SCO1909	1097343.0	Q9X9W3			Basal machinery	Q9X9W3	[]	False	False	False	False
+SCO2478		1.0	Output		SCO2478	1097912.0	Q9L2E1			Basal machinery	Q9L2E1	['GO:0010181', 'GO:0016491']	False	False	False	False
+SCO6974	1.0		Input		SCO6974	1102412.0	Q9KZB5			Global regulator	Q9KZB5	['GO:0003677', 'GO:0003700']	True	False	False	False
+SCO6978		1.0	Output		SCO6978	1102416.0	Q9KZH4			Basal machinery	Q9KZH4	['GO:0016301']	False	False	False	False
+SCO6979		1.0	Output		SCO6979	1102417.0	Q9KZH3			Basal machinery	Q9KZH3	['GO:0030246', 'GO:0003677']	False	False	False	False
+SCO5087		0.8067578432386457	Output		SCO5087	1100528.0	Q02059		actinorhodin polyketide beta-ketoacyl synthase alpha subunit	Basal machinery	Q02059	['GO:0004315']	False	False	False	False
+SCO5072		0.8067578432386457	Output		SCO5072	1100513.0	Q7AKI1		hydroxylacyl-CoA dehydrogenase	Basal machinery	Q7AKI1	['GO:0070403', 'GO:0016491', 'GO:0016616']	False	False	False	False
+SCO5071		0.8067578432386457	Output		SCO5071	1100512.0	Q7AKI2		hydroxylacyl-CoA dehydrogenase	Basal machinery	Q7AKI2	[]	False	False	False	False
+rsbA	0.4400226580871991		Input		SCO0599	1096022.0	Q9R422			M28	Q9R422	['GO:0016301', 'GO:0016989']	True	False	False	False
+hrdB	1.0		Input		SCO5820	1101262.0	P18183	sigA	RNA polymerase sigma factor	Global regulator	P18183	['GO:0001108', 'GO:0003677', 'GO:0016987']	True	False	False	False
+tuf3		1.0	Output		SCO1321	1096744.0	P40175			Basal machinery	P40175	['GO:0005525', 'GO:0003924', 'GO:0003746']	False	False	False	False
+rrnD		1.0	Output		rrnD					Basal machinery		[]	False	False	False	False
+SCOr14		1.0	Output		SCOr14	1099561.0		rrnA		Basal machinery		[]	False	False	False	False
+SCO5206	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	SCO5206	1100647.0	Q7AKH0		hydrogen peroxide sensitive repressor	M10	Q7AKH0	['GO:0003700', 'GO:0000976', 'GO:0008270']	True	False	False	False
+SCO0379		0.3678794411714786	Output		SCO0379	1095802.0	Q9RJK9		catalase	M10	Q9RJK9	['GO:0004096', 'GO:0020037', 'GO:0046872']	False	False	False	False
+SCO2508	1.0		Input		SCO2508	1097942.0	Q9L2H5		metal uptake regulation protein	Global regulator	Q9L2H5	['GO:0003700', 'GO:0001217', 'GO:0000976', 'GO:0008270']	True	False	False	False
+SCO0475		1.0	Output		SCO0475	1095898.0	Q9RJF9			Basal machinery	Q9RJF9	[]	False	False	False	False
+rpmF2		1.0	Output		SCO0436	1095859.0	Q9RL50			Basal machinery	Q9RL50	['GO:0003735']	False	False	False	False
+SCO7676		1.0	Output		SCO7676	1103114.0	Q9EWQ1			Basal machinery	Q9EWQ1	['GO:0051538', 'GO:0009055', 'GO:0005506']	False	False	False	False
+SCO2505		1.0	Output		SCO2505	1097939.0	Q9L2H8		ABC-transporter metal-binding lipoprotein	Basal machinery	Q9L2H8	['GO:0046872']	False	False	False	False
+rpmB2		1.0	Output		SCO3429	1098866.0	Q9X8K8			Basal machinery	Q9X8K8	['GO:0003735']	False	False	False	False
+furA	0.3678794411714786	0.3678794411714786	Middle	-0.3678794411714786	SCO0561	1095984.0	Q7BR72		Fe regulatory protein	M23	Q7BR72	['GO:0003700', 'GO:0000976', 'GO:0008270']	True	False	False	False
+katG		0.3678794411714786	Output		SCO0560	1095983.0	Q9RJH9	catC,cpeB	catalase/peroxidase	M23	Q9RJH9	['GO:0004096', 'GO:0020037', 'GO:0046872']	False	False	False	False
+SCO4180	1.0		Input		SCO4180	1099620.0	Q9K4F8		iron uptake regulatory protein	M27	Q9K4F8	['GO:0003700', 'GO:0000976', 'GO:0008270']	True	False	False	False
+SCO6451		1.0	Output		SCO6451	1101890.0	Q9ZBG2		substrate binding protein	M27	Q9ZBG2	['GO:1904680']	False	False	False	False
