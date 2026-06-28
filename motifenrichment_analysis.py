@@ -156,7 +156,7 @@ def process_unique_mappings(unique_mappings, team_dict, tf_dict):
 def classify_motif_topology(man_code_str):
     """
     Classifies a triad MAN code string into 'Complete', 'Cyclic', or 'Feed-Forward'.
-    Fails gracefully back to 'Unknown' for dyads or invalid string inputs.
+    Fails gracefully back to 'Complex' for dyads or invalid string inputs.
     """
     if not isinstance(man_code_str, str) or len(man_code_str) < 3:
         return "Complex"
@@ -167,11 +167,14 @@ def classify_motif_topology(man_code_str):
     if base_numeric in ["300", "100"]:
         return "Complete"
 
-    # 2. Cyclic: Contains a 'C' suffix indicating a directional loop
+    if base_numeric == "021" and "C" in man_code_str:
+        return "Feed-Forward"
+
+    # 3. Cyclic: Contains a 'C' suffix indicating a directional feedback loop (e.g., 030C)
     if "C" in man_code_str:
         return "Cyclic"
 
-    # 3. Feed-Forward: Hierarchical layouts with shortcuts or clear acyclic splits
+    # 4. Feed-Forward: Hierarchical layouts with shortcuts or clear acyclic splits
     # Captures 030T (FFL), 021D (Diverging), 021U (Converging), etc.
     if any(suffix in man_code_str for suffix in ["T", "D", "U"]):
         return "Feed-Forward"
@@ -1269,7 +1272,32 @@ def plot_coherence_vs_relative_proportion_F(
 
     unique_classes = plot_df["Topology_Class"].unique()
 
-    # Plot each Topology Class as hollow circles with thick edges
+    # # Plot each Topology Class as hollow circles with thick edges
+    # for i, t_class in enumerate(unique_classes):
+    #     class_df = plot_df[plot_df["Topology_Class"] == t_class]
+    #
+    #     # Override color for Cyclic to ensure contrast against the KDE map
+    #     if t_class == "Cyclic":
+    #         class_color = NORD_COLORS.get("yellow", "#ebcb8b")
+    #     else:
+    #         class_color = NORD_PALETTE[i % len(NORD_PALETTE)]
+    #
+    #     ax.scatter(
+    #         class_df["AbsMeanCoh"],
+    #         class_df["Relative_Proportion"],
+    #         facecolors="none",
+    #         edgecolors=class_color,
+    #         linewidths=2.0,
+    #         s=75,
+    #         alpha=0.95,
+    #         label=t_class,
+    #         zorder=2,
+    #     )
+
+    # Define a list of distinct markers to cycle through
+    marker_list = ["o", "s", "^", "D", "v", "<", ">", "p", "*", "X"]
+
+    # Plot each Topology Class as hollow shapes with thick edges
     for i, t_class in enumerate(unique_classes):
         class_df = plot_df[plot_df["Topology_Class"] == t_class]
 
@@ -1279,16 +1307,26 @@ def plot_coherence_vs_relative_proportion_F(
         else:
             class_color = NORD_PALETTE[i % len(NORD_PALETTE)]
 
+        # Select a unique marker for this class
+        class_marker = marker_list[i % len(marker_list)]
+
+        # Dynamically assign zorder: Feed-Forward at bottom (above KDE), others on top
+        if t_class == "Feed-Forward":
+            class_zorder = 2
+        else:
+            class_zorder = 3
+
         ax.scatter(
             class_df["AbsMeanCoh"],
             class_df["Relative_Proportion"],
-            facecolors="none",
-            edgecolors=class_color,
-            linewidths=2.0,
+            marker=class_marker,  # Assign the distinct marker here
+            facecolors="none",  # Keeps the marker hollow
+            edgecolors=class_color,  # Colors the thick edge
+            linewidths=1.8,
             s=75,
             alpha=0.95,
             label=t_class,
-            zorder=2,
+            zorder=class_zorder,
         )
 
     # Constrain axes so the `thresh=0` KDE doesn't artificially explode the plot margins

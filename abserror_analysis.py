@@ -747,10 +747,10 @@ def plot_ratio_heatmaps_F(cae_df, df, target_metric, save_dir, nord_colors):
                                 xy=(x_coord + 0.12, y_coord),
                                 xytext=(x_coord - 0.12, y_coord),
                                 arrowprops=dict(
-                                    arrowstyle="->",
+                                    arrowstyle="-|>",
                                     color=nord_colors["dark"],
-                                    lw=1.5,  # Softened linewidth
-                                    mutation_scale=11,  # Scaled down head size
+                                    lw=2.5,  # Softened linewidth
+                                    mutation_scale=30,  # Scaled down head size
                                     zorder=5,
                                 ),
                             )
@@ -761,10 +761,10 @@ def plot_ratio_heatmaps_F(cae_df, df, target_metric, save_dir, nord_colors):
                                 xy=(x_coord - 0.12, y_coord),
                                 xytext=(x_coord + 0.12, y_coord),
                                 arrowprops=dict(
-                                    arrowstyle="->",
+                                    arrowstyle="-|>",
                                     color=nord_colors["dark"],
-                                    lw=1.5,  # Softened linewidth
-                                    mutation_scale=11,  # Scaled down head size
+                                    lw=2.5,  # Softened linewidth
+                                    mutation_scale=30,  # Scaled down head size
                                     zorder=5,
                                 ),
                             )
@@ -1124,6 +1124,11 @@ def plot_sa_vs_ns_paired_10x_F(cae_df, df, target_metric, save_dir, nord_colors)
             value_name="MetricValue",
         )
 
+        # Mappingthe NS and SA to Absent and Present
+        plot_melt["Condition"] = plot_melt["Condition"].map(
+            {"NS": "Absent", "SA": "Present"}
+        )
+
         fig, ax = plt.subplots(figsize=(9, 6))
 
         # Render background base boxplot frame using your structural layout configuration ordering
@@ -1133,7 +1138,8 @@ def plot_sa_vs_ns_paired_10x_F(cae_df, df, target_metric, save_dir, nord_colors)
             y="MetricValue",
             hue="Condition",
             order=ordered_nets,
-            palette={"NS": nord_colors["green"], "SA": nord_colors["yellow"]},
+            # palette={"NS": nord_colors["green"], "SA": nord_colors["yellow"]},
+            palette={"Absent": nord_colors["green"], "Present": nord_colors["yellow"]},
             width=0.6,
             linewidth=1.1,
             # showfliers=False,
@@ -1147,7 +1153,9 @@ def plot_sa_vs_ns_paired_10x_F(cae_df, df, target_metric, save_dir, nord_colors)
         # -----------------------------------------------------------------
         # STATANNOTATIONS OVERLAY PIPELINE (STAR-RATED FORMAT)
         # -----------------------------------------------------------------
-        annotation_pairs = [((net, "NS"), (net, "SA")) for net in ordered_nets]
+        # annotation_pairs = [((net, "NS"), (net, "SA")) for net in ordered_nets]
+        # Update pairs to use the new names
+        annotation_pairs = [((net, "Absent"), (net, "Present")) for net in ordered_nets]
 
         try:
             annotator = Annotator(
@@ -1202,7 +1210,8 @@ def plot_sa_vs_ns_paired_10x_F(cae_df, df, target_metric, save_dir, nord_colors)
 
         # Position external legend frame on the top-right margins
         ax.legend(
-            title="Circuit\nType",
+            # title="Circuit\nType",
+            title="Self-Activation",
             frameon=True,
             facecolor="none",
             edgecolor=nord_colors["gray"],
@@ -1551,7 +1560,8 @@ def plot_coherence_vs_susceptibility_correlation_10x_F(
             comp_df["Delta_AbsStructCoh"],
             comp_df["SFC"],
             facecolor="none",
-            edgecolor=nord_colors["purple"],
+            edgecolor=nord_colors["red"],
+            marker="o",
             linewidth=3.5,
             s=200,
             label="Complete",
@@ -1562,7 +1572,8 @@ def plot_coherence_vs_susceptibility_correlation_10x_F(
             cyclic_df["Delta_AbsStructCoh"],
             cyclic_df["SFC"],
             facecolor="none",
-            edgecolor=nord_colors["green"],
+            edgecolor=nord_colors["yellow"],
+            marker="s",
             linewidth=3.5,
             s=200,
             label="Cyclic",
@@ -1574,7 +1585,8 @@ def plot_coherence_vs_susceptibility_correlation_10x_F(
             ff_df["Delta_AbsStructCoh"],
             ff_df["SFC"],
             facecolors="none",
-            edgecolors=nord_colors["orange"],
+            edgecolors=nord_colors["green"],
+            marker="^",
             linewidth=3.5,
             s=200,
             label="Feedforward",
@@ -2756,16 +2768,19 @@ if __name__ == "__main__":
             save_dir=plot_save_dir,
             nord_colors=NORD_COLORS,
         )
+        # Removing the feedorward networks from the HI-ER comparision analysis
+        cae_df_no_ff = cae_df[~cae_df["BaseNet"].str.startswith("030T")].copy()
+        cohres_df_no_ff = cohres_df[~cohres_df["BaseNet"].str.startswith("030T")].copy()
         plot_coherence_vs_susceptibility_correlation_10x_F(
-            cae_df=cae_df,
+            cae_df=cae_df_no_ff,
             df=cohres_df,
             target_metric=metric,
             save_dir=plot_save_dir,
             nord_colors=NORD_COLORS,
         )
         plot_cae_vs_basal_coherence_scatter_F(
-            cae_df=cae_df,
-            df=cohres_df,
+            cae_df=cae_df_no_ff,
+            df=cohres_df_no_ff,
             target_metric=metric,
             save_dir=plot_save_dir,
             nord_colors=NORD_COLORS,
