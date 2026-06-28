@@ -255,7 +255,9 @@ def calculate_enrichment(file_list, target_col):
 
 def preprocess_hierarchy_tf_enrichment(absy_dir, plots_dir):
     """Orchestrates TF Enrichment preprocessing and plotting."""
-    inout_df_list = sorted(list(absy_dir.glob("*/*_GOInformation.tsv")))
+    inout_df_list = sorted(
+        list(Path("../V2_StructCoh/GOInfo_Targeted/").glob("*_GOInformation.tsv"))
+    )
     if inout_df_list:
         first_df = pd.read_csv(inout_df_list[0], sep="\t", engine="python")
         target_columns = [
@@ -276,7 +278,9 @@ def preprocess_hierarchy_tf_enrichment(absy_dir, plots_dir):
 
 def preprocess_module_enrichments(absy_dir):
     """Calculates Fisher exact test for module/component enrichments across levels."""
-    inout_df_list = sorted(list(absy_dir.glob("*/*_GOInformation.tsv")))
+    inout_df_list = sorted(
+        list(Path("../V2_StructCoh/GOInfo_Targeted/").glob("*_GOInformation.tsv"))
+    )
     module_enrichments = []
 
     for io_fl in tqdm(inout_df_list, desc="Processing Networks"):
@@ -394,7 +398,9 @@ def get_level_enrichment_from_tsv(io_df, network_name, go_ontology):
 def generate_master_go_enrichment(absy_dir, go_ontology):
     """Reads TSV files and generates the master GO enrichment dataset."""
     print("\n--- Starting GO Enrichment from Saved TSV Files ---")
-    inout_df_list = sorted(list(absy_dir.glob("*/*_GOInformation.tsv")))
+    inout_df_list = sorted(
+        list(Path("../V2_StructCoh/GOInfo_Targeted/").glob("*_GOInformation.tsv"))
+    )
     master_enrichment_list = []
 
     for io_fl in tqdm(inout_df_list, desc="Processing TSV Files"):
@@ -817,7 +823,11 @@ def plot_lollipop_split_F(ranked_terms, output_dir):
     df_clean = ranked_terms.sort_values(
         ["NodeLevel", "Combined_Score"], ascending=[True, False]
     ).copy()
-    df_clean = df_clean.drop_duplicates(subset=["NodeLevel", "Label"])
+    # df_clean = df_clean.drop_duplicates(subset=["NodeLevel", "Label"])
+    df_clean = ranked_terms.groupby(["NodeLevel", "Label"], as_index=False).mean(
+        numeric_only=True
+    )
+    df_clean = df_clean.sort_values(by="Combined_Score", ascending=False)
 
     nord_level_palette = {
         "Input": NORD_PALETTE[0],
@@ -866,7 +876,7 @@ def plot_lollipop_split_F(ranked_terms, output_dir):
             [0],
             [0],
             color="w",
-            label="Phosphorelay / Transducer",
+            label="Phosphorelay / Signal Transduction",
             marker="s",
             markerfacecolor=color_class_2,
             markersize=16,
@@ -1145,16 +1155,16 @@ def plot_fold_enrichment_distribution_F(final_enrichment_df, output_dir):
 
 if __name__ == "__main__":
     # 1. Define Execution Directories
-    absy_dir = Path("../MotifFinding/AbasyCohResults_Targeted/")
-    gene_info_dir = Path("../MotifFinding/AbasyNets/")
-    topos_dir = Path("../MotifFinding/AbasyTOPOS_Targeted/")
+    absy_dir = Path("../V2_StructCoh/AbasyCohResults_Targeted/")
+    gene_info_dir = Path("../V2_StructCoh/AbasyNets/")
+    topos_dir = Path("../V2_StructCoh/AbasyTOPOS_Targeted/")
 
-    plots_dir = Path("../MotifFinding/GRN_Plots/Fig7/")
+    plots_dir = Path("../V2_StructCoh/GRN_Plots/Fig7/")
     plots_dir.mkdir(exist_ok=True, parents=True)
 
     # Note: For actual execution, ensure go.obo exists in the specified path
     try:
-        go_ontology = GODag(Path("../MotifFinding/GOInfo_Targeted/go.obo"))
+        go_ontology = GODag(Path("../V2_StructCoh/GOInfo_Targeted/go.obo"))
     except Exception as e:
         print(f"Warning: Could not load GO Ontology. {e}")
         go_ontology = None
