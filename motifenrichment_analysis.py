@@ -1021,7 +1021,7 @@ def plot_global_man_code_distribution_extremes_F(
         "Complete": NORD_COLORS["red"],
         "Cyclic": NORD_COLORS["yellow"],
         "Feed-Forward": NORD_COLORS["green"],
-        "Complex": NORD_COLORS["blue"],
+        "Complex": NORD_COLORS["cyan"],
     }
 
     box_colors = [
@@ -1139,7 +1139,7 @@ def plot_global_man_code_distribution_extremes_F(
             ["0.0 (Enriched)", "0.5\n(Random\nExpectation)", "1.0 (Depleted)"]
         )
         cb.ax.tick_params(rotation=0)
-        cb.ax.set_title("Significance\nGradient", pad=10, loc="Center")
+        cb.ax.set_title("Enrichment", pad=10, loc="Center")
 
     plt.xticks(rotation=90, ha="center")
     plt.tight_layout()
@@ -1783,7 +1783,7 @@ def plot_coherence_vs_relative_proportion_F(
         "Relative Motif Composition vs. Absolute Structural Coherence\n(Consistent Elements $\geq$ 3 Organisms)"
     )
     ax.set_xlabel(r"$| C_{\mathrm{struct}} |$")
-    ax.set_ylabel("Mean Relative Proportion")
+    ax.set_ylabel("Mean Relative Frequency")
 
     # Legend formatting
     ax.legend(
@@ -2800,7 +2800,7 @@ def plot_transition_fates_by_topology_class_barplot_F(transitions_df, output_dir
 
 
 def plot_altered_transition_destinations_heatmap_F(
-    transitions_df, output_dir, min_global_occurrences=5
+    transitions_df, output_dir, min_global_occurrences=1
 ):
     """
     Plots a row-normalized heatmap showing the destination structures (Coh_MAN_Base)
@@ -2867,7 +2867,7 @@ def plot_altered_transition_destinations_heatmap_F(
     sns.heatmap(
         trans_matrix_pct,
         annot=True,
-        fmt=".2f",
+        fmt=".3f",
         cmap=cmap,
         vmin=0.0,
         vmax=1.0,
@@ -3014,7 +3014,7 @@ if __name__ == "__main__":
     plot_altered_transition_destinations_heatmap_F(
         transitions_df=transitions_df,
         output_dir=PLOT_OUTPUT_DIR,
-        min_global_occurrences=5,
+        min_global_occurrences=1,
     )
 
     plot_organism_mean_middle_nodes_by_fate_F(

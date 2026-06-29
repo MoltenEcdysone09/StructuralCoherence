@@ -869,381 +869,381 @@ MAN_Code,Topology_Class,Circuit,Motif_Size,Level_String,Num_Input_Nodes,Num_Midd
 010,Feed-Forward,010-P0,2,Middle_Output,0,1,1,M40 : M40,2,61_1,2,TF_NonTF,1,1
 010,Feed-Forward,010-P0,2,Middle_Output,0,1,1,M58 : M58,2,1_1,1,NonTF_NonTF,0,1
 010,Feed-Forward,010-P0,2,Middle_Output,0,1,1,M67 : M67,2,1_1,1,TF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,15_14_1,3,TF_TF_NonTF,2,28
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_29_1,3,TF_TF_NonTF,2,11
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,7_29_1,3,TF_TF_NonTF,2,7
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,15_14_2,3,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_29_2,3,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.11 : M37.11 : M37.11,3,1_3_6,3,NonTF_NonTF_NonTF,0,6
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_8_1,3,TF_NonTF_NonTF,1,4
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,15_14_1,3,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.16,3,7_8_1,3,TF_NonTF_NonTF,1,4
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.49 : Global regulator : M37.49,3,1_14_2,3,NonTF_TF_NonTF,1,4
-021C,Cyclic,021C-0NN000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : Intermodular,3,6_3_1,3,NonTF_TF_NonTF,1,3
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_2,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,7_8_1,3,TF_NonTF_NonTF,1,3
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.52,3,7_29_3,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_21_2,3,NonTF_TF_NonTF,1,3
-021C,Cyclic,021C-0NN000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : M37.1,3,5_3_1,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_3,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,105_7_2,3,NonTF_TF_NonTF,1,2
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_21_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,6_106_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,6_4_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,6_67_2,3,TF_NonTF_NonTF,1,2
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_118_2,3,TF_NonTF_NonTF,1,2
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_87_2,3,TF_NonTF_NonTF,1,2
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_106_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_4_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.10 : Global regulator : M37.10,3,33_29_1,3,NonTF_TF_NonTF,1,2
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : M37.29,3,95_6_2,3,NonTF_TF_NonTF,1,2
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.5 : M37.5 : Intermodular,3,3_1_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NN000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : M37.1,3,5_3_3,2,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : M37.1,3,6_3_2,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,15_14_5,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,7_29_3,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M18,3,7_29_51,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.1,3,7_29_6,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.42,3,15_14_3,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.52,3,7_29_25,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Middle,0,3,0,M37.1 : Global regulator : M37.1,3,105_7_109,3,NonTF_TF_TF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Middle,0,3,0,M37.1 : M37.1 : Global regulator,3,81_2_55,3,NonTF_TF_TF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Middle,0,3,0,M37.10 : Global regulator : Global regulator,3,33_29_1,3,NonTF_TF_TF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_8_3,3,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,15_14_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,15_14_6,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_5,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,15_14_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,7_29_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.34,3,15_14_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.64,3,15_14_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,105_7_2,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,8_21_1,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,1_118_2,3,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,1_87_2,3,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,56_106_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,5_1_1,2,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,60_17_6,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_67_2,3,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,81_2_2,2,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.10 : Global regulator : M37.10,3,33_29_2,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.11 : M37.11 : Intermodular,3,1_3_4,3,NonTF_NonTF_NonTF,0,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : Intermodular,3,95_6_1,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : Intermodular,3,95_6_3,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.49 : Global regulator : Intermodular,3,1_14_4,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.49 : Global regulator : Intermodular,3,1_14_5,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.49 : Global regulator : M37.49,3,1_14_6,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.59 : Global regulator : Intermodular,3,6_7_1,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.59 : Global regulator : M37.59,3,6_7_2,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_29_1,3,TF_TF_NonTF,2,67
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,15_14_1,3,TF_TF_NonTF,2,37
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_1,3,TF_TF_NonTF,2,29
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,15_14_1,3,TF_TF_NonTF,2,17
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.6,3,7_29_1,3,TF_TF_NonTF,2,11
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M18,3,7_29_1,3,TF_TF_NonTF,2,9
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_21_1,3,NonTF_TF_NonTF,1,9
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M12,3,7_29_1,3,TF_TF_NonTF,2,8
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_2,3,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,7_29_1,3,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.11,3,15_14_6,3,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M57,3,7_29_1,3,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M63,3,7_29_1,3,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M66,3,7_29_1,3,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M8,3,7_29_1,3,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.7 : Global regulator : Intermodular,3,3_21_3,2,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.7 : M37.7 : Intermodular,3,3_1_3,2,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0NP000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : M37.1,3,5_3_2,3,TF_TF_NonTF,2,5
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.31,3,7_29_1,3,TF_TF_NonTF,2,5
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.4,3,15_14_1,3,TF_TF_NonTF,2,5
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M55,3,15_14_1,3,TF_TF_NonTF,2,5
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,5_1_2,3,TF_NonTF_NonTF,1,5
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M23,3,7_29_1,3,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M30,3,7_29_4,3,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.12,3,7_29_1,3,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.16,3,7_29_1,3,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.20,3,7_29_1,3,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.35,3,7_29_1,3,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.6,3,15_14_1,3,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M43,3,7_29_2,3,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M65,3,7_29_1,3,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_21_1,2,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_87_1,2,TF_NonTF_NonTF,1,4
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,15_14_1,3,TF_TF_TF,3,3
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.13,3,15_14_1,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.13,3,7_29_1,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.34,3,7_29_1,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M44,3,7_29_3,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M45,3,7_29_1,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,22_105_2,3,TF_NonTF_NonTF,1,3
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_118_1,2,TF_NonTF_NonTF,1,3
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,22_105_1,3,TF_NonTF_NonTF,1,3
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_106_3,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_4_3,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_67_3,3,TF_NonTF_NonTF,1,3
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M23,3,7_29_1,3,TF_TF_TF,3,2
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_29_1,3,TF_TF_TF,3,2
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,15_14_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.11,3,15_14_4,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.30,3,7_29_1,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.36,3,15_14_4,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.5,3,7_29_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M38,3,7_29_1,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M39,3,7_29_1,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M60,3,7_29_1,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M69,3,7_29_1,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,7_29_1,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,7_29_14,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Intermodular,3,7_29_42,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Intermodular,3,7_29_43,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M12,3,7_29_97,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M20,3,7_29_1,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M34,3,7_29_92,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.12,3,7_29_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.12,3,7_29_35,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.16,3,7_29_101,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.17,3,7_29_44,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.18,3,7_29_103,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.20,3,7_29_1,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.21,3,7_29_1,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.31,3,7_29_1,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.35,3,7_29_98,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.42,3,7_29_3,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.6,3,7_29_41,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M43,3,7_29_99,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M44,3,7_29_1,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M55,3,15_14_53,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M62,3,15_14_52,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M65,3,7_29_3,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M66,3,7_29_1,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M8,3,7_29_1,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,M37.1 : M37.1 : M37.1,3,22_105_6,3,TF_NonTF_TF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Middle,0,3,0,M37.1 : M37.1 : M37.1,3,2_57_82,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_29_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_8_1,3,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,15_14_3,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,15_14_4,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_1,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_5,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_8_1,3,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M20,3,7_29_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M28,3,7_29_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M34,3,7_29_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,15_14_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,7_29_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.15,3,7_29_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.18,3,7_29_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.3,3,7_29_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.32,3,7_29_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.5,3,7_29_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.5,3,7_29_3,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.6,3,7_29_1,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.64,3,7_29_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.7,3,7_29_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.8,3,7_29_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.9,3,7_29_6,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M44,3,7_29_2,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M69,3,7_29_1,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_21_1,2,TF_TF_TF,3,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_21_3,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,60_17_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_106_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_4_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.10 : Global regulator : M37.10,3,33_29_1,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.49 : Global regulator : M37.49,3,1_14_1,2,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.5 : M37.5 : M37.5,3,3_1_3,2,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.8 : M37.8 : M37.8,3,3_114_1,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.9 : Global regulator : M37.9,3,1_8_1,2,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Input_Output,1,1,1,M57 : M57 : M57,3,2_2_1,2,NonTF_NonTF_NonTF,0,12
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.11 : Global regulator : M37.11,3,1_1_6,2,NonTF_TF_NonTF,1,6
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,15_1_2,3,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_1_2,3,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,12_7_1,3,NonTF_NonTF_NonTF,0,4
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,12_7_2,3,NonTF_NonTF_NonTF,0,4
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,23_1_2,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.5,3,29_1_2,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.62,3,21_1_5,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.18,3,76_42_2,3,NonTF_NonTF_NonTF,0,3
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.18,3,76_43_2,3,NonTF_NonTF_NonTF,0,3
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : M37.29,3,95_1_2,3,NonTF_TF_NonTF,1,3
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : M37.29,3,95_7_2,3,NonTF_TF_NonTF,1,3
-021C,Cyclic,021C-0PN000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : M37.1,3,1_3_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,14_1_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : M37.6 : Basal machinery,3,14_41_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : M37.6 : M37.1,3,14_41_1,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,6_8_2,3,TF_NonTF_NonTF,1,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_1_2,2,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_3_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_1_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_8_2,3,TF_NonTF_NonTF,1,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_1_2,2,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_7_2,3,TF_NonTF_NonTF,1,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.15 : Global regulator : Intermodular,3,1_15_5,3,NonTF_TF_NonTF,1,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.49 : Global regulator : M37.49,3,1_1_2,2,NonTF_TF_NonTF,1,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.5 : Global regulator : Intermodular,3,3_7_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.5 : Global regulator : M37.5,3,3_1_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : Intermodular,3,41_3_5,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PN000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : Intermodular,3,1_3_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.5,3,29_1_1,2,TF_TF_TF,3,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Middle,0,3,0,Global regulator : M37.6 : M37.1,3,14_41_16,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Middle,0,3,0,M37.1 : Global regulator : M37.1,3,117_1_3,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Middle,0,3,0,M37.1 : Global regulator : M37.1,3,5_21_1,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Middle,0,3,0,M37.13 : M37.13 : Global regulator,3,37_36_55,3,NonTF_TF_TF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Middle,0,3,0,M37.15 : Global regulator : M37.15,3,1_15_83,3,NonTF_TF_TF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,21_1_5,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,29_1_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,55_1_4,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,15_1_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,21_1_3,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.52,3,23_1_3,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.7,3,76_42_2,3,NonTF_NonTF_NonTF,0,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.7,3,76_43_2,3,NonTF_NonTF_NonTF,0,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : M37.6 : Basal machinery,3,14_41_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : M37.6 : Intermodular,3,14_41_5,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,1_3_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,4_6_1,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,4_6_2,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,6_1_1,2,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,117_1_3,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,56_3_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,56_8_1,3,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,5_21_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,5_21_3,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,7_1_1,2,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,1_1_2,2,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,1_7_2,3,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,8_9_1,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,56_117_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,56_6_1,3,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,9_17_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.11 : Global regulator : Intermodular,3,1_1_4,2,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.13 : M37.13 : Intermodular,3,37_36_2,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.14 : Global regulator : M37.14,3,3_1_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.15 : Global regulator : M37.15,3,1_15_3,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.17 : Global regulator : Intermodular,3,44_3_5,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.17 : Global regulator : M37.17,3,44_3_5,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : Intermodular,3,95_7_1,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : Intermodular,3,95_7_3,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.59 : Global regulator : M37.59,3,6_1_2,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : M37.6,3,41_3_5,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.61 : Global regulator : Intermodular,3,1_7_2,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.64 : Global regulator : Intermodular,3,3_1_1,2,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.64 : Global regulator : M37.64,3,3_1_2,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.8 : Global regulator : M37.8,3,114_1_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.9 : Global regulator : M37.9,3,18_1_6,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M53 : Global regulator : M53,3,1_1_2,2,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M53 : Global regulator : M53,3,1_1_3,2,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M53 : Global regulator : M53,3,1_3_2,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PN000,3,Middle_Middle_Output,0,2,1,M64 : Global regulator : M64,3,1_1_2,2,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,1_3_1,2,TF_TF_NonTF,2,64
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,1_1_1,1,TF_TF_NonTF,2,36
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Basal machinery,3,76_42_1,3,NonTF_NonTF_NonTF,0,15
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Basal machinery,3,76_43_1,3,NonTF_NonTF_NonTF,0,15
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Intermodular,3,76_42_1,3,NonTF_NonTF_NonTF,0,14
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Intermodular,3,76_43_1,3,NonTF_NonTF_NonTF,0,14
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : M37.6,3,1_15_1,2,TF_TF_NonTF,2,14
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_1_1,2,TF_TF_NonTF,2,12
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.1,3,76_42_6,3,NonTF_NonTF_NonTF,0,10
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.1,3,76_43_6,3,NonTF_NonTF_NonTF,0,10
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,4_4_1,2,NonTF_TF_NonTF,1,9
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.4 : M37.4 : M37.4,3,1_1_1,1,TF_TF_NonTF,2,9
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : Intermodular,3,1_15_1,2,TF_TF_NonTF,2,9
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M18,3,1_3_1,2,TF_TF_NonTF,2,8
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.4 : Global regulator : M37.4,3,1_1_1,1,TF_TF_NonTF,2,8
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,15_1_1,2,TF_TF_NonTF,2,7
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,23_1_2,3,TF_TF_NonTF,2,7
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,1_3_1,2,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.11,3,15_1_6,3,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M8,3,7_1_1,2,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Intermodular,3,76_42_5,3,NonTF_NonTF_NonTF,0,6
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Intermodular,3,76_43_5,3,NonTF_NonTF_NonTF,0,6
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : Intermodular,3,41_3_3,2,TF_TF_NonTF,2,6
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.5,3,7_1_2,3,TF_TF_NonTF,2,5
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,5_1_2,3,TF_TF_NonTF,2,5
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,5_21_2,3,TF_TF_NonTF,2,5
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_3_1,3,NonTF_TF_NonTF,1,5
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.7 : Global regulator : M37.7,3,1_15_1,2,TF_TF_NonTF,2,5
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_1_1,1,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.9 : Global regulator : M37.9,3,18_1_1,2,TF_TF_NonTF,2,4
-021C,Cyclic,021C-0PP000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : M37.1,3,1_3_1,2,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,29_1_1,2,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M65,3,76_42_1,3,NonTF_NonTF_NonTF,0,3
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M65,3,76_43_1,3,NonTF_NonTF_NonTF,0,3
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_1_1,1,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_1_3,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_8_3,3,TF_NonTF_NonTF,1,3
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,9_17_6,3,TF_TF_NonTF,2,3
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_7_1,2,TF_NonTF_NonTF,1,3
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,1_3_1,2,TF_TF_TF,3,2
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,15_1_2,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.19,3,1_1_1,1,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.19,3,1_3_1,2,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M38,3,7_1_1,2,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.6,3,76_42_1,3,NonTF_NonTF_NonTF,0,2
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.6,3,76_43_1,3,NonTF_NonTF_NonTF,0,2
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,117_1_1,2,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_3_1,2,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : M37.6,3,41_3_1,3,TF_TF_NonTF,2,2
-021C,Cyclic,021C-0PP000,3,Middle_Input_Middle,1,2,0,M37.1 : M37.1 : M37.1,3,2_2_82,2,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M20,3,7_1_1,2,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.1,3,1_1_19,2,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.1,3,1_3_106,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.1,3,1_3_19,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.19,3,1_1_6,2,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.19,3,1_3_6,3,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.5,3,23_1_1,2,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.5,3,7_1_1,2,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M44,3,7_1_1,2,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M6,3,1_1_1,1,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M6,3,1_3_1,2,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M8,3,7_1_1,2,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Intermodular : M37.1,3,76_42_5,3,NonTF_NonTF_TF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Intermodular : M37.1,3,76_43_5,3,NonTF_NonTF_TF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,M37.1 : Global regulator : Global regulator,3,4_6_3,3,NonTF_TF_TF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,M37.1 : Global regulator : M37.1,3,117_1_118,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,M37.1 : Global regulator : M37.1,3,6_3_19,3,NonTF_TF_TF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,M37.1 : M37.1 : Global regulator,3,4_4_3,2,NonTF_TF_TF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Middle,0,3,0,M37.1 : M37.1 : M37.1,3,2_11_82,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,1_1_1,1,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,1_1_4,2,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,1_3_4,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_1_1,2,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_1_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M12,3,7_1_1,2,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M20,3,7_1_1,2,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,29_1_1,2,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,29_1_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,7_1_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.4,3,23_1_1,2,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.5,3,7_1_1,2,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.8,3,7_1_2,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Intermodular,3,76_42_2,3,NonTF_NonTF_NonTF,0,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Intermodular,3,76_43_2,3,NonTF_NonTF_NonTF,0,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.1,3,76_42_5,3,NonTF_NonTF_NonTF,0,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.1,3,76_43_5,3,NonTF_NonTF_NonTF,0,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : M37.6 : M37.1,3,14_41_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M17 : Global regulator : M17,3,1_1_1,1,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,6_3_4,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,117_1_3,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,4_1_1,2,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_1_1,2,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_3_3,2,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_8_1,3,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_4_1,2,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_4_3,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_6_1,2,NonTF_NonTF_NonTF,0,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_6_3,3,NonTF_NonTF_NonTF,0,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_19_1,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,9_17_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.10 : Global regulator : Intermodular,3,11_8_4,3,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.10 : Global regulator : M37.10,3,11_8_1,3,TF_NonTF_NonTF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.15 : Global regulator : M37.15,3,83_1_6,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : Intermodular,3,41_1_1,2,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : Intermodular,3,41_3_1,3,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : M37.6,3,1_15_1,2,TF_TF_TF,3,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.61 : Global regulator : Intermodular,3,1_7_2,3,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.8 : Global regulator : M37.8,3,3_1_1,2,NonTF_TF_NonTF,1,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.9 : Global regulator : M37.9,3,1_1_1,1,TF_TF_NonTF,2,1
-021C,Cyclic,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.9 : M37.9 : M37.9,3,1_18_1,2,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,15_14_1,3,TF_TF_NonTF,2,28
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_29_1,3,TF_TF_NonTF,2,11
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,7_29_1,3,TF_TF_NonTF,2,7
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,15_14_2,3,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_29_2,3,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.11 : M37.11 : M37.11,3,1_3_6,3,NonTF_NonTF_NonTF,0,6
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_8_1,3,TF_NonTF_NonTF,1,4
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,15_14_1,3,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.16,3,7_8_1,3,TF_NonTF_NonTF,1,4
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.49 : Global regulator : M37.49,3,1_14_2,3,NonTF_TF_NonTF,1,4
+021C,Feed-Forward,021C-0NN000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : Intermodular,3,6_3_1,3,NonTF_TF_NonTF,1,3
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_2,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,7_8_1,3,TF_NonTF_NonTF,1,3
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.52,3,7_29_3,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_21_2,3,NonTF_TF_NonTF,1,3
+021C,Feed-Forward,021C-0NN000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : M37.1,3,5_3_1,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_3,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,105_7_2,3,NonTF_TF_NonTF,1,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_21_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,6_106_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,6_4_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,6_67_2,3,TF_NonTF_NonTF,1,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_118_2,3,TF_NonTF_NonTF,1,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_87_2,3,TF_NonTF_NonTF,1,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_106_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_4_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.10 : Global regulator : M37.10,3,33_29_1,3,NonTF_TF_NonTF,1,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : M37.29,3,95_6_2,3,NonTF_TF_NonTF,1,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.5 : M37.5 : Intermodular,3,3_1_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NN000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : M37.1,3,5_3_3,2,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : M37.1,3,6_3_2,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,15_14_5,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,7_29_3,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M18,3,7_29_51,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.1,3,7_29_6,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.42,3,15_14_3,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.52,3,7_29_25,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Middle,0,3,0,M37.1 : Global regulator : M37.1,3,105_7_109,3,NonTF_TF_TF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Middle,0,3,0,M37.1 : M37.1 : Global regulator,3,81_2_55,3,NonTF_TF_TF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Middle,0,3,0,M37.10 : Global regulator : Global regulator,3,33_29_1,3,NonTF_TF_TF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_8_3,3,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,15_14_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,15_14_6,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_5,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,15_14_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,7_29_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.34,3,15_14_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.64,3,15_14_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,105_7_2,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,8_21_1,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,1_118_2,3,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,1_87_2,3,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,56_106_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,5_1_1,2,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,60_17_6,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_67_2,3,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,81_2_2,2,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.10 : Global regulator : M37.10,3,33_29_2,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.11 : M37.11 : Intermodular,3,1_3_4,3,NonTF_NonTF_NonTF,0,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : Intermodular,3,95_6_1,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : Intermodular,3,95_6_3,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.49 : Global regulator : Intermodular,3,1_14_4,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.49 : Global regulator : Intermodular,3,1_14_5,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.49 : Global regulator : M37.49,3,1_14_6,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.59 : Global regulator : Intermodular,3,6_7_1,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NN000,3,Middle_Middle_Output,0,2,1,M37.59 : Global regulator : M37.59,3,6_7_2,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_29_1,3,TF_TF_NonTF,2,67
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,15_14_1,3,TF_TF_NonTF,2,37
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_1,3,TF_TF_NonTF,2,29
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,15_14_1,3,TF_TF_NonTF,2,17
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.6,3,7_29_1,3,TF_TF_NonTF,2,11
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M18,3,7_29_1,3,TF_TF_NonTF,2,9
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_21_1,3,NonTF_TF_NonTF,1,9
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M12,3,7_29_1,3,TF_TF_NonTF,2,8
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_2,3,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,7_29_1,3,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.11,3,15_14_6,3,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M57,3,7_29_1,3,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M63,3,7_29_1,3,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M66,3,7_29_1,3,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M8,3,7_29_1,3,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.7 : Global regulator : Intermodular,3,3_21_3,2,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.7 : M37.7 : Intermodular,3,3_1_3,2,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0NP000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : M37.1,3,5_3_2,3,TF_TF_NonTF,2,5
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.31,3,7_29_1,3,TF_TF_NonTF,2,5
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.4,3,15_14_1,3,TF_TF_NonTF,2,5
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M55,3,15_14_1,3,TF_TF_NonTF,2,5
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,5_1_2,3,TF_NonTF_NonTF,1,5
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M23,3,7_29_1,3,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M30,3,7_29_4,3,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.12,3,7_29_1,3,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.16,3,7_29_1,3,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.20,3,7_29_1,3,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.35,3,7_29_1,3,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.6,3,15_14_1,3,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M43,3,7_29_2,3,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M65,3,7_29_1,3,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_21_1,2,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_87_1,2,TF_NonTF_NonTF,1,4
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,15_14_1,3,TF_TF_TF,3,3
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.13,3,15_14_1,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.13,3,7_29_1,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.34,3,7_29_1,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M44,3,7_29_3,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M45,3,7_29_1,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,22_105_2,3,TF_NonTF_NonTF,1,3
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_118_1,2,TF_NonTF_NonTF,1,3
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,22_105_1,3,TF_NonTF_NonTF,1,3
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_106_3,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_4_3,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_67_3,3,TF_NonTF_NonTF,1,3
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M23,3,7_29_1,3,TF_TF_TF,3,2
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_29_1,3,TF_TF_TF,3,2
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,15_14_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.11,3,15_14_4,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.30,3,7_29_1,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.36,3,15_14_4,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.5,3,7_29_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M38,3,7_29_1,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M39,3,7_29_1,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M60,3,7_29_1,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M69,3,7_29_1,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,7_29_1,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,7_29_14,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Intermodular,3,7_29_42,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Intermodular,3,7_29_43,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M12,3,7_29_97,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M20,3,7_29_1,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M34,3,7_29_92,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.12,3,7_29_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.12,3,7_29_35,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.16,3,7_29_101,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.17,3,7_29_44,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.18,3,7_29_103,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.20,3,7_29_1,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.21,3,7_29_1,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.31,3,7_29_1,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.35,3,7_29_98,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.42,3,7_29_3,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.6,3,7_29_41,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M43,3,7_29_99,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M44,3,7_29_1,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M55,3,15_14_53,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M62,3,15_14_52,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M65,3,7_29_3,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M66,3,7_29_1,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M8,3,7_29_1,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,M37.1 : M37.1 : M37.1,3,22_105_6,3,TF_NonTF_TF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Middle,0,3,0,M37.1 : M37.1 : M37.1,3,2_57_82,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_29_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_8_1,3,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,15_14_3,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,15_14_4,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_1,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_29_5,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Intermodular,3,7_8_1,3,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M20,3,7_29_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M28,3,7_29_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M34,3,7_29_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,15_14_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,7_29_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.15,3,7_29_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.18,3,7_29_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.3,3,7_29_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.32,3,7_29_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.5,3,7_29_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.5,3,7_29_3,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.6,3,7_29_1,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.64,3,7_29_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.7,3,7_29_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.8,3,7_29_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.9,3,7_29_6,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M44,3,7_29_2,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M69,3,7_29_1,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_21_1,2,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_21_3,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,60_17_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_106_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_4_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.10 : Global regulator : M37.10,3,33_29_1,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.49 : Global regulator : M37.49,3,1_14_1,2,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.5 : M37.5 : M37.5,3,3_1_3,2,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.8 : M37.8 : M37.8,3,3_114_1,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0NP000,3,Middle_Middle_Output,0,2,1,M37.9 : Global regulator : M37.9,3,1_8_1,2,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Input_Output,1,1,1,M57 : M57 : M57,3,2_2_1,2,NonTF_NonTF_NonTF,0,12
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.11 : Global regulator : M37.11,3,1_1_6,2,NonTF_TF_NonTF,1,6
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,15_1_2,3,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_1_2,3,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,12_7_1,3,NonTF_NonTF_NonTF,0,4
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,12_7_2,3,NonTF_NonTF_NonTF,0,4
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,23_1_2,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.5,3,29_1_2,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.62,3,21_1_5,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.18,3,76_42_2,3,NonTF_NonTF_NonTF,0,3
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.18,3,76_43_2,3,NonTF_NonTF_NonTF,0,3
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : M37.29,3,95_1_2,3,NonTF_TF_NonTF,1,3
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : M37.29,3,95_7_2,3,NonTF_TF_NonTF,1,3
+021C,Feed-Forward,021C-0PN000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : M37.1,3,1_3_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,14_1_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : M37.6 : Basal machinery,3,14_41_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : M37.6 : M37.1,3,14_41_1,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,6_8_2,3,TF_NonTF_NonTF,1,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_1_2,2,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_3_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_1_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_8_2,3,TF_NonTF_NonTF,1,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_1_2,2,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_7_2,3,TF_NonTF_NonTF,1,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.15 : Global regulator : Intermodular,3,1_15_5,3,NonTF_TF_NonTF,1,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.49 : Global regulator : M37.49,3,1_1_2,2,NonTF_TF_NonTF,1,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.5 : Global regulator : Intermodular,3,3_7_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.5 : Global regulator : M37.5,3,3_1_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : Intermodular,3,41_3_5,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PN000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : Intermodular,3,1_3_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.5,3,29_1_1,2,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Middle,0,3,0,Global regulator : M37.6 : M37.1,3,14_41_16,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Middle,0,3,0,M37.1 : Global regulator : M37.1,3,117_1_3,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Middle,0,3,0,M37.1 : Global regulator : M37.1,3,5_21_1,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Middle,0,3,0,M37.13 : M37.13 : Global regulator,3,37_36_55,3,NonTF_TF_TF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Middle,0,3,0,M37.15 : Global regulator : M37.15,3,1_15_83,3,NonTF_TF_TF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,21_1_5,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,29_1_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,55_1_4,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,15_1_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,21_1_3,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.52,3,23_1_3,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.7,3,76_42_2,3,NonTF_NonTF_NonTF,0,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.7,3,76_43_2,3,NonTF_NonTF_NonTF,0,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : M37.6 : Basal machinery,3,14_41_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,Global regulator : M37.6 : Intermodular,3,14_41_5,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,1_3_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,4_6_1,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,4_6_2,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,6_1_1,2,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,117_1_3,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,56_3_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,56_8_1,3,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,5_21_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,5_21_3,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,7_1_1,2,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,1_1_2,2,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,1_7_2,3,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,8_9_1,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,56_117_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,56_6_1,3,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,9_17_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.11 : Global regulator : Intermodular,3,1_1_4,2,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.13 : M37.13 : Intermodular,3,37_36_2,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.14 : Global regulator : M37.14,3,3_1_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.15 : Global regulator : M37.15,3,1_15_3,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.17 : Global regulator : Intermodular,3,44_3_5,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.17 : Global regulator : M37.17,3,44_3_5,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : Intermodular,3,95_7_1,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.29 : Global regulator : Intermodular,3,95_7_3,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.59 : Global regulator : M37.59,3,6_1_2,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : M37.6,3,41_3_5,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.61 : Global regulator : Intermodular,3,1_7_2,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.64 : Global regulator : Intermodular,3,3_1_1,2,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.64 : Global regulator : M37.64,3,3_1_2,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.8 : Global regulator : M37.8,3,114_1_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M37.9 : Global regulator : M37.9,3,18_1_6,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M53 : Global regulator : M53,3,1_1_2,2,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M53 : Global regulator : M53,3,1_1_3,2,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M53 : Global regulator : M53,3,1_3_2,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PN000,3,Middle_Middle_Output,0,2,1,M64 : Global regulator : M64,3,1_1_2,2,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,1_3_1,2,TF_TF_NonTF,2,64
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,1_1_1,1,TF_TF_NonTF,2,36
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Basal machinery,3,76_42_1,3,NonTF_NonTF_NonTF,0,15
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Basal machinery,3,76_43_1,3,NonTF_NonTF_NonTF,0,15
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Intermodular,3,76_42_1,3,NonTF_NonTF_NonTF,0,14
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Intermodular,3,76_43_1,3,NonTF_NonTF_NonTF,0,14
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : M37.6,3,1_15_1,2,TF_TF_NonTF,2,14
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_1_1,2,TF_TF_NonTF,2,12
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.1,3,76_42_6,3,NonTF_NonTF_NonTF,0,10
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.1,3,76_43_6,3,NonTF_NonTF_NonTF,0,10
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,4_4_1,2,NonTF_TF_NonTF,1,9
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.4 : M37.4 : M37.4,3,1_1_1,1,TF_TF_NonTF,2,9
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : Intermodular,3,1_15_1,2,TF_TF_NonTF,2,9
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M18,3,1_3_1,2,TF_TF_NonTF,2,8
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.4 : Global regulator : M37.4,3,1_1_1,1,TF_TF_NonTF,2,8
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,15_1_1,2,TF_TF_NonTF,2,7
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,23_1_2,3,TF_TF_NonTF,2,7
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,1_3_1,2,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.11,3,15_1_6,3,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M8,3,7_1_1,2,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Intermodular,3,76_42_5,3,NonTF_NonTF_NonTF,0,6
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Intermodular,3,76_43_5,3,NonTF_NonTF_NonTF,0,6
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : Intermodular,3,41_3_3,2,TF_TF_NonTF,2,6
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.5,3,7_1_2,3,TF_TF_NonTF,2,5
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,5_1_2,3,TF_TF_NonTF,2,5
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,5_21_2,3,TF_TF_NonTF,2,5
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_3_1,3,NonTF_TF_NonTF,1,5
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.7 : Global regulator : M37.7,3,1_15_1,2,TF_TF_NonTF,2,5
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_1_1,1,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.9 : Global regulator : M37.9,3,18_1_1,2,TF_TF_NonTF,2,4
+021C,Feed-Forward,021C-0PP000,3,Middle_Input_Output,1,1,1,M37.1 : M37.1 : M37.1,3,1_3_1,2,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,29_1_1,2,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M65,3,76_42_1,3,NonTF_NonTF_NonTF,0,3
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M65,3,76_43_1,3,NonTF_NonTF_NonTF,0,3
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_1_1,1,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_1_3,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_8_3,3,TF_NonTF_NonTF,1,3
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : Intermodular,3,9_17_6,3,TF_TF_NonTF,2,3
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_7_1,2,TF_NonTF_NonTF,1,3
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,1_3_1,2,TF_TF_TF,3,2
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,15_1_2,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.19,3,1_1_1,1,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.19,3,1_3_1,2,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M38,3,7_1_1,2,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.6,3,76_42_1,3,NonTF_NonTF_NonTF,0,2
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.6,3,76_43_1,3,NonTF_NonTF_NonTF,0,2
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,117_1_1,2,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,1_3_1,2,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : M37.6,3,41_3_1,3,TF_TF_NonTF,2,2
+021C,Feed-Forward,021C-0PP000,3,Middle_Input_Middle,1,2,0,M37.1 : M37.1 : M37.1,3,2_2_82,2,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M20,3,7_1_1,2,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.1,3,1_1_19,2,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.1,3,1_3_106,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.1,3,1_3_19,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.19,3,1_1_6,2,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.19,3,1_3_6,3,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.5,3,23_1_1,2,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M37.5,3,7_1_1,2,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M44,3,7_1_1,2,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M6,3,1_1_1,1,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M6,3,1_3_1,2,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M8,3,7_1_1,2,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Intermodular : M37.1,3,76_42_5,3,NonTF_NonTF_TF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,Global regulator : Intermodular : M37.1,3,76_43_5,3,NonTF_NonTF_TF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,M37.1 : Global regulator : Global regulator,3,4_6_3,3,NonTF_TF_TF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,M37.1 : Global regulator : M37.1,3,117_1_118,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,M37.1 : Global regulator : M37.1,3,6_3_19,3,NonTF_TF_TF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,M37.1 : M37.1 : Global regulator,3,4_4_3,2,NonTF_TF_TF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Middle,0,3,0,M37.1 : M37.1 : M37.1,3,2_11_82,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,1_1_1,1,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,1_1_4,2,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,1_3_4,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_1_1,2,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : Basal machinery,3,7_1_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M12,3,7_1_1,2,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M20,3,7_1_1,2,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,29_1_1,2,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,29_1_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.1,3,7_1_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.4,3,23_1_1,2,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.5,3,7_1_1,2,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Global regulator : M37.8,3,7_1_2,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Intermodular,3,76_42_2,3,NonTF_NonTF_NonTF,0,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : Intermodular,3,76_43_2,3,NonTF_NonTF_NonTF,0,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.1,3,76_42_5,3,NonTF_NonTF_NonTF,0,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : Intermodular : M37.1,3,76_43_5,3,NonTF_NonTF_NonTF,0,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,Global regulator : M37.6 : M37.1,3,14_41_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M17 : Global regulator : M17,3,1_1_1,1,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : Intermodular,3,6_3_4,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,117_1_3,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,4_1_1,2,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_1_1,2,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_3_3,2,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : Global regulator : M37.1,3,6_8_1,3,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_4_1,2,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_4_3,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_6_1,2,NonTF_NonTF_NonTF,0,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,1_6_3,3,NonTF_NonTF_NonTF,0,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,6_19_1,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.1 : M37.1 : M37.1,3,9_17_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.10 : Global regulator : Intermodular,3,11_8_4,3,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.10 : Global regulator : M37.10,3,11_8_1,3,TF_NonTF_NonTF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.15 : Global regulator : M37.15,3,83_1_6,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : Intermodular,3,41_1_1,2,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : Intermodular,3,41_3_1,3,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.6 : Global regulator : M37.6,3,1_15_1,2,TF_TF_TF,3,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.61 : Global regulator : Intermodular,3,1_7_2,3,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.8 : Global regulator : M37.8,3,3_1_1,2,NonTF_TF_NonTF,1,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.9 : Global regulator : M37.9,3,1_1_1,1,TF_TF_NonTF,2,1
+021C,Feed-Forward,021C-0PP000,3,Middle_Middle_Output,0,2,1,M37.9 : M37.9 : M37.9,3,1_18_1,2,TF_TF_NonTF,2,1
 021D,Feed-Forward,021D-N0N000,3,Middle_Output_Output,0,1,2,Global regulator : Basal machinery : Basal machinery,3,23_1_1,2,TF_NonTF_NonTF,1,630
 021D,Feed-Forward,021D-N0N000,3,Middle_Output_Output,0,1,2,Global regulator : Basal machinery : Basal machinery,3,15_1_1,2,TF_NonTF_NonTF,1,406
 021D,Feed-Forward,021D-N0N000,3,Middle_Output_Output,0,1,2,Global regulator : Basal machinery : Basal machinery,3,46_1_1,2,NonTF_NonTF_NonTF,0,276
