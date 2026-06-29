@@ -1106,14 +1106,42 @@ def plot_global_man_code_distribution_extremes_F(
     ax.legend(
         handles=legend_elements,
         title="Topology Class",
-        loc="upper right",
+        loc="upper left",
         bbox_to_anchor=(1.02, 1.0),
         frameon=True,
         facecolor="white",
         edgecolor="none",
     )
 
-    plt.xticks(rotation=90, ha="right")
+    # Only add the gradient colorbar if we are in p-value mode
+    if metric == "pvalue":
+        # Create the same colormap used in your background gradient
+        bg_cmap = LinearSegmentedColormap.from_list(
+            "bg_grad", [NORD_COLORS["green"], NORD_COLORS["purple"]]
+        )
+
+        # Create a ScalarMappable for the colorbar mapping 0 to 1
+        norm = plt.Normalize(vmin=0.0, vmax=1.0)
+        sm = plt.cm.ScalarMappable(cmap=bg_cmap, norm=norm)
+        sm.set_array([])
+
+        # Add an inset axis for the colorbar directly below the legend bounding box
+        # Coordinates are relative to the main axis: [left, bottom, width, height]
+        # Placed at X=1.05 (matching legend), Y=0.35, Width=0.15, Height=0.04
+        cax = ax.inset_axes([1.15, -0.08, 0.05, 0.50], transform=ax.transAxes)
+
+        # Draw the horizontal colorbar
+        cb = fig.colorbar(sm, cax=cax, orientation="vertical")
+
+        # Format the colorbar ticks to match your metric narrative
+        cb.set_ticks([0.0, 0.5, 1.0])
+        cb.set_ticklabels(
+            ["0.0 (Enriched)", "0.5\n(Random\nExpectation)", "1.0 (Depleted)"]
+        )
+        cb.ax.tick_params(rotation=0)
+        cb.ax.set_title("Significance\nGradient", pad=10, loc="Center")
+
+    plt.xticks(rotation=90, ha="center")
     plt.tight_layout()
 
     # 11. Save
@@ -1129,7 +1157,7 @@ def plot_global_man_code_distribution_extremes_F(
 
 
 def plot_circuit_compositions_for_extremes_F(
-    extended_counts_dir, enrichment_csv, output_dir, top_n_motifs=3, min_proportion=0.05
+    extended_counts_dir, enrichment_csv, output_dir, top_n_motifs=5, min_proportion=0.01
 ):
     """
     Plots a single comprehensive chart showing the internal relative circuit composition
@@ -1145,7 +1173,7 @@ def plot_circuit_compositions_for_extremes_F(
         index="Network", columns="MAN_Code", values="Empirical_P_Value_Proportion"
     ).fillna(1.0)
 
-    global_medians = pivot_df.median().sort_values(ascending=True)
+    global_medians = pivot_df.mean().sort_values(ascending=True)
     enriched_man_targets = global_medians.head(top_n_motifs).index.tolist()
 
     print(
@@ -1339,7 +1367,7 @@ def plot_circuit_compositions_for_extremes_F(
 
 
 def plot_coherence_vs_relative_proportion_F(
-    extended_counts_dir, enrichment_csv, coh_csv, output_dir, min_organisms=3
+    extended_counts_dir, enrichment_csv, coh_csv, output_dir, min_organisms=1
 ):
     """
     Calculates the mean relative proportion of circuits across consistent organisms,
@@ -1473,28 +1501,6 @@ def plot_coherence_vs_relative_proportion_F(
 
     unique_classes = plot_df["Topology_Class"].unique()
 
-    # # Plot each Topology Class as hollow circles with thick edges
-    # for i, t_class in enumerate(unique_classes):
-    #     class_df = plot_df[plot_df["Topology_Class"] == t_class]
-    #
-    #     # Override color for Cyclic to ensure contrast against the KDE map
-    #     if t_class == "Cyclic":
-    #         class_color = NORD_COLORS.get("yellow", "#ebcb8b")
-    #     else:
-    #         class_color = NORD_PALETTE[i % len(NORD_PALETTE)]
-    #
-    #     ax.scatter(
-    #         class_df["AbsMeanCoh"],
-    #         class_df["Relative_Proportion"],
-    #         facecolors="none",
-    #         edgecolors=class_color,
-    #         linewidths=2.0,
-    #         s=75,
-    #         alpha=0.95,
-    #         label=t_class,
-    #         zorder=2,
-    #     )
-
     # Define a list of distinct markers to cycle through
     marker_list = ["o", "s", "^", "D", "v", "<", ">", "p", "*", "X"]
 
@@ -1553,6 +1559,240 @@ def plot_coherence_vs_relative_proportion_F(
         frameon=True,
         facecolor="#f2f4f8",
         edgecolor=NORD_COLORS["gray"],
+        framealpha=0.75,
+        ncol=2 if plot_df["Topology_Class"].nunique() > 10 else 1,
+    )
+
+    plt.tight_layout()
+
+    # 8. Save Output
+    save_path = out_path / "Global_RelativeProportion_vs_AbsCoherence.png"
+    plt.savefig(save_path, dpi=300, bbox_inches="tight", transparent=True)
+    plt.savefig(
+        save_path.with_suffix(".svg"), dpi=300, bbox_inches="tight", transparent=True
+    )
+    print(f"Saved Coherence vs. Proportion Plot to: {save_path}")
+
+    plt.close()
+
+
+def plot_coherence_vs_relative_proportion_F(
+    extended_counts_dir, enrichment_csv, coh_csv, output_dir, min_organisms=1
+):
+    """
+    Calculates the mean relative proportion of circuits across consistent organisms,
+    and plots this against their absolute structural coherence (|MeanCoh|).
+    Underlays a fully opaque, screen-filling blue-to-purple KDE density map clipped between 0 and 1.
+    Points are hollow with thick edges, styled consistently by Topology_Class.
+    """
+    out_path = Path(output_dir)
+    out_path.mkdir(parents=True, exist_ok=True)
+
+    # 1. Load Topology Class Mapping from Master Enrichment Data
+    enrich_df = pd.read_csv(enrichment_csv)
+    topo_map = (
+        enrich_df.drop_duplicates("MAN_Code")
+        .set_index("MAN_Code")["Topology_Class"]
+        .to_dict()
+    )
+
+    # 2. Gather & Calculate Relative Proportions from Composition Files
+    extended_path = Path(extended_counts_dir)
+    composition_files = list(extended_path.glob("*_Topo_Composition_Counts.csv"))
+
+    if not composition_files:
+        print(f"Error: No composition CSV files found in {extended_counts_dir}")
+        return
+
+    all_org_frames = []
+    for c_file in composition_files:
+        org_df = pd.read_csv(c_file)
+        if org_df.empty or "Count" not in org_df.columns:
+            continue
+
+        network_name = c_file.name.replace("_Topo_Composition_Counts.csv", "")
+        org_df["Network"] = network_name
+
+        # Aggregate locally to prevent duplicate row entries
+        agg_df = (
+            org_df.groupby(["Network", "MAN_Code", "Circuit"])["Count"]
+            .sum()
+            .reset_index()
+        )
+
+        total_network_count = agg_df["Count"].sum()
+        if total_network_count == 0:
+            continue
+
+        agg_df["Network_Proportion"] = agg_df["Count"] / total_network_count
+        all_org_frames.append(agg_df)
+
+    master_df = pd.concat(all_org_frames, ignore_index=True)
+
+    # 3. Consistency Filter (MAN Code must appear in >= min_organisms)
+    man_org_counts = (
+        master_df[master_df["Count"] > 0].groupby("MAN_Code")["Network"].nunique()
+    )
+    consistent_mans = man_org_counts[man_org_counts >= min_organisms].index.tolist()
+
+    master_df = master_df[master_df["MAN_Code"].isin(consistent_mans)].copy()
+
+    if master_df.empty:
+        print("Warning: No structural elements qualified with consistency settings.")
+        return
+
+    # 4. Calculate Relative Proportions (Proportion of the Proportion)
+    org_cluster_prop_totals = master_df.groupby(["Network", "MAN_Code"])[
+        "Network_Proportion"
+    ].transform("sum")
+    master_df["Relative_Proportion"] = (
+        master_df["Network_Proportion"] / org_cluster_prop_totals
+    ).fillna(0.0)
+
+    # Extract the cross-organism mean relative proportion for each circuit
+    circuit_props = (
+        master_df.groupby(["MAN_Code", "Circuit"])["Relative_Proportion"]
+        .mean()
+        .reset_index()
+    )
+
+    # Map the Topology Class to the grouped circuits
+    circuit_props["Topology_Class"] = circuit_props["MAN_Code"].map(topo_map)
+    circuit_props = circuit_props.dropna(subset=["Topology_Class"])
+
+    # 5. Load & Format Coherence Data
+    coh_df = pd.read_csv(coh_csv)
+
+    # Filter strictly for Non-Self-Activating (NS) motifs
+    coh_df = coh_df[coh_df["TopoName"].str.endswith("_NS", na=False)].copy()
+
+    # Convert TopoName to Circuit string format (e.g., 010_N0_NS -> 010-N0)
+    coh_df["Circuit"] = coh_df["TopoName"].str.replace("_NS", "").str.replace("_", "-")
+
+    # Retain only circuits that have a valid computed MeanCoh value
+    coh_df = coh_df[["Circuit", "MeanCoh"]].dropna()
+
+    # Calculate Absolute Coherence
+    coh_df["AbsMeanCoh"] = coh_df["MeanCoh"].abs()
+
+    # 6. Merge Data Streams
+    plot_df = pd.merge(circuit_props, coh_df, on="Circuit", how="inner")
+
+    if plot_df.empty:
+        print("Warning: Merged dataframe is empty. Check mapping string equivalence.")
+        return
+
+    # Sort to ensure stable layering/rendering
+    plot_df = plot_df.sort_values(
+        by=["Topology_Class", "Relative_Proportion"], ascending=[True, False]
+    )
+
+    # 7. Chart Geometry & Plotting
+    fig, ax = plt.subplots(figsize=(6, 4))
+
+    # Underlay the fully opaque, screen-filling KDE Density Map
+    kde_cmap = LinearSegmentedColormap.from_list(
+        "nord_blue_purple",
+        [NORD_COLORS.get("blue", "#81a1c1"), NORD_COLORS.get("purple", "#b48ead")],
+    )
+
+    # clip=((-np.inf, np.inf), (0.0, 1.0)) locks the KDE to 0 and 1 on the Y-axis
+    sns.kdeplot(
+        data=plot_df,
+        x="AbsMeanCoh",
+        y="Relative_Proportion",
+        fill=True,
+        cmap=kde_cmap,
+        alpha=1.0,
+        thresh=0,  # Forces the lowest contour to fill the plot bounds
+        levels=15,
+        clip=((0.0, 1.0), (0.0, 1.0)),
+        ax=ax,
+        zorder=1,
+    )
+
+    # Explicit, consistent style mapping dictionary
+    style_mapping = {
+        "Feed-Forward": {
+            "color": NORD_COLORS["green"],
+            "marker": "^",
+            "zorder": 2,
+        },  # Green triangle
+        "Cyclic": {
+            "color": NORD_COLORS["yellow"],
+            "marker": "s",
+            "zorder": 3,
+        },  # Yellow square
+        "Complete": {
+            "color": NORD_COLORS["red"],
+            "marker": "o",
+            "zorder": 3,
+        },  # Red circle
+        "Complex": {
+            "color": NORD_COLORS["cyan"],
+            "marker": "D",
+            "zorder": 3,
+        },  # Purple diamond
+    }
+
+    # Fallback palette for unmapped or generic topology classes
+    fallback_colors = (
+        NORD_PALETTE if "NORD_PALETTE" in globals() else ["#88c0d0", "#5e81ac"]
+    )
+    fallback_markers = ["v", "<", ">", "p", "*", "X"]
+
+    unique_classes = plot_df["Topology_Class"].unique()
+
+    # Plot each Topology Class with explicit style mappings
+    for i, t_class in enumerate(unique_classes):
+        class_df = plot_df[plot_df["Topology_Class"] == t_class]
+
+        if t_class in style_mapping:
+            class_color = style_mapping[t_class]["color"]
+            class_marker = style_mapping[t_class]["marker"]
+            class_zorder = style_mapping[t_class]["zorder"]
+        else:
+            # Dynamically style any outlier classes safely
+            class_color = fallback_colors[i % len(fallback_colors)]
+            class_marker = fallback_markers[i % len(fallback_markers)]
+            class_zorder = 3
+
+        ax.scatter(
+            class_df["AbsMeanCoh"],
+            class_df["Relative_Proportion"],
+            marker=class_marker,
+            facecolors="none",  # Keeps the marker hollow
+            edgecolors=class_color,  # Colors the thick edge
+            linewidths=2.8,
+            s=75,
+            alpha=0.95,
+            label=t_class,
+            zorder=class_zorder,
+        )
+
+    # Constrain axes padding so markers at 0.0 or 1.0 do not get cropped
+    x_min, x_max = plot_df["AbsMeanCoh"].min(), plot_df["AbsMeanCoh"].max()
+    y_min, y_max = (
+        plot_df["Relative_Proportion"].min(),
+        plot_df["Relative_Proportion"].max(),
+    )
+    ax.set_xlim(x_min - 0.03, x_max + 0.03)
+    ax.set_ylim(y_min - 0.05, y_max + 0.05)
+
+    ax.set_title(
+        "Relative Motif Composition vs. Absolute Structural Coherence\n(Consistent Elements $\geq$ 3 Organisms)"
+    )
+    ax.set_xlabel(r"$| C_{\mathrm{struct}} |$")
+    ax.set_ylabel("Mean Relative Proportion")
+
+    # Legend formatting
+    ax.legend(
+        title="Topology Class",
+        bbox_to_anchor=(1.02, 1),
+        loc="upper left",
+        frameon=True,
+        facecolor="#f2f4f8",
+        edgecolor=NORD_COLORS.get("gray", "#4c566a"),
         framealpha=0.75,
         ncol=2 if plot_df["Topology_Class"].nunique() > 10 else 1,
     )
@@ -2740,7 +2980,7 @@ if __name__ == "__main__":
         extended_counts_dir=EXTENDED_COUNTS_DIR,
         enrichment_csv=ENRICHMENT_CSV,
         output_dir=PLOT_OUTPUT_DIR,
-        top_n_motifs=3,
+        top_n_motifs=5,
     )
     COHERENCE_CSV = Path("./MotifCohResults/CompiledMotifSummary.csv")
     plot_coherence_vs_relative_proportion_F(
@@ -2748,7 +2988,7 @@ if __name__ == "__main__":
         enrichment_csv=ENRICHMENT_CSV,
         coh_csv=COHERENCE_CSV,
         output_dir=PLOT_OUTPUT_DIR,
-        min_organisms=3,
+        min_organisms=1,
     )
 
     # plot_topology_composition_by_dimensions_barplot_F(
