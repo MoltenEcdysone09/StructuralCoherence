@@ -16,6 +16,15 @@ NETWORK_TO_ORGANISM = {
     "100226_v2019_sA22-DBSCR15_eStrong_regNetwork": "Streptomyces coelicolor",
 }
 
+NETWORK_TO_SHORT = {
+    "Corynebacterium glutamicum": "C.glutamicum",
+    "Mycobacterium tuberculosis": "M.tuberculosis",
+    "Bacillus subtilis": "B.subtilis",
+    "Escherichia coli": "E.coli",
+    "Pseudomonas aeruginosa": "P.aeruginosa",
+    "Streptomyces coelicolor": "S.coelicolor",
+}
+
 # --- Set font and plot styles ---
 NORD_COLORS = {
     "dark": "#2e3440",
@@ -95,7 +104,7 @@ def plot_combined_outlier_distribution_F(
     offset_step = 0.008 if normalize else 0.8
 
     for idx, net in enumerate(networks_data):
-        org_name = net["name"]
+        org_name = NETWORK_TO_SHORT[net["name"]]
         metric_data = net["shuffled_data"]
         wt_val = net["wt_val"]
 
@@ -145,8 +154,10 @@ def plot_combined_outlier_distribution_F(
 
         # 5. Calculate Empirical P-value in Scientific Notation (Using RAW data)
         n_extreme = (metric_data >= wt_val).sum()
+        # n_extreme = (metric_data > wt_val).sum()
         total = len(metric_data)
         p_val = n_extreme / total
+        print(f"{org_name} - RANK : {n_extreme} {total} {p_val}")
 
         if p_val == 0:
             p_val_str = f"< {1 / total:.2e}"
@@ -155,7 +166,8 @@ def plot_combined_outlier_distribution_F(
 
         # 6. Create the legend entry
         org_italic = f"$\\mathit{{{org_name.replace(' ', r'\ ')}}}$"
-        label_text = f"{org_italic}\nEmpirical $p$-value {p_val_str}"
+        # label_text = f"{org_italic}\nEmpirical $p$-value {p_val_str}"
+        label_text = f"{org_italic}"
 
         handle = mpatches.Patch(
             facecolor=color,

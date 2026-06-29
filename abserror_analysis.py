@@ -2071,8 +2071,10 @@ def plot_hi_vs_er_cae_distributions_combined_stats_F(
 
     # 4. Plot loops: One per SelfActivation (Aggregating all scales)
     for sa, group_data in plot_df.groupby("SelfActivation"):
-        png_dir = save_dir / "png"
-        svg_dir = save_dir / "svg"
+        # png_dir = save_dir / "png"
+        # svg_dir = save_dir / "svg"
+        png_dir = save_dir / "HI" / "png"
+        svg_dir = save_dir / "HI" / "svg"
         png_dir.mkdir(parents=True, exist_ok=True)
         svg_dir.mkdir(parents=True, exist_ok=True)
 
@@ -2274,8 +2276,10 @@ def plot_hi_cae_distributions_all_scales_F(
 
     # 4. Plot loops: One per SelfActivation (Aggregating all scales)
     for sa, group_data in plot_df.groupby("SelfActivation"):
-        png_dir = save_dir / "png"
-        svg_dir = save_dir / "svg"
+        # png_dir = save_dir / "png"
+        # svg_dir = save_dir / "svg"
+        png_dir = save_dir / "HI" / "png"
+        svg_dir = save_dir / "HI" / "svg"
         png_dir.mkdir(parents=True, exist_ok=True)
         svg_dir.mkdir(parents=True, exist_ok=True)
 
@@ -2414,146 +2418,147 @@ def plot_ns_vs_sa_boxplots_10x_with_stats_F(
     cae_df, df, target_metric, save_dir, nord_colors
 ):
     """
-    Plots grouped boxplots + stripplots comparing NS vs SA CAE distributions STRICTLY for the 10x scale.
-    Generates one plot per NetType (HI, ER).
-    X-axis is grouped by MAN Code and sorted by the Delta in Basal Structural Coherence.
-    Includes statannotations to compare NS vs SA significance per motif using Mann-Whitney.
-    """
+    Plots 10x scale paired boxes comparing SA and NS side-by-side.
 
+    Sorting: Networks are grouped by MAN_code, and within each family block,
+             sorted sequentially by the difference in Absolute Structural Coherence
+             at Density = 1.0 between the SA and NS versions (|C_struct,SA| - |C_struct,NS|).
+    Significance: Default statannotations star system (*, **, ***, ns) inside the grid headroom.
+    Legend: Bounded external axis frame on the top right.
+    """
     set_global_nord_style()
 
-    metric_labels = {
-        "Norm_CAE_NumTeams": r"Cumulative Norm. $| \Delta \mathrm{Teams} |$",
-        "Norm_CAE_NumPreSplitTeams": r"Cumulative Norm. $| \Delta \mathrm{Teams} |$",
-    }
-
-    # 1. Filter out 030T networks AND restrict to 10x scale
-    filtered_cae = cae_df[
-        (~cae_df["BaseNet"].str.startswith("030T")) & (cae_df["Scale"] == 10)
-    ].copy()
-
-    if filtered_cae.empty:
-        print("Warning: Missing 10x data.")
+    df_10x = cae_df[cae_df["Scale"] == 10].copy()
+    if df_10x.empty:
         return
 
-    # 2. Determine which Coherence metric to use for sorting
-    coh_metric = "PreSplitStructCoh" if "PreSplit" in target_metric else "StructCoh"
+    # 1. Filter out 030T networks AND restrict to 10x scale
+    df_10x = df_10x[
+        (~df_10x["BaseNet"].str.startswith("030T")) & (df_10x["Scale"] == 10)
+    ].copy()
 
-    # 3. Extract reference coherence at Density = 1.0 (Using HI as the structural baseline)
+    if "MAN_code" not in df_10x.columns:
+        df_10x["MAN_code"] = df_10x["BaseNet"].astype(str).str.split("_").str[0]
+
+    metric_labels = {
+        "CAE_NumTeams": r"Cumulative $| \Delta \mathrm{Teams} |$",
+        "Norm_CAE_NumTeams": r"Cumulative Norm. $| \Delta \mathrm{Teams} |$",
+    }
+    clean_ylabel = metric_labels.get(target_metric, target_metric.replace("_", " "))
+
+    # 1. Extract reference background structural coherence configurations at Density == 1.0
     ref_df = (
-        df[
-            (df["Density"] == 1.0)
-            & (df["NetType"] == "HI")
-            & (~df["BaseNet"].str.startswith("030T"))
-        ]
-        .groupby(["SelfActivation", "BaseNet"])[coh_metric]
+        df[df["Density"] == 1.0]
+        .groupby(["NetType", "SelfActivation", "MAN_code", "BaseNet"])["StructCoh"]
         .mean()
         .reset_index()
     )
 
-    # Pivot to calculate the absolute difference between SA and NS coherence for sorting
+    # Pivot ref_df to compute the precise difference in absolute structural coherence between conditions
     ref_pivot = ref_df.pivot(
-        index="BaseNet", columns="SelfActivation", values=coh_metric
+        index=["NetType", "MAN_code", "BaseNet"],
+        columns="SelfActivation",
+        values="StructCoh",
     ).reset_index()
-    ref_pivot["NS"] = ref_pivot["NS"].fillna(0)
+
     ref_pivot["SA"] = ref_pivot["SA"].fillna(0)
-    ref_pivot["Delta_AbsStructCoh"] = np.abs(ref_pivot["SA"] - ref_pivot["NS"])
-    ref_pivot["MAN_code"] = ref_pivot["BaseNet"].astype(str).str.split("_").str[0]
+    ref_pivot["NS"] = ref_pivot["NS"].fillna(0)
+    ref_pivot["Delta_AbsStructCoh"] = np.abs((ref_pivot["SA"] - ref_pivot["NS"]))
 
-    plot_df = filtered_cae.dropna(subset=[target_metric])
+    # 2. Pivot data layout for paired metric tracking validation rows
+    index_cols = ["NetType", "MAN_code", "BaseNet", "Rep"]
+    paired_df = (
+        df_10x.pivot(index=index_cols, columns="SelfActivation", values=target_metric)
+        .reset_index()
+        .dropna(subset=["SA", "NS"])
+    )
 
-    # Dynamic labels
-    # clean_ylabel = f"Cumulative Error (10x Scale)\n[{target_metric.replace('_', ' ')}]"
-    clean_ylabel = metric_labels[target_metric]
-    # if "PreSplit" in target_metric:
-    #     x_label = r"Network Variants (Grouped by MAN $\rightarrow$ Sorted by $\Delta |C_{\mathrm{struct, Pre-Split}}|$)"
-    # else:
-    #     x_label = r"Network Variants (Grouped by MAN $\rightarrow$ Sorted by $\Delta |C_{\mathrm{struct}}|$)"
-
-    sa_palette = {"NS": nord_colors["green"], "SA": nord_colors["yellow"]}
-
-    # 4. Plot loops: One per NetType (HI, ER)
-    for net_type, group_data in plot_df.groupby("NetType"):
-        png_dir = save_dir / "png"
-        svg_dir = save_dir / "svg"
+    for net_type, group_data in paired_df.groupby("NetType"):
+        png_dir = save_dir / net_type / "png"
+        svg_dir = save_dir / net_type / "svg"
         png_dir.mkdir(parents=True, exist_ok=True)
         svg_dir.mkdir(parents=True, exist_ok=True)
 
-        # Sort networks by MAN_code and then their structural delta
-        net_refs = ref_pivot.sort_values(
-            by=["MAN_code", "Delta_AbsStructCoh"], ascending=(True, False)
+        # Filter and apply sorting order based on structural difference metrics
+        net_ref_pivot = ref_pivot[ref_pivot["NetType"] == net_type].sort_values(
+            by=["MAN_code", "Delta_AbsStructCoh"]
         )
-        ordered_nets = [
-            n for n in net_refs["BaseNet"].tolist() if n in group_data["BaseNet"].values
-        ]
 
+        ordered_nets = [
+            n
+            for n in net_ref_pivot["BaseNet"].tolist()
+            if n in group_data["BaseNet"].values
+        ]
         if not ordered_nets:
             continue
 
-        fig, ax = plt.subplots(figsize=(6.5, 5))
-
-        # Plot Stripplot FIRST (zorder=1)
-        sns.stripplot(
-            data=group_data,
-            x="BaseNet",
-            y=target_metric,
-            hue="SelfActivation",
-            hue_order=["NS", "SA"],
-            order=ordered_nets,
-            dodge=True,
-            palette=[nord_colors["dark"], nord_colors["dark"]],
-            alpha=0.35,
-            size=6,
-            jitter=True,
-            ax=ax,
-            legend=False,
-            zorder=2,
+        # Melt dataset back for Seaborn rendering integration paths
+        plot_melt = group_data.melt(
+            id_vars=["BaseNet", "MAN_code"],
+            value_vars=["NS", "SA"],
+            var_name="Condition",
+            value_name="MetricValue",
         )
 
-        # Plot Boxplot SECOND (zorder=2)
+        # Mappingthe NS and SA to Absent and Present
+        plot_melt["Condition"] = plot_melt["Condition"].map(
+            {"NS": "Absent", "SA": "Present"}
+        )
+
+        fig, ax = plt.subplots(figsize=(9, 6))
+
+        # Render background base boxplot frame using your structural layout configuration ordering
         sns.boxplot(
-            data=group_data,
+            data=plot_melt,
             x="BaseNet",
-            y=target_metric,
-            hue="SelfActivation",
-            hue_order=["NS", "SA"],
+            y="MetricValue",
+            hue="Condition",
             order=ordered_nets,
-            palette=sa_palette,
-            showfliers=False,
-            linewidth=1.2,
-            saturation=1.0,
+            # palette={"NS": nord_colors["green"], "SA": nord_colors["yellow"]},
+            palette={"Absent": nord_colors["green"], "Present": nord_colors["yellow"]},
+            width=0.6,
+            linewidth=1.1,
+            # showfliers=False,
             ax=ax,
-            zorder=1,
-            width=0.5,
         )
 
-        # -----------------------------------------------------------------
-        # STATANNOTATIONS OVERLAY
-        # -----------------------------------------------------------------
-        pairs = [((net, "NS"), (net, "SA")) for net in ordered_nets]
+        # Add headroom margins above the maximum data coordinate for significance symbols
+        y_max_data = plot_melt["MetricValue"].max()
+        ax.set_ylim(bottom=-y_max_data * 0.03, top=y_max_data * 1.25)
 
-        # Give extra headroom for the stat-stars
-        y_max = group_data[target_metric].max()
-        ax.set_ylim(bottom=-y_max * 0.05, top=y_max * 1.3)
+        # -----------------------------------------------------------------
+        # STATANNOTATIONS OVERLAY PIPELINE (STAR-RATED FORMAT)
+        # -----------------------------------------------------------------
+        # annotation_pairs = [((net, "NS"), (net, "SA")) for net in ordered_nets]
+        # Update pairs to use the new names
+        annotation_pairs = [((net, "Absent"), (net, "Present")) for net in ordered_nets]
 
         try:
             annotator = Annotator(
-                ax,
-                pairs,
-                data=group_data,
+                ax=ax,
+                pairs=annotation_pairs,
+                data=plot_melt,
                 x="BaseNet",
-                y=target_metric,
-                hue="SelfActivation",
+                y="MetricValue",
+                hue="Condition",
                 order=ordered_nets,
-                hue_order=["NS", "SA"],
             )
-            # Mann-Whitney handles the discrete integer ties effectively
-            annotator.configure(test="Mann-Whitney", text_format="star", loc="inside")
-            annotator.apply_and_annotate()
-        except Exception as e:
-            print(f"Statannotations skipped for {net_type} due to variance limits: {e}")
 
-        # Add Demarcation Grid Lines
+            annotator.configure(
+                test="t-test_paired",
+                text_format="star",
+                loc="inside",
+                color=nord_colors["gray"],
+                line_width=1.2,
+                verbose=False,
+            )
+
+            annotator.apply_and_annotate()
+
+        except Exception as e:
+            print(f"Warning: statannotations execution bypassed for {net_type}: {e}")
+
+        # Add subtle vertical grid separators to visually isolate the unique MAN_code blocks
         man_codes = [b.split("_")[0] for b in ordered_nets]
         for i in range(1, len(man_codes)):
             if man_codes[i] != man_codes[i - 1]:
@@ -2561,33 +2566,33 @@ def plot_ns_vs_sa_boxplots_10x_with_stats_F(
                     x=i - 0.5,
                     color=nord_colors["gray"],
                     linestyle="--",
-                    alpha=0.35,
+                    alpha=0.55,
                     zorder=0,
                 )
 
+        # Formatting aesthetics configuration
+        # ax.set_xlabel(
+        #     r"Network Variants (Grouped by MAN $\rightarrow$ Sorted by $\Delta |C_{\mathrm{struct}}| \,\, [|C_{\mathrm{struct, SA}}| - |C_{\mathrm{struct, NS}}|]$)"
+        # )
         ax.set_ylabel(clean_ylabel)
         ax.set_title(
-            f"Cumulative Error Susceptibility (NS vs SA | 10x Scale) | {net_type}",
-            pad=20,
-            fontsize=16,
+            f"10x Susceptibility Mapping: Paired SA vs NS Profile | {net_type}", pad=20
         )
 
-        # Clean X-axis labels
+        # Replace underscores with hyphens in the x-axis labels
         clean_labels = [net.replace("_", "-") for net in ordered_nets]
         ax.set_xticks(range(len(ordered_nets)))
         ax.set_xticklabels(clean_labels, rotation=90, ha="center")
 
-        # Cleanup Legend
-        handles, labels = ax.get_legend_handles_labels()
+        # Position external legend frame on the top-right margins
         ax.legend(
-            handles=handles[:2],
-            labels=labels[:2],
-            title="Circuit\nType",
-            bbox_to_anchor=(1.02, 1),
-            loc="upper left",
+            # title="Circuit\nType",
+            title="Self-Activation",
             frameon=True,
             facecolor="none",
             edgecolor=nord_colors["gray"],
+            loc="upper left",
+            bbox_to_anchor=(1.01, 1.0),
         )
 
         plt.tight_layout()
@@ -2763,11 +2768,12 @@ if __name__ == "__main__":
         )
         plot_ns_vs_sa_boxplots_10x_with_stats_F(
             cae_df=hi_only_cae_df,
-            df=hi_only_cohres_df,
+            df=cohres_df,
             target_metric=metric,
             save_dir=plot_save_dir,
             nord_colors=NORD_COLORS,
         )
+
         # Removing the feedorward networks from the HI-ER comparision analysis
         cae_df_no_ff = cae_df[~cae_df["BaseNet"].str.startswith("030T")].copy()
         cohres_df_no_ff = cohres_df[~cohres_df["BaseNet"].str.startswith("030T")].copy()
