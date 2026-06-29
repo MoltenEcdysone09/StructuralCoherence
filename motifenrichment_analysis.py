@@ -807,6 +807,8 @@ def plot_global_man_code_distribution_extremes_F(
         print("Warning: No structural elements qualified with consistency settings.")
         return
 
+    print(df_filtered.dtypes)
+
     # 3. Global Imputation and Matrix Pivoting
     pivot_df = df_filtered.pivot_table(
         index="Network", columns="MAN_Code", values="plot_metric"
@@ -866,11 +868,24 @@ def plot_global_man_code_distribution_extremes_F(
     # 7. Render Symmetrical Reference Lines Behind Boxplots (zorder=0)
     if metric == "pvalue":
         ax.set_ylim(-0.05, 1.05)
-        ax.axhline(
-            0.05, color=NORD_COLORS["green"], linestyle="--", linewidth=1.5, zorder=0
-        )
-        ax.axhline(
-            0.95, color=NORD_COLORS["purple"], linestyle="--", linewidth=1.5, zorder=0
+        # ax.axhline(
+        #     0.05, color=NORD_COLORS["green"], linestyle="--", linewidth=1.5, zorder=0
+        # )
+        # ax.axhline(
+        #     0.95, color=NORD_COLORS["purple"], linestyle="--", linewidth=1.5, zorder=0
+        # )
+        gradient = np.linspace(0, 1, 100).reshape(-1, 1)
+        # Display the gradient strictly between the two lines
+        ax.imshow(
+            gradient,
+            aspect="auto",
+            cmap=LinearSegmentedColormap.from_list(
+                "bg_grad", [NORD_COLORS["green"], NORD_COLORS["purple"]]
+            ),
+            extent=[-0.5, len(selected_man_codes) - 0.5, 0.0, 1.00],
+            origin="lower",
+            alpha=0.15,  # Low alpha keeps it subtle so boxplots remain clear
+            zorder=0.0,  # Placed completely in the background
         )
     else:
         ax.axhline(
@@ -898,7 +913,7 @@ def plot_global_man_code_distribution_extremes_F(
         y="plot_metric",
         order=selected_man_codes,
         color=NORD_COLORS["dark"],
-        size=5,
+        size=8,
         alpha=0.75,
         jitter=0.18,
         edgecolor=NORD_COLORS["dark"],
@@ -911,6 +926,192 @@ def plot_global_man_code_distribution_extremes_F(
     # )
     ax.set_xlabel("MAN Code")
     ax.set_ylabel(y_label)
+
+    plt.xticks(rotation=90, ha="right")
+    plt.tight_layout()
+
+    # 11. Save
+    save_filename = f"Global_MAN_Extremes_{mode}_{metric}.png"
+    save_path = out_path / save_filename
+    plt.savefig(save_path, dpi=300, bbox_inches="tight", transparent=True)
+    plt.savefig(
+        save_path.with_suffix(".svg"), dpi=300, bbox_inches="tight", transparent=True
+    )
+    print(f"Saved Median-Sorted MAN Code Extreme Distribution Plot to: {save_path}")
+
+    plt.close()
+
+
+def plot_global_man_code_distribution_extremes_F(
+    enrichment_csv, output_dir, metric="pvalue", mode="top", top_n=10, min_organisms=1
+):
+    """
+    Plots the full cross-network distribution of individual MAN codes using a Boxplot + Stripplot.
+    Filters for consistent motifs across organisms and sorts the x-axis by median values.
+    Colors boxes and stripplot points by Topology Class and draws a legend.
+    """
+    out_path = Path(output_dir)
+    out_path.mkdir(parents=True, exist_ok=True)
+
+    df = pd.read_csv(enrichment_csv)
+
+    # 1. Process Chosen Analytical Metric Natively
+    if metric == "pvalue":
+        df["plot_metric"] = df["Empirical_P_Value_Proportion"]
+        y_label = "Empirical $p$-value"
+        cmap_list = [NORD_COLORS["purple"], NORD_COLORS["green"]]
+    else:
+        df["Z_Score_Proportion"] = df["Z_Score_Proportion"].replace(
+            [np.inf, -np.inf], np.nan
+        )
+        max_real_z = df["Z_Score_Proportion"].dropna().max()
+        df["plot_metric"] = df["Z_Score_Proportion"].fillna(
+            max_real_z if not pd.isna(max_real_z) else 10.0
+        )
+        y_label = "Structural $Z$-Score"
+        cmap_list = [NORD_COLORS["purple"], NORD_COLORS["green"]]
+
+    # 2. Consistency Screening based on Top (Enrichment) vs Bottom (Depletion)
+    shuffle_cols = [c for c in df.columns if "Random_Proportion_" in c]
+    if mode == "top":
+        valid_counts = df[df["Count"] > 0].groupby("MAN_Code")["Network"].nunique()
+        consistent_motifs = valid_counts[valid_counts >= min_organisms].index.tolist()
+    else:
+        df["In_Background"] = df[shuffle_cols].sum(axis=1) > 0
+        valid_backgrounds = (
+            df[df["In_Background"]].groupby("MAN_Code")["Network"].nunique()
+        )
+        consistent_motifs = valid_backgrounds[
+            valid_backgrounds >= min_organisms
+        ].index.tolist()
+
+    df_filtered = df[df["MAN_Code"].isin(consistent_motifs)].copy()
+
+    if df_filtered.empty:
+        print("Warning: No structural elements qualified with consistency settings.")
+        return
+
+    # 3. Global Imputation and Matrix Pivoting
+    pivot_df = df_filtered.pivot_table(
+        index="Network", columns="MAN_Code", values="plot_metric"
+    ).fillna(0.0 if metric == "zscore" else 1.0)
+
+    # 4. Extract Extreme Architectures Sorted Strictly by Median
+    if metric == "pvalue":
+        global_medians = pivot_df.median().sort_values(ascending=True)
+        if mode == "top":
+            selected_man_codes = global_medians.head(top_n).index.tolist()
+        else:
+            selected_man_codes = global_medians.tail(top_n).index.tolist()
+    else:
+        global_medians = pivot_df.median().sort_values(ascending=False)
+        if mode == "top":
+            selected_man_codes = global_medians.head(top_n).index.tolist()
+        else:
+            selected_man_codes = global_medians.tail(top_n).index.tolist()
+
+    # 5. Generate Color Mappings Based on Topology Class
+    topology_map = (
+        df_filtered.drop_duplicates(subset=["MAN_Code"])
+        .set_index("MAN_Code")["Topology_Class"]
+        .to_dict()
+    )
+
+    class_color_rules = {
+        "Complete": NORD_COLORS["red"],
+        "Cyclic": NORD_COLORS["yellow"],
+        "Feed-Forward": NORD_COLORS["green"],
+        "Complex": NORD_COLORS["blue"],
+    }
+
+    box_colors = [
+        class_color_rules.get(topology_map.get(code), NORD_COLORS["dark"])
+        for code in selected_man_codes
+    ]
+
+    # Melt selected components for plotting
+    plot_df = (
+        pivot_df[selected_man_codes]
+        .reset_index()
+        .melt(id_vars="Network", value_name="plot_metric")
+    )
+
+    # Map Topology Class back onto melted dataframe for stripplot hue matching
+    plot_df["Topology_Class"] = plot_df["MAN_Code"].map(topology_map)
+
+    # 6. Chart Setup
+    fig, ax = plt.subplots(figsize=(6, 4))
+
+    # 7. Render Symmetrical Reference Lines Behind Boxplots (zorder=0)
+    if metric == "pvalue":
+        ax.set_ylim(-0.05, 1.05)
+        gradient = np.linspace(0, 1, 100).reshape(-1, 1)
+        ax.imshow(
+            gradient,
+            aspect="auto",
+            cmap=LinearSegmentedColormap.from_list(
+                "bg_grad", [NORD_COLORS["green"], NORD_COLORS["purple"]]
+            ),
+            extent=[-0.5, len(selected_man_codes) - 0.5, 0.0, 1.00],
+            origin="lower",
+            alpha=0.15,
+            zorder=0.0,
+        )
+    else:
+        ax.axhline(
+            0.0, color=NORD_COLORS["red"], linestyle="--", linewidth=1.5, zorder=0
+        )
+
+    # 8. Render Boxplot Base
+    box_plot = sns.boxplot(
+        data=plot_df,
+        x="MAN_Code",
+        y="plot_metric",
+        order=selected_man_codes,
+        width=0.6,
+        showfliers=False,
+        ax=ax,
+    )
+
+    for patch, color in zip(box_plot.patches, box_colors):
+        patch.set_facecolor(color)
+
+    # 9. Render Unlinked Stripplot colored by Topology Class
+    sns.stripplot(
+        data=plot_df,
+        x="MAN_Code",
+        y="plot_metric",
+        hue="Topology_Class",
+        hue_order=list(class_color_rules.keys()),
+        palette=class_color_rules,
+        order=selected_man_codes,
+        size=8,
+        alpha=0.75,
+        jitter=0.18,
+        edgecolor=NORD_COLORS["dark"],
+        linewidth=0.6,
+        legend=False,  # Suppress Seaborn's default legend to use the custom Patch layout instead
+        ax=ax,
+    )
+
+    # 10. Frame Formatting & Legend Addition
+    ax.set_xlabel("MAN Code")
+    ax.set_ylabel(y_label)
+
+    # Create custom legend handles using the rules dictionary mapping
+    legend_elements = [
+        Patch(facecolor=color, label=label, edgecolor=NORD_COLORS["dark"], alpha=0.9)
+        for label, color in class_color_rules.items()
+    ]
+    ax.legend(
+        handles=legend_elements,
+        title="Topology Class",
+        loc="upper right",
+        bbox_to_anchor=(1.02, 1.0),
+        frameon=True,
+        facecolor="white",
+        edgecolor="none",
+    )
 
     plt.xticks(rotation=90, ha="right")
     plt.tight_layout()
@@ -2512,19 +2713,19 @@ if __name__ == "__main__":
 
     # set_global_nord_style()
 
-    # #####################################################################################
-    # ### Pre-Processing RUN ONCE
-    # #####################################################################################
-    # Compiling different types of motifs
-    compile_extended_motif_counts()
-    execute_direct_transitions()
-    analyse_pure_structural_enrichment(
-        EXTENDED_COUNTS_DIR,
-        SHUFFLED_DIR,
-        EXTENDED_COUNTS_DIR / "Master_Global_Structural_Enrichment.csv",
-    )
-    # #####################################################################################
-    # #####################################################################################
+    # # #####################################################################################
+    # # ### Pre-Processing RUN ONCE
+    # # #####################################################################################
+    # # Compiling different types of motifs
+    # compile_extended_motif_counts()
+    # execute_direct_transitions()
+    # analyse_pure_structural_enrichment(
+    #     EXTENDED_COUNTS_DIR,
+    #     SHUFFLED_DIR,
+    #     EXTENDED_COUNTS_DIR / "Master_Global_Structural_Enrichment.csv",
+    # )
+    # # #####################################################################################
+    # # #####################################################################################
 
     ENRICHMENT_CSV = EXTENDED_COUNTS_DIR / "Master_Global_Structural_Enrichment.csv"
     plot_global_man_code_distribution_extremes_F(
@@ -2533,7 +2734,7 @@ if __name__ == "__main__":
         metric="pvalue",
         mode="top",
         top_n=20,
-        min_organisms=3,
+        min_organisms=1,
     )
     plot_circuit_compositions_for_extremes_F(
         extended_counts_dir=EXTENDED_COUNTS_DIR,
