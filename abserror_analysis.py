@@ -332,7 +332,14 @@ def plot_metric_trajectories_panel_F(df, target_metric, save_dir, nord_colors):
     # 1. Build the sequential, unidirectional colormap
     # Mapping: 0.0 -> Light Nord Gray (#d8dee9), 1.0 -> Nord Blue
     # cmap_colors = ["#3b4252", nord_colors["cyan"]]
-    cmap_colors = [nord_colors["green"], nord_colors["orange"]]
+    # cmap_colors = [nord_colors["green"], nord_colors["orange"]]
+    cmap_colors = [
+        nord_colors["blue"],
+        nord_colors["green"],
+        nord_colors["yellow"],
+        nord_colors["orange"],
+        nord_colors["red"],
+    ]
     structcoh_cmap = LinearSegmentedColormap.from_list(
         "AbsStructCoh_Global", cmap_colors
     )
@@ -849,7 +856,14 @@ def plot_scale_trajectories_with_stats_F(
     }
 
     # 1. Build the colormap for the structural coherence tracks
-    cmap_colors = [nord_colors["green"], nord_colors["orange"]]
+    # cmap_colors = [nord_colors["green"], nord_colors["orange"]]
+    cmap_colors = [
+        nord_colors["blue"],
+        nord_colors["green"],
+        nord_colors["yellow"],
+        nord_colors["orange"],
+        nord_colors["red"],
+    ]
     structcoh_cmap = mcolors.LinearSegmentedColormap.from_list(
         "AbsStructCoh_Scale", cmap_colors
     )
@@ -1105,7 +1119,8 @@ def plot_sa_vs_ns_paired_10x_F(cae_df, df, target_metric, save_dir, nord_colors)
 
         # Filter and apply sorting order based on structural difference metrics
         net_ref_pivot = ref_pivot[ref_pivot["NetType"] == net_type].sort_values(
-            by=["MAN_code", "Delta_AbsStructCoh"]
+            by=["MAN_code", "Delta_AbsStructCoh"],
+            ascending=[True, False],
         )
 
         ordered_nets = [
@@ -1199,6 +1214,7 @@ def plot_sa_vs_ns_paired_10x_F(cae_df, df, target_metric, save_dir, nord_colors)
         #     r"Network Variants (Grouped by MAN $\rightarrow$ Sorted by $\Delta |C_{\mathrm{struct}}| \,\, [|C_{\mathrm{struct, SA}}| - |C_{\mathrm{struct, NS}}|]$)"
         # )
         ax.set_ylabel(clean_ylabel)
+        ax.set_xlabel("")
         ax.set_title(
             f"10x Susceptibility Mapping: Paired SA vs NS Profile | {net_type}", pad=20
         )
@@ -1265,7 +1281,7 @@ def plot_sa_ns_sfc_bars_10x_F(cae_df, df, target_metric, save_dir, nord_colors):
     # }
     metric_labels = {
         "CAE_NumTeams": r"ND ${|C_{struct}|}_{basal}$",
-        "Norm_CAE_NumTeams": r"Normalised Difference",
+        "Norm_CAE_NumTeams": "Normalised Difference\n(ND-CAE)",
     }
     clean_ylabel = metric_labels.get(target_metric, "Symmetric Fold Change")
 
@@ -1313,7 +1329,8 @@ def plot_sa_ns_sfc_bars_10x_F(cae_df, df, target_metric, save_dir, nord_colors):
 
         # Apply intentional structural difference sorting order along the X-axis
         net_ref_pivot = ref_pivot[ref_pivot["NetType"] == net_type].sort_values(
-            by=["MAN_code", "Delta_AbsStructCoh"]
+            by=["MAN_code", "Delta_AbsStructCoh"],
+            ascending=[True, False],
         )
 
         ordered_nets = [
@@ -1479,8 +1496,8 @@ def plot_coherence_vs_susceptibility_correlation_10x_F(
     # }
     metric_labels = {
         "CAE_NumTeams": r"ND ${|C_{struct}|}_{basal}$",
-        "Norm_CAE_NumTeams": r"Normalised Difference",
-        "Norm_CAE_NumPreSplitTeams": r"Normalised Difference",
+        "Norm_CAE_NumTeams": "Normalised Difference (ND-CAE)",
+        "Norm_CAE_NumPreSplitTeams": "Normalised Difference (ND-CAE)",
     }
     clean_ylabel = metric_labels.get(target_metric, "Symmetric Fold Change")
 
@@ -1699,9 +1716,9 @@ def plot_cae_by_network_class_F(cae_df, target_metric, save_dir, nord_colors):
 
     # Assign distinct colors to each class (used for the scatter points)
     class_palette = {
-        "Complete": nord_colors["blue"],
-        "Cyclic": nord_colors["green"],
-        "Feedforward": nord_colors["orange"],
+        "Complete": nord_colors["red"],
+        "Cyclic": nord_colors["yellow"],
+        "Feedforward": nord_colors["green"],
     }
 
     # Dynamic labels
@@ -1710,8 +1727,8 @@ def plot_cae_by_network_class_F(cae_df, target_metric, save_dir, nord_colors):
 
     # Plot loops: One per NetType and SelfActivation
     for (net_type, sa), group_data in plot_df.groupby(["NetType", "SelfActivation"]):
-        png_dir = save_dir / "png"
-        svg_dir = save_dir / "svg"
+        png_dir = save_dir / net_type / "png"
+        svg_dir = save_dir / net_type / "svg"
         png_dir.mkdir(parents=True, exist_ok=True)
         svg_dir.mkdir(parents=True, exist_ok=True)
 
@@ -1799,6 +1816,7 @@ def plot_cae_by_network_class_F(cae_df, target_metric, save_dir, nord_colors):
                 test="Mann-Whitney",
                 text_format="star",
                 loc="inside",
+                verbose=False,
             )
             annotator.apply_and_annotate()
         except Exception as e:
@@ -2147,7 +2165,9 @@ def plot_hi_vs_er_cae_distributions_combined_stats_F(
                 order=ordered_nets,
                 hue_order=["HI", "ER"],
             )
-            annotator.configure(test="Mann-Whitney", text_format="star", loc="inside")
+            annotator.configure(
+                test="Mann-Whitney", text_format="star", loc="inside", verbose=False
+            )
             annotator.apply_and_annotate()
         except Exception as e:
             print(f"Statannotations skipped for {sa} due to variance limits: {e}")
@@ -2165,6 +2185,7 @@ def plot_hi_vs_er_cae_distributions_combined_stats_F(
                 )
 
         ax.set_ylabel(clean_ylabel)
+        ax.set_xlabel("")
         ax.set_title(
             f"Cumulative Error (HI vs ER | All Scales Combined) | {sa}",
             pad=20,
@@ -2358,7 +2379,7 @@ def plot_hi_cae_distributions_all_scales_F(
                     order=ordered_nets,
                 )
                 annotator.configure(
-                    test="Mann-Whitney", text_format="star", loc="inside"
+                    test="Mann-Whitney", text_format="star", loc="inside", verbose=False
                 )
                 annotator.apply_and_annotate()
             except Exception as e:
@@ -2377,6 +2398,7 @@ def plot_hi_cae_distributions_all_scales_F(
 
         # ax.set_xlabel(x_label)
         ax.set_ylabel(clean_ylabel)
+        ax.set_xlabel("")
         ax.set_title(
             f"Cumulative Error Colored by Basal Coherence (HI | All Scales) | {sa}",
             pad=20,
@@ -2443,6 +2465,7 @@ def plot_ns_vs_sa_boxplots_10x_with_stats_F(
     metric_labels = {
         "CAE_NumTeams": r"Cumulative $| \Delta \mathrm{Teams} |$",
         "Norm_CAE_NumTeams": r"Cumulative Norm. $| \Delta \mathrm{Teams} |$",
+        "Norm_CAE_NumPreSplitTeams": r"Cumulative Norm. $| \Delta \mathrm{Teams} |$",
     }
     clean_ylabel = metric_labels.get(target_metric, target_metric.replace("_", " "))
 
@@ -2481,7 +2504,8 @@ def plot_ns_vs_sa_boxplots_10x_with_stats_F(
 
         # Filter and apply sorting order based on structural difference metrics
         net_ref_pivot = ref_pivot[ref_pivot["NetType"] == net_type].sort_values(
-            by=["MAN_code", "Delta_AbsStructCoh"]
+            by=["MAN_code", "Delta_AbsStructCoh"],
+            ascending=[True, False],
         )
 
         ordered_nets = [
@@ -2505,7 +2529,7 @@ def plot_ns_vs_sa_boxplots_10x_with_stats_F(
             {"NS": "Absent", "SA": "Present"}
         )
 
-        fig, ax = plt.subplots(figsize=(9, 6))
+        fig, ax = plt.subplots(figsize=(7.0, 5))
 
         # Render background base boxplot frame using your structural layout configuration ordering
         sns.boxplot(
@@ -2575,6 +2599,7 @@ def plot_ns_vs_sa_boxplots_10x_with_stats_F(
         #     r"Network Variants (Grouped by MAN $\rightarrow$ Sorted by $\Delta |C_{\mathrm{struct}}| \,\, [|C_{\mathrm{struct, SA}}| - |C_{\mathrm{struct, NS}}|]$)"
         # )
         ax.set_ylabel(clean_ylabel)
+        ax.set_xlabel("")
         ax.set_title(
             f"10x Susceptibility Mapping: Paired SA vs NS Profile | {net_type}", pad=20
         )
