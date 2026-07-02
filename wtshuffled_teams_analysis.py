@@ -472,7 +472,7 @@ def plot_nodelevel_connectivity_density_heatmaps_F(wt_base_dir, plot_dir):
             fmt=".1e",
             linewidths=1.5,
             linecolor="white",
-            annot_kws={"fontsize": 13},
+            annot_kws={"fontsize": 12},
         )
 
         # 5. Panel Formatting

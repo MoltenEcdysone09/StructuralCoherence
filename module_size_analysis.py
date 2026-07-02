@@ -1021,7 +1021,7 @@ def plot_average_node_level_distribution_F(
             ha="center",
             va="bottom",
             color=nord_colors["dark"],
-            fontsize=13,
+            fontsize=11,
         )
 
     # Spines
