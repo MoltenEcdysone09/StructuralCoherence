@@ -760,189 +760,6 @@ def analyse_pure_structural_enrichment(
 
 
 def plot_global_man_code_distribution_extremes_F(
-    enrichment_csv, output_dir, metric="pvalue", mode="top", top_n=10, min_organisms=3
-):
-    """
-    Plots the full cross-network distribution of individual MAN codes using a Boxplot + Stripplot.
-    Filters for consistent motifs across organisms and sorts the x-axis by median values.
-    """
-    out_path = Path(output_dir)
-    out_path.mkdir(parents=True, exist_ok=True)
-
-    df = pd.read_csv(enrichment_csv)
-
-    # 1. Process Chosen Analytical Metric Natively
-    if metric == "pvalue":
-        df["plot_metric"] = df["Empirical_P_Value_Proportion"]
-        y_label = "Empirical $p$-value"
-        cmap_list = [NORD_COLORS["purple"], NORD_COLORS["green"]]
-    else:
-        df["Z_Score_Proportion"] = df["Z_Score_Proportion"].replace(
-            [np.inf, -np.inf], np.nan
-        )
-        max_real_z = df["Z_Score_Proportion"].dropna().max()
-        df["plot_metric"] = df["Z_Score_Proportion"].fillna(
-            max_real_z if not pd.isna(max_real_z) else 10.0
-        )
-        y_label = "Structural $Z$-Score"
-        cmap_list = [NORD_COLORS["purple"], NORD_COLORS["green"]]
-
-    # 2. Consistency Screening based on Top (Enrichment) vs Bottom (Depletion)
-    shuffle_cols = [c for c in df.columns if "Random_Proportion_" in c]
-    if mode == "top":
-        valid_counts = df[df["Count"] > 0].groupby("MAN_Code")["Network"].nunique()
-        consistent_motifs = valid_counts[valid_counts >= min_organisms].index.tolist()
-    else:
-        df["In_Background"] = df[shuffle_cols].sum(axis=1) > 0
-        valid_backgrounds = (
-            df[df["In_Background"]].groupby("MAN_Code")["Network"].nunique()
-        )
-        consistent_motifs = valid_backgrounds[
-            valid_backgrounds >= min_organisms
-        ].index.tolist()
-
-    df_filtered = df[df["MAN_Code"].isin(consistent_motifs)].copy()
-
-    if df_filtered.empty:
-        print("Warning: No structural elements qualified with consistency settings.")
-        return
-
-    print(df_filtered.dtypes)
-
-    # 3. Global Imputation and Matrix Pivoting
-    pivot_df = df_filtered.pivot_table(
-        index="Network", columns="MAN_Code", values="plot_metric"
-    ).fillna(0.0 if metric == "zscore" else 1.0)
-
-    # 4. Extract Extreme Architectures Sorted Strictly by Median
-    if metric == "pvalue":
-        global_medians = pivot_df.median().sort_values(
-            ascending=True
-        )  # Low median p-value first
-        if mode == "top":
-            selected_man_codes = global_medians.head(top_n).index.tolist()
-            title_mode = f"Top {top_n} Most Enriched (Low P)"
-        else:
-            selected_man_codes = global_medians.tail(top_n).index.tolist()
-            title_mode = f"Top {top_n} Most Depleted (High P)"
-    else:
-        global_medians = pivot_df.median().sort_values(
-            ascending=False
-        )  # High median Z-score first
-        if mode == "top":
-            selected_man_codes = global_medians.head(top_n).index.tolist()
-            title_mode = f"Top {top_n} Most Enriched"
-        else:
-            selected_man_codes = global_medians.tail(top_n).index.tolist()
-            title_mode = f"Top {top_n} Most Depleted"
-
-    # Melt selected components for plotting
-    plot_df = (
-        pivot_df[selected_man_codes]
-        .reset_index()
-        .melt(id_vars="Network", value_name="plot_metric")
-    )
-
-    # 5. Generate Color Gradient Scales Linked to the Selected Medians
-    summary_df = (
-        plot_df.groupby("MAN_Code")["plot_metric"]
-        .median()
-        .loc[selected_man_codes]
-        .reset_index()
-    )
-    min_val = summary_df["plot_metric"].min()
-    max_val = summary_df["plot_metric"].max()
-    val_range = max_val - min_val if max_val != min_val else 1.0
-    normalized_medians = (summary_df["plot_metric"] - min_val) / val_range
-
-    if metric == "pvalue":
-        normalized_medians = 1.0 - normalized_medians
-
-    cmap = LinearSegmentedColormap.from_list("dynamic_gradient", cmap_list)
-    box_colors = [cmap(val) for val in normalized_medians]
-
-    # 6. Chart Setup
-    # fig_width = max(4, len(selected_man_codes) * 0.35)
-    fig, ax = plt.subplots(figsize=(6, 4))
-
-    # 7. Render Symmetrical Reference Lines Behind Boxplots (zorder=0)
-    if metric == "pvalue":
-        ax.set_ylim(-0.05, 1.05)
-        # ax.axhline(
-        #     0.05, color=NORD_COLORS["green"], linestyle="--", linewidth=1.5, zorder=0
-        # )
-        # ax.axhline(
-        #     0.95, color=NORD_COLORS["purple"], linestyle="--", linewidth=1.5, zorder=0
-        # )
-        gradient = np.linspace(0, 1, 100).reshape(-1, 1)
-        # Display the gradient strictly between the two lines
-        ax.imshow(
-            gradient,
-            aspect="auto",
-            cmap=LinearSegmentedColormap.from_list(
-                "bg_grad", [NORD_COLORS["green"], NORD_COLORS["purple"]]
-            ),
-            extent=[-0.5, len(selected_man_codes) - 0.5, 0.0, 1.00],
-            origin="lower",
-            alpha=0.15,  # Low alpha keeps it subtle so boxplots remain clear
-            zorder=0.0,  # Placed completely in the background
-        )
-    else:
-        ax.axhline(
-            0.0, color=NORD_COLORS["red"], linestyle="--", linewidth=1.5, zorder=0
-        )
-
-    # 8. Render Boxplot Base
-    box_plot = sns.boxplot(
-        data=plot_df,
-        x="MAN_Code",
-        y="plot_metric",
-        order=selected_man_codes,
-        width=0.6,
-        showfliers=False,
-        ax=ax,
-    )
-
-    for patch, color in zip(box_plot.patches, box_colors):
-        patch.set_facecolor(color)
-
-    # 9. Render Unlinked Stripplot
-    sns.stripplot(
-        data=plot_df,
-        x="MAN_Code",
-        y="plot_metric",
-        order=selected_man_codes,
-        color=NORD_COLORS["dark"],
-        size=8,
-        alpha=0.75,
-        jitter=0.18,
-        edgecolor=NORD_COLORS["dark"],
-        ax=ax,
-    )
-
-    # 10. Frame Formatting
-    # ax.set_title(
-    #     f"Global Triad Elements: {title_mode} Architectures\n(Metric: {metric.upper()}, Sorted by Median)"
-    # )
-    ax.set_xlabel("MAN Code")
-    ax.set_ylabel(y_label)
-
-    plt.xticks(rotation=90, ha="right")
-    plt.tight_layout()
-
-    # 11. Save
-    save_filename = f"Global_MAN_Extremes_{mode}_{metric}.png"
-    save_path = out_path / save_filename
-    plt.savefig(save_path, dpi=300, bbox_inches="tight", transparent=True)
-    plt.savefig(
-        save_path.with_suffix(".svg"), dpi=300, bbox_inches="tight", transparent=True
-    )
-    print(f"Saved Median-Sorted MAN Code Extreme Distribution Plot to: {save_path}")
-
-    plt.close()
-
-
-def plot_global_man_code_distribution_extremes_F(
     enrichment_csv, output_dir, metric="pvalue", mode="top", top_n=10, min_organisms=1
 ):
     """
@@ -1054,7 +871,7 @@ def plot_global_man_code_distribution_extremes_F(
             ),
             extent=[-0.5, len(selected_man_codes) - 0.5, 0.0, 1.00],
             origin="lower",
-            alpha=0.15,
+            alpha=0.85,
             zorder=0.0,
         )
     else:
@@ -1160,20 +977,42 @@ def plot_circuit_compositions_for_extremes_F(
     extended_counts_dir, enrichment_csv, output_dir, top_n_motifs=5, min_proportion=0.01
 ):
     """
+
     Plots a single comprehensive chart showing the internal relative circuit composition
+
     of the top N most enriched structural MAN codes. Mirrors the Boxplot + Stripplot
+
     architecture of the global extremes distribution function.
+
     """
+
     out_path = Path(output_dir)
+
     out_path.mkdir(parents=True, exist_ok=True)
 
-    # 1. Isolate the top N enriched structural MAN codes via median P-values
+    # 1. Isolate the top N enriched structural MAN codes via mean P-values
+
     enrich_df = pd.read_csv(enrichment_csv)
+
+    topology_map = (
+        enrich_df.drop_duplicates(subset=["MAN_Code"])
+        .set_index("MAN_Code")["Topology_Class"]
+        .to_dict()
+    )
+
+    class_color_rules = {
+        "Complete": NORD_COLORS["red"],
+        "Cyclic": NORD_COLORS["yellow"],
+        "Feed-Forward": NORD_COLORS["green"],
+        "Complex": NORD_COLORS["cyan"],
+    }
+
     pivot_df = enrich_df.pivot_table(
         index="Network", columns="MAN_Code", values="Empirical_P_Value_Proportion"
     ).fillna(1.0)
 
     global_medians = pivot_df.mean().sort_values(ascending=True)
+
     enriched_man_targets = global_medians.head(top_n_motifs).index.tolist()
 
     print(
@@ -1181,21 +1020,28 @@ def plot_circuit_compositions_for_extremes_F(
     )
 
     # 2. Gather, Aggregate, and Calculate Proportions for Individual Networks
+
     extended_path = Path(extended_counts_dir)
+
     composition_files = list(extended_path.glob("*_Topo_Composition_Counts.csv"))
 
     if not composition_files:
         print(f"Error: No composition CSV files found in {extended_counts_dir}")
+
         return
 
     all_org_frames = []
+
     for c_file in composition_files:
         org_df = pd.read_csv(c_file)
+
         if org_df.empty or "Count" not in org_df.columns:
             continue
 
         # Assign network label
+
         network_name = c_file.name.replace("_Topo_Composition_Counts.csv", "")
+
         org_df["Network"] = network_name
 
         agg_df = (
@@ -1205,19 +1051,24 @@ def plot_circuit_compositions_for_extremes_F(
         )
 
         # CALCULATE TRUE PROPORTIONS
+
         total_network_count = agg_df["Count"].sum()
+
         if total_network_count == 0:
             continue
 
         agg_df["Network_Proportion"] = agg_df["Count"] / total_network_count
 
         # Filter to target MAN codes to save processing
+
         agg_df = agg_df[agg_df["MAN_Code"].isin(enriched_man_targets)].copy()
 
         # Calculate Relative Proportion (Portion of the Portion)
+
         cluster_prop_totals = agg_df.groupby("MAN_Code")[
             "Network_Proportion"
         ].transform("sum")
+
         agg_df["Relative_Proportion"] = (
             agg_df["Network_Proportion"] / cluster_prop_totals
         ).fillna(0.0)
@@ -1225,15 +1076,18 @@ def plot_circuit_compositions_for_extremes_F(
         all_org_frames.append(agg_df)
 
     # Combine all processed matrices
+
     master_comp_df = pd.concat(all_org_frames, ignore_index=True)
 
     if master_comp_df.empty:
         print(
             "Warning: No granular circuit metrics matched the target enriched structural classes."
         )
+
         return
 
     # 3. Local Cluster Filter (Based on Median Relative Proportion)
+
     summary_df = (
         master_comp_df.groupby(["MAN_Code", "Circuit"])["Relative_Proportion"]
         .median()
@@ -1250,40 +1104,28 @@ def plot_circuit_compositions_for_extremes_F(
         print(
             f"Warning: No circuits remained after applying the >= {min_proportion} filter."
         )
+
         return
 
     # 4. Extract Extreme Architectures Sorted Strictly by Cluster and Median
+
     plot_df["MAN_Rank"] = plot_df["MAN_Code"].apply(
         lambda x: enriched_man_targets.index(x)
     )
 
     plot_df = pd.merge(plot_df, summary_df, on=["MAN_Code", "Circuit"], how="left")
+
     plot_df = plot_df.sort_values(
         by=["MAN_Rank", "Median_Proportion"], ascending=[True, False]
     ).reset_index(drop=True)
 
     # Establish explicit categorical ordering
+
     ordered_circuits = plot_df["Circuit"].drop_duplicates().tolist()
+
     plot_df["Circuit"] = pd.Categorical(
         plot_df["Circuit"], categories=ordered_circuits, ordered=True
     )
-
-    # 5. Generate Color Gradient Scales Linked to the Selected Medians
-    min_val = summary_df["Median_Proportion"].min()
-    max_val = summary_df["Median_Proportion"].max()
-    val_range = max_val - min_val if max_val != min_val else 1.0
-
-    color_map_df = summary_df.set_index("Circuit")["Median_Proportion"]
-
-    cmap = LinearSegmentedColormap.from_list(
-        "nord_blue_to_dark", [NORD_COLORS["blue"], NORD_COLORS["orange"]]
-    )
-
-    box_colors = []
-    for c in ordered_circuits:
-        val = color_map_df.loc[c]
-        normalized_val = (val - min_val) / val_range
-        box_colors.append(cmap(normalized_val))
 
     # 6. Chart Setup
     fig_width = max(5, len(ordered_circuits) * 0.45)
@@ -1300,8 +1142,21 @@ def plot_circuit_compositions_for_extremes_F(
         ax=ax,
     )
 
-    for patch, color in zip(box_plot.patches, box_colors):
+    circuit_colors = []
+    for c in ordered_circuits:
+        man_code = plot_df[plot_df["Circuit"] == c]["MAN_Code"].iloc[0]
+        topo_class = topology_map.get(man_code, "Complex")
+        circuit_colors.append(class_color_rules.get(topo_class, NORD_COLORS["dark"]))
+
+    # Fill the boxes with the class colors and force edges/lines to a neutral dark tone
+    for patch, color in zip(box_plot.patches, circuit_colors):
         patch.set_facecolor(color)
+        patch.set_edgecolor(NORD_COLORS["dark"])
+        patch.set_linewidth(1.1)
+
+    for line in box_plot.lines:
+        line.set_color(NORD_COLORS["dark"])
+        line.set_linewidth(1.1)
 
     # 8. Render Unlinked Stripplot
     sns.stripplot(
@@ -1310,7 +1165,7 @@ def plot_circuit_compositions_for_extremes_F(
         y="Relative_Proportion",
         order=ordered_circuits,
         color=NORD_COLORS["dark"],
-        size=5,
+        size=8,
         alpha=0.75,
         jitter=0.18,
         edgecolor=NORD_COLORS["dark"],
@@ -1325,11 +1180,13 @@ def plot_circuit_compositions_for_extremes_F(
         .sort_values("Circuit")
         .reset_index(drop=True)
     )
+
     current_man = unique_layout.loc[0, "MAN_Code"]
 
     for idx, row in unique_layout.iterrows():
         if row["MAN_Code"] != current_man:
             boundary_indices.append(idx - 0.5)
+
             current_man = row["MAN_Code"]
 
     for boundary in boundary_indices:
@@ -1341,6 +1198,52 @@ def plot_circuit_compositions_for_extremes_F(
             zorder=1,
         )
 
+    ax.set_ylim(-0.05, 1.05)
+
+    # bg_cmap = LinearSegmentedColormap.from_list(
+    #     "bg_grad", [NORD_COLORS["green"], NORD_COLORS["purple"]]
+    # )
+    #
+    # gradient = np.linspace(0, 1, 100).reshape(-1, 1)
+    #
+    # ax.imshow(
+    #     gradient,
+    #     aspect="auto",
+    #     cmap=bg_cmap,
+    #     extent=[-0.5, len(ordered_circuits) - 0.5, 0, 1],
+    #     origin="lower",
+    #     alpha=0.15,
+    #     zorder=0.0,
+    # )
+    #
+    # norm = plt.Normalize(vmin=0.0, vmax=1.0)
+    # sm = plt.cm.ScalarMappable(cmap=bg_cmap, norm=norm)
+    # sm.set_array([])
+    # cax = ax.inset_axes([1.08, 0.02, 0.02, 0.40], transform=ax.transAxes)
+    #
+    # # Draw and format the vertical colorbar
+    # cb = fig.colorbar(sm, cax=cax, orientation="vertical")
+    # cb.set_ticks([0.0, 0.5, 1.0])
+    # cb.set_ticklabels(
+    #     ["0.0 (Enriched)", "0.5\n(Random\nExpectation)", "1.0 (Depleted)"]
+    # )
+    # cb.ax.set_title("Enrichment", pad=10, loc="center")
+    legend_elements = [
+        Patch(
+            facecolor=color, edgecolor=NORD_COLORS["dark"], linewidth=1.0, label=label
+        )
+        for label, color in class_color_rules.items()
+    ]
+    ax.legend(
+        handles=legend_elements,
+        title="Topology Class",
+        loc="upper left",
+        bbox_to_anchor=(1.02, 1.0),  # Adjust anchor to clear the inset colorbar
+        frameon=True,
+        facecolor="white",
+        edgecolor="none",
+    )
+
     # 10. Frame Formatting
     ax.set_title(
         f"Granular Relative Circuit Composition\n(Top {top_n_motifs} Enriched Families, Local Medians $\geq$ {min_proportion * 100:.0f}%)"
@@ -1350,9 +1253,7 @@ def plot_circuit_compositions_for_extremes_F(
         ""
     )
     ax.set_ylabel("Relative Frequency")
-
-    plt.xticks(rotation=90, ha="right")
-
+    plt.xticks(rotation=90, ha="center")
     plt.tight_layout()
 
     # 11. Save Output
@@ -1362,217 +1263,6 @@ def plot_circuit_compositions_for_extremes_F(
         save_path.with_suffix(".svg"), dpi=300, bbox_inches="tight", transparent=True
     )
     print(f"Saved Filtered and Demarcated Enriched Composition Plot to: {save_path}")
-
-    plt.close()
-
-
-def plot_coherence_vs_relative_proportion_F(
-    extended_counts_dir, enrichment_csv, coh_csv, output_dir, min_organisms=1
-):
-    """
-    Calculates the mean relative proportion of circuits across consistent organisms,
-    and plots this against their absolute structural coherence (|MeanCoh|).
-    Underlays a fully opaque, screen-filling blue-to-purple KDE density map.
-    Points are hollow with thick edges, colored by Topology_Class with a yellow override for Cyclic.
-    """
-    out_path = Path(output_dir)
-    out_path.mkdir(parents=True, exist_ok=True)
-
-    # 1. Load Topology Class Mapping from Master Enrichment Data
-    enrich_df = pd.read_csv(enrichment_csv)
-    topo_map = (
-        enrich_df.drop_duplicates("MAN_Code")
-        .set_index("MAN_Code")["Topology_Class"]
-        .to_dict()
-    )
-
-    # 2. Gather & Calculate Relative Proportions from Composition Files
-    extended_path = Path(extended_counts_dir)
-    composition_files = list(extended_path.glob("*_Topo_Composition_Counts.csv"))
-
-    if not composition_files:
-        print(f"Error: No composition CSV files found in {extended_counts_dir}")
-        return
-
-    all_org_frames = []
-    for c_file in composition_files:
-        org_df = pd.read_csv(c_file)
-        if org_df.empty or "Count" not in org_df.columns:
-            continue
-
-        network_name = c_file.name.replace("_Topo_Composition_Counts.csv", "")
-        org_df["Network"] = network_name
-
-        # Aggregate locally to prevent duplicate row entries
-        agg_df = (
-            org_df.groupby(["Network", "MAN_Code", "Circuit"])["Count"]
-            .sum()
-            .reset_index()
-        )
-
-        total_network_count = agg_df["Count"].sum()
-        if total_network_count == 0:
-            continue
-
-        agg_df["Network_Proportion"] = agg_df["Count"] / total_network_count
-        all_org_frames.append(agg_df)
-
-    master_df = pd.concat(all_org_frames, ignore_index=True)
-
-    # 3. Consistency Filter (MAN Code must appear in >= min_organisms)
-    man_org_counts = (
-        master_df[master_df["Count"] > 0].groupby("MAN_Code")["Network"].nunique()
-    )
-    consistent_mans = man_org_counts[man_org_counts >= min_organisms].index.tolist()
-
-    master_df = master_df[master_df["MAN_Code"].isin(consistent_mans)].copy()
-
-    if master_df.empty:
-        print("Warning: No structural elements qualified with consistency settings.")
-        return
-
-    # 4. Calculate Relative Proportions (Proportion of the Proportion)
-    org_cluster_prop_totals = master_df.groupby(["Network", "MAN_Code"])[
-        "Network_Proportion"
-    ].transform("sum")
-    master_df["Relative_Proportion"] = (
-        master_df["Network_Proportion"] / org_cluster_prop_totals
-    ).fillna(0.0)
-
-    # Extract the cross-organism mean relative proportion for each circuit
-    circuit_props = (
-        master_df.groupby(["MAN_Code", "Circuit"])["Relative_Proportion"]
-        .mean()
-        .reset_index()
-    )
-
-    # Map the Topology Class to the grouped circuits
-    circuit_props["Topology_Class"] = circuit_props["MAN_Code"].map(topo_map)
-    circuit_props = circuit_props.dropna(subset=["Topology_Class"])
-
-    # 5. Load & Format Coherence Data
-    coh_df = pd.read_csv(coh_csv)
-
-    # Filter strictly for Non-Self-Activating (NS) motifs
-    coh_df = coh_df[coh_df["TopoName"].str.endswith("_NS", na=False)].copy()
-
-    # Convert TopoName to Circuit string format (e.g., 010_N0_NS -> 010-N0)
-    coh_df["Circuit"] = coh_df["TopoName"].str.replace("_NS", "").str.replace("_", "-")
-
-    # Retain only circuits that have a valid computed MeanCoh value
-    coh_df = coh_df[["Circuit", "MeanCoh"]].dropna()
-
-    # Calculate Absolute Coherence
-    coh_df["AbsMeanCoh"] = coh_df["MeanCoh"].abs()
-
-    # 6. Merge Data Streams
-    plot_df = pd.merge(circuit_props, coh_df, on="Circuit", how="inner")
-
-    if plot_df.empty:
-        print("Warning: Merged dataframe is empty. Check mapping string equivalence.")
-        return
-
-    # Sort to ensure stable layering/rendering
-    plot_df = plot_df.sort_values(
-        by=["Topology_Class", "Relative_Proportion"], ascending=[True, False]
-    )
-
-    # 7. Chart Geometry & Plotting
-    fig, ax = plt.subplots(figsize=(6, 4))
-
-    # Underlay the fully opaque, screen-filling KDE Density Map
-    kde_cmap = LinearSegmentedColormap.from_list(
-        "nord_blue_purple",
-        [NORD_COLORS.get("blue"), NORD_COLORS.get("purple")],
-    )
-
-    sns.kdeplot(
-        data=plot_df,
-        x="AbsMeanCoh",
-        y="Relative_Proportion",
-        fill=True,
-        cmap=kde_cmap,
-        alpha=1.0,  # Removed transparency
-        thresh=0,  # Forces the lowest contour to fill the entire plot area
-        levels=15,  # Increased levels for a smoother opaque gradient
-        ax=ax,
-        zorder=1,
-    )
-
-    unique_classes = plot_df["Topology_Class"].unique()
-
-    # Define a list of distinct markers to cycle through
-    marker_list = ["o", "s", "^", "D", "v", "<", ">", "p", "*", "X"]
-
-    # Plot each Topology Class as hollow shapes with thick edges
-    for i, t_class in enumerate(unique_classes):
-        class_df = plot_df[plot_df["Topology_Class"] == t_class]
-
-        # Override color for Cyclic to ensure contrast against the KDE map
-        if t_class == "Cyclic":
-            class_color = NORD_COLORS.get("yellow", "#ebcb8b")
-        else:
-            class_color = NORD_PALETTE[i % len(NORD_PALETTE)]
-
-        # Select a unique marker for this class
-        class_marker = marker_list[i % len(marker_list)]
-
-        # Dynamically assign zorder: Feed-Forward at bottom (above KDE), others on top
-        if t_class == "Feed-Forward":
-            class_zorder = 2
-        else:
-            class_zorder = 3
-
-        ax.scatter(
-            class_df["AbsMeanCoh"],
-            class_df["Relative_Proportion"],
-            marker=class_marker,  # Assign the distinct marker here
-            facecolors="none",  # Keeps the marker hollow
-            edgecolors=class_color,  # Colors the thick edge
-            linewidths=1.8,
-            s=75,
-            alpha=0.95,
-            label=t_class,
-            zorder=class_zorder,
-        )
-
-    # Constrain axes so the `thresh=0` KDE doesn't artificially explode the plot margins
-    x_min, x_max = plot_df["AbsMeanCoh"].min(), plot_df["AbsMeanCoh"].max()
-    y_min, y_max = (
-        plot_df["Relative_Proportion"].min(),
-        plot_df["Relative_Proportion"].max(),
-    )
-    ax.set_xlim(x_min - 0.2, x_max + 0.2)
-    ax.set_ylim(y_min - 0.1, y_max + 0.2)
-
-    ax.set_title(
-        "Relative Motif Composition vs. Absolute Structural Coherence\n(Consistent Elements $\geq$ 3 Organisms)"
-    )
-    ax.set_xlabel(r"$| C_{\mathrm{struct}} |$")
-    ax.set_ylabel("Mean Relative Proportion")
-
-    # Legend formatting
-    ax.legend(
-        title="Topology Class",
-        bbox_to_anchor=(1.02, 1),
-        loc="upper left",
-        frameon=True,
-        facecolor="#f2f4f8",
-        edgecolor=NORD_COLORS["gray"],
-        framealpha=0.75,
-        ncol=2 if plot_df["Topology_Class"].nunique() > 10 else 1,
-    )
-
-    plt.tight_layout()
-
-    # 8. Save Output
-    save_path = out_path / "Global_RelativeProportion_vs_AbsCoherence.png"
-    plt.savefig(save_path, dpi=300, bbox_inches="tight", transparent=True)
-    plt.savefig(
-        save_path.with_suffix(".svg"), dpi=300, bbox_inches="tight", transparent=True
-    )
-    print(f"Saved Coherence vs. Proportion Plot to: {save_path}")
-
     plt.close()
 
 
@@ -1780,7 +1470,7 @@ def plot_coherence_vs_relative_proportion_F(
     ax.set_ylim(y_min - 0.05, y_max + 0.05)
 
     ax.set_title(
-        "Relative Motif Composition vs. Absolute Structural Coherence\n(Consistent Elements $\geq$ 3 Organisms)"
+        "Relative Motif Composition vs. Absolute Structural Coherence\n(Consistent Elements $\geq$ 1 Organisms)"
     )
     ax.set_xlabel(r"$| C_{\mathrm{struct}} |$")
     ax.set_ylabel("Mean Relative Frequency")
@@ -1853,6 +1543,9 @@ def plot_organism_mean_middle_nodes_by_fate_F(transitions_df, output_dir):
             "orange"
         ],  # Alternatively, use 'red' depending on exact Nord preference
     }
+
+    print(agg_df)
+    print(agg_df.columns)
 
     # Base Boxplot
     sns.boxplot(
@@ -2980,7 +2673,7 @@ if __name__ == "__main__":
         extended_counts_dir=EXTENDED_COUNTS_DIR,
         enrichment_csv=ENRICHMENT_CSV,
         output_dir=PLOT_OUTPUT_DIR,
-        top_n_motifs=5,
+        top_n_motifs=3,
     )
     COHERENCE_CSV = Path("./MotifCohResults/CompiledMotifSummary.csv")
     plot_coherence_vs_relative_proportion_F(
