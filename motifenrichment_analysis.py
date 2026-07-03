@@ -1544,9 +1544,6 @@ def plot_organism_mean_middle_nodes_by_fate_F(transitions_df, output_dir):
         ],  # Alternatively, use 'red' depending on exact Nord preference
     }
 
-    print(agg_df)
-    print(agg_df.columns)
-
     # Base Boxplot
     sns.boxplot(
         data=agg_df,

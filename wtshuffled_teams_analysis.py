@@ -5,6 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import itertools
+import warnings
 
 # --- Organism Name Mapping ---
 NETWORK_TO_ORGANISM = {
@@ -508,73 +509,420 @@ def plot_nodelevel_connectivity_density_heatmaps_F(wt_base_dir, plot_dir):
     plt.close(fig)
 
 
+# def plot_team_strength_distribution(wt_base_dir, shuffle_base_dir, plot_dir):
+#     """
+#     Reads the CohMat.parquet and Teams.csv files for WT and Random networks.
+#     Calculates team strength based on the 'PreSplitGroup' column.
+#     Plots overlapping step histograms of team strengths using the Nord design[cite: 1].
+#     """
+#     # Enforce the global Nord styling before drawing[cite: 1]
+#     set_global_nord_style()
+#
+#     for grn, org_name in NETWORK_TO_ORGANISM.items():
+#         # 1. Extract WT Data
+#         wt_coh_path = wt_base_dir / grn / f"{grn}_CohMat.parquet"
+#         wt_teams_path = wt_base_dir / grn / f"{grn}_Teams.csv"
+#
+#         if not wt_coh_path.exists() or not wt_teams_path.exists():
+#             continue
+#
+#         wt_coh_df = pd.read_parquet(wt_coh_path)
+#         wt_teams_df = pd.read_csv(wt_teams_path)
+#
+#         def calculate_strengths(coh_df, teams_df):
+#             strengths = []
+#             for _, group_data in teams_df.groupby("PreSplitGroup"):
+#                 nodes = group_data["Node"].tolist()
+#
+#                 # Ensure nodes exist in the coherence matrix rows/columns
+#                 valid_nodes = [
+#                     n for n in nodes if n in coh_df.index and n in coh_df.columns
+#                 ]
+#
+#                 if valid_nodes:
+#                     # Subset the square matrix based on team nodes
+#                     sub_mat = coh_df.loc[valid_nodes, valid_nodes].to_numpy()
+#
+#                     # Calculate team strength ignoring NaNs, suppress warnings for all-NaN slices
+#                     with warnings.catch_warnings():
+#                         warnings.simplefilter("ignore", category=RuntimeWarning)
+#                         team_strength = np.nanmean(sub_mat)
+#
+#                     if not np.isnan(team_strength):
+#                         strengths.append(team_strength)
+#             return strengths
+#
+#         wt_team_strengths = calculate_strengths(wt_coh_df, wt_teams_df)
+#
+#         random_team_strengths = []
+#         shuffled_mats_dir = shuffle_base_dir / grn / "Shuffled_CohMats"
+#
+#         if shuffled_mats_dir.exists():
+#             for rand_coh_path in shuffled_mats_dir.glob("*/*_CohMat.parquet"):
+#                 rand_name = rand_coh_path.name.replace("_CohMat.parquet", "")
+#                 rand_teams_path = rand_coh_path.parent / f"{rand_name}_Teams.csv"
+#
+#                 if rand_teams_path.exists():
+#                     r_coh_df = pd.read_parquet(rand_coh_path)
+#                     r_teams_df = pd.read_csv(rand_teams_path)
+#
+#                     r_strengths = calculate_strengths(r_coh_df, r_teams_df)
+#                     random_team_strengths.extend(r_strengths)
+#
+#         if not random_team_strengths or not wt_team_strengths:
+#             continue
+#
+#         fig, ax = plt.subplots(figsize=(6.5, 5))
+#
+#         sns.histplot(
+#             random_team_strengths,
+#             element="step",
+#             fill=True,
+#             stat="density",
+#             color=NORD_COLORS["yellow"],
+#             edgecolor=NORD_COLORS["yellow"],
+#             alpha=0.25,
+#             linewidth=2.0,
+#             label="Random Networks",
+#             ax=ax,
+#             zorder=1,
+#         )
+#
+#         sns.histplot(
+#             wt_team_strengths,
+#             element="step",
+#             fill=True,
+#             stat="density",
+#             color=NORD_COLORS["green"],
+#             edgecolor=NORD_COLORS["green"],
+#             alpha=0.35,
+#             linewidth=2.5,
+#             label="WT Network",
+#             ax=ax,
+#             zorder=2,
+#         )
+#
+#         ax.set_xlabel("Team Strength (Average Coherence)", labelpad=10)
+#         ax.set_ylabel("Density", labelpad=10)
+#         ax.set_title(f"{org_name}", pad=15)
+#
+#         ax.grid(axis="y", linestyle="--", alpha=0.3, zorder=0)
+#         ax.grid(axis="x", linestyle="--", alpha=0.3, zorder=0)
+#
+#         ax.legend(
+#             loc="upper right",
+#             frameon=True,
+#             facecolor="white",
+#             framealpha=0.85,
+#             edgecolor=NORD_COLORS["gray"],
+#             # fontsize=11,
+#         )
+#
+#         plt.tight_layout()
+#
+#         # Save the plot with a dynamic filename
+#         plot_dir.mkdir(parents=True, exist_ok=True)
+#         filename = f"TeamStrength_WT_vs_Random_{grn}"
+#
+#         fig.savefig(
+#             plot_dir / f"{filename}.png",
+#             format="png",
+#             dpi=300,
+#             bbox_inches="tight",
+#             # transparent=True,
+#         )
+#         # fig.savefig(
+#         #     plot_dir / f"{filename}.svg",
+#         #     format="svg",
+#         #     bbox_inches="tight",
+#         #     transparent=True,
+#         # )
+#         plt.close(fig)
+#
+#         print(f"  Saved plot to {plot_dir.name}/{filename}.png")
+
+
+def plot_team_strength_distribution(wt_base_dir, shuffle_base_dir, plot_dir):
+    """
+    Reads the CohMat.parquet and Teams.csv files for WT and Random networks.
+    Calculates team strength based on the 'PreSplitGroup' column.
+    Plots overlapping step histograms of team strengths for individual networks,
+    and generates a final aggregated plot across all networks.
+    """
+    set_global_nord_style()
+
+    global_wt_strengths = []
+    global_random_strengths = []
+
+    for grn, org_name in NETWORK_TO_ORGANISM.items():
+        wt_coh_path = wt_base_dir / grn / f"{grn}_CohMat.parquet"
+        wt_teams_path = wt_base_dir / grn / f"{grn}_Teams.csv"
+
+        if not wt_coh_path.exists() or not wt_teams_path.exists():
+            continue
+
+        wt_coh_df = pd.read_parquet(wt_coh_path)
+        wt_teams_df = pd.read_csv(wt_teams_path)
+
+        def calculate_strengths(coh_df, teams_df):
+            strengths = []
+            for _, group_data in teams_df.groupby("PreSplitGroup"):
+                nodes = group_data["Node"].tolist()
+
+                valid_nodes = [
+                    n for n in nodes if n in coh_df.index and n in coh_df.columns
+                ]
+
+                if valid_nodes:
+                    sub_mat = coh_df.loc[valid_nodes, valid_nodes].to_numpy()
+
+                    with warnings.catch_warnings():
+                        warnings.simplefilter("ignore", category=RuntimeWarning)
+                        team_strength = np.nanmean(sub_mat)
+
+                    if not np.isnan(team_strength):
+                        strengths.append(team_strength)
+            return strengths
+
+        wt_team_strengths = calculate_strengths(wt_coh_df, wt_teams_df)
+        global_wt_strengths.extend(wt_team_strengths)
+
+        random_team_strengths = []
+        shuffled_mats_dir = shuffle_base_dir / grn / "Shuffled_CohMats"
+
+        if shuffled_mats_dir.exists():
+            for rand_coh_path in shuffled_mats_dir.glob("*/*_CohMat.parquet"):
+                rand_name = rand_coh_path.name.replace("_CohMat.parquet", "")
+                rand_teams_path = rand_coh_path.parent / f"{rand_name}_Teams.csv"
+
+                if rand_teams_path.exists():
+                    r_coh_df = pd.read_parquet(rand_coh_path)
+                    r_teams_df = pd.read_csv(rand_teams_path)
+
+                    r_strengths = calculate_strengths(r_coh_df, r_teams_df)
+                    random_team_strengths.extend(r_strengths)
+
+        global_random_strengths.extend(random_team_strengths)
+
+        if not random_team_strengths or not wt_team_strengths:
+            continue
+
+        # --- Individual Network Plot ---
+        fig, ax = plt.subplots(figsize=(6.5, 5))
+
+        sns.histplot(
+            random_team_strengths,
+            element="step",
+            fill=True,
+            stat="density",
+            color=NORD_COLORS["yellow"],
+            edgecolor=NORD_COLORS["yellow"],
+            alpha=0.25,
+            linewidth=2.0,
+            label="Random Networks",
+            ax=ax,
+            zorder=1,
+        )
+
+        sns.histplot(
+            wt_team_strengths,
+            element="step",
+            fill=True,
+            stat="density",
+            color=NORD_COLORS["green"],
+            edgecolor=NORD_COLORS["green"],
+            alpha=0.35,
+            linewidth=2.5,
+            label="WT Network",
+            ax=ax,
+            zorder=2,
+        )
+
+        ax.set_xlabel("Team Strength (Average Coherence)", labelpad=10)
+        ax.set_ylabel("Density", labelpad=10)
+        ax.set_title(f"{org_name}", pad=15)
+
+        ax.grid(axis="y", linestyle="--", alpha=0.3, zorder=0)
+        ax.grid(axis="x", linestyle="--", alpha=0.3, zorder=0)
+
+        ax.legend(
+            loc="upper right",
+            frameon=True,
+            facecolor="white",
+            framealpha=0.85,
+            edgecolor=NORD_COLORS["gray"],
+        )
+
+        plt.tight_layout()
+
+        plot_dir.mkdir(parents=True, exist_ok=True)
+        filename = f"TeamStrength_WT_vs_Random_{grn}"
+
+        fig.savefig(
+            plot_dir / f"{filename}.png",
+            format="png",
+            dpi=300,
+            bbox_inches="tight",
+            transparent=True,
+        )
+        fig.savefig(
+            plot_dir / f"{filename}.svg",
+            format="svg",
+            bbox_inches="tight",
+            transparent=True,
+        )
+        plt.close(fig)
+
+        print(f"  Saved plot to {plot_dir.name}/{filename}.png")
+
+    # --- Aggregated Plot Across All Networks ---
+    if global_wt_strengths and global_random_strengths:
+        print(
+            "\nProcessing aggregated Team Strength distribution across all networks..."
+        )
+
+        fig, ax = plt.subplots(figsize=(6.5, 5))
+
+        sns.histplot(
+            global_random_strengths,
+            element="step",
+            fill=True,
+            stat="density",
+            color=NORD_COLORS["yellow"],
+            edgecolor=NORD_COLORS["yellow"],
+            alpha=0.25,
+            linewidth=2.0,
+            label="Random Networks",
+            ax=ax,
+            zorder=1,
+        )
+
+        sns.histplot(
+            global_wt_strengths,
+            element="step",
+            fill=True,
+            stat="density",
+            color=NORD_COLORS["green"],
+            edgecolor=NORD_COLORS["green"],
+            alpha=0.35,
+            linewidth=2.5,
+            label="WT Networks",
+            ax=ax,
+            zorder=2,
+        )
+
+        ax.set_xlabel("Team Strength (Average Coherence)", labelpad=10)
+        ax.set_ylabel("Density", labelpad=10)
+        ax.set_title("Aggregated Team Strengths Across All Networks", pad=15)
+
+        ax.grid(axis="y", linestyle="--", alpha=0.3, zorder=0)
+        ax.grid(axis="x", linestyle="--", alpha=0.3, zorder=0)
+
+        ax.legend(
+            loc="upper right",
+            frameon=True,
+            facecolor="white",
+            framealpha=0.85,
+            edgecolor=NORD_COLORS["gray"],
+        )
+
+        plt.tight_layout()
+
+        filename_all = "TeamStrength_WT_vs_Random_All_Networks"
+
+        fig.savefig(
+            plot_dir / f"{filename_all}.png",
+            format="png",
+            dpi=300,
+            bbox_inches="tight",
+            transparent=True,
+        )
+        fig.savefig(
+            plot_dir / f"{filename_all}.svg",
+            format="svg",
+            bbox_inches="tight",
+            transparent=True,
+        )
+        plt.close(fig)
+
+        print(f"  Saved aggregated plot to {plot_dir.name}/{filename_all}.png")
+
+
 if __name__ == "__main__":
     SHUFFLE_RESULT_DIR = Path("./WTvsShuffledAnalysis_AbasyNets_Targeted/")
 
-    # Specifying the WT result folder
-    wt_cohres_df = pd.read_parquet(
-        "./AbasyCohResults_Targeted/CompiledTargetSummary.parquet"
-    )
-
-    metrics_to_plot = ["NumPreSplitGroups"]
+    # # Specifying the WT result folder
+    # wt_cohres_df = pd.read_parquet(
+    #     "./AbasyCohResults_Targeted/CompiledTargetSummary.parquet"
+    # )
+    #
+    # metrics_to_plot = ["NumPreSplitGroups"]
     combined_plot_dir = Path("./GRN_Plots/Fig6")
-    combined_plot_dir.mkdir(parents=True, exist_ok=True)
-
-    for metric in metrics_to_plot:
-        print(f"\nGathering data for metric: {metric}")
-        networks_data = []
-
-        for grn in wt_cohres_df["TopoName"].unique():
-            rn_path = (
-                SHUFFLE_RESULT_DIR
-                / grn
-                / "Shuffled_CohMats"
-                / f"CompiledShuffledSummary_{grn}.parquet"
-            )
-
-            if not rn_path.exists():
-                print(f"  Warning: Missing shuffled data at {rn_path}. Skipping.")
-                continue
-
-            rn_cohres_df = pd.read_parquet(rn_path)
-
-            metric_data = pd.to_numeric(rn_cohres_df[metric])
-            wt_value = float(
-                wt_cohres_df.loc[wt_cohres_df["TopoName"] == grn, metric].values[0]
-            )
-
-            organism_name = NETWORK_TO_ORGANISM.get(grn, grn)
-
-            networks_data.append(
-                {
-                    "name": organism_name,
-                    "shuffled_data": metric_data,
-                    "wt_val": wt_value,
-                }
-            )
-
-        if networks_data:
-            plot_combined_outlier_distribution_F(
-                networks_data, combined_plot_dir, metric
-            )
-            print(
-                f"Saved combined plot to {combined_plot_dir / f'Combined_Normalized_{metric}_KDE.png'}"
-            )
-
-    # =====================================================================
-    # Plot CohMat WT vs Random Distributions
-    # =====================================================================
-
+    # combined_plot_dir.mkdir(parents=True, exist_ok=True)
+    #
+    # for metric in metrics_to_plot:
+    #     print(f"\nGathering data for metric: {metric}")
+    #     networks_data = []
+    #
+    #     for grn in wt_cohres_df["TopoName"].unique():
+    #         rn_path = (
+    #             SHUFFLE_RESULT_DIR
+    #             / grn
+    #             / "Shuffled_CohMats"
+    #             / f"CompiledShuffledSummary_{grn}.parquet"
+    #         )
+    #
+    #         if not rn_path.exists():
+    #             print(f"  Warning: Missing shuffled data at {rn_path}. Skipping.")
+    #             continue
+    #
+    #         rn_cohres_df = pd.read_parquet(rn_path)
+    #
+    #         metric_data = pd.to_numeric(rn_cohres_df[metric])
+    #         wt_value = float(
+    #             wt_cohres_df.loc[wt_cohres_df["TopoName"] == grn, metric].values[0]
+    #         )
+    #
+    #         organism_name = NETWORK_TO_ORGANISM.get(grn, grn)
+    #
+    #         networks_data.append(
+    #             {
+    #                 "name": organism_name,
+    #                 "shuffled_data": metric_data,
+    #                 "wt_val": wt_value,
+    #             }
+    #         )
+    #
+    #     if networks_data:
+    #         plot_combined_outlier_distribution_F(
+    #             networks_data, combined_plot_dir, metric
+    #         )
+    #         print(
+    #             f"Saved combined plot to {combined_plot_dir / f'Combined_Normalized_{metric}_KDE.png'}"
+    #         )
+    #
+    # # =====================================================================
+    # # Plot CohMat WT vs Random Distributions
+    # # =====================================================================
+    #
     WT_RESULT_DIR = Path("./AbasyCohResults_Targeted")
+    #
+    # # Execute the new CohMat distribution mapping
+    # plot_cohmat_distributions_F(
+    #     wt_base_dir=WT_RESULT_DIR,
+    #     shuffle_base_dir=SHUFFLE_RESULT_DIR,
+    #     plot_dir=combined_plot_dir,
+    # )
+    #
+    # plot_nodelevel_connectivity_density_heatmaps_F(
+    #     wt_base_dir=WT_RESULT_DIR,
+    #     plot_dir=combined_plot_dir,
+    # )
 
-    # Execute the new CohMat distribution mapping
-    plot_cohmat_distributions_F(
+    combined_plot_dir = Path("./GRN_Plots/Fig6TEST")
+    # Execute the new Team Strength distribution mapping
+    plot_team_strength_distribution(
         wt_base_dir=WT_RESULT_DIR,
         shuffle_base_dir=SHUFFLE_RESULT_DIR,
-        plot_dir=combined_plot_dir,
-    )
-
-    plot_nodelevel_connectivity_density_heatmaps_F(
-        wt_base_dir=WT_RESULT_DIR,
         plot_dir=combined_plot_dir,
     )
