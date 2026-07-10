@@ -918,11 +918,3 @@ if __name__ == "__main__":
         wt_base_dir=WT_RESULT_DIR,
         plot_dir=combined_plot_dir,
     )
-
-    combined_plot_dir = Path("./GRN_Plots/Fig6TEST")
-    # Execute the new Team Strength distribution mapping
-    plot_team_strength_distribution(
-        wt_base_dir=WT_RESULT_DIR,
-        shuffle_base_dir=SHUFFLE_RESULT_DIR,
-        plot_dir=combined_plot_dir,
-    )

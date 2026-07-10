@@ -1,0 +1,195 @@
+k,imodulon_name,regulator,function_description,category,exp_var,precision,recall,f1_score,n_genes,n_conditions
+0,Phage Shock,"RpoN, IHF, PspF",Phage shock response; response to filamentous phage infection and/or extracytoplasmic shock,Phage Shock,0.003705827,0.75,1,0,8,0
+1,Magnesium,PhoP,Magnesium sensing and transport; magnesium-limitation response,Metal Homeostasis,0.001601515,0.255813953,0.55,0,43,0
+2,Tyr-Trp-Phe,TyrR,Aromatic amino acid biosynthesis and transport,Amino Acid Metabolism,0.001687875,0.9,0.818181818,0,10,0
+3,Maltose,MalT,Maltose transport and catabolism,Carbon Metabolism,0.004767944,0.615384615,1,0,13,0
+4,UC-1,,Unknown,Unknown,0.00483882,,,0,17,0
+5,Microaerobic,"RpoS, Fis, NarP, NarL, AppY, YdeO, ArcA, IscR",Hydrogenase 1 and cytochrome bd-II ubiquinol oxidase: microaerobic respiratory chain between hydrogen and oxygen,Energy Metabolism,0.004146282,0.545454545,1,0,11,0
+6,Cysteine-1,CysB,"Cysteine biosynthesis, sulfate assimilation",Amino Acid Metabolism,0.010845671,0.571428571,0.516129032,0,28,0
+7,Curli,"RpoS, FliZ, CpxR, CsgD, BtsR",Curli secretion and assembly,Extracellular Structures,0.002910861,0.857142857,0.857142857,0,7,0
+8,Xylose,"Crp, XylR",d-Xylose transport and catabolism,Carbon Metabolism,0.00149032,0.466666667,0.875,0,15,0
+9,cydB-appC KO,,cydB/appC KO and compensatory regulatory changes,Energy Metabolism,0.000981733,,,0,7,0
+10,Glycolate,"IHF, ArcA, PdhR, GlcC",Glycolate/glyoxylate tranport and catabolism,Carbon Metabolism,0.002534635,1,1,0,6,0
+11,Lysine-T2SS,ArgP,Lysine transport and biosynthesis; type II secretion system,Amino Acid Metabolism,0.005894976,0.272727273,0.461538462,0,22,0
+12,ykgR,,Unknown,Unknown,0.001073036,,,0,1,0
+13,Thiamine,Thiamine diphosphate,Thiamine uptake and biosynthesis,Cofactor Metabolism,0.01314891,0.666666667,1,0,12,0
+14,Cra,Cra,Central carbon metabolism; glycolytic flux-dependent regulation via fructose sensing,Carbon Metabolism,0.002383653,0.909090909,0.128205128,0,11,0
+15,Methionine,MetJ,Methionine transport and biosynthesis,Amino Acid Metabolism,0.008949285,0.647058824,0.733333333,0,17,0
+16,ytiC,,Unknown,Unknown,0.00107291,,,0,2,0
+17,FucR-AllR-AraC,"FucR, AllR, AraC",Allantoin/glycolate/glyoxylate/arabinose/fucose transport and catabolism,Nitrogen Metabolism,0.001643917,0.791666667,0.633333333,0,24,0
+18,DNA Damage,LexA,SOS response to DNA damage or inhibition of DNA replication,DNA Damage,0.002642271,0.923076923,0.413793103,0,26,0
+19,Molybdenum,"Crp, FliA, ModE",Molybdenum transport and molybdoenzyme synthesis,Metal Homeostasis,0.000773732,0.3,1,0,10,0
+20,Nitrate-Nitrite,"NarL, Fnr",Nitrate/nitrite transport and reduction,Nitrogen Metabolism,0.001290257,0.882352941,0.277777778,0,17,0
+21,BasR,BasR,Lipid A modification and polymixin resistance in the presence of excess iron,Extracellular Structures,0.001697003,0.555555556,0.454545455,0,18,0
+22,GadXW,"GadX, GadW",Glutamate-dependent acid resistance system; multidrug efflux,Envelope Stress,0.012927301,0.684210526,1,0,19,0
+23,minicoli KOs-1,,minicoli strain deletions,Genome Reduction,0.001648275,,,0,28,0
+24,IS1,,IS1 transcripts,Unknown,0.001837242,,,0,9,0
+25,Rhamnose,"Crp, RhaS",Rhamnose transport and catabolism,Carbon Metabolism,0.002183073,0.857142857,1,0,7,0
+26,Dipeptide,"gcvB, IHF, Fnr",Dipeptide transport; flagellar biosynthesis,Amino Acid Metabolism,0.002657451,0.714285714,0.833333333,0,7,0
+27,ROS TALE Del-1,,Unknown,Unknown,0.001449954,,,0,14,0
+28,Cytochrome c,"FlhDC, IHF, NsrR, NarL, NarP, Fis, Fnr",Cytochrome c-552 and putative cytochrome c-related proteins,Energy Metabolism,0.002183614,0.7,1,0,10,0
+29,Pyrimidine,"PurR, UTP",Pyrimidine transport and biosynthesis,Nucleotide Metabolism,0.016179458,0.692307692,0.25,0,13,0
+30,Membrane,,"Membrane-related stress response regulators, transporters, multidrug resistance",Envelope Stress,0.005077304,,,0,18,0
+31,Phosphotransferase,"Crp, Mlc",Phosphotransferase-mediated glucose import; maltose transport and catabolism,Carbon Metabolism,0.001575757,0.625,0.5,0,8,0
+32,GlcNAc,"NagC, Crp","Amino sugar transport, biosynthesis and catabolism",Carbon Metabolism,0.001569664,0.461538462,0.260869565,0,13,0
+33,Tryptophanase,"Crp, TorR, Nac, L-tryptophan",Tryptophan import and catabolism via tryptophanase; indole/pyruvate biosynthesis,Amino Acid Metabolism,0.004664965,1,1,0,2,0
+34,ROS TALE Del-2,,Unknown,Unknown,0.001874963,,,0,6,0
+35,crp KO,,crp KO and compensatory regulatory changes,Carbon Metabolism,0.003084407,,,0,18,0
+36,Fnr-1,Fnr,Transition from aerobic to anaerobic growth; anaerobic reductase and hydrogenase activity,Energy Metabolism,0.008741491,0.75,0.040540541,0,16,0
+37,Cytochrome bo3,"Fur, GadE, HprR, Fis, CusR, Fnr, ArcA, Cra, Crp, PdhR",Cytochrome bo3; high oxygen quinol:oxygen oxidoreductase; aerobic respiration,Energy Metabolism,0.001696315,1,1,0,5,0
+38,Arginine,ArgR,Arginine transport and biosynthesis,Amino Acid Metabolism,0.012598878,0.769230769,0.540540541,0,26,0
+39,Fimbriae,"QseB, IHF, Lrp, H-NS",Type 1 (mannose-sensitive) pili/fimbriae biosynthesis and secretion,Extracellular Structures,0.002791888,1,1,0,7,0
+40,PaaX,"Crp, IHF, PaaX, SlyA",Phenylacetic acid transport and catabolism,Carbon Metabolism,0.001355969,0.833333333,0.909090909,0,12,0
+41,FlhDC-2,FlhDC,Flagellum biosynthesis and export,Extracellular Structures,0.023302001,0.902439024,0.456790123,0,41,0
+42,Fnr-3,Fnr,Anaerobic growth,Energy Metabolism,0.006740251,0.5,0.089108911,0,18,0
+43,Cytochrome bd-I,"ArcA, Cra, H-NS, HypT, Fnr",Cytochrome bd-I; limited oxygen quinol:oxygen oxidoreductase; microaerobic respiration,Energy Metabolism,0.002749034,0.5,1,0,4,0
+44,Phosphate-1,PhoB,"Inorganic phosphate sensing, transport, and production",Phosphate Metabolism,0.001084921,1,0.191489362,0,9,0
+45,Leucine,"LeuO, ppGpp, Leu-tRNA",Leucine biosynthesis,Amino Acid Metabolism,0.007102464,0.666666667,1,0,6,0
+46,Sorbitol,"SrlR, GutM, Crp, H-NS",Sorbitol transport and catabolism,Carbon Metabolism,0.003169973,1,0.857142857,0,6,0
+47,UC-K12-1,,Unknown,Unknown,0.002027841,,,0,10,0
+48,SSW SNPs,,Unknown,ALE Effects,0.00905203,,,0,91,0
+49,UC-4,,Unknown,Unknown,0.003074812,,,0,57,0
+50,Salicylic Acid,,Salicylic acid efflux,Redox Stress,0.002647839,,,0,12,0
+51,Osmoprotectant,"RpoS, ppGpp, IHF, H-NS",Transport of osmoprotectant glycine betaine,Envelope Stress,0.002287969,0.75,0.375,0,4,0
+52,Zinc-1,"Zur, ZntR, CueR",Zinc sensing and uptake; copper sensing and export,Metal Homeostasis,0.006325134,0.5625,0.642857143,0,16,0
+53,entC-ubiC KO,,entC/ubiC KO and compensatory sad up-regulation,Energy Metabolism,0.001051192,,,0,3,0
+54,Glutamine,NtrC,Glutamine transport and synthesis,Nitrogen Metabolism,0.002176837,0.833333333,0.294117647,0,6,0
+55,Glyoxylate,"Crp, ArcA, ppGpp, Cra, IclR, IHF",Glyxoylate cycle; alternate to TCA cycle,Energy Metabolism,0.002846274,1,1,0,3,0
+56,Glycerol,"Crp, GlpR",Glycerol/glycerol-3-phosphate transport and catabolism,Carbon Metabolism,0.010071359,0.9,1,0,10,0
+57,N Reduction,"FlhDC, ModE, NarP, NarL, Fnr","Electron transfer via nitrate reductases (periplasmic and A), cytochrome c",Energy Metabolism,0.005961333,0.75,1,0,20,0
+58,Copper,"CusR, CueR, HprR",Copper/silver sensing and export,Metal Homeostasis,0.010802288,0.727272727,0.888888889,0,11,0
+59,Lactate,"ArcA, LldR",Lactate transport and catabolism,Carbon Metabolism,0.001430464,1,1,0,3,0
+60,Nucleotide Stress,,DNA repair; stringent response signaling via ppGpp; ribosomal biogenesis and stability,DNA Damage,0.002784166,,,0,29,0
+61,Sialic Acid,"Crp, NanR",N-acetyl-neuraminic acid (or sialic acid) transport and metabolism,Carbon Metabolism,0.00163164,0.727272727,1,0,11,0
+62,Acetate,,Acetate uptake and catabolism; aldehyde catabolism; acetate/ethanol detoxification at stationary phase,Carbon Metabolism,0.002934887,,,0,4,0
+63,ROS TALE Amp,,Amplification of DLP12/IS3,Unknown,0.001495622,,,0,8,0
+64,UC-K12-2,,Unknown,Unknown,0.003751972,,,0,66,0
+65,BW25113,,Accounts for genomic differences between BW25113 and MG1655 substrains,Strain Difference,0.00272227,,,0,18,0
+66,UC-K12-3,,Unknown,Unknown,0.003478418,,,0,26,0
+67,Fur-2,Fur,"Iron sensing and uptake, enterobactin biosynthesis, iron-sulfur cluster activation, iron sequestration",Metal Homeostasis,0.009036216,0.710526316,0.212598425,0,38,0
+68,FliA,FliA,"Sigma 28; flagellum biosynthesis and export, motility",Extracellular Structures,0.02283683,0.944444444,0.465753425,0,36,0
+69,Ile-Val,,Isoleucine and valine biosynthesis,Amino Acid Metabolism,0.00260029,,,0,7,0
+70,Gluconate,"Crp, GntR",Gluconate transport and catabolism (Entner-Doudoroff),Carbon Metabolism,0.000923866,1,0.3,0,3,0
+71,ldrC,,Unknown,Unknown,0.002241064,,,0,3,0
+72,Galactose,"RpoS, GalR, GalS, Crp",Galactose transport and catabolism,Carbon Metabolism,0.00182153,0.714285714,0.714285714,0,7,0
+73,RpoH,RpoH,Global heat shock response during log-phase; response to high temperature and/or misfolded proteins,Temperature Shock,0.003768435,0.866666667,0.278571429,0,45,0
+74,Thr-Ser,"TdcA, TdcR, IHF, Fnr, Crp",Threonine/serine transport and catabolism during anaerobiosis,Amino Acid Metabolism,0.004007831,1,1,0,7,0
+75,UC-K12-4,,Unknown,Unknown,0.00131384,,,0,9,0
+76,Fermentation,,Fermentation-related hydrogenase/ethanolamine/lactate catabolism,Energy Metabolism,0.001955853,,,0,13,0
+77,Suf System,"NsrR, IHF, IscR, OxyR, Fur, ppGpp",Iron-sulfur cluster biosynthesis and insertion,Metal Homeostasis,0.003890829,0.857142857,1,0,7,0
+78,Histidine,"His-tRNA, DksA",Histidine biosynthesis,Amino Acid Metabolism,0.003334031,1,1,0,8,0
+79,FlhDC-1,FlhDC,Flagellum biosynthesis and export,Extracellular Structures,0.00135009,0.5,0.435897436,0,34,0
+80,lacI,,Unknown,Unknown,0.000813505,,,0,1,0
+81,CsrA,CsrA,Glycogen biosynthesis and degradation; biofilm formation; central carbon metabolism,Carbon Metabolism,0.002220878,0.153846154,0.476190476,0,65,0
+82,UC-K12-5,,Unknown,Unknown,0.003677722,,,0,64,0
+83,PDH,"NsrR, ArcA, PdhR, Fnr",Pyruvate dehydrogenase; pyruvate formate lyase,Energy Metabolism,0.001047782,0.5,1,0,6,0
+84,UC-K12-6,,Unknown,Unknown,0.001865711,,,0,12,0
+85,Cellulose,,Cellulose biosynthesis; biofilm formation; membrane/periplasmic proteins,Extracellular Structures,0.004730039,,,0,68,0
+86,Glutarate,"RpoS, H-NS, Crp, Lrp, GlaR, ppGpp",Glutarate/aminobutyrate transport and catabolism,Carbon Metabolism,0.004777499,1,1,0,5,0
+87,Phosphate-2,PhoB,"Inorganic phosphate sensing, transport, and production",Phosphate Metabolism,0.001494377,0.75,0.446808511,0,28,0
+88,CPZ-55,,Unknown,Unknown,0.001242047,,,0,5,0
+89,pts KO,,ptsHI/crr KO and compensatory regulatory changes,Carbon Metabolism,0.000517809,,,0,7,0
+90,Crp-1,Crp,Miscellaneous carbon source metabolism,Carbon Metabolism,0.011008231,0.3875,0.05984556,0,80,0
+91,NrdR,NrdR,Ribonucleoside reduction,Nucleotide Metabolism,0.002327235,1,0.666666667,0,6,0
+92,YmfT,YmfT,e14 prophage regulator activated by DNA damage,DNA Damage,0.00237933,,,0,13,0
+93,Pyruvate-1,BtsR,"Pyruvate sensing, transport, and catabolism under nutrient limitation",Carbon Metabolism,0.002177227,0.2,1,0,5,0
+94,baeR KO,,baeR KO,Envelope Stress,0.001031448,,,0,19,0
+95,Succinate,"ryhB, Fur, Fnr, Crp, ArcA",Succinate dehydrogenase/succinate reactions of TCA cycle,Energy Metabolism,0.007848455,0.5,0.888888889,0,16,0
+96,Translation,DksA,Ribosome biogenesis,Translation,0.009646891,0.857142857,0.428571429,0,56,0
+97,OxyR,OxyR,"Oxidative stress response, especially peroxide",Redox Stress,0.000954022,0.392857143,0.379310345,0,28,0
+98,Quorum Sensing,"Crp, LsrR","Quorum sensing via autoinducer 2, biofilm architecture, foreign DNA stress response; lsrR KO",Quorum Sensing,0.002886884,1,0.777777778,0,7,0
+99,Halicin,,Response to halicin antibiotic,Redox Stress,0.001004208,,,0,7,0
+100,Exuronate,"ExuR, Crp",Galacturonate and glucuronate transport and catabolism,Carbon Metabolism,0.001756707,0.6,0.666666667,0,10,0
+101,Cold Shock,,Cold shock proteins,Temperature Shock,0.011835008,,,0,12,0
+102,ppGpp,ppGpp,Stringent response,Global Stress,0.015275667,0.829268293,0.08994709,0,82,0
+103,Nucleoside,"Crp, CytR",Transport and utilization of ribonucleosides and deoxyribonucleosides,Nucleotide Metabolism,0.001908054,0.636363636,0.636363636,0,11,0
+104,LPS,,Lipopolysaccharide biosynthesis and export,Extracellular Structures,0.00420035,,,0,25,0
+105,NtrC-2,"NtrC, RpoN","Nitrogen assimilation, ammonium transport",Nitrogen Metabolism,0.003084194,0.866666667,0.265306122,0,15,0
+106,Formaldehyde,FrmR,Formaldehyde detoxification/catabolism,Redox Stress,0.001221184,1,1,0,3,0
+107,Biotin,BirA,Biotin biosynthesis,Cofactor Metabolism,0.003479667,0.833333333,1,0,6,0
+108,YgbI,YgbI,Tartrate transport and catabolism,Carbon Metabolism,0.000724414,,,0,5,0
+109,YieP,YieP,"Cellular membrane synthesis and stress response, 3-hydroxypropanoate tolerance",Envelope Stress,0.001437473,0.75,1,0,8,0
+110,Efflux Pump,,Multidrug/spermidine efflux pump,Resistance,0.001178849,,,0,2,0
+111,Glycine Betaine,"ArcA, Cra, BetI",Osmotic shock response via glycine betaine synthesis from choline,Envelope Stress,0.001374224,1,1,0,4,0
+112,Sugar Diacid,CdaR,Transport and catabolism of carbohydrate diacids (galacatarate and glucarate),Carbon Metabolism,0.002296622,0.642857143,1,0,14,0
+113,RpoS,RpoS,Master regulator of global stress response,Global Stress,0.031854234,0.383928571,0.132307692,0,112,0
+114,Ferric Citrate,"PdhR, HypT, Nac, Crp, Fur, FecI",Ferric citrate transporter; iron uptake under intracellular limitation,Metal Homeostasis,0.001854875,1,1,0,5,0
+115,UC-K12-7,,Unknown,Unknown,0.004051833,,,0,26,0
+116,Putrescine,"RpoS, ArcA, PuuR",Putrescine transport and catabolism,Nitrogen Metabolism,0.010311674,0.888888889,1,0,9,0
+117,Lrp,Lrp,"Global regulation of amino acid biosynthesis/catabolism, stationary phase, nutrient transport, pili synthesis, 1-carbon metabolism",Amino Acid Metabolism,0.019693556,0.545454545,0.173913043,0,22,0
+118,Sulfoquinovose,CsqR,Sulfoquinovose transport and catabolism,Carbon Metabolism,0.00053127,0.444444444,0.8,0,9,0
+119,minicoli KOs-3,,Deletions from minicoli strain,Genome Reduction,0.002443175,,,0,17,0
+120,Fatty Acid,FadR,Fatty acid degradation and biosynthesis,Carbon Metabolism,0.002765026,0.875,0.318181818,0,8,0
+121,NO Stress,"NsrR, NarP","Nitric oxide sensing and detoxification, iron-sulfur cluster repair, anaerobic growth",Redox Stress,0.001405581,0.818181818,0.075,0,11,0
+122,ArcA,ArcA,Anaerobiosis; repression of aerobic growth genes during anaerobic growth,Energy Metabolism,0.009018596,0.526315789,0.131004367,0,57,0
+123,FDH,SdhX,Formate dehydrogenase O; formate to carbon dioxide oxidation; formate-nitrate electron transport during aerobic/anerobic shift,Energy Metabolism,0.002324659,0.6,0.5,0,5,0
+124,NtrC-3,"NtrC, RpoN","Nitrogen assimilation, pyrimidine transport and catabolism",Nitrogen Metabolism,0.003076683,0.869565217,0.408163265,0,23,0
+125,Purine,"PurR, ppGpp",Purine transport and biosynthesis,Nucleotide Metabolism,0.013102522,0.454545455,0.714285714,0,33,0
+126,CP4-44,,CP4-44 prophage expression variation,Prophage,0.000906357,,,0,4,0
+127,Cysteine-2,CysB,"Cysteine biosynthesis, sulfate assimilation",Amino Acid Metabolism,0.000750711,0.75,0.193548387,0,8,0
+128,FDH-N_NRA,"NarL, Fnr",Anaerobic growth on nitrate; formate-to-nitrate electron transfer via formate dehydrogenase N and nitrate reductase A,Energy Metabolism,0.005074513,0.857142857,0.222222222,0,14,0
+129,UC-K12-8,,Unknown,Unknown,0.001430962,,,0,12,0
+130,NtrC-1,"RpoN, RpoS, NtrC","Nitrogen assimilation, ammonium transport",Nitrogen Metabolism,0.005528949,0.636363636,0.411764706,0,11,0
+131,Tryptophan,"TrpR, Trp-tRNA",Tryptophan transport and biosynthesis,Amino Acid Metabolism,0.0041832,0.454545455,1,0,11,0
+132,e14 Del,,Unknown,Unknown,0.002095068,,,0,13,0
+133,NDH-1,"NarL, ArcA, IHF, Fnr, Fis, ryhB","NADH:ubiquinone oxidoreductase I: electron transfer from NADH to quinone pool, proton electrochemical gradient generation for aerobic and anaerobic respiration",Energy Metabolism,0.002137226,0.928571429,1,0,14,0
+134,Isc System,"ryhB, IscR",Iron-sulfur cluster biogenesis and insertion,Cofactor Metabolism,0.001989461,0.727272727,0.131147541,0,11,0
+135,pgi KO,,pgi KO,Carbon Metabolism,0.001410809,,,0,2,0
+136,FHL,"RpoN, NsrR, ModE, IHF, FhlA",Formate hydrogenlyase: hydrogen production during glucose fermentation via formate oxidation/proton reduction,Energy Metabolism,0.001893824,0.75,1,0,12,0
+137,UC-K12-9,,Unknown,Unknown,0.001264077,,,0,16,0
+138,Glycine,"PurR, Fnr, ppGpp, Crp, Lrp, GcvA",Glycine cleavage system,Amino Acid Metabolism,0.001373874,0.6,1,0,5,0
+139,yjjZ,,Unknown,Unknown,0.002843288,,,0,5,0
+140,SoxS,SoxS,"Superoxide/nitric oxide sensing and removal, protection from organic solvents and antibiotics",Redox Stress,0.001562772,0.333333333,0.738095238,0,93,0
+141,Acid Shock RNA,,Very low pH-responsive acid shock polypeptide,Acid Stress,0.001540939,,,0,3,0
+142,UC-K12-10,,Unknown,Unknown,0.001630757,,,0,14,0
+143,Zinc-2,ZraR,Tolerance to high zinc concentration,Metal Homeostasis,0.000748856,1,0.333333333,0,1,0
+144,RpoE,RpoE,Heat shock response; response to high temperature and/or misfolded membrane/periplasmic proteins,Temperature Shock,0.001714412,0.777777778,0.112,0,18,0
+145,Empty,,Unknown,Unknown,0.000844874,,,0,0,0
+146,Biofilm,"RpoS, ppGpp, BluR, MarA","Biofilm formation, acid resistance, cold shock response",Extracellular Structures,0.002163206,1,1,0,4,0
+147,NAD,NadR,NAD biosynthesis,Cofactor Metabolism,0.001497216,1,0.75,0,3,0
+148,EvgA,EvgA,"Glutamate-dependent acid response, drug resistance, alkali metals response",Envelope Stress,0.00137908,0.8,0.705882353,0,15,0
+149,Fnr-2,Fnr,Transition from aerobic to anaerobic growth; global control of anaerobiosis,Energy Metabolism,0.01261686,0.362318841,0.084459459,0,69,0
+150,gcvB,gcvB,Amino acid transport,Amino Acid Metabolism,0.007501375,0.166666667,0.263157895,0,90,0
+151,PAL 26 Del,,Unknown,Unknown,0.001199353,,,0,39,0
+152,TMAO,"NarL, TorR",Trimethylamine N-oxide reduction under anaerobiosis,Energy Metabolism,0.000885382,1,1,0,3,0
+153,Lactose,"Crp, MarA, H-NS, LacI",Lactose transport and catabolism,Carbon Metabolism,0.000785514,1,1,0,3,0
+154,Sulfate,"Cbl, CysB",Cysteine transport and biosynthesis; aliphatic sulfonate utilization and homeostatic response to sulfate starvation,Amino Acid Metabolism,0.001192985,0.529411765,1,0,17,0
+155,Potassium,KdpE,Potassium sensing and transport,Metal Homeostasis,0.000948115,0.75,1,0,4,0
+156,Nickel-Cobalt,RcnR,Nickel and cobalt resistance via efflux,Metal Homeostasis,0.001621944,1,0.666666667,0,2,0
+157,Nitrogen,Nac,Nitrogen metabolism under nitrogen limitation,Nitrogen Metabolism,0.003349697,0.45,0.346153846,0,20,0
+158,Lysine,"GadX, ArcA, CadC, Lrp, OmpR, H-NS, GadE-RcsB",Lysine transport and catabolism; cadaverine biosynthesis,Amino Acid Metabolism,0.001804488,0.666666667,1,0,3,0
+159,Nickel,"RpoN, NarL, NikR, Fnr",Nickel sensing and uptake,Metal Homeostasis,0.004619291,0.833333333,0.833333333,0,6,0
+160,Ribose,"dsrA, Crp, RbsR",Ribose transport and catabolism,Carbon Metabolism,0.002413908,1,0.833333333,0,5,0
+161,Single Reads,,Unknown,Unknown,0.018306237,,,0,28,0
+162,Fur-1,Fur,"Iron sensing and uptake, enterobactin biosynthesis, iron-sulfur cluster activation, iron sequestration",Metal Homeostasis,0.009597807,0.787878788,0.204724409,0,33,0
+163,UC-K12-11,,Unknown,Unknown,0.00160864,,,0,18,0
+164,Flagella,,Flagellar biosynthesis,Extracellular Structures,0.000856033,,,0,10,0
+165,Capsule,RcsAB,Colanic acid capsule synthesis and transport; periplasmic proteins; envelope stress response,Extracellular Structures,0.003683669,0.277777778,0.625,0,36,0
+166,CpxR,CpxR,"Inner membrane damage sensing and repair via protein folding/degradation, chemotaxis, drug efflux, DNA repair, motility",Envelope Stress,0.002389446,0.375,0.367346939,0,48,0
+167,yzfA,,Unknown,Unknown,0.000557792,,,0,5,0
+168,Oxidoreductase,,Putative oxidoreductase components,Redox Stress,0.001270824,,,0,8,0
+169,Propionate,"PrpR, RpoN, Cra, Crp",Propionate catabolism; 2-methylcitric acid cycle,Carbon Metabolism,0.002255025,1,1,0,4,0
+170,Qin Prophage-1,,Unknown,Prophage,0.001652549,,,0,7,0
+171,UC-K12-12,,Unknown,Unknown,0.005614753,,,0,14,0
+172,YgeV,YgeV,Nucleoside degradation activated by ethanol treatment,Carbon Metabolism,0.003147486,,,0,23,0
+173,UC-2,,Unknown,Unknown,0.010514063,,,0,69,0
+174,Qin-Rac,,Unknown,Prophage,0.006700326,,,0,6,0
+175,Pyruvate-2,PyrR,Pyruvate sensing and transport,Carbon Metabolism,0.001424593,1,1,0,1,0
+176,Crp-2,"GatR, ArcA, Crp",Carbohydrate transport and catabolism,Carbon Metabolism,0.005216603,0.75,1,0,8,0
+177,DhaR,DhaR,Dihydroxyacetone transport and catabolism; phosphotransferase activity for DhaM phosphorylation,Carbon Metabolism,0.000893279,0.6,0.75,0,5,0
+178,IS Elements,,Unknown,Unknown,0.0044729,,,0,28,0
+179,UC-K12-13,,Unknown,Unknown,0.001888175,,,0,4,0
+180,UC-K12-14,,Unknown,Unknown,0.005319836,,,0,7,0
+181,Citrate Lyase,"Fnr, NarL, Crp, ArcA, DpiA",Citrate lyase complex; TCA cycle,Energy Metabolism,0.002521308,0.5,0.714285714,0,10,0
+182,IS5,,IS5 transcripts,Unknown,0.001913822,,,0,7,0
+183,Qin Prophage-2,,Unknown,Prophage,0.003730602,,,0,7,0
+184,UC-K12-15,,Unknown,Unknown,0.004874703,,,0,3,0
+185,SoxR-ECA,,SoxR reducing system; ECA biosynthesis,Redox Stress,0.004957461,,,0,14,0
+186,UC-K12-16,,Unknown,Unknown,0.005785835,,,0,17,0
+187,Leu-Val-Ile,"Lrp, IHF, Ile-tRNA, Leu-tRNA, Val-tRNA, ppGpp",Branched-chain amino acid biosynthesis,Amino Acid Metabolism,0.005101749,0.5,1,0,10,0
+188,minicoli KOs-2,,Deletions from minicoli strain,Genome Reduction,0.01424329,,,0,45,0
+189,Qin Prophage-3,,Unknown,Prophage,0.002837377,,,0,3,0
+190,Resistance,,Multidrug resistance; stress response to harmful compounds/antibiotics,Envelope Stress,0.003782115,,,0,54,0
+191,Alanine,,Alanine transport and catabolism,Amino Acid Metabolism,0.004992317,,,0,4,0
+192,Tartrate,TtdR,Tartrate transport and catabolism/fermentation,Carbon Metabolism,0.000760322,0.666666667,0.5,0,3,0
+193,UC-K12-17,,Unknown,Unknown,0.00267765,,,0,4,0
