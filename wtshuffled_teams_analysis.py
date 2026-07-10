@@ -851,73 +851,73 @@ def plot_team_strength_distribution(wt_base_dir, shuffle_base_dir, plot_dir):
 if __name__ == "__main__":
     SHUFFLE_RESULT_DIR = Path("./WTvsShuffledAnalysis_AbasyNets_Targeted/")
 
-    # # Specifying the WT result folder
-    # wt_cohres_df = pd.read_parquet(
-    #     "./AbasyCohResults_Targeted/CompiledTargetSummary.parquet"
-    # )
-    #
-    # metrics_to_plot = ["NumPreSplitGroups"]
+    # Specifying the WT result folder
+    wt_cohres_df = pd.read_parquet(
+        "./AbasyCohResults_Targeted/CompiledTargetSummary.parquet"
+    )
+
+    metrics_to_plot = ["NumPreSplitGroups"]
     combined_plot_dir = Path("./GRN_Plots/Fig6")
-    # combined_plot_dir.mkdir(parents=True, exist_ok=True)
-    #
-    # for metric in metrics_to_plot:
-    #     print(f"\nGathering data for metric: {metric}")
-    #     networks_data = []
-    #
-    #     for grn in wt_cohres_df["TopoName"].unique():
-    #         rn_path = (
-    #             SHUFFLE_RESULT_DIR
-    #             / grn
-    #             / "Shuffled_CohMats"
-    #             / f"CompiledShuffledSummary_{grn}.parquet"
-    #         )
-    #
-    #         if not rn_path.exists():
-    #             print(f"  Warning: Missing shuffled data at {rn_path}. Skipping.")
-    #             continue
-    #
-    #         rn_cohres_df = pd.read_parquet(rn_path)
-    #
-    #         metric_data = pd.to_numeric(rn_cohres_df[metric])
-    #         wt_value = float(
-    #             wt_cohres_df.loc[wt_cohres_df["TopoName"] == grn, metric].values[0]
-    #         )
-    #
-    #         organism_name = NETWORK_TO_ORGANISM.get(grn, grn)
-    #
-    #         networks_data.append(
-    #             {
-    #                 "name": organism_name,
-    #                 "shuffled_data": metric_data,
-    #                 "wt_val": wt_value,
-    #             }
-    #         )
-    #
-    #     if networks_data:
-    #         plot_combined_outlier_distribution_F(
-    #             networks_data, combined_plot_dir, metric
-    #         )
-    #         print(
-    #             f"Saved combined plot to {combined_plot_dir / f'Combined_Normalized_{metric}_KDE.png'}"
-    #         )
-    #
-    # # =====================================================================
-    # # Plot CohMat WT vs Random Distributions
-    # # =====================================================================
-    #
+    combined_plot_dir.mkdir(parents=True, exist_ok=True)
+
+    for metric in metrics_to_plot:
+        print(f"\nGathering data for metric: {metric}")
+        networks_data = []
+
+        for grn in wt_cohres_df["TopoName"].unique():
+            rn_path = (
+                SHUFFLE_RESULT_DIR
+                / grn
+                / "Shuffled_CohMats"
+                / f"CompiledShuffledSummary_{grn}.parquet"
+            )
+
+            if not rn_path.exists():
+                print(f"  Warning: Missing shuffled data at {rn_path}. Skipping.")
+                continue
+
+            rn_cohres_df = pd.read_parquet(rn_path)
+
+            metric_data = pd.to_numeric(rn_cohres_df[metric])
+            wt_value = float(
+                wt_cohres_df.loc[wt_cohres_df["TopoName"] == grn, metric].values[0]
+            )
+
+            organism_name = NETWORK_TO_ORGANISM.get(grn, grn)
+
+            networks_data.append(
+                {
+                    "name": organism_name,
+                    "shuffled_data": metric_data,
+                    "wt_val": wt_value,
+                }
+            )
+
+        if networks_data:
+            plot_combined_outlier_distribution_F(
+                networks_data, combined_plot_dir, metric
+            )
+            print(
+                f"Saved combined plot to {combined_plot_dir / f'Combined_Normalized_{metric}_KDE.png'}"
+            )
+
+    # =====================================================================
+    # Plot CohMat WT vs Random Distributions
+    # =====================================================================
+
     WT_RESULT_DIR = Path("./AbasyCohResults_Targeted")
-    #
-    # # Execute the new CohMat distribution mapping
-    # plot_cohmat_distributions_F(
-    #     wt_base_dir=WT_RESULT_DIR,
-    #     shuffle_base_dir=SHUFFLE_RESULT_DIR,
-    #     plot_dir=combined_plot_dir,
-    # )
-    #
-    # plot_nodelevel_connectivity_density_heatmaps_F(
-    #     wt_base_dir=WT_RESULT_DIR,
-    #     plot_dir=combined_plot_dir,
-    # )
+
+    # Execute the new CohMat distribution mapping
+    plot_cohmat_distributions_F(
+        wt_base_dir=WT_RESULT_DIR,
+        shuffle_base_dir=SHUFFLE_RESULT_DIR,
+        plot_dir=combined_plot_dir,
+    )
+
+    plot_nodelevel_connectivity_density_heatmaps_F(
+        wt_base_dir=WT_RESULT_DIR,
+        plot_dir=combined_plot_dir,
+    )
 
     combined_plot_dir = Path("./GRN_Plots/Fig6TEST")
     # Execute the new Team Strength distribution mapping
