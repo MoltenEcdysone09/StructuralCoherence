@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1750 1200" width="1750" height="1200" style="background-color: white;">
+
+      <defs>
+        <marker id="arrow_dir" viewBox="0 0 12 12" refX="8" refY="6" 
+                markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+          <path d="M 2 2 L 9 6 L 2 10 z" fill="#2E3440" stroke="#2E3440" stroke-width="2" stroke-linejoin="round" />
+        </marker>
+      </defs>
+    
+  <g transform="translate(0, 0)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#A3BE8C" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">100</text>
+    <path d="M 127.0 160.0 L 223.0 160.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 223.0 140.0 L 127.0 140.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="100" cy="150" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="150" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(350, 0)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#A3BE8C" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">300</text>
+    <path d="M 152.8456378952954 123.38978628841645 L 104.83065038373259 206.61576464179203" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 122.15436210470459 216.61021371158355 L 170.16934961626743 133.38423535820797" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 179.83065038373257 133.38423535820797 L 227.8456378952954 216.61021371158355" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 245.16934961626743 206.61576464179203 L 197.1543621047046 123.38978628841645" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 127.0 245.0 L 223.0 245.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 223.0 225.0 L 127.0 225.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(700, 0)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#88C0D0" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">001</text>
+    <circle cx="100" cy="150" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="150" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(1050, 0)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#88C0D0" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">003</text>
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(1400, 0)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#88C0D0" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">102</text>
+    <path d="M 127.0 245.0 L 223.0 245.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 223.0 225.0 L 127.0 225.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(0, 300)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#88C0D0" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">111D</text>
+    <path d="M 152.8456378952954 123.38978628841645 L 104.83065038373259 206.61576464179203" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 127.0 245.0 L 223.0 245.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 223.0 225.0 L 127.0 225.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(350, 300)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#88C0D0" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">111U</text>
+    <path d="M 122.15436210470459 216.61021371158355 L 170.16934961626743 133.38423535820797" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 127.0 245.0 L 223.0 245.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 223.0 225.0 L 127.0 225.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(700, 300)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#88C0D0" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">120C</text>
+    <path d="M 122.15436210470459 216.61021371158355 L 170.16934961626743 133.38423535820797" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 179.83065038373257 133.38423535820797 L 227.8456378952954 216.61021371158355" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 127.0 245.0 L 223.0 245.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 223.0 225.0 L 127.0 225.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(1050, 300)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#88C0D0" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">120D</text>
+    <path d="M 152.8456378952954 123.38978628841645 L 104.83065038373259 206.61576464179203" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 179.83065038373257 133.38423535820797 L 227.8456378952954 216.61021371158355" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 127.0 245.0 L 223.0 245.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 223.0 225.0 L 127.0 225.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(1400, 300)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#88C0D0" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">120U</text>
+    <path d="M 122.15436210470459 216.61021371158355 L 170.16934961626743 133.38423535820797" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 245.16934961626743 206.61576464179203 L 197.1543621047046 123.38978628841645" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 127.0 245.0 L 223.0 245.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 223.0 225.0 L 127.0 225.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(0, 600)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#88C0D0" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">201</text>
+    <path d="M 179.83065038373257 133.38423535820797 L 227.8456378952954 216.61021371158355" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 245.16934961626743 206.61576464179203 L 197.1543621047046 123.38978628841645" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 127.0 245.0 L 223.0 245.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 223.0 225.0 L 127.0 225.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(350, 600)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#88C0D0" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">210</text>
+    <path d="M 152.8456378952954 123.38978628841645 L 104.83065038373259 206.61576464179203" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 122.15436210470459 216.61021371158355 L 170.16934961626743 133.38423535820797" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 179.83065038373257 133.38423535820797 L 227.8456378952954 216.61021371158355" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 127.0 245.0 L 223.0 245.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 223.0 225.0 L 127.0 225.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(700, 600)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#B48EAD" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">030C</text>
+    <path d="M 152.8456378952954 123.38978628841645 L 104.83065038373259 206.61576464179203" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 245.16934961626743 206.61576464179203 L 197.1543621047046 123.38978628841645" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 127.0 245.0 L 223.0 245.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(1050, 600)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#EBCB8B" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">010</text>
+    <path d="M 127.0 160.0 L 223.0 160.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="100" cy="150" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="150" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(1400, 600)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#EBCB8B" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">012</text>
+    <path d="M 127.0 245.0 L 223.0 245.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(0, 900)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#EBCB8B" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">021C</text>
+    <path d="M 122.15436210470459 216.61021371158355 L 170.16934961626743 133.38423535820797" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 179.83065038373257 133.38423535820797 L 227.8456378952954 216.61021371158355" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(350, 900)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#EBCB8B" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">021D</text>
+    <path d="M 152.8456378952954 123.38978628841645 L 104.83065038373259 206.61576464179203" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 179.83065038373257 133.38423535820797 L 227.8456378952954 216.61021371158355" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(700, 900)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#EBCB8B" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">021U</text>
+    <path d="M 122.15436210470459 216.61021371158355 L 170.16934961626743 133.38423535820797" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 245.16934961626743 206.61576464179203 L 197.1543621047046 123.38978628841645" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+  <g transform="translate(1050, 900)">
+    <rect x="15" y="15" width="320" height="270" rx="25" ry="25" fill="#EBCB8B" />
+    <text x="175.0" y="48" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E3440">030T</text>
+    <path d="M 122.15436210470459 216.61021371158355 L 170.16934961626743 133.38423535820797" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 245.16934961626743 206.61576464179203 L 197.1543621047046 123.38978628841645" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <path d="M 127.0 245.0 L 223.0 245.0" fill="none" stroke="#2E3440" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_dir)" />
+    <circle cx="175" cy="105" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="100" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+    <circle cx="250" cy="235" r="22" fill="#ECEFF4" stroke="#2E3440" stroke-width="3.5" />
+  </g>
+</svg>

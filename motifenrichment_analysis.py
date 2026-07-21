@@ -153,7 +153,7 @@ def process_unique_mappings(unique_mappings, team_dict, tf_dict):
     return team_strs, tf_strs, tf_counts
 
 
-def classify_motif_topology(man_code_str):
+def OLD_classify_motif_topology_OLD(man_code_str):
     """
     Classifies a triad MAN code string into 'Complete', 'Cyclic', or 'Feed-Forward'.
     Fails gracefully back to 'Complex' for dyads or invalid string inputs.
@@ -180,6 +180,36 @@ def classify_motif_topology(man_code_str):
         return "Feed-Forward"
 
     # Handle base sparse structures (e.g., single asymmetric edge 012 or two unlinked edges 021)
+    if base_numeric in ["012", "021", "010"]:
+        return "Feed-Forward"
+
+    return "Complex"
+
+
+def classify_motif_topology(man_code_str):
+    if man_code_str == "120C":
+        return "Complex"
+    if not isinstance(man_code_str, str) or len(man_code_str) < 3:
+        return "Complex"
+
+    base_numeric = man_code_str[:3]
+
+    if base_numeric in ["300", "100"]:
+        return "Complete"
+
+    # Intercept any motif containing mutual edges (first digit > 0)
+    if int(base_numeric[0]) > 0:
+        return "Complex"  # Can also be set to "Cyclic" depending on your grouping preference
+
+    if base_numeric == "021" and "C" in man_code_str:
+        return "Feed-Forward"
+
+    if "C" in man_code_str:
+        return "Cyclic"
+
+    if any(suffix in man_code_str for suffix in ["T", "D", "U"]):
+        return "Feed-Forward"
+
     if base_numeric in ["012", "021", "010"]:
         return "Feed-Forward"
 
@@ -1406,7 +1436,7 @@ def plot_coherence_vs_relative_proportion_F(
         "Feed-Forward": {
             "color": NORD_COLORS["green"],
             "marker": "^",
-            "zorder": 2,
+            "zorder": 3,
         },  # Green triangle
         "Cyclic": {
             "color": NORD_COLORS["yellow"],
@@ -1421,7 +1451,7 @@ def plot_coherence_vs_relative_proportion_F(
         "Complex": {
             "color": NORD_COLORS["cyan"],
             "marker": "D",
-            "zorder": 3,
+            "zorder": 2,
         },  # Purple diamond
     }
 
@@ -1936,6 +1966,7 @@ def plot_topology_composition_by_dimensions_heatmap_F(extended_counts_dir, outpu
         ax.set_title(f"{dim_label}")
         ax.set_xlabel(f"Number of {dim_label.replace('NDAs', 'Modules')}")
         # ax.set_ylabel("Topology Class")
+        ax.set_ylabel("")
 
         plt.xticks(rotation=0)
         plt.yticks(rotation=0)

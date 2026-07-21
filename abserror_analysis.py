@@ -2292,6 +2292,15 @@ def plot_hi_cae_distributions_all_scales_F(
         "NordRedWhiteBlue",
         [nord_colors["red"], "#eceff4", nord_colors["blue"]],
     )
+    # cmap_colors = [
+    #     nord_colors["blue"],
+    #     nord_colors["green"],
+    #     nord_colors["yellow"],
+    #     nord_colors["orange"],
+    #     nord_colors["red"],
+    # ]
+    # cmap = LinearSegmentedColormap.from_list("AbsStructCoh_Global", cmap_colors)
+
     # Lock the scale strictly from -1.0 to 1.0
     norm = mcolors.Normalize(vmin=-1.0, vmax=1.0)
 

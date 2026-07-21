@@ -8914,466 +8914,466 @@ MAN_Code,Topology_Class,Circuit,Motif_Size,Level_String,Num_Input_Nodes,Num_Midd
 100,Complete,100-PP,2,Middle_Middle,0,2,0,Global regulator : M113,2,1_1,1,TF_NonTF,1,1
 100,Complete,100-PP,2,Middle_Middle,0,2,0,M100 : M100,2,1_1,1,NonTF_NonTF,0,1
 100,Complete,100-PP,2,Middle_Middle,0,2,0,M25.2 : M25.2,2,3_3,1,NonTF_TF,1,1
-111D,Feed-Forward,111D-N000PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M113,3,45_1_1,2,TF_TF_NonTF,2,1
-111U,Feed-Forward,111U-0N00NN,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M25.9,3,1_71_62,3,NonTF_TF_TF,2,7
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,311
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,17
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M26 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,17
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.11 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,16
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M21 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,14
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M16 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,12
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.5 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,12
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M89 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,12
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M9 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,11
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M107 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,10
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,10
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M90 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,10
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.16 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,9
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.7 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,9
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M101 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,8
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M20 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,7
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.15 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,7
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M56 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,7
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M87 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,6
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M111 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M124 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M31 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M48 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M79 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,4
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M105 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M22 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.3 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M28 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M29 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M42 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M47 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M83 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M1 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M112 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M119 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.20 : Global regulator : Global regulator,3,3_1_66,3,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M27 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M45 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M49 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M50 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M57 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M62 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M84 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M85 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M92 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_1_66,3,TF_TF_TF,3,2
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M45 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M1 : Global regulator : Global regulator,3,4_1_66,3,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M103 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M11 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M115 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M118 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M24 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.13 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.4 : Global regulator : Global regulator,3,3_1_66,3,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,3_1_66,3,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M32 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M4 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M43 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M44 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M46 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M58 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M6 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M71 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M72 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M73 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M75 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,23_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,56_1_66,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,61_1_66,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,19_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,25_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,2_1_66,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_1_66,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,45_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M1 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M100 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M101 : Global regulator : Global regulator,3,60_1_66,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M103 : Global regulator : Global regulator,3,24_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M105 : Global regulator : Global regulator,3,32_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M106 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M107 : Global regulator : Global regulator,3,36_1_66,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M112 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M16 : Global regulator : Global regulator,3,42_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M20 : Global regulator : Global regulator,3,21_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M21 : Global regulator : Global regulator,3,40_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M22 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M24 : Global regulator : Global regulator,3,53_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.14 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.16 : Global regulator : Global regulator,3,46_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.19 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.20 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.5 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.6 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.6 : Global regulator : Global regulator,3,58_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.9 : Global regulator : Global regulator,3,62_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M27 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M3 : Global regulator : Global regulator,3,31_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M31 : Global regulator : Global regulator,3,33_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M32 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M4 : Global regulator : Global regulator,3,54_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M42 : Global regulator : Global regulator,3,49_1_66,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M44 : Global regulator : Global regulator,3,51_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M47 : Global regulator : Global regulator,3,59_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M57 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M58 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M59 : Global regulator : Global regulator,3,55_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M6 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M75 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M79 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M83 : Global regulator : Global regulator,3,50_1_66,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M84 : Global regulator : Global regulator,3,5_1_66,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M85 : Global regulator : Global regulator,3,17_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M87 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M88 : Global regulator : Global regulator,3,64_1_66,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M89 : Global regulator : Global regulator,3,20_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M89 : Global regulator : Global regulator,3,26_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M9 : Global regulator : Global regulator,3,57_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M94 : Global regulator : Global regulator,3,3_1_66,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M98 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,3_1_66,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M100 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M102 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M106 : Global regulator : Global regulator,3,3_1_66,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M110 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M19 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.2 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.4 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M3 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M34 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M37 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M67 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M68 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M80 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M81 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M88 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M94 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M96 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,309
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,309
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M113,3,1_1_1,1,NonTF_TF_NonTF,1,34
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M113 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,26
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,17
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M26 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,17
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M26 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,17
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,16
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.11 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,16
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.11 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,16
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,14
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M21 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,14
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M21 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,14
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M16 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,12
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M16 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,12
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.5 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,12
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.5 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,12
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,12
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M89 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,12
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M89 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,12
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M9 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,11
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M9 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,11
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M107 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,10
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M107 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,10
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M90 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,10
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M90 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,10
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.16 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,9
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.16 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,9
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.7 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,9
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.7 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,9
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : M113,3,1_1_1,1,NonTF_TF_NonTF,1,8
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M101 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,8
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M101 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,8
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M20 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,7
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M20 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,7
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.15 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,7
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.15 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,7
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,7
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M56 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,7
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M56 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,7
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M87 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,6
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M87 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,6
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M107 : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M111 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M111 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M124 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M124 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.3 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M31 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M31 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M48 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M79 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M79 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,5
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M105 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M105 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M111 : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M22 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M22 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M28 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M28 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M29 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M29 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M42 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M42 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M47 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M47 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M83 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M83 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M1 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M1 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M112 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M112 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M119 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M119 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.20 : Global regulator : Global regulator,3,3_1_1,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.20 : Global regulator : Global regulator,3,3_1_5,3,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M27 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M27 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M45 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M45 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M48 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M49 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M49 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M50 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M50 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M57 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M57 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M62 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M62 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M84 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M84 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M85 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M85 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M92 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M92 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_1_1,2,TF_TF_TF,3,2
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_1_5,3,TF_TF_TF,3,2
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M45 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,2
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M45 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M1 : Global regulator : Global regulator,3,4_1_1,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M1 : Global regulator : Global regulator,3,4_1_5,3,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M103 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M103 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M11 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M11 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M115 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M115 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M118 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M118 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M24 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M24 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.13 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.13 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.3 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.4 : Global regulator : Global regulator,3,3_1_1,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.4 : Global regulator : Global regulator,3,3_1_5,3,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,3_1_1,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,3_1_5,3,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M32 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M32 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M4 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M4 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M43 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M43 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M44 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M44 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M44 : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M46 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M46 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M58 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M58 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M6 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M6 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M71 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M71 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M72 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M72 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M73 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M73 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M75 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M75 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,23_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,23_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,56_1_1,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,56_1_5,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,61_1_1,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,61_1_5,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,13_1_1,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,19_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,19_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,25_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,25_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,2_1_5,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_1_1,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_1_5,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,45_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M1 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M1 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M100 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M100 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M100 : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M101 : Global regulator : Global regulator,3,60_1_1,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M101 : Global regulator : Global regulator,3,60_1_5,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M103 : Global regulator : Global regulator,3,24_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M103 : Global regulator : Global regulator,3,24_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M105 : Global regulator : Global regulator,3,32_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M105 : Global regulator : Global regulator,3,32_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M106 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M106 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M107 : Global regulator : Global regulator,3,36_1_1,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M107 : Global regulator : Global regulator,3,36_1_5,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M107 : Global regulator : Global regulator,3,36_3_3,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M112 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M112 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M16 : Global regulator : Global regulator,3,42_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M16 : Global regulator : Global regulator,3,42_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M20 : Global regulator : Global regulator,3,21_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M20 : Global regulator : Global regulator,3,21_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M21 : Global regulator : Global regulator,3,40_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M21 : Global regulator : Global regulator,3,40_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M22 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M22 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M24 : Global regulator : Global regulator,3,53_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M24 : Global regulator : Global regulator,3,53_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.14 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.14 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.16 : Global regulator : Global regulator,3,46_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.16 : Global regulator : Global regulator,3,46_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.19 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.19 : Global regulator : M113,3,1_1_1,1,NonTF_TF_NonTF,1,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.20 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.20 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.4 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.4 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.5 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.5 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.6 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.6 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.6 : Global regulator : Global regulator,3,58_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.6 : Global regulator : Global regulator,3,58_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.9 : Global regulator : Global regulator,3,62_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.9 : Global regulator : Global regulator,3,62_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M27 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M27 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M3 : Global regulator : Global regulator,3,31_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M3 : Global regulator : Global regulator,3,31_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M31 : Global regulator : Global regulator,3,33_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M31 : Global regulator : Global regulator,3,33_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M32 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M32 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M4 : Global regulator : Global regulator,3,54_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M4 : Global regulator : Global regulator,3,54_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M42 : Global regulator : Global regulator,3,49_1_1,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M42 : Global regulator : Global regulator,3,49_1_5,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M44 : Global regulator : Global regulator,3,51_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M44 : Global regulator : Global regulator,3,51_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M44 : Global regulator : Global regulator,3,51_3_3,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M47 : Global regulator : Global regulator,3,59_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M47 : Global regulator : Global regulator,3,59_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M57 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M57 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M58 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M58 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M59 : Global regulator : Global regulator,3,55_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M59 : Global regulator : Global regulator,3,55_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M6 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M6 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M75 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M75 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M79 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M79 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M83 : Global regulator : Global regulator,3,50_1_1,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M83 : Global regulator : Global regulator,3,50_1_5,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M84 : Global regulator : Global regulator,3,5_1_1,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M84 : Global regulator : Global regulator,3,5_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M85 : Global regulator : Global regulator,3,17_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M85 : Global regulator : Global regulator,3,17_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M87 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M87 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M88 : Global regulator : Global regulator,3,64_1_1,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M88 : Global regulator : Global regulator,3,64_1_5,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M89 : Global regulator : Global regulator,3,20_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M89 : Global regulator : Global regulator,3,20_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M89 : Global regulator : Global regulator,3,26_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M89 : Global regulator : Global regulator,3,26_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M9 : Global regulator : Global regulator,3,57_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M9 : Global regulator : Global regulator,3,57_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M94 : Global regulator : Global regulator,3,3_1_1,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M94 : Global regulator : Global regulator,3,3_1_5,3,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M98 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M98 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M113,3,1_1_1,1,TF_TF_NonTF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M113,3,3_1_1,2,NonTF_TF_NonTF,1,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,3_1_1,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,3_1_5,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M100 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M100 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M100 : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M102 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M102 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M106 : Global regulator : Global regulator,3,3_1_1,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M106 : Global regulator : Global regulator,3,3_1_5,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M110 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M110 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M116 : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M19 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M19 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.1 : Global regulator : M113,3,1_1_1,1,NonTF_TF_NonTF,1,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.1 : Global regulator : M113,3,5_1_1,2,NonTF_TF_NonTF,1,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.2 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.2 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.4 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.4 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M3 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M3 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M34 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M34 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M37 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M37 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M67 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M67 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M68 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M68 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M80 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M80 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M81 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M81 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M88 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M88 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M94 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M94 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M96 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M96 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
-120C,Cyclic,120C-0PN0PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,13_1_5,3,NonTF_TF_TF,2,1
-120C,Cyclic,120C-0PN0PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,2_1_1,2,NonTF_TF_TF,2,1
-120C,Cyclic,120C-0PN0PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,45_1_1,2,TF_TF_TF,3,1
-120D,Feed-Forward,120D-N0N0PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,13_3_3,2,NonTF_TF_TF,2,1
-120D,Feed-Forward,120D-N0P0PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M113,3,2_1_1,2,NonTF_TF_NonTF,1,1
-120D,Feed-Forward,120D-P0P0PP,3,Input_Middle_Middle,1,2,0,M25.2 : M25.2 : M25.2,3,3_3_3,1,NonTF_NonTF_TF,1,1
-120U,Feed-Forward,120U-0N0NNN,3,Output_Middle_Middle,0,2,1,M21 : M21 : Global regulator,3,1_40_3,3,NonTF_TF_TF,2,1
-120U,Feed-Forward,120U-0N0NNN,3,Output_Middle_Middle,0,2,1,M21 : M21 : Global regulator,3,2_40_3,3,NonTF_TF_TF,2,1
-120U,Feed-Forward,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M113 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,26
-120U,Feed-Forward,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M113 : Global regulator : M113,3,1_1_1,1,NonTF_TF_NonTF,1,26
-120U,Feed-Forward,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,10
-120U,Feed-Forward,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,9
-120U,Feed-Forward,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,9
-120U,Feed-Forward,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,5
-120U,Feed-Forward,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
-120U,Feed-Forward,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M25.3 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
-120U,Feed-Forward,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M48 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
-120U,Feed-Forward,120U-0P0PPP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_3_3,1,TF_TF_TF,3,1
-120U,Feed-Forward,120U-0P0PPP,3,Middle_Middle_Middle,0,3,0,M116 : Global regulator : Global regulator,3,41_3_3,2,NonTF_TF_TF,2,1
-120U,Feed-Forward,120U-0P0PPP,3,Middle_Middle_Middle,0,3,0,M25.19 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
-120U,Feed-Forward,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
-120U,Feed-Forward,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M100 : M100 : M100,3,1_1_1,1,NonTF_NonTF_NonTF,0,1
-120U,Feed-Forward,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M25.2 : M25.2 : M25.2,3,3_3_3,1,NonTF_NonTF_TF,1,1
+111D,Complex,111D-N000PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M113,3,45_1_1,2,TF_TF_NonTF,2,1
+111U,Complex,111U-0N00NN,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M25.9,3,1_71_62,3,NonTF_TF_TF,2,7
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,311
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,17
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M26 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,17
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.11 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,16
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M21 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,14
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M16 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,12
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.5 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,12
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M89 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,12
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M9 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,11
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M107 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,10
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,10
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M90 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,10
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.16 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,9
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.7 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,9
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M101 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,8
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M20 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,7
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.15 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,7
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M56 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,7
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M87 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,6
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M111 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M124 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M31 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M48 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M79 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,4
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M105 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M22 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.3 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M28 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M29 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M42 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M47 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M83 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M1 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M112 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M119 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.20 : Global regulator : Global regulator,3,3_1_66,3,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M27 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M45 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M49 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M50 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M57 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M62 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M84 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M85 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M92 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_1_66,3,TF_TF_TF,3,2
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M45 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M1 : Global regulator : Global regulator,3,4_1_66,3,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M103 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M11 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M115 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M118 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M24 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.13 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.4 : Global regulator : Global regulator,3,3_1_66,3,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,3_1_66,3,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M32 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M4 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M43 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M44 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M46 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M58 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M6 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M71 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M72 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M73 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M75 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,23_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,56_1_66,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,61_1_66,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,19_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,25_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,2_1_66,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_1_66,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,45_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M1 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M100 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M101 : Global regulator : Global regulator,3,60_1_66,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M103 : Global regulator : Global regulator,3,24_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M105 : Global regulator : Global regulator,3,32_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M106 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M107 : Global regulator : Global regulator,3,36_1_66,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M112 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M16 : Global regulator : Global regulator,3,42_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M20 : Global regulator : Global regulator,3,21_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M21 : Global regulator : Global regulator,3,40_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M22 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M24 : Global regulator : Global regulator,3,53_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.14 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.16 : Global regulator : Global regulator,3,46_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.19 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.20 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.5 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.6 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.6 : Global regulator : Global regulator,3,58_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M25.9 : Global regulator : Global regulator,3,62_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M27 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M3 : Global regulator : Global regulator,3,31_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M31 : Global regulator : Global regulator,3,33_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M32 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M4 : Global regulator : Global regulator,3,54_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M42 : Global regulator : Global regulator,3,49_1_66,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M44 : Global regulator : Global regulator,3,51_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M47 : Global regulator : Global regulator,3,59_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M57 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M58 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M59 : Global regulator : Global regulator,3,55_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M6 : Global regulator : Global regulator,3,1_1_66,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M75 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M79 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M83 : Global regulator : Global regulator,3,50_1_66,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M84 : Global regulator : Global regulator,3,5_1_66,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M85 : Global regulator : Global regulator,3,17_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M87 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M88 : Global regulator : Global regulator,3,64_1_66,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M89 : Global regulator : Global regulator,3,20_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M89 : Global regulator : Global regulator,3,26_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M9 : Global regulator : Global regulator,3,57_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M94 : Global regulator : Global regulator,3,3_1_66,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M98 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,3_1_66,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M100 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M102 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M106 : Global regulator : Global regulator,3,3_1_66,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M110 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M19 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.2 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M25.4 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M3 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M34 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M37 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M67 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M68 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M80 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M81 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M88 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M94 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M96 : Global regulator : Global regulator,3,1_1_66,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,309
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,309
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M113,3,1_1_1,1,NonTF_TF_NonTF,1,34
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M113 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,26
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,17
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M26 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,17
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M26 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,17
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,16
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.11 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,16
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.11 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,16
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,14
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M21 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,14
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M21 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,14
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M16 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,12
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M16 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,12
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.5 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,12
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.5 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,12
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,12
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M89 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,12
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M89 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,12
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M9 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,11
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M9 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,11
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M107 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,10
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M107 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,10
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M90 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,10
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M90 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,10
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.16 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,9
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.16 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,9
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.7 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,9
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.7 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,9
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : M113,3,1_1_1,1,NonTF_TF_NonTF,1,8
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M101 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,8
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M101 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,8
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M20 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,7
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M20 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,7
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.15 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,7
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.15 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,7
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,7
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M56 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,7
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M56 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,7
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M87 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,6
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M87 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,6
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M107 : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M111 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M111 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M124 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M124 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.3 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M31 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M31 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M48 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M79 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M79 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,5
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M105 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M105 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M111 : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M22 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M22 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M28 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M28 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M29 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M29 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M42 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M42 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M47 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M47 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M83 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M83 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,4
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M1 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M1 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M112 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M112 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M119 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M119 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.20 : Global regulator : Global regulator,3,3_1_1,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.20 : Global regulator : Global regulator,3,3_1_5,3,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M27 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M27 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M45 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M45 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M48 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M49 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M49 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M50 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M50 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M57 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M57 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M62 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M62 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M84 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M84 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M85 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M85 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M92 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M92 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_1_1,2,TF_TF_TF,3,2
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_1_5,3,TF_TF_TF,3,2
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M45 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,2
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M45 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M1 : Global regulator : Global regulator,3,4_1_1,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M1 : Global regulator : Global regulator,3,4_1_5,3,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M103 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M103 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M11 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M11 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M115 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M115 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M118 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M118 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M24 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M24 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.13 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.13 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.3 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.4 : Global regulator : Global regulator,3,3_1_1,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.4 : Global regulator : Global regulator,3,3_1_5,3,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,3_1_1,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,3_1_5,3,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M32 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M32 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M4 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M4 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M43 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M43 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M44 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M44 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M44 : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M46 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M46 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M58 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M58 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M6 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M6 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M71 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M71 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M72 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M72 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M73 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M73 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M75 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M75 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,23_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,23_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,56_1_1,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,56_1_5,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,61_1_1,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Basal machinery : Global regulator : Global regulator,3,61_1_5,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,13_1_1,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,19_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,19_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,25_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,25_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,2_1_5,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_1_1,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_1_5,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,45_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M1 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M1 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M100 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M100 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M100 : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M101 : Global regulator : Global regulator,3,60_1_1,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M101 : Global regulator : Global regulator,3,60_1_5,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M103 : Global regulator : Global regulator,3,24_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M103 : Global regulator : Global regulator,3,24_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M105 : Global regulator : Global regulator,3,32_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M105 : Global regulator : Global regulator,3,32_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M106 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M106 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M107 : Global regulator : Global regulator,3,36_1_1,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M107 : Global regulator : Global regulator,3,36_1_5,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M107 : Global regulator : Global regulator,3,36_3_3,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M112 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M112 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M16 : Global regulator : Global regulator,3,42_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M16 : Global regulator : Global regulator,3,42_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M20 : Global regulator : Global regulator,3,21_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M20 : Global regulator : Global regulator,3,21_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M21 : Global regulator : Global regulator,3,40_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M21 : Global regulator : Global regulator,3,40_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M22 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M22 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M24 : Global regulator : Global regulator,3,53_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M24 : Global regulator : Global regulator,3,53_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.14 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.14 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.16 : Global regulator : Global regulator,3,46_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.16 : Global regulator : Global regulator,3,46_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.19 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.19 : Global regulator : M113,3,1_1_1,1,NonTF_TF_NonTF,1,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.20 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.20 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.4 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.4 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.5 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.5 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.6 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.6 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.6 : Global regulator : Global regulator,3,58_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.6 : Global regulator : Global regulator,3,58_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.9 : Global regulator : Global regulator,3,62_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M25.9 : Global regulator : Global regulator,3,62_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M27 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M27 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M3 : Global regulator : Global regulator,3,31_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M3 : Global regulator : Global regulator,3,31_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M31 : Global regulator : Global regulator,3,33_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M31 : Global regulator : Global regulator,3,33_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M32 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M32 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M4 : Global regulator : Global regulator,3,54_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M4 : Global regulator : Global regulator,3,54_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M42 : Global regulator : Global regulator,3,49_1_1,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M42 : Global regulator : Global regulator,3,49_1_5,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M44 : Global regulator : Global regulator,3,51_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M44 : Global regulator : Global regulator,3,51_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M44 : Global regulator : Global regulator,3,51_3_3,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M47 : Global regulator : Global regulator,3,59_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M47 : Global regulator : Global regulator,3,59_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M57 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M57 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M58 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M58 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M59 : Global regulator : Global regulator,3,55_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M59 : Global regulator : Global regulator,3,55_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M6 : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M6 : Global regulator : Global regulator,3,1_1_5,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M75 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M75 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M79 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M79 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M83 : Global regulator : Global regulator,3,50_1_1,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M83 : Global regulator : Global regulator,3,50_1_5,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M84 : Global regulator : Global regulator,3,5_1_1,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M84 : Global regulator : Global regulator,3,5_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M85 : Global regulator : Global regulator,3,17_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M85 : Global regulator : Global regulator,3,17_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M87 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M87 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M88 : Global regulator : Global regulator,3,64_1_1,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M88 : Global regulator : Global regulator,3,64_1_5,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M89 : Global regulator : Global regulator,3,20_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M89 : Global regulator : Global regulator,3,20_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M89 : Global regulator : Global regulator,3,26_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M89 : Global regulator : Global regulator,3,26_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M9 : Global regulator : Global regulator,3,57_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M9 : Global regulator : Global regulator,3,57_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M94 : Global regulator : Global regulator,3,3_1_1,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M94 : Global regulator : Global regulator,3,3_1_5,3,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M98 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M98 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M113,3,1_1_1,1,TF_TF_NonTF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M113,3,3_1_1,2,NonTF_TF_NonTF,1,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,3_1_1,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,3_1_5,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M100 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M100 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M100 : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M102 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M102 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M106 : Global regulator : Global regulator,3,3_1_1,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M106 : Global regulator : Global regulator,3,3_1_5,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M110 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M110 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M116 : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M19 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M19 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.1 : Global regulator : M113,3,1_1_1,1,NonTF_TF_NonTF,1,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.1 : Global regulator : M113,3,5_1_1,2,NonTF_TF_NonTF,1,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.2 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.2 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.4 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M25.4 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M3 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M3 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M34 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M34 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M37 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M37 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M67 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M67 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M68 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M68 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M80 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M80 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M81 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M81 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M88 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M88 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M94 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M94 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M96 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M96 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,1
+120C,Complex,120C-0PN0PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,13_1_5,3,NonTF_TF_TF,2,1
+120C,Complex,120C-0PN0PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,2_1_1,2,NonTF_TF_TF,2,1
+120C,Complex,120C-0PN0PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,45_1_1,2,TF_TF_TF,3,1
+120D,Complex,120D-N0N0PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,13_3_3,2,NonTF_TF_TF,2,1
+120D,Complex,120D-N0P0PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M113,3,2_1_1,2,NonTF_TF_NonTF,1,1
+120D,Complex,120D-P0P0PP,3,Input_Middle_Middle,1,2,0,M25.2 : M25.2 : M25.2,3,3_3_3,1,NonTF_NonTF_TF,1,1
+120U,Complex,120U-0N0NNN,3,Output_Middle_Middle,0,2,1,M21 : M21 : Global regulator,3,1_40_3,3,NonTF_TF_TF,2,1
+120U,Complex,120U-0N0NNN,3,Output_Middle_Middle,0,2,1,M21 : M21 : Global regulator,3,2_40_3,3,NonTF_TF_TF,2,1
+120U,Complex,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M113 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,26
+120U,Complex,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M113 : Global regulator : M113,3,1_1_1,1,NonTF_TF_NonTF,1,26
+120U,Complex,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_3_3,2,NonTF_TF_TF,2,10
+120U,Complex,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,9
+120U,Complex,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,9
+120U,Complex,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M25.6 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,5
+120U,Complex,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,Intermodular : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,3
+120U,Complex,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M25.3 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,3
+120U,Complex,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M48 : Global regulator : Global regulator,3,1_1_5,2,NonTF_TF_TF,2,2
+120U,Complex,120U-0P0PPP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Global regulator,3,3_3_3,1,TF_TF_TF,3,1
+120U,Complex,120U-0P0PPP,3,Middle_Middle_Middle,0,3,0,M116 : Global regulator : Global regulator,3,41_3_3,2,NonTF_TF_TF,2,1
+120U,Complex,120U-0P0PPP,3,Middle_Middle_Middle,0,3,0,M25.19 : Global regulator : Global regulator,3,1_1_1,1,NonTF_TF_TF,2,1
+120U,Complex,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_1_1,1,TF_TF_TF,3,1
+120U,Complex,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M100 : M100 : M100,3,1_1_1,1,NonTF_NonTF_NonTF,0,1
+120U,Complex,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M25.2 : M25.2 : M25.2,3,3_3_3,1,NonTF_NonTF_TF,1,1
 210,Complex,210-PPP0PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M113,3,1_1_1,1,TF_TF_NonTF,2,1

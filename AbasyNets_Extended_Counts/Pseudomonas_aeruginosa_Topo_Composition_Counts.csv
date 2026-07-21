@@ -772,26 +772,26 @@ MAN_Code,Topology_Class,Circuit,Motif_Size,Level_String,Num_Input_Nodes,Num_Midd
 100,Complete,100-PP,2,Middle_Middle,0,2,0,Global regulator : Global regulator,2,2_2,1,TF_TF,2,1
 100,Complete,100-PP,2,Middle_Middle,0,2,0,Global regulator : M15,2,2_2,1,NonTF_NonTF,0,1
 100,Complete,100-PP,2,Middle_Middle,0,2,0,Global regulator : M5,2,2_2,1,TF_TF,2,1
-111D,Feed-Forward,111D-N000NP,3,Middle_Middle_Middle,0,3,0,M39 : M39 : M39,3,1_48_49,3,NonTF_TF_TF,2,1
-111D,Feed-Forward,111D-N000PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M21,3,36_2_34,3,NonTF_TF_NonTF,1,1
-111D,Feed-Forward,111D-N000PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Basal machinery,3,1_2_2,2,TF_NonTF_NonTF,1,1
-111D,Feed-Forward,111D-P000PN,3,Input_Middle_Middle,1,2,0,Basal machinery : Global regulator : M21,3,2_2_34,2,NonTF_TF_NonTF,1,2
-111D,Feed-Forward,111D-P000PN,3,Input_Middle_Middle,1,2,0,M12 : Global regulator : M21,3,2_2_34,2,NonTF_TF_NonTF,1,1
-111D,Feed-Forward,111D-P000PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M21,3,2_2_34,2,TF_TF_NonTF,2,1
-111U,Feed-Forward,111U-0N00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_2_2,2,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Basal machinery,3,2_2_33,2,NonTF_TF_NonTF,1,20
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M39 : Global regulator : M21,3,2_2_34,2,NonTF_TF_NonTF,1,2
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Basal machinery,3,2_2_33,2,TF_TF_NonTF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M5 : Global regulator : Basal machinery,3,5_2_33,3,TF_TF_NonTF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M21,3,2_2_34,2,NonTF_TF_NonTF,1,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M18 : Global regulator : M47,3,1_29_39,3,NonTF_TF_TF,2,1
-111U,Feed-Forward,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M5 : Global regulator : Basal machinery,3,2_2_33,2,NonTF_TF_NonTF,1,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M5,3,2_2_2,1,NonTF_TF_TF,2,20
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Basal machinery,3,2_2_2,1,NonTF_NonTF_NonTF,0,8
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M15,3,2_2_2,1,NonTF_NonTF_NonTF,0,8
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,2_2_2,1,NonTF_TF_TF,2,7
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M5,3,2_2_2,1,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M5 : Global regulator : M5,3,5_2_2,2,TF_TF_TF,3,1
-111U,Feed-Forward,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M5 : Global regulator : M5,3,2_2_2,1,NonTF_TF_TF,2,1
-120D,Feed-Forward,120D-N0N0PP,3,Input_Middle_Middle,1,2,0,Global regulator : Global regulator : M15,3,1_2_2,2,NonTF_NonTF_NonTF,0,1
-120U,Feed-Forward,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M15 : Global regulator : M15,3,2_2_2,1,NonTF_NonTF_NonTF,0,1
+111D,Complex,111D-N000NP,3,Middle_Middle_Middle,0,3,0,M39 : M39 : M39,3,1_48_49,3,NonTF_TF_TF,2,1
+111D,Complex,111D-N000PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M21,3,36_2_34,3,NonTF_TF_NonTF,1,1
+111D,Complex,111D-N000PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Basal machinery,3,1_2_2,2,TF_NonTF_NonTF,1,1
+111D,Complex,111D-P000PN,3,Input_Middle_Middle,1,2,0,Basal machinery : Global regulator : M21,3,2_2_34,2,NonTF_TF_NonTF,1,2
+111D,Complex,111D-P000PN,3,Input_Middle_Middle,1,2,0,M12 : Global regulator : M21,3,2_2_34,2,NonTF_TF_NonTF,1,1
+111D,Complex,111D-P000PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M21,3,2_2_34,2,TF_TF_NonTF,2,1
+111U,Complex,111U-0N00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,1_2_2,2,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Basal machinery,3,2_2_33,2,NonTF_TF_NonTF,1,20
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M39 : Global regulator : M21,3,2_2_34,2,NonTF_TF_NonTF,1,2
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : Basal machinery,3,2_2_33,2,TF_TF_NonTF,2,1
+111U,Complex,111U-0P00PN,3,Middle_Middle_Middle,0,3,0,M5 : Global regulator : Basal machinery,3,5_2_33,3,TF_TF_NonTF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M21,3,2_2_34,2,NonTF_TF_NonTF,1,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M18 : Global regulator : M47,3,1_29_39,3,NonTF_TF_TF,2,1
+111U,Complex,111U-0P00PN,3,Output_Middle_Middle,0,2,1,M5 : Global regulator : Basal machinery,3,2_2_33,2,NonTF_TF_NonTF,1,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M5,3,2_2_2,1,NonTF_TF_TF,2,20
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Basal machinery,3,2_2_2,1,NonTF_NonTF_NonTF,0,8
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : M15,3,2_2_2,1,NonTF_NonTF_NonTF,0,8
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,Basal machinery : Global regulator : Global regulator,3,2_2_2,1,NonTF_TF_TF,2,7
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,Global regulator : Global regulator : M5,3,2_2_2,1,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Middle_Middle_Middle,0,3,0,M5 : Global regulator : M5,3,5_2_2,2,TF_TF_TF,3,1
+111U,Complex,111U-0P00PP,3,Output_Middle_Middle,0,2,1,M5 : Global regulator : M5,3,2_2_2,1,NonTF_TF_TF,2,1
+120D,Complex,120D-N0N0PP,3,Input_Middle_Middle,1,2,0,Global regulator : Global regulator : M15,3,1_2_2,2,NonTF_NonTF_NonTF,0,1
+120U,Complex,120U-0P0PPP,3,Output_Middle_Middle,0,2,1,M15 : Global regulator : M15,3,2_2_2,1,NonTF_NonTF_NonTF,0,1
