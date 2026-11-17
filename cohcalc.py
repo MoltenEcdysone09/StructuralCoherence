@@ -948,8 +948,11 @@ def process_topology(
     if fast_mode:
         coh_mat = calc_fast_coh_scan(upto_length, adj, mod_adj)
     else:
-        # ... (Your existing slow mode code remains exactly the same) ...
-        pass
+        # The detailed walk-tracking (slow) path is not wired up here; previously this
+        # branch was `pass`, which left coh_mat undefined and crashed with a NameError.
+        raise NotImplementedError(
+            "fast_mode=False is not implemented in process_topology; use fast_mode=True."
+        )
 
     walk_frac_mat = calc_walk_fraction(mod_adj)
 
@@ -1229,9 +1232,13 @@ def process_and_save_serial(
     fast_mode: bool = True,
     extract_teams: bool = True,
     final_split: bool = False,
+    overwrite: bool = False,
 ):
     """
     Synchronously computes matrices and optionally extracts teams.
+
+    Networks whose outputs are already on disk (CohMat and WalkFracMat parquet files,
+    plus Teams.csv when extract_teams is True) are skipped unless overwrite=True.
     """
     topo_pattern = Path(topo_pattern)
 
@@ -1246,10 +1253,25 @@ def process_and_save_serial(
     save_dir.mkdir(parents=True, exist_ok=True)
 
     successful_computations = 0
+    skipped_existing = 0
 
     for topo_file_path in tqdm(topo_list, desc="Processing"):
         topo_name = topo_file_path.stem
         save_path_topo = save_dir / topo_name
+
+        # Skip networks whose results already exist, unless asked to recompute them
+        outputs_exist = (
+            (save_path_topo / f"{topo_name}_CohMat.parquet").exists()
+            and (save_path_topo / f"{topo_name}_WalkFracMat.parquet").exists()
+            and (
+                not extract_teams
+                or (save_path_topo / f"{topo_name}_Teams.csv").exists()
+            )
+        )
+        if outputs_exist and not overwrite:
+            skipped_existing += 1
+            continue
+
         save_path_topo.mkdir(parents=True, exist_ok=True)
 
         try:
@@ -1320,7 +1342,8 @@ def process_and_save_serial(
             continue
 
     print(
-        f"Success! Processed and saved {successful_computations} out of {len(topo_list)} networks."
+        f"Success! Processed and saved {successful_computations} out of {len(topo_list)} networks"
+        f" ({skipped_existing} skipped: results already on disk)."
     )
 
 
@@ -1397,33 +1420,50 @@ def _extract_teams_worker(topo_folder: Path, final_split: bool) -> bool:
 
 
 def find_teams_parallel(
-    results_dir: Union[str, Path], final_split: bool = False, max_workers: int = None
+    results_dir: Union[str, Path],
+    final_split: bool = False,
+    max_workers: int = None,
+    overwrite: bool = False,
 ):
     """
     Scans a directory of processed network folders and extracts teams in parallel.
     Uses as_completed for real-time progress tracking.
+
+    Folders that already contain a Teams.csv are skipped unless overwrite=True.
     """
     results_dir = Path(results_dir)
-    folders = [d for d in results_dir.iterdir() if d.is_dir()]
+    all_folders = [d for d in results_dir.iterdir() if d.is_dir()]
 
-    print(f"\nStarting parallel team extraction for {len(folders)} networks...")
+    # Skip networks whose teams were already extracted, unless asked to recompute them
+    folders = [
+        d for d in all_folders if overwrite or not (d / f"{d.name}_Teams.csv").exists()
+    ]
+    skipped_existing = len(all_folders) - len(folders)
+
+    print(
+        f"\nStarting parallel team extraction for {len(folders)} networks"
+        f" ({skipped_existing} skipped: Teams.csv already on disk)..."
+    )
 
     results = []
 
-    with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
-        # 1. Submit all tasks independently to the worker pool
-        futures = [
-            executor.submit(_extract_teams_worker, folder, final_split)
-            for folder in folders
-        ]
+    if folders:
+        with concurrent.futures.ProcessPoolExecutor(
+            max_workers=max_workers
+        ) as executor:
+            # 1. Submit all tasks independently to the worker pool
+            futures = [
+                executor.submit(_extract_teams_worker, folder, final_split)
+                for folder in folders
+            ]
 
-        # 2. Yield results exactly as they finish, regardless of the input order
-        for future in tqdm(
-            concurrent.futures.as_completed(futures),
-            total=len(folders),
-            desc="Extracting Teams",
-        ):
-            results.append(future.result())
+            # 2. Yield results exactly as they finish, regardless of the input order
+            for future in tqdm(
+                concurrent.futures.as_completed(futures),
+                total=len(folders),
+                desc="Extracting Teams",
+            ):
+                results.append(future.result())
 
     successful = sum(results)
     print(
@@ -1553,67 +1593,27 @@ if __name__ == "__main__":
     # Force Python to spawn fresh processes to avoid inheriting JAX's background threads
     multiprocessing.set_start_method("spawn", force=True)
 
-    # ###########################################################################################
-    # ### Run on the base circuits
-    # ###########################################################################################
-    #
-    # topo_file_pattern = Path("./AllUniqueNets/Topologies/")
-    # result_dir = Path("./MotifCohResults")
-    #
-    # process_and_save_serial(
-    #     topo_pattern="./AllUniqueNets/Topologies/",
-    #     save_dir="./MotifCohResults/",
-    #     upto_length=10,
-    #     fast_mode=True,
-    #     final_split=True,
-    #     extract_teams=False,
-    # )
-    #
-    # find_teams_parallel(
-    #     results_dir="./MotifCohResults/",
-    #     final_split=True,  # Toggle your split logic here
-    #     max_workers=(multiprocessing.cpu_count() - 5),
-    # )
-    #
-    # compile_coherence_results(
-    #     results_dir=result_dir,
-    #     output_filepath=result_dir / "CompiledMotifSummary",
-    #     parse_artinet=True,
-    # )
+    ###########################################################################################
+    ### Section switches
+    ###   RUN_*       : run this section at all
+    ###   OVERWRITE_* : recompute results already on disk (coherence matrices, Teams.csv,
+    ###                 and for the Abasy section the staged topology copies).
+    ###                 False = skip every network whose outputs already exist.
+    ###   Set OVERWRITE_* to True after changing anything that affects the results
+    ###   (upto_length, final_split, the team algorithm, or the input topologies).
+    ###   The compile step always runs for an enabled section; it only aggregates.
+    ###########################################################################################
+    RUN_BASE_CIRCUITS = False
+    OVERWRITE_BASE_CIRCUITS = False
 
-    ############################################################################################
-    #### Run on the scaled topos
-    ############################################################################################
-    #
-    # scaled_topo_dir = Path("./ScaledTopos/")
-    # scaled_result_dir = Path("./ScaledCohResults/")
-    #
-    ## 1. Math Phase (Serial/JAX) - Turn team extraction OFF
-    # process_and_save_serial(
-    #    topo_pattern=scaled_topo_dir,
-    #    save_dir=scaled_result_dir,
-    #    upto_length=10,
-    #    fast_mode=True,
-    #    extract_teams=False,
-    # )
-    #
-    ## 2. Team Phase (Parallel/CPU)
-    # find_teams_parallel(
-    #    results_dir=scaled_result_dir,
-    #    final_split=True,
-    #    max_workers=(multiprocessing.cpu_count() - 5),
-    # )
-    #
-    ## 3. Compilation Phase
-    # compile_coherence_results(
-    #    results_dir=scaled_result_dir,
-    #    output_filepath=scaled_result_dir / "CompiledScaledSummary",
-    #    parse_scaled=True,
-    # )
-    #
-    ##########################################################################################
-    ## Run on the Abasy Networks
-    ##########################################################################################
+    RUN_SCALED_TOPOS = True
+    OVERWRITE_SCALED_TOPOS = True
+
+    RUN_ABASY_TARGETED = True
+    OVERWRITE_ABASY_TARGETED = True
+
+    RUN_ABASY_SHUFFLED = True
+    OVERWRITE_ABASY_SHUFFLED = True
 
     NETWORK_TO_ORGANISM = {
         "196627_v2020_s21_regNetwork_Strong": "Corynebacterium glutamicum",
@@ -1624,57 +1624,130 @@ if __name__ == "__main__":
         "100226_v2019_sA22-DBSCR15_eStrong_regNetwork": "Streptomyces coelicolor",
     }
 
-    # target_networks = list(NETWORK_TO_ORGANISM.keys())
-    #
-    # # biowg_topo_dir = Path("./AbasyTOPOS/")
-    # biowg_targeted_topo_dir = Path("./AbasyTOPOS_Targeted/")
-    # biowg_result_dir = Path("./AbasyCohResults_Targeted/")
-    #
-    # ## Only run when automatically slecting from all the Abasy Topos and _targeted file not present
-    # # # Isolate target base networks into a staging directory to keep the serial function unchanged
-    # # biowg_targeted_topo_dir.mkdir(parents=True, exist_ok=True)
-    # # for net in target_networks:
-    # #     src_file = biowg_topo_dir / f"{net}.topo"
-    # #     if src_file.exists():
-    # #         shutil.copy(src_file, biowg_targeted_topo_dir / f"{net}.topo")
-    # #     else:
-    # #         print(f"Warning: Base network file not found -> {src_file}")
-    #
-    # print("\n--- Processing Target Biological Networks ---")
-    #
-    # process_and_save_serial(
-    #     topo_pattern=biowg_targeted_topo_dir,
-    #     save_dir=biowg_result_dir,
-    #     upto_length=10,
-    #     fast_mode=True,
-    #     extract_teams=False,
-    # )
-    #
-    # find_teams_parallel(
-    #     results_dir=biowg_result_dir,
-    #     final_split=True,
-    #     max_workers=(multiprocessing.cpu_count() - 5),
-    # )
-    #
-    # compile_coherence_results(
-    #     results_dir=biowg_result_dir,
-    #     output_filepath=biowg_result_dir / "CompiledTargetSummary",
-    #     parse_scaled=False,
-    #     parse_artinet=False,
-    # )
+    ###########################################################################################
+    ### Run on the base circuits
+    ###########################################################################################
+    if RUN_BASE_CIRCUITS:
+        topo_file_pattern = Path("./AllUniqueNets/Topologies/")
+        result_dir = Path("./MotifCohResults")
+
+        process_and_save_serial(
+            topo_pattern="./AllUniqueNets/Topologies/",
+            save_dir="./MotifCohResults/",
+            upto_length=10,
+            fast_mode=True,
+            final_split=True,
+            extract_teams=False,
+            overwrite=OVERWRITE_BASE_CIRCUITS,
+        )
+
+        find_teams_parallel(
+            results_dir="./MotifCohResults/",
+            final_split=True,  # Toggle your split logic here
+            max_workers=(multiprocessing.cpu_count() - 5),
+            overwrite=OVERWRITE_BASE_CIRCUITS,
+        )
+
+        compile_coherence_results(
+            results_dir=result_dir,
+            output_filepath=result_dir / "CompiledMotifSummary",
+            parse_artinet=True,
+        )
+
+    ###########################################################################################
+    ### Run on the scaled topos
+    ###########################################################################################
+    if RUN_SCALED_TOPOS:
+        scaled_topo_dir = Path("./ScaledTopos/")
+        scaled_result_dir = Path("./ScaledCohResults/")
+
+        # 1. Math Phase (Serial/JAX) - Turn team extraction OFF
+        process_and_save_serial(
+            topo_pattern=scaled_topo_dir,
+            save_dir=scaled_result_dir,
+            upto_length=10,
+            fast_mode=True,
+            extract_teams=False,
+            overwrite=OVERWRITE_SCALED_TOPOS,
+        )
+
+        # 2. Team Phase (Parallel/CPU)
+        find_teams_parallel(
+            results_dir=scaled_result_dir,
+            final_split=True,
+            max_workers=(multiprocessing.cpu_count() - 5),
+            overwrite=OVERWRITE_SCALED_TOPOS,
+        )
+
+        # 3. Compilation Phase
+        compile_coherence_results(
+            results_dir=scaled_result_dir,
+            output_filepath=scaled_result_dir / "CompiledScaledSummary",
+            parse_scaled=True,
+        )
+
+    ##########################################################################################
+    ## Run on the Abasy Networks
+    ##########################################################################################
+    if RUN_ABASY_TARGETED:
+        target_networks = list(NETWORK_TO_ORGANISM.keys())
+
+        biowg_topo_dir = Path("./AbasyTOPOS/")
+        biowg_targeted_topo_dir = Path("./AbasyTOPOS_Targeted/")
+        biowg_result_dir = Path("./AbasyCohResults_Targeted/")
+
+        # Stage the target base networks into their own directory. Copies that already
+        # exist are kept unless OVERWRITE_ABASY_TARGETED is True.
+        biowg_targeted_topo_dir.mkdir(parents=True, exist_ok=True)
+        for net in target_networks:
+            src_file = biowg_topo_dir / f"{net}.topo"
+            dst_file = biowg_targeted_topo_dir / f"{net}.topo"
+            if dst_file.exists() and not OVERWRITE_ABASY_TARGETED:
+                continue
+            if src_file.exists():
+                shutil.copy(src_file, dst_file)
+            else:
+                print(f"Warning: Base network file not found -> {src_file}")
+
+        print("\n--- Processing Target Biological Networks ---")
+
+        process_and_save_serial(
+            topo_pattern=biowg_targeted_topo_dir,
+            save_dir=biowg_result_dir,
+            upto_length=10,
+            fast_mode=True,
+            extract_teams=False,
+            overwrite=OVERWRITE_ABASY_TARGETED,
+        )
+
+        find_teams_parallel(
+            results_dir=biowg_result_dir,
+            final_split=True,
+            max_workers=(multiprocessing.cpu_count() - 5),
+            overwrite=OVERWRITE_ABASY_TARGETED,
+        )
+
+        compile_coherence_results(
+            results_dir=biowg_result_dir,
+            output_filepath=biowg_result_dir / "CompiledTargetSummary",
+            parse_scaled=False,
+            parse_artinet=False,
+        )
 
     ##########################################################################################
     ## Run on the Shuffled Abasy Networks
     ##########################################################################################
+    if RUN_ABASY_SHUFFLED:
+        # Getting all the folders with shuffled Newtorks
+        shuffled_dirs = list(
+            Path("./WTvsShuffledAnalysis_AbasyNets_Targeted/").glob(
+                "*/Shuffled_Networks/"
+            )
+        )
+        print(shuffled_dirs)
 
-    # Getting all the folders with shuffled Newtorks
-    shuffled_dirs = list(
-        Path("./WTvsShuffledAnalysis_AbasyNets_Targeted/").glob("*/Shuffled_Networks/")
-    )
-    print(shuffled_dirs)
-
-    for net_name, org_name in NETWORK_TO_ORGANISM.items():
-        # Processing the WT topo
+        # Processing the WT topos: done once here (it was previously repeated inside the
+        # loop below for every network, recomputing the same WT_TOPO folder each time)
         wt_cohdir = Path("./WTvsShuffledAnalysis_AbasyNets_Targeted/WT_TOPO")
 
         process_and_save_serial(
@@ -1683,54 +1756,60 @@ if __name__ == "__main__":
             upto_length=10,
             fast_mode=True,
             extract_teams=False,
+            overwrite=OVERWRITE_ABASY_SHUFFLED,
         )
 
         find_teams_parallel(
             results_dir=wt_cohdir,
             final_split=True,
             max_workers=(multiprocessing.cpu_count() - 3),
+            overwrite=OVERWRITE_ABASY_SHUFFLED,
         )
 
-        compile_coherence_results(
-            results_dir=wt_cohdir,
-            output_filepath=wt_cohdir / f"CompiledSummary_{net_name}",
-            parse_scaled=False,
-            parse_artinet=False,
-        )
+        for net_name, org_name in NETWORK_TO_ORGANISM.items():
+            # WT summary is still written once per network name, as before
+            compile_coherence_results(
+                results_dir=wt_cohdir,
+                output_filepath=wt_cohdir / f"CompiledSummary_{net_name}",
+                parse_scaled=False,
+                parse_artinet=False,
+            )
 
-        # Processing the shuffled topos
-        sd = (
-            Path("./WTvsShuffledAnalysis_AbasyNets_Targeted/")
-            / net_name
-            / "Shuffled_Networks"
-        )
+            # Processing the shuffled topos
+            sd = (
+                Path("./WTvsShuffledAnalysis_AbasyNets_Targeted/")
+                / net_name
+                / "Shuffled_Networks"
+            )
 
-        if not sd.exists() or not sd.is_dir():
-            print(f"Skipping {org_name} ({net_name}): Directory not found at {sd}")
-            continue
+            if not sd.exists() or not sd.is_dir():
+                print(f"Skipping {org_name} ({net_name}): Directory not found at {sd}")
+                continue
 
-        print(f"\n>> Shuffled Networks for: {org_name} ({net_name})")
+            print(f"\n>> Shuffled Networks for: {org_name} ({net_name})")
 
-        result_dir = sd.parent / "Shuffled_CohMats"
+            result_dir = sd.parent / "Shuffled_CohMats"
 
-        # Pass the specific target directory
-        process_and_save_serial(
-            topo_pattern=sd,
-            save_dir=result_dir,
-            upto_length=10,
-            fast_mode=True,
-            extract_teams=False,
-        )
+            # Pass the specific target directory
+            process_and_save_serial(
+                topo_pattern=sd,
+                save_dir=result_dir,
+                upto_length=10,
+                fast_mode=True,
+                extract_teams=False,
+                overwrite=OVERWRITE_ABASY_SHUFFLED,
+            )
 
-        find_teams_parallel(
-            results_dir=result_dir,
-            final_split=True,
-            max_workers=(multiprocessing.cpu_count() - 3),
-        )
+            find_teams_parallel(
+                results_dir=result_dir,
+                final_split=True,
+                max_workers=(multiprocessing.cpu_count() - 3),
+                overwrite=OVERWRITE_ABASY_SHUFFLED,
+            )
 
-        compile_coherence_results(
-            results_dir=result_dir,
-            output_filepath=result_dir / f"CompiledShuffledSummary_{net_name}",
-            parse_scaled=False,
-            parse_artinet=False,
-        )
+            compile_coherence_results(
+                results_dir=result_dir,
+                output_filepath=result_dir / f"CompiledShuffledSummary_{net_name}",
+                parse_scaled=False,
+                parse_artinet=False,
+            )

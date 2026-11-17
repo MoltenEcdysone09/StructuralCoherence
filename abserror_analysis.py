@@ -201,6 +201,37 @@ def preprocess_data(filepath):
     return df
 
 
+def basal_reference(df, group_cols, value_col="StructCoh", rows=None):
+    """
+    Basal structural coherence per group, always taken from the ER networks at 100%
+    density (the complete block expansion of the base circuit), so HI networks are
+    annotated and analysed with the same base-circuit value as their ER counterparts.
+
+    The groups are the ones the original code built (from `rows`, default `df`, at
+    Density == 1.0, in the same sorted order); only the value is replaced. For ER rows
+    the value is computed exactly as before, so ER results are unchanged.
+    """
+    rows = df if rows is None else rows
+    groups = (
+        rows[rows["Density"] == 1.0]
+        .groupby(group_cols)
+        .size()
+        .reset_index()[group_cols]
+    )
+    er_keys = [c for c in group_cols if c != "NetType"]
+    er_values = (
+        df[(df["Density"] == 1.0) & (df["NetType"] == "ER")]
+        .groupby(er_keys)[value_col]
+        .mean()
+        .reset_index()
+    )
+    ref = groups.merge(er_values, on=er_keys, how="left")
+    missing = ref.loc[ref[value_col].isna(), "BaseNet"].unique()
+    if len(missing):
+        print(f"Warning: no ER 100% density value for {sorted(missing)}")
+    return ref
+
+
 def calculate_cae(agg_df, metric):
     """Returns the pre-calculated sum of the metric (CAE)."""
     return agg_df[(metric, "sum")]
@@ -361,13 +392,9 @@ def plot_metric_trajectories_panel_F(df, target_metric, save_dir, nord_colors):
     mappable = cm.ScalarMappable(norm=norm, cmap=structcoh_cmap)
 
     # 2. Extract the reference StructCoh (at Density == 1.0) for every BaseNet
-    ref_df = (
-        df[df["Density"] == 1.0]
-        .groupby(["MAN_code", "Scale", "NetType", "SelfActivation", "BaseNet"])[
-            "StructCoh"
-        ]
-        .mean()
-        .reset_index()
+    # Basal coherence from the ER 100% density networks (see basal_reference)
+    ref_df = basal_reference(
+        df, ["MAN_code", "Scale", "NetType", "SelfActivation", "BaseNet"]
     )
 
     # Calculate the absolute value for the sequential mapping
@@ -598,12 +625,8 @@ def plot_ratio_heatmaps_F(cae_df, df, target_metric, save_dir, nord_colors):
     }
 
     # 1. Extract reference coherence at Density = 1.0 for ordering rows
-    ref_df = (
-        df[df["Density"] == 1.0]
-        .groupby(["NetType", "SelfActivation", "MAN_code", "BaseNet"])["StructCoh"]
-        .mean()
-        .reset_index()
-    )
+    # Basal coherence from the ER 100% density networks (see basal_reference)
+    ref_df = basal_reference(df, ["NetType", "SelfActivation", "MAN_code", "BaseNet"])
     ref_df["AbsStructCoh"] = ref_df["StructCoh"].abs()
 
     # 2. Build a Sequential Colormap: 0.0 is the lightest, max is the darkest
@@ -871,12 +894,8 @@ def plot_scale_trajectories_with_stats_F(
     mappable = cm.ScalarMappable(norm=norm, cmap=structcoh_cmap)
 
     # 2. Extract reference absolute coherence at Density = 1.0
-    ref_df = (
-        df[df["Density"] == 1.0]
-        .groupby(["NetType", "SelfActivation", "BaseNet"])["StructCoh"]
-        .mean()
-        .reset_index()
-    )
+    # Basal coherence from the ER 100% density networks (see basal_reference)
+    ref_df = basal_reference(df, ["NetType", "SelfActivation", "BaseNet"])
     ref_df["AbsStructCoh"] = ref_df["StructCoh"].abs()
 
     # Merge to link replicates to their network's structural coherence property
@@ -1085,12 +1104,8 @@ def plot_sa_vs_ns_paired_10x_F(cae_df, df, target_metric, save_dir, nord_colors)
     clean_ylabel = metric_labels.get(target_metric, target_metric.replace("_", " "))
 
     # 1. Extract reference background structural coherence configurations at Density == 1.0
-    ref_df = (
-        df[df["Density"] == 1.0]
-        .groupby(["NetType", "SelfActivation", "MAN_code", "BaseNet"])["StructCoh"]
-        .mean()
-        .reset_index()
-    )
+    # Basal coherence from the ER 100% density networks (see basal_reference)
+    ref_df = basal_reference(df, ["NetType", "SelfActivation", "MAN_code", "BaseNet"])
 
     # Pivot ref_df to compute the precise difference in absolute structural coherence between conditions
     ref_pivot = ref_df.pivot(
@@ -1286,12 +1301,8 @@ def plot_sa_ns_sfc_bars_10x_F(cae_df, df, target_metric, save_dir, nord_colors):
     clean_ylabel = metric_labels.get(target_metric, "Symmetric Fold Change")
 
     # 1. Extract reference structural coherence configurations at Density == 1.0 for X-sorting
-    ref_df = (
-        df[df["Density"] == 1.0]
-        .groupby(["NetType", "SelfActivation", "MAN_code", "BaseNet"])["StructCoh"]
-        .mean()
-        .reset_index()
-    )
+    # Basal coherence from the ER 100% density networks (see basal_reference)
+    ref_df = basal_reference(df, ["NetType", "SelfActivation", "MAN_code", "BaseNet"])
 
     ref_pivot = ref_df.pivot(
         index=["NetType", "MAN_code", "BaseNet"],
@@ -1502,12 +1513,8 @@ def plot_coherence_vs_susceptibility_correlation_10x_F(
     clean_ylabel = metric_labels.get(target_metric, "Symmetric Fold Change")
 
     # 1. Extract reference structural coherence configurations at Density == 1.0
-    ref_df = (
-        df[df["Density"] == 1.0]
-        .groupby(["NetType", "SelfActivation", "MAN_code", "BaseNet"])["StructCoh"]
-        .mean()
-        .reset_index()
-    )
+    # Basal coherence from the ER 100% density networks (see basal_reference)
+    ref_df = basal_reference(df, ["NetType", "SelfActivation", "MAN_code", "BaseNet"])
 
     ref_pivot = ref_df.pivot(
         index=["NetType", "MAN_code", "BaseNet"],
@@ -1868,12 +1875,8 @@ def plot_cae_vs_basal_coherence_scatter_F(
     set_global_nord_style()
 
     # 1. Extract reference coherence at Density = 1.0 (Basal Coherence)
-    ref_df = (
-        df[df["Density"] == 1.0]
-        .groupby(["NetType", "SelfActivation", "BaseNet"])["StructCoh"]
-        .mean()
-        .reset_index()
-    )
+    # Basal coherence from the ER 100% density networks (see basal_reference)
+    ref_df = basal_reference(df, ["NetType", "SelfActivation", "BaseNet"])
     ref_df["AbsStructCoh"] = ref_df["StructCoh"].abs()
 
     # 2. Merge with the CAE dataframe to align the replicate points
@@ -2057,15 +2060,13 @@ def plot_hi_vs_er_cae_distributions_combined_stats_F(
     coh_metric = "PreSplitStructCoh" if "PreSplit" in target_metric else "StructCoh"
 
     # 3. Extract reference coherence at Density = 1.0 (Using HI as the structural baseline)
-    ref_df = (
-        df[
-            (df["Density"] == 1.0)
-            & (df["NetType"] == "HI")
-            & (~df["BaseNet"].str.startswith("030T"))
-        ]
-        .groupby(["SelfActivation", "BaseNet"])[coh_metric]
-        .mean()
-        .reset_index()
+    # Basal coherence from the ER 100% density networks (see basal_reference),
+    # for the HI base circuits (030T has no HI networks)
+    ref_df = basal_reference(
+        df,
+        ["SelfActivation", "BaseNet"],
+        value_col=coh_metric,
+        rows=df[(df["NetType"] == "HI") & (~df["BaseNet"].str.startswith("030T"))],
     )
     ref_df["AbsStructCoh"] = ref_df[coh_metric]
     ref_df["MAN_code"] = ref_df["BaseNet"].astype(str).str.split("_").str[0]
@@ -2263,15 +2264,13 @@ def plot_hi_cae_distributions_all_scales_F(
     coh_metric = "PreSplitStructCoh" if "PreSplit" in target_metric else "StructCoh"
 
     # 3. Extract reference coherence at Density = 1.0 (Using HI as the structural baseline)
-    ref_df = (
-        df[
-            (df["Density"] == 1.0)
-            & (df["NetType"] == "HI")
-            & (~df["BaseNet"].str.startswith("030T"))
-        ]
-        .groupby(["SelfActivation", "BaseNet"])[coh_metric]
-        .mean()
-        .reset_index()
+    # Basal coherence from the ER 100% density networks (see basal_reference),
+    # for the HI base circuits (030T has no HI networks)
+    ref_df = basal_reference(
+        df,
+        ["SelfActivation", "BaseNet"],
+        value_col=coh_metric,
+        rows=df[(df["NetType"] == "HI") & (~df["BaseNet"].str.startswith("030T"))],
     )
     # Keeping raw value as per your instructions (no .abs()) for both sorting and coloring
     ref_df["AbsStructCoh"] = ref_df[coh_metric]
@@ -2479,12 +2478,8 @@ def plot_ns_vs_sa_boxplots_10x_with_stats_F(
     clean_ylabel = metric_labels.get(target_metric, target_metric.replace("_", " "))
 
     # 1. Extract reference background structural coherence configurations at Density == 1.0
-    ref_df = (
-        df[df["Density"] == 1.0]
-        .groupby(["NetType", "SelfActivation", "MAN_code", "BaseNet"])["StructCoh"]
-        .mean()
-        .reset_index()
-    )
+    # Basal coherence from the ER 100% density networks (see basal_reference)
+    ref_df = basal_reference(df, ["NetType", "SelfActivation", "MAN_code", "BaseNet"])
 
     # Pivot ref_df to compute the precise difference in absolute structural coherence between conditions
     ref_pivot = ref_df.pivot(
@@ -2653,6 +2648,7 @@ if __name__ == "__main__":
     data_path = Path("./ScaledCohResults/CompiledScaledSummary.parquet")
 
     preprocess_data_path = data_path.parent / "ProcessedSummary.parquet"
+    cohres_df = preprocess_data(data_path)
 
     # Running pre-processing only if the file does not exist
     if not preprocess_data_path.exists():
@@ -2788,7 +2784,7 @@ if __name__ == "__main__":
     for metric in dist_comp_metrics:
         plot_hi_cae_distributions_all_scales_F(
             cae_df=hi_only_cae_df,
-            df=hi_only_cohres_df,
+            df=cohres_df,  # full data: basal values are looked up from the ER networks
             target_metric=metric,
             save_dir=plot_save_dir,
             nord_colors=NORD_COLORS,

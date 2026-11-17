@@ -79,6 +79,65 @@ def get_random_spanning_backbone(allowed_mask):
     return protected_edges
 
 
+def n_target_edges(slots, density):
+    """floor(slots * density), guarded against float error (e.g. 0.7 * 90 = 62.999...)."""
+    return max(0, int(slots * density + 1e-9))
+
+
+def get_budgeted_backbone(allowed_mask, node_layer, block_targets, existing_adj=None):
+    """
+    Random spanning forest of the weakly connected components of `allowed_mask`
+    (Kruskal on a random edge order, i.e. a random-weight MST as above), but
+    block-aware so it does not push sparse blocks past their target density.
+
+    Edges already in `existing_adj` count towards connectivity and towards
+    their block's usage, so only the missing links are added.
+    Pass 1 accepts an edge only while its (src_layer, dst_layer) block is below
+    that block's target edge count.
+    Pass 2 accepts any edge still needed for connectivity, so the forest spans
+    exactly the same components as an unconstrained one; a block only overshoots
+    its target when connectivity cannot be reached any other way.
+    """
+    n = allowed_mask.shape[0]
+    parent = list(range(n))
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    used = defaultdict(int)
+    if existing_adj is not None:
+        for u, v in zip(*np.nonzero(existing_adj)):
+            used[(node_layer[u], node_layer[v])] += 1
+            ru, rv = find(u), find(v)
+            if ru != rv:
+                parent[ru] = rv
+
+    # One entry per undirected pair; the direction is chosen among allowed ones
+    us, vs = np.nonzero(allowed_mask)
+    pairs = sorted({(min(u, v), max(u, v)) for u, v in zip(us.tolist(), vs.tolist())})
+    random.shuffle(pairs)
+
+    protected_edges = []
+    for capped in (True, False):
+        for a, b in pairs:
+            ra, rb = find(a), find(b)
+            if ra == rb:
+                continue
+            dirs = [(u, v) for u, v in ((a, b), (b, a)) if allowed_mask[u, v] > 0]
+            u, v = random.choice(dirs)
+            blk = (node_layer[u], node_layer[v])
+            if capped and used[blk] >= block_targets.get(blk, 0):
+                continue
+            parent[ra] = rb
+            used[blk] += 1
+            protected_edges.append((u, v))
+
+    return protected_edges
+
+
 def plot_motif_coherence_numberline(df, base_filepath="structural_coherence"):
     """
     Generates a gradient bar for MeanCoh with a Nord diverging color palette.
@@ -481,6 +540,8 @@ def generate_er_network(base_adj, scale, global_density, seed=None):
         er_adj[u, v] = dense_adj[u, v]
 
     # 2. Random Fill up to target density
+    # Note: plain int() can floor 0.7 * 2700 to 1889; kept as-is so existing ER
+    # files stay byte-identical. Use n_target_edges(...) here to correct it.
     target_edges = int(np.count_nonzero(allowed_mask) * global_density)
     needed = max(0, target_edges - len(protected_edges))
 
@@ -496,84 +557,116 @@ def generate_er_network(base_adj, scale, global_density, seed=None):
 
 
 def generate_hi_network(
-    base_adj, scale, proportions, h_matrix, density_constraints, seed=None
+    base_adj,
+    scale,
+    proportions,
+    h_matrix,
+    density_constraints,
+    seed=None,
+    scaffold_constraints=None,
 ):
-    """Generates a hierarchical network with Same-Team Rescue logic."""
+    """
+    Generates a hierarchical (IN -> MID -> OUT) network.
+
+    1. Admissible slots: base-topology edges in blocks permitted by h_matrix.
+    2. Block targets: floor(admissible slots x density_constraints[i, j]).
+    3. Upstream coverage (priority placement): every MID/OUT node gets one
+       incoming edge drawn uniformly from its admissible upstream slots whose
+       block still has scaffold budget.
+    4. Connectivity backbone: adds only the links still needed for weak
+       connectivity, staying within scaffold targets wherever possible.
+    5. Remaining budget in each block (vs the final targets) filled uniformly
+       at random.
+
+    scaffold_constraints: block densities used to budget steps 3-4. Pass the
+    lowest density of a sweep (elementwise <= density_constraints) to get a
+    scaffold that is identical across all densities of a replicate. Defaults
+    to density_constraints.
+    """
     if seed is not None:
         random.seed(seed)
         np.random.seed(seed)
 
     dense_adj = np.kron(base_adj, np.ones((scale, scale)))
     num_layers = len(proportions)
-    get_team = lambda node: node // scale
 
     grouped_indices, boundaries, P = calculate_hierarchy_indices(
         base_adj.shape[0], scale, proportions
     )
+    node_layer = np.empty(dense_adj.shape[0], dtype=int)
+    for k, idx in enumerate(grouped_indices):
+        node_layer[idx] = k
+    allowed_blocks = [
+        (i, j)
+        for i in range(num_layers)
+        for j in range(num_layers)
+        if h_matrix[i, j] < 1.0
+    ]
+
+    def block_view(mat, i, j):
+        return mat[np.ix_(grouped_indices[i], grouped_indices[j])]
 
     # 1. Build Layer-Restricted Allowed Mask
     hi_allowed_mask = np.zeros_like(dense_adj)
-    for i in range(num_layers):
-        for j in range(num_layers):
-            if h_matrix[i, j] < 1.0:  # Rule permits connection
-                for u in grouped_indices[i]:
-                    for v in grouped_indices[j]:
-                        if dense_adj[u, v] != 0:  # Base topology permits connection
-                            hi_allowed_mask[u, v] = 1.0
+    for i, j in allowed_blocks:
+        hi_allowed_mask[np.ix_(grouped_indices[i], grouped_indices[j])] = (
+            block_view(dense_adj, i, j) != 0
+        ).astype(float)
 
-    # 2. Establish connectivity backbone within the strict hierarchy
-    protected_edges = get_random_spanning_backbone(hi_allowed_mask)
+    # 2. Target edge count per admissible block (final network, and scaffold)
+    def targets_for(densities):
+        return {
+            (i, j): n_target_edges(
+                int(block_view(hi_allowed_mask, i, j).sum()), densities[i, j]
+            )
+            for i, j in allowed_blocks
+        }
+
+    block_targets = targets_for(density_constraints)
+    scaffold_targets = targets_for(
+        density_constraints if scaffold_constraints is None else scaffold_constraints
+    )
+
+    # Steps 3-4 build the scaffold. They only see scaffold_targets, so with a
+    # density-independent scaffold_constraints they consume the random state
+    # identically at every density: the scaffold is the same for all densities
+    # of a replicate, and only step 5 differs.
+    block_budgets = dict(scaffold_targets)
     hi_adj = np.zeros_like(dense_adj)
-    for u, v in protected_edges:
-        hi_adj[u, v] = dense_adj[u, v]
 
-    # 3. Calculate Budgets per Hierarchical Block
-    block_budgets = {}
-    for i in range(num_layers):
-        for j in range(num_layers):
-            if h_matrix[i, j] >= 1.0:
-                continue
-
-            slots = sum(
-                1
-                for u in grouped_indices[i]
-                for v in grouped_indices[j]
-                if hi_allowed_mask[u, v] > 0
-            )
-            target_edges = int(slots * density_constraints[i, j])
-            current_edges = sum(
-                1
-                for u in grouped_indices[i]
-                for v in grouped_indices[j]
-                if hi_adj[u, v] != 0
-            )
-            block_budgets[(i, j)] = max(0, target_edges - current_edges)
-
-    # 4. Same-Team Rescue Operation
+    # 3. Upstream coverage: >=1 incoming edge from an admissible upstream block
     for j in range(1, num_layers):
-        targets = grouped_indices[j].copy()
+        upstream = [i for i in range(j) if (i, j) in block_budgets]
+        if not upstream:
+            continue
+        targets = list(grouped_indices[j])
         random.shuffle(targets)
-        upstream = [i for i in range(j) if h_matrix[i, j] < 1.0]
 
         for v in targets:
-            if any(get_team(u) == get_team(v) for u in np.where(hi_adj[:, v] != 0)[0]):
-                continue
-
-            feasible = []
-            for i in upstream:
-                if block_budgets[(i, j)] <= 0:
-                    continue
-                for u in grouped_indices[i]:
-                    if (
-                        get_team(u) == get_team(v)
-                        and hi_adj[u, v] == 0
-                        and hi_allowed_mask[u, v] > 0
-                    ):
-                        feasible.append((i, u))
+            feasible = [
+                (i, u)
+                for i in upstream
+                if block_budgets[(i, j)] > 0
+                for u in grouped_indices[i]
+                if hi_allowed_mask[u, v] > 0
+            ]
             if feasible:
                 i, u = random.choice(feasible)
                 hi_adj[u, v] = dense_adj[u, v]
                 block_budgets[(i, j)] -= 1
+
+    # 4. Connectivity backbone on top of the coverage edges
+    for u, v in get_budgeted_backbone(
+        hi_allowed_mask, node_layer, scaffold_targets, existing_adj=hi_adj
+    ):
+        hi_adj[u, v] = dense_adj[u, v]
+
+    block_budgets = {
+        (i, j): max(
+            0, block_targets[(i, j)] - int(np.count_nonzero(block_view(hi_adj, i, j)))
+        )
+        for i, j in allowed_blocks
+    }
 
     # 5. Random Fill Remaining Budget
     for (i, j), needed in block_budgets.items():
@@ -661,12 +754,24 @@ def plot_adjacency_with_density(
     boundaries=None,
     sort_idx=None,
     labels=["IN", "MID", "OUT"],
+    slot_mask=None,
 ):
-    """Visualizes matrix. Sorts by hierarchy and overlays density boxes if provided."""
+    """
+    Visualizes matrix. Sorts by hierarchy and overlays density boxes if provided.
+
+    If `slot_mask` (same shape as adj, nonzero = admissible slot, e.g. the scaled
+    base topology) is given, block densities are edges / admissible slots, which
+    is what the HI generator targets. Otherwise they are edges / all node pairs.
+    """
     plt.figure(figsize=(10, 8))
     ax = plt.gca()
 
     plot_adj = adj[sort_idx, :][:, sort_idx] if sort_idx is not None else adj
+    plot_slots = None
+    if slot_mask is not None:
+        plot_slots = (
+            slot_mask[sort_idx, :][:, sort_idx] if sort_idx is not None else slot_mask
+        )
 
     cmap = mcolors.ListedColormap(["#FF3333", "#FFFFFF", "#3366FF"])
     norm = mcolors.BoundaryNorm([-1.5, -0.5, 0.5, 1.5], cmap.N)
@@ -691,7 +796,11 @@ def plot_adjacency_with_density(
 
                 submat = plot_adj[r_start:r_end, c_start:c_end]
                 block_edges = np.count_nonzero(submat)
-                block_density = block_edges / submat.size if submat.size > 0 else 0.0
+                if plot_slots is not None:
+                    n_slots = np.count_nonzero(plot_slots[r_start:r_end, c_start:c_end])
+                else:
+                    n_slots = submat.size
+                block_density = block_edges / n_slots if n_slots > 0 else 0.0
 
                 width, height = c_end - c_start, r_end - r_start
                 ax.add_patch(
@@ -772,6 +881,8 @@ def generate_scaled_networks(
     hi_density_overrides=np.array(
         [[-1.0, 0.5, -1.0], [-1.0, 1.0, 0.85], [-1.0, -1.0, -1.0]]
     ),
+    hi_control_block=(0, 2),
+    hi_exclude_man=("030T",),
     enable_plotting=False,
 ):
     """
@@ -785,8 +896,19 @@ def generate_scaled_networks(
         max_replicates (int): Maximum number of random replicates for densities < 1.0.
         proportions (list): List of proportions for hierarchical layers.
         h_matrix (np.array): Matrix dictating allowed cross-layer connections.
-        hi_density_overrides (np.array): Matrix dictating density constraints per block.
+        hi_density_overrides (np.array): Fixed HI block densities (IN->MID 0.5,
+            MID->MID 1.0, MID->OUT 0.85). The hi_control_block entry is ignored.
+        hi_control_block (tuple): HI block whose density is swept with
+            global_densities (default IN->OUT). The HI file's density tag
+            refers to this block.
+        hi_exclude_man (tuple): MAN codes that get no HI networks (feed-forward
+            030T: its source team can never receive input, so its MID/OUT
+            copies end up isolated or input-less).
         enable_plotting (bool): Toggles the generation of PNG plots (hardcoded to scale 10, gd 0.5, rep 1).
+
+    ER at density 1.0 is fully determined, so it gets a single replicate. HI at
+    IN->OUT 1.0 still has random IN->MID / MID->OUT blocks, so it always gets
+    max_replicates.
     """
     output_dir = Path(output_dir)
     plots_dir = output_dir / "Plots"
@@ -811,8 +933,6 @@ def generate_scaled_networks(
     for man_code, files_in_group in tqdm(
         man_groups.items(), desc="Processing MAN Groups"
     ):
-        man_cache = {}
-
         for base_file in files_in_group:
             # Parse the already specific base file (SA or NS variant)
             base_adj, node_list, _, edge_str = parse_man_topo(base_file)
@@ -827,63 +947,59 @@ def generate_scaled_networks(
 
                 dense_signed_adj = np.kron(base_adj, np.ones((scale, scale)))
 
+                # HI scaffold (coverage + backbone) is budgeted at the sweep's lowest
+                # IN->OUT density, so it is identical across densities of a replicate
+                hi_scaffold = np.array(hi_density_overrides, dtype=float).copy()
+                hi_scaffold[hi_control_block] = min(global_densities)
+                make_hi = man_code not in hi_exclude_man
+
                 for gd in global_densities:
-                    num_reps = 1 if gd == 1.0 else max_replicates
+                    density_prefix = f"{int(round(gd * 100)):03d}D"
 
-                    for rep in range(1, num_reps + 1):
-                        density_prefix = f"{int(gd * 100):03d}D"
+                    # HI block densities for this sweep point: fixed blocks + IN->OUT = gd
+                    hi_densities = np.array(hi_density_overrides, dtype=float).copy()
+                    hi_densities[hi_control_block] = gd
 
-                        cache_key = (edge_str, scale, gd, rep)
-
-                        if cache_key not in man_cache:
-                            er_mask = generate_er_network(
-                                unsigned_base_adj, scale, gd, seed=rep
-                            )
-                            hi_mask, sort_idx, boundaries = generate_hi_network(
-                                unsigned_base_adj,
-                                scale,
-                                proportions,
-                                h_matrix,
-                                hi_density_overrides,
-                                seed=rep,
-                            )
-                            man_cache[cache_key] = (
-                                er_mask,
-                                hi_mask,
-                                sort_idx,
-                                boundaries,
-                            )
-
-                        er_mask, hi_mask, sort_idx, boundaries = man_cache[cache_key]
-
-                        # ER
+                    # ER: global density = gd (density 1.0 is deterministic)
+                    er_reps = 1 if gd == 1.0 else max_replicates
+                    for rep in range(1, er_reps + 1):
+                        er_mask = generate_er_network(
+                            unsigned_base_adj, scale, gd, seed=rep
+                        )
                         er_name = f"{man_code}_{edge_str}_{scale:03d}N_{density_prefix}_ER_{rep:03d}R"
                         er_adj = er_mask * dense_signed_adj
                         save_edgelist(
                             er_adj, node_names, output_dir / f"{er_name}.topo"
                         )
+                        if enable_plotting and scale == 10 and gd == 0.5 and rep == 1:
+                            plot_adjacency_with_density(
+                                er_adj, er_name, plots_dir / f"{er_name}.png"
+                            )
 
-                        # HI
+                    # HI: IN->OUT density = gd, other blocks fixed
+                    for rep in range(1, (max_replicates if make_hi else 0) + 1):
+                        hi_mask, sort_idx, boundaries = generate_hi_network(
+                            unsigned_base_adj,
+                            scale,
+                            proportions,
+                            h_matrix,
+                            hi_densities,
+                            seed=rep,
+                            scaffold_constraints=hi_scaffold,
+                        )
                         hi_name = f"{man_code}_{edge_str}_{scale:03d}N_{density_prefix}_HI_{rep:03d}R"
                         hi_adj = hi_mask * dense_signed_adj
                         save_edgelist(
                             hi_adj, node_names, output_dir / f"{hi_name}.topo"
                         )
-
-                        # --- CONDITIONAL PLOTTING ---
                         if enable_plotting and scale == 10 and gd == 0.5 and rep == 1:
-                            plot_adjacency_with_density(
-                                er_adj,
-                                er_name,
-                                plots_dir / f"{er_name}.png",
-                                boundaries=boundaries,
-                            )
                             plot_adjacency_with_density(
                                 hi_adj,
                                 hi_name,
                                 plots_dir / f"{hi_name}.png",
                                 boundaries=boundaries,
                                 sort_idx=sort_idx,
+                                slot_mask=dense_signed_adj != 0,
                             )
 
 
